@@ -1,0 +1,40 @@
+{
+  "name": "mailplus/mailplus-connector",
+  "description": "The MailPlus connector for magento 2",
+  "type": "magento2-module",
+  "version": "1.4.7",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "magento/magento-composer-installer": "*",
+    "magento/framework": ">=100.1.0",
+    "magento/module-newsletter": ">=100.0",
+    "magento/module-quote": ">=101.0",
+    "magento/module-sales": ">=101.0",
+    "magento/module-webapi": ">=100.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MailPlus\\MailPlus\\": ""
+    }
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "config": {
+    "vendor-dir": "../vendor"
+  },
+  "archive": {
+    "exclude": [
+      "/vagrant", "auth.json", "*.tar"
+    ]
+  }
+}

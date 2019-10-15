@@ -1,0 +1,25 @@
+{
+    "name": "wagento/zendesk",
+    "description": "Zendesk Connector",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Wagento Creative LLC",
+            "email": "support@wagento.com"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "minimum-stability": "dev",
+    "type": "magento2-module",
+    "version": "220.0.1",
+    "autoload": {
+        "psr-4": {
+            "Wagento\\Zendesk\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

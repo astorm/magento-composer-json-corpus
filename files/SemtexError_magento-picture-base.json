@@ -1,0 +1,18 @@
+{
+  "name": "hybrid-saas/picture-base",
+  "description": "",
+  "type": "magento2-module",
+  "license": "ISC",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Hybridsaas\\PictureBase\\": ""
+    }
+  }
+}

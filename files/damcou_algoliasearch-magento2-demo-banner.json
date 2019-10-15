@@ -1,0 +1,17 @@
+{
+  "name": "damcou/algoliasearch-magento2-demo-banner",
+  "description": "Demo module to add banner on instantsearch result pages",
+  "type": "magento2-module",
+  "license": ["MIT"],
+  "minimum-stability":"dev",
+  "version": "1.0.1",
+  "require": {
+    "algolia/algoliasearch-magento-2": "@dev"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Damcou\\DemoBanner\\": ""
+    }
+  }
+}

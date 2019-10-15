@@ -1,0 +1,26 @@
+{
+    "name": "iwd/request-quote",
+    "description": "IWD Request A Quote Extension",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "proprietary"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IWD\\CartToQuote\\": ""
+        }
+    }
+}

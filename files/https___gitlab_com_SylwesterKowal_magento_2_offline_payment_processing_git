@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-orderofflinepayment",
+    "description": "Zmiana statusu na procesing dla p\u0142atno\u015bci Offlinepayment",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kowal\\OrderOfflinePayment\\": ""
+        }
+    }
+}

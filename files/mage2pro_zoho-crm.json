@@ -1,0 +1,26 @@
+{
+	"name": "mage2pro/zoho-crm"
+	,"version": "0.0.7"
+	,"description": "Zoho CRM integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/zoho-crm"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.6.8", "mage2pro/zoho": ">=0.0.7"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\ZohoCRM\\": ""}}
+	,"keywords": [
+		"CRM"
+		,"Zoho"
+		,"Zoho CRM"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

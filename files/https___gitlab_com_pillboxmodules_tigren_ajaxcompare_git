@@ -1,0 +1,19 @@
+{
+    "name": "tigren/ajaxcompare",
+    "description": "Tigren Ajax Compare for Magento 2",
+    "require": {
+        "php": "~7.0.2|~7.1.0",
+        "tigren/ajaxsuite": "1.1.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Tigren\\Ajaxcompare\\": ""
+        }
+    }
+}

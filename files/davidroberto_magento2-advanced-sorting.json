@@ -1,0 +1,27 @@
+{
+  "name": "davidrobert/magento2-advanced-sorting",
+  "description": "Improve the default sorting by adding 'best sellers' and 'newest' options. This module also allows admin to enable or disable these options and the default ones in the back-office",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "David Robert",
+      "email": "contact@david-robert.fr",
+      "homepage": "http://david-robert.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "DavidRobert\\AdvancedSorting\\": ""
+    }
+  }
+}

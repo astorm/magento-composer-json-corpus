@@ -1,0 +1,41 @@
+{
+    "name": "blackbird/module-contentmanager-sample-data",
+    "description": "Sample data for the ACM2 module.",
+    "keywords": [        
+        "php",
+        "magento",
+        "magento2",
+        "sample data",
+        "content manager"
+    ],
+    "require": {
+        "magento/framework": ">=100.0.0",
+        "blackbird/contentmanager": ">=100.1.0"
+    },
+    "type": "magento2-module",
+    "version": "0.2.1",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://www.advancedcontentmanager.com/",
+    "authors": [
+        {
+            "name": "Blackbird Team",
+            "email": "hello@bird.eu",
+            "homepage": "https://black.bird.eu/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blackbird-agency/magento-2-acm-sample",
+        "issues": "https://github.com/blackbird-agency/magento-2-acm-sample/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\ContentManagerSample\\": ""
+        }
+    }
+}

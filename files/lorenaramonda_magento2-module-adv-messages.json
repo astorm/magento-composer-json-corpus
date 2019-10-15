@@ -1,0 +1,27 @@
+{
+    "name": "loreena/magento2-module-adv-messages",
+    "description": "A Magento 2 module for ADV messages showing up on top of your site.",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Lorena Ramonda",
+            "email": "lorena@ramonda.me",
+            "homepage": "http://lorena.ramonda.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "loreena/common-m2": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Loreena\\AdvMessages\\": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "deity/falcon-magento-adyen",
+    "description": "Deity Rest Adyen API Extension",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "src/Deity/Adyen/registration.php",
+            "src/Deity/AdyenApi/registration.php"
+        ],
+        "psr-4": {
+            "Deity\\Adyen\\": "src/Deity/Adyen",
+            "Deity\\AdyenApi\\": "src/Deity/AdyenApi"
+        }
+    },
+    "require": {
+        "adyen/module-payment": "^2.0"
+    }
+}

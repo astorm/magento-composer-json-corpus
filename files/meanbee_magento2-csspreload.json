@@ -1,0 +1,33 @@
+{
+  "name": "meanbee/magento2-csspreload",
+  "description": "Magento 2 module that allows loading of stylesheets with the preload attribute",
+  "type": "magento2-module",
+  "version": "1.2.1",
+  "license": [
+    "MIT"
+  ],
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "require": {
+    "magento/framework": "^101.0.0",
+    "psr/log": "~1.0"
+  },
+  "authors": [
+    {
+      "name": "Darren Belding",
+      "email": "darren.belding@meanbee.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Meanbee\\CSSPreload\\": "/src"
+    }
+  }
+}

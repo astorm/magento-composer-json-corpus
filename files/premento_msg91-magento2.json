@@ -1,0 +1,26 @@
+{
+    "name": "premento/msg91-magento2",
+    "description": "SMS Sending module for magento 2 for msg91.com",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "msg91/Magento"
+            ]
+        ]
+    },
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "msg91/Magento/registration.php"
+        ],
+        "psr-4": {
+            "msg91\\Magento\\": ""
+        }
+    }
+}

@@ -1,0 +1,29 @@
+
+{
+    "name": "landofcoder/module-ha-hello-magento",
+    "description": "Trainng developer - lof hello magento simple module for magento 2",
+    "keywords": [
+      "landofcoder",
+      "landofcoder hello magento",
+      "landofcoder hello magento 2 extension"
+    ],
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Lof Ha Hello Magento"
+        }
+    ],
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Lof\\HaHelloMagento\\": ""
+      }
+    }
+  }

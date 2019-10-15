@@ -1,0 +1,33 @@
+{
+    "name": "payumea/payu-mea-magento2.2",
+    "description": "Secure payment processing via PayU MEA for Magento 2",
+    "keywords": [
+        "payu",
+        "payu easy and plus merchant",
+        "payment processing",
+        "payu magento 2 module",
+        "payu magento 2"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "homepage": "https://payu.co.za/",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "payu-mea/payu-mea-sdk-php": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Kenneth Onah",
+            "homepage": "https://github.com/onahkenneth/module-payu-mea-magento2/contributors"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "PayU\\EasyPlus\\": ""
+        }
+    }
+}

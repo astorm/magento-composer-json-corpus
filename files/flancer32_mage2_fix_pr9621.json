@@ -1,0 +1,22 @@
+{
+  "name": "flancer32/mage2_fix_pr9621",
+  "description": "Standalone fix for PR-9621",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_fix_pr9621",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\FixPr9621\\": ""
+    }
+  }
+}

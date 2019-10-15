@@ -1,0 +1,21 @@
+{
+  "name": "sussexdev/module-ajaxlogin",
+  "description": "A Magento 2 module that opens a modal enabling the customer to login when clicking on the Sign In top link.",
+  "version": "1.1.1",
+  "license": "MIT",
+  "type": "magento2-module",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ScottParsons/module-ajaxlogin"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SussexDev\\AjaxLogin\\": ""
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "elatebrain/core",
+  "description": "Elatebrain Core Module",
+  "require": {
+    "magento/module-admin-notification": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.3",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elatebrain\\Core\\": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "magegeeks/module-hidepriceandcartbutton",
+    "description": "This extension is use to hide price and add to cart for non login user.",
+    "type": "magento2-module",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "authors": [
+        {
+            "name": "Magegeeks",
+            "email": "magegeeks@gmail.com",
+            "homepage": "https://www.magegeeks.in/",
+            "role": "Developer"
+        }
+    ],
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "magegeeks\\hidepriceandcartbutton\\": ""
+        }
+    }
+}

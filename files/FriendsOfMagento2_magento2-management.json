@@ -1,0 +1,35 @@
+{
+  "name": "friendsofmagento2/magento2-management",
+  "description": "Magento2 - Management Module",
+  "keywords": [
+    "magento2",
+    "management"
+  ],
+  "license": "MIT",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Armando Meeuwenoord",
+      "email": "armando@codingexperts.nl",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~7.0|~7.1|~7.2",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "FriendsOfMagento2\\Management\\": "src/"
+    }
+  }
+}

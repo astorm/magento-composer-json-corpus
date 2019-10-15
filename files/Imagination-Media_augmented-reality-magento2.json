@@ -1,0 +1,27 @@
+{
+  "name": "imaginationmedia/module-aero",
+  "description": "Add augmented reality to Magento using Adobe Aero and Apple ArKit.",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "authors": [
+    {
+      "name": "Igor Ludgero Miura",
+      "email": "igor@imaginationmedia.com",
+      "homepage": "https://www.imaginationmedia.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "ImaginationMedia\\Aero\\": ""
+    }
+  }
+}

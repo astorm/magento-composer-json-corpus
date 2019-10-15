@@ -1,0 +1,30 @@
+{
+  "name": "boangri/magento2-module-ololo",
+  "description": "Simple demo module for Magento 2",
+  "authors": [
+    {
+      "name": "Boris Gribovskiy",
+      "email": "xinu@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "proprietary",
+  "require": {
+    "php": "^5.6|^7.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Boangri\\Ololo\\": ""
+    }
+  }
+}

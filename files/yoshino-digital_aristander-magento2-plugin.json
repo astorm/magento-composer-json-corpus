@@ -1,0 +1,33 @@
+{
+  "name": "aristanderai/aai",
+  "description": "AristanderAI learns what your consumers are willing to pay and adjusts prices for you. It uses the latest advances in machine learning to boost your shop revenue and net profit.",
+  "type": "magento2-module",
+  "version": "1.2.1",
+  "require": {
+    "php": ">=5.5.0",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "magento/framework": ">=100.0.0",
+    "magento/module-catalog": ">=100.0.2",
+    "magento/module-customer": ">=100.0.2",
+    "magento/module-quote": ">=100.0.0",
+    "magento/module-sales": ">=100.0.0",
+    "magento/module-store": ">=100.0.2",
+    "zendframework/zend-http": "*",
+    "jaybizzle/crawler-detect" :"1.*"
+  },
+  "authors": [
+    {
+      "name": "Aristander.ai",
+      "homepage": "http://aristander.ai"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AristanderAi\\Aai\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

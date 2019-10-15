@@ -1,0 +1,18 @@
+{
+    "name": "outeredge/magento-limitrole-module",
+    "type": "magento2-module",
+    "description": "Magento module to limit users from assigning themselves to full-access roles",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "OuterEdge\\LimitRole\\": ""
+        }
+    }
+}

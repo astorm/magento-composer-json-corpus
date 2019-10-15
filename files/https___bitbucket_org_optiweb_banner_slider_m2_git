@@ -1,0 +1,33 @@
+{
+    "name": "optiweb/module-bannerslider",
+    "description": "Module banner slider for Magento 2.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",  
+	"authors": [
+		{
+		  "name": "Ales Cankar",
+		  "email": "ales.cankar@optiweb.com",
+		  "homepage" : "https://www.optiweb.com/"
+		},
+		{
+		  "name": "Urban Kovač",
+		  "email": "urban.kovac@optiweb.com",
+		  "homepage" : "https://www.optiweb.com/"
+		}
+	],
+    "license": "MIT",
+	"minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Optiweb\\ProductGrid\\": ""
+        }
+    }
+}
+

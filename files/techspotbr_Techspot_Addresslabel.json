@@ -1,0 +1,25 @@
+{
+    "name": "techspot/addresslabel",
+    "description": "The Tech Spot Address Label Module for Magento 2 enables input custom label for customer street address lines",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "techspot@techspot.com.br",
+            "name": "Tech Spot Core Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.2",
+        "piszczek/magento2-inputmask": ">=0.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techspot\\Addresslabel\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

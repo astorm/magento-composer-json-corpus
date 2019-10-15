@@ -1,0 +1,24 @@
+{
+    "name": "codesicle/module-base",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.3",
+    "authors": [
+        {
+            "name": "Stefan Iurasog",
+            "email": "si@codesicle.com",
+            "homepage": "http://www.codesicle.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codesicle\\Base\\": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "magenticians/module-mymodule",
+    "description": "Yash Dave's Hello World Magento 2 Module.",
+    "type": "magento2-module",
+    "version": "2.1.6",
+    "license": [
+      "OSL-3.0"
+    ],
+    "minimum-stability": "stable",
+     "repositories": [
+        {      
+            "url":"https://github.com/ashishgavshinde/magenticians-mymodule.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+      "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "authors": [
+      {
+        "name": "MangoItSolutions",
+        "email": "sales@mangoitsolutions.com"
+      }
+    ],
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Magenticians\\Mymodule\\": ""
+      }
+    }
+}

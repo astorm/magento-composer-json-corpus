@@ -1,0 +1,21 @@
+{
+  "name": "philip-martins/module-config",
+  "description": "Magento 2 configuration settings for Philip Martin's ecommerce platform",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Koen Dirk van Esterik",
+      "email": "koendirkvanesterik@philipmartins.nl"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PhilipMartins\\Config\\": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "m21/module-checkstockafterquote",
+    "description": "Check Stock After Quote",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\CheckStockAfterQuote\\": ""
+        }
+    }
+}

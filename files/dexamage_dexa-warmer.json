@@ -1,0 +1,27 @@
+{
+    "name": "dexamage/dexa-warmer",
+    "description": "Magento 2 Cache Warmer",
+    "keywords": [
+        "Magento 2",
+        "Warmer",
+        "Cache",
+        "Perfomance"
+    ],
+    "require": {
+        "magento/framework": "100.0.*|100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "214.1.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dexa\\Warmer\\": ""
+        }
+    }
+}

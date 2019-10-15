@@ -1,0 +1,21 @@
+{
+  "name": "marissen/magento2-module-better-order-incrementing",
+  "description": "Increment order ids manually, instead of relying on auto increment.",
+  "license": "MIT",
+  "require": {
+    "magento/framework": "101.*|102.*",
+    "magento/module-sales-sequence": "100.*"
+  },
+  "suggest": {
+    "fooman/sameorderinvoicenumber-m2": "Persist increment ID between Order, Invoice, Shipment and Creditmemo"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Marissen\\BetterOrderIncrementing\\": ""
+    }
+  }
+}

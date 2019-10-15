@@ -1,0 +1,22 @@
+{
+  "name": "yaoli/module-tracking",
+  "description": "Yaoli Tracking for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Brian Bi",
+      "email": "brian.bun@outlook.com",
+      "homepage": "https://www.gamesdeal.com",
+      "role": "Coder"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Yaoli\\Tracking\\": ""
+    }
+  }
+}

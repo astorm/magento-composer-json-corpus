@@ -1,0 +1,33 @@
+{
+    "name": "githamo/magepotato",
+    "description": "Custom modules for Magento v2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-SA-4.0",
+    "authors": [
+        {
+            "name": "Ahmed Hamouda",
+            "email": "ahm3dhamouda@gmail.com",
+            "homepage": "http://www.ahmedhamouda.com/",
+            "role": "Technical Support"
+        }
+
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Magepotato\\Basic\\": "Basic",
+            "Magepotato\\Core\\": "Core",
+            "Magepotato\\Tools\\": "Tools"
+        },
+        "files": [
+            "Basic/registration.php",
+            "Core/registration.php",
+            "Tools/registration.php"
+        ]
+    },
+    "require": {
+        "php": "^7.0.13",
+        "league/csv": "^9.2"
+    }
+}

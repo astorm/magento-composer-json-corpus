@@ -1,0 +1,26 @@
+{
+    "name": "vdrahaniuk/magento2-dump-server",
+    "description": "Bringing the Symfony Var-Dump Server to Magento 2.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [{
+        "name": "Vadim Drahaniuk",
+        "email": "vadim.draganyuk@gmail.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.1",
+        "symfony/var-dumper": "^4.1.1",
+        "magento/product-community-edition": "^2.3"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vdrahaniuk\\DumpServer\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

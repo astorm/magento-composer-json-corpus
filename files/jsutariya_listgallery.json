@@ -1,0 +1,24 @@
+{
+    "name": "jsutariya/listgallery",
+    "description": "Add product gallery images on product list pages.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "jsutariya@gmail.com",
+            "name": "Jaimin Sutariya"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "jsutariya/general": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JS\\ListGallery\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

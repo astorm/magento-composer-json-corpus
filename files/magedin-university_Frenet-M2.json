@@ -1,0 +1,27 @@
+{
+  "name": "magedin/frenet-m2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "authors": [
+    {
+      "name": "Bruno Gemelli",
+      "email": "bruno.gemelli@magedin.com"
+    }
+  ],
+  "support": {
+    "email": "suporte@magedin.com"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagedIn\\Frenet\\": ""
+    }
+  },
+  "minimum-stability": "stable"
+}

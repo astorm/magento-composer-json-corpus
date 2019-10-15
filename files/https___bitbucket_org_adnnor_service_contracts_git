@@ -1,0 +1,31 @@
+{
+    "name": "adnnor/service-contracts-sample",
+    "description": "Magento 2 Service Contracts Example.",
+    "homepage": "https://bitbucket.org/adnnor/service-contracts",
+    "type": "magento2-module",
+    "version": "1.2.0",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+          "name": "Adnan Shahzad",
+          "email": "adnnor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.33",
+        "magento/product-community-edition": "2.2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Custom\\Module\\": ""
+        }
+    }
+}

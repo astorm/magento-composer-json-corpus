@@ -1,0 +1,24 @@
+{
+    "name": "activeants/magento2-tierpricingpercentagefix",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "description": "A minor fix to show the correct percentage for tier pricing on product pages",
+    "keywords": ["magento2", "activeants", "tierpricing", "percentage", "fix"],
+    "authors": [
+        {
+            "name": "Active Ants B.V.",
+            "email": "automatisering@activeants.nl"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ActiveAnts\\TierPricingPercentageFix\\": ""
+        }
+    }
+}

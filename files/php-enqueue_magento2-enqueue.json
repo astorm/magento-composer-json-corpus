@@ -1,0 +1,20 @@
+{
+  "name": "enqueue/magento2-enqueue",
+  "type": "magento2-module",
+  "description": "Message Queue solutions for Magento2. Supports RabbitMQ, AMQP, STOMP, Amazon SQS, Kafka, Redis, Google PubSub, Gearman, Beanstalk, Google PubSub",
+  "license": "MIT",
+  "keywords": ["messaging", "queue", "amqp", "magento", "magento2", "rabbitmq", "kafka", "redis", "sqs", "google-pubsub", "amazon-sqs", "gearman", "beanstalk", "amqp"],
+  "require": {
+    "enqueue/enqueue": "^0.8",
+    "enqueue/simple-client": "^0.8"
+  },
+  "autoload": {
+    "files": [
+      "cli_commands.php",
+      "registration.php"
+    ],
+    "psr-4": {
+      "Enqueue\\Magento2\\": ""
+    }
+  }
+}

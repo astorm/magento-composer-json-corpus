@@ -1,0 +1,17 @@
+{
+    "name": "sebastian13/magento2-module-bootstrap",
+    "description": "Adds Bootstrap library from CDN.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Neutkens",
+            "name": "Sebastian Plocek"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

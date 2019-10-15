@@ -1,0 +1,23 @@
+{
+    "name": "magenerds/wysiwyg-widget",
+    "description": "This module adds a wysiwyg editor to the widget menu.",
+    "require": {
+        "magento/framework": "^102.0.0",
+        "magento/module-cms": "*",
+        "magento/module-backend": "*",
+        "magento/module-widget": "*",
+        "magenerds/dashboard": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magenerds\\WysiwygWidget\\": ""
+        }
+    }
+}

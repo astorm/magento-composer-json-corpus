@@ -1,0 +1,35 @@
+{
+    "name": "pr00xxy/xhprof",
+    "description": "Tideways Xhprof Debugger Module for Magento 2",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "ext-json": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Hampus Westman",
+            "email": "hampus.westman@gmail.com",
+            "homepage": "https://github.com/Pr00xxy"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "0.5.0",
+    "license": "GPL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pr00xxy\\Xhprof\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Pr00xxy/Xhprof"
+            ]
+        ]
+    }
+}

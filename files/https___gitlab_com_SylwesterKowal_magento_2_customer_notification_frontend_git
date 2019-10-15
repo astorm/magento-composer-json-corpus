@@ -1,0 +1,23 @@
+{
+  "name": "kowal/module-clientnotification",
+  "description": "Wyświetla komunikat na sklepie Magento w okienku. Po zaakceptowaniu komunikatu przestaje.",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "1.0.8",
+  "authors": [
+    {
+      "name": "Kowal",
+      "email": "kontakt@kowal.co"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Kowal\\ClientNotification\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "thaiphan/magento2-s3",
+  "description": "Use Amazon S3 as the file storage backend for your store.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thai Phan",
+      "email": "thai@outlook.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Thai\\S3\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "3.x",
+    "symfony/console": "^2.6||^4.0",
+    "magento/module-captcha": ">=100",
+    "magento/module-cms": ">=100",
+    "magento/module-config": ">=100",
+    "magento/module-media-storage": ">=100",
+    "magento/framework": ">=100",
+    "magento/module-store": ">=100",
+    "magento/module-swatches": ">=100"
+  }
+}

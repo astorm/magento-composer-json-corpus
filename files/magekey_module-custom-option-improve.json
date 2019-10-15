@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-custom-option-improve",
+    "description": "Custom Option Improve Module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.0.1",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\CustomOptionImprove\\": ""
+        }
+    }
+}

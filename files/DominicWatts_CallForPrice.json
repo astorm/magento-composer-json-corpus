@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/callforprice",
+    "description": "Call For Price product attribute swaps price for string specified in the backend",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.2",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xigen\\CallForPrice\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

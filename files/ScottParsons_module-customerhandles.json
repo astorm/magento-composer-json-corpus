@@ -1,0 +1,21 @@
+{
+  "name": "sussexdev/module-customerhandles",
+  "description": "A Magento 2 module that adds customer_logged_in and customer_logged_out layout handles.",
+  "version": "1.0.2",
+  "license": "MIT",
+  "type": "magento2-module",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ScottParsons/module-customerhandles"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SussexDev\\CustomerHandles\\": ""
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "smartsupp/smartsupp",
+  "description": "Engage your customers in a faster and more personal way with Smartsupp Live Chat.",
+  "type": "magento2-module",
+  "version": "2.0.4",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Smartsupp\\Smartsupp\\": ""
+    }
+  },
+  "require": {
+    "smartsupp/chat-code-generator": "1.*",
+    "smartsupp/php-partner-client": "1.*"
+  }
+}

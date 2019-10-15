@@ -1,0 +1,19 @@
+{
+  "name": "realtimedespatch/magento2-orderflow",
+  "description": "Magento 2 OrderFlow Integration",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "sixbysix/realtime-despatch": ">=1.2.2"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "RealtimeDespatch/OrderFlow"
+      ]
+    ]
+  }
+}

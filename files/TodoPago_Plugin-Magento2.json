@@ -1,0 +1,10 @@
+{
+    "name": "todopago/magento2-plugin",
+    "description": "Plugin de integracion de TodoPago para Magento 2",
+    "type": "magento2-module",
+    "version": "1.6.1",
+    "require": {
+        "todopago/php-sdk": "*"
+    },
+    "autoload": { "files": [ "registration.php" ], "psr-4": { "Prisma\\TodoPago\\": "" } }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "gladd/ga-fix",
+    "description": "Google Analytics ignore Magento 2 cookie restriction mode",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-google-analytics": "^100.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gladd\\GaFix\\": ""
+        }
+    }
+}

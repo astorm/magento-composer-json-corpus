@@ -1,0 +1,19 @@
+{
+    "name": "middendorfmidnight/magento-module-bundlecustomoptions",
+    "description": "Magento2 Module to work around the message 'This module allows to configure custom options for bundle products with dynamic pricing.'",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "magento/module-bundle": "~100.1.0|~100.2.0|~100.3.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mestrona\\BundleCustomOptions\\": ""
+        }
+    }
+}

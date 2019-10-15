@@ -1,0 +1,41 @@
+{
+  "name": "lizardmedia/module-admin-indexer",
+  "description": "Magento2 module adding indexation from the admin panel",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Bartosz Kubicki",
+      "email": "bartosz.kubicki@lizardmedia.pl"
+    },
+    {
+      "name": "Paweł Papke",
+      "email": "pawel.papke@lizardmedia.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "magento/module-indexer": "^100.2.3",
+    "react/child-process": "^0.5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "LizardMedia\\AdminIndexer\\": ""
+    }
+  }
+}

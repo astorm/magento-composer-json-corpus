@@ -1,0 +1,28 @@
+{
+  "name": "peec/magento2-temp-setup-di-compile-fix",
+  "description": "Fix for magento2 issue 4795",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Petter Kjelkenes",
+      "email": "petter.kjelkenes@markant.no",
+      "homepage": "http://markant.no"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.1.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Peec\\TempSetupDiCompileFix\\": ""
+    }
+  }
+}

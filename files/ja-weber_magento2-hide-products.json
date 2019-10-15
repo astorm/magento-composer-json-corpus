@@ -1,0 +1,27 @@
+{
+  "name": "weberinformatics/magento2-hide-products",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "homepage": "http://www.weberinformatics.com/",
+  "description": "Magento 2 extension for hiding products by customer groups.",
+  "keywords":[ "composer-installer", "magento", "magento 2", "extension", "hide product", "customer group"],
+  "authors": [
+    {
+      "name": "Janosch Weber",
+      "email": "info@weberinformatics.com"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "WeberInformatics\\HideProducts\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "easygento/magento2-newsletter",
+    "description": "Allow customers to subscribe to newsletter in checkout",
+    "authors": [
+        {
+            "name": "Phuong LE",
+            "email": "sony@menincode.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0",
+        "magento/framework": ">=100.0.0",
+        "magento/module-newsletter": ">=100.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Easygento\\Newsletter\\": ""
+        }
+    }
+}

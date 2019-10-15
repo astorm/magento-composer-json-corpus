@@ -1,0 +1,31 @@
+{
+    "name": "pillbox/module-smile-io",
+    "description": "Magento 2 Extension for Smile.io integration",
+    "license": "MIT",
+    "type": "magento2-module",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~7.0.2|~7.1.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Tim Green",
+            "email": "tim@totallywicked.co.uk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Pillbox\\Smile\\": "src/"
+        }
+    }
+}

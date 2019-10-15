@@ -1,0 +1,73 @@
+{
+	"name": "mage2pro/ru"
+	,"version": "0.3.8"
+	,"description": "The Russian language package for Magento 2 / Русификатор для Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.7.23"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfr\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Magento language package"
+		,"Language package"
+		,"Russia"
+		,"модуль"
+		,"модуль для Magento 2"
+		,"русификатор"
+		,"русский язык"
+
+		,"Россия"
+		,"Украина"
+		,"Беларусь"
+		,"Белоруссия"
+		,"Казахстан"
+		,"Израиль"
+		,"США"
+		,"Туркменистан"
+		,"Латвия"
+		,"Узбекистан"
+		,"Киргизия"
+		,"Кыргызстан"
+		,"Эстония"
+		,"Молдова"
+		,"Литва"
+		,"Азербайджан"
+		,"Канада"
+		,"Финляндия"
+		,"Грузия"
+		,"Австралия"
+		,"Таджикистан"
+		,"Чехия"
+
+		,"Russia"
+		,"Ukraine"
+		,"Belarus"
+		,"Kazakhstan"
+		,"Israel"
+		,"United States"
+		,"Turkmenistan"
+		,"Latvia"
+		,"Uzbekistan"
+		,"Kyrgyzstan"
+		,"Estonia"
+		,"Moldova"
+		,"Lithuania"
+		,"Azerbaijan"
+		,"Canada"
+		,"Finland"
+		,"Georgia"
+		,"Australia"
+		,"Tajikistan"
+		,"Czech Republic"
+	]
+}

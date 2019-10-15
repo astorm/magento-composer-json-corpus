@@ -1,0 +1,32 @@
+{
+  "name": "imaginationmedia/magemojo-magento2-cron",
+  "description": "Replacement package for Magento 2 Cron Functionality",
+  "type": "magento2-module",
+  "keywords": [
+    "magento2",
+    "cron"
+  ],
+  "homepage": "https://github.com/magemojo/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MageMojo",
+      "homepage": "https://github.com/magemojo/"
+    },
+    {
+      "name": "Igor Ludgero Miura",
+      "homepage": "https://www.imaginationmedia.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageMojo\\Cron\\": ""
+    }
+  }
+}

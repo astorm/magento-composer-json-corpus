@@ -1,0 +1,32 @@
+{
+  "name": "vuestorefront/magento2-vue-cart-sync",
+  "description": "Synchronize Magento cart between Vue Storefront",
+  "require": {
+    "php": "~7.1|~7.2",
+    "magento/magento2-base": "~2.2|~2.3"
+  },
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mateusz Bukowski",
+      "email": "mbukowski@divante.pl"
+    },
+    {
+      "name": "Tjitse Efde",
+      "email": "tjitse@vendic.nl"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "VueStorefront\\CartSync\\": ""
+    }
+  },
+  "suggest": {
+    "vendic/magento2-checkoutonly": "A module that enables you to limit access only the Magento checkout. Usefull for a PWA setup that uses the default Magento 2 checkout"
+  }
+}

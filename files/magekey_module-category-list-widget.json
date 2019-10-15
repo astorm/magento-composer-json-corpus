@@ -1,0 +1,17 @@
+{
+    "name": "magekey/module-category-list-widget",
+    "description": "Magento 2 Category List",
+    "type": "magento2-module",
+    "version": "2.1.11",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\CategoryListWidget\\": ""
+        }
+    }
+}

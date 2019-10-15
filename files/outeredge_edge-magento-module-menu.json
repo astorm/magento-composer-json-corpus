@@ -1,0 +1,32 @@
+{
+    "name": "outeredge/magento-menu-module",
+    "description": "Magento Menu Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "hello@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "outeredge/magento-base-module": "^2.1.9"
+    },
+    "require-dev": {
+        "magento-ecg/coding-standard": "~3.0",
+        "outeredge/coding-standards": "~1.0.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\Menu\\": ""
+        }
+    }
+}

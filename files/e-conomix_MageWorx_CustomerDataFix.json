@@ -1,0 +1,21 @@
+{
+  "name": "e-conomix/mageworx-module-customer-data-fix",
+  "description": "Fix error in customer data sections",
+  "require": {
+    "magento/module-customer": ">=100"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageWorx\\CustomerDataFix\\": ""
+    }
+  }
+}

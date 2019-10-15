@@ -1,0 +1,23 @@
+{
+  "name": "enrico69/magento2-dev-report",
+  "version": "1.0.3",
+  "keywords": ["magento", "magento2", "plugin", "observer"],
+  "type": "magento2-module",
+  "description": "A module to generate reports in order to help developes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric COURTIAL <e.courtial30@gmail.com>",
+      "homepage": "https://github.com/enrico69/magento2-dev-report"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Enrico69\\Magento2DevReport\\": ""
+    }
+  }
+}

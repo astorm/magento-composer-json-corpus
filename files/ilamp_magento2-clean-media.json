@@ -1,0 +1,30 @@
+{
+  "name": "ilamp/magento2-clean-media",
+  "description": "Magento 2 media analysis and cleanup",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergii Ivashchenko",
+      "homepage": "http://www.sivaschenko.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/module-catalog": ">100.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sivaschenko\\CleanMedia\\": ""
+    }
+  }
+}

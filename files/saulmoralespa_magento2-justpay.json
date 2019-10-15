@@ -1,0 +1,27 @@
+{
+  "name": "saulmoralespa/magento2-justpay",
+  "description": "Just Pay integration for magento2",
+  "authors": [
+    {
+      "name": "Saul Morales Pacheco",
+      "email": "info@saulmoralespa.com"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Saulmoralespa\\JustPay\\": ""
+    }
+  }
+}

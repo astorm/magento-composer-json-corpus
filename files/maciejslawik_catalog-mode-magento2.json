@@ -1,0 +1,41 @@
+{
+  "name": "mslwk/module-catalog-mode",
+  "description": "Magento2 module for catalog mode",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Maciej Sławik",
+      "email": "maciekslawik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "magento/module-sales": "*",
+    "magento/module-store": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "Catalog mode"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MSlwk\\CatalogMode\\": ""
+    }
+  }
+}

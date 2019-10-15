@@ -1,0 +1,24 @@
+{
+    "name": "siyu/magento-2-quickview",
+    "description": "An extension for Magento 2",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Siyu Qian",
+            "email": "david.s.qian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+        "magento/module-catalog": "101.* | 100.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Siyu\\QuickView\\": ""
+        }
+    }
+}

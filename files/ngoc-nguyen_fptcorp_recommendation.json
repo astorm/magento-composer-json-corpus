@@ -1,0 +1,27 @@
+{
+    "name": "fptcorp/recommendation",
+    "description": "Magento 2 module to connect with DMP Recommendation engine",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Hiep Ho Minh",
+            "email": "hiephm3@fpt.com.vn"
+        }
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+        "magento/framework": "100.1.*"
+    },
+    "version": "0.4.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FPTCorp\\Recommendation\\": ""
+        }
+    }
+}

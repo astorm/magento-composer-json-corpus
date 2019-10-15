@@ -1,0 +1,25 @@
+{
+  "name": "flancer32/mage2_ext_log",
+  "description": "Add Monolog Cascade support to Magento 2.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_ext_log",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "theorchard/monolog-cascade": "*"
+  },
+  "autoload": {
+    "files": [
+      "./registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\Logging\\": ""
+    }
+  }
+}

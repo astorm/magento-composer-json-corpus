@@ -1,0 +1,28 @@
+{
+  "name": "phonglee/cointmarketcap",
+  "description": "A simple module for rendering top 10 crypto-currency from https://coinmarketcap.com/.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "authors": [
+    {
+      "name": "Ly Quoc Phong",
+      "email": "lyquocphong@gmail.com",
+      "homepage": "http://ouludev.tk:8888",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "PHONGLEE\\CoinMarketCap\\": ""
+    }
+  }
+}

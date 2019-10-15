@@ -1,0 +1,19 @@
+{
+    "name": "elgentos/localstorageversioning",
+    "description": "",
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elgentos\\LocalStorageVersioning\\": ""
+        }
+    }
+}

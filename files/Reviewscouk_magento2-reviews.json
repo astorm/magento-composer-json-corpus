@@ -1,0 +1,27 @@
+{
+  "name": "reviewscouk/reviews",
+  "autoload": {
+    "psr-4": {
+      "Reviewscouk\\Reviews\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "description": "Reviews.co.uk Magento 2 Integration",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Reviews.co.uk",
+      "email": "support@reviews.co.uk",
+      "homepage": "http://www.reviews.co.uk"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "support": {
+    "email": "support@reviews.co.uk"
+  }
+}

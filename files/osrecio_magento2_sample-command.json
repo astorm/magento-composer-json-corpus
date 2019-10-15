@@ -1,0 +1,27 @@
+{
+  "name": "osrecio/magento2_sample-command",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Oscar Recio",
+      "email": "osrecio@gmail.com",
+      "homepage": "http://osrecio.com"
+    }
+  ],
+  "type": "magento2-module",
+  "description": "Command line Magento 2 to show module list",
+  "require": {
+    "php": "~5.6.0|~7.0.0"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Osrecio\\CommandModuleList\\": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "clerk/magento2",
+  "description": "",
+  "authors": [
+    {
+      "name": "Rasmus Bech",
+      "email": "rbe@clerk.io"
+    }
+  ],
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Clerk\\Clerk\\": ""
+    }
+  }
+}

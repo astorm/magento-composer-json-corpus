@@ -1,0 +1,26 @@
+{
+  "name": "brandung/magento2-gelf-logger",
+  "license": "MIT",
+  "description": "Gelf Logger Handler",
+  "require": {
+    "php": "^7.1.0",
+    "graylog2/gelf-php": "^1.6",
+    "monolog/monolog": "^1.17",
+    "magento/framework": "^101.0.6"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "./registration.php"
+    ],
+    "psr-4": {
+      "Brandung\\GelfLogger\\": ""
+    }
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  }
+}

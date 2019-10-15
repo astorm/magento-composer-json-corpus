@@ -1,0 +1,27 @@
+{
+  "name": "ezsystems/magento2-tracking",
+  "description": "ezsystems personalization solution for personalized recommendations, personalized search und triggered notifications",
+  "keywords": ["marketing","personalization","recommendations","search","notifications"],
+  "homepage": "https://github.com/ezsystems/ezpersonalization-magento2",
+  "type": "magento2-module",
+  "version": "2.1.1",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+     {
+       "name": "eZ Systems",
+       "email": "support@yoochoose.com",
+       "homepage": "https://ez.no/Products/eZ-Personalization",
+       "role": "Developer"
+     }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ezsystems\\magento2-tracking\\": ""
+    }
+  }
+}

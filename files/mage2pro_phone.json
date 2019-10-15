@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/phone"
+	,"version": "1.0.13"
+	,"description": "A telephone numbers handling library for my Magento 2 extensions."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/phone"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.2.2", "giggsey/libphonenumber-for-php": ">=8.4.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Phone\\": ""}}
+}

@@ -1,0 +1,28 @@
+{
+    "name": "venustheme/magento2-image-slider",
+    "description": "Ves Image Slider Fully responsive magento 2 slider extension Support editor for inserting image, video text. Magento 2 Slider Extension supports OWL Carousel Image slider can be displayed anywhere in your store with CMS & Widget Tons of Animation with Live Preview Support 10 sliders Easy-to-use & intuitive interface",
+    "require": {
+        "venustheme/module-all": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Venustheme",
+            "email": "venustheme@gmail.com",
+            "role": "Magento 2 Ves Product List"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ves\\ImageSlider\\": ""
+        }
+    }
+}

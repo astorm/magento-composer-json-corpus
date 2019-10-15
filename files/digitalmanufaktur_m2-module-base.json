@@ -1,0 +1,23 @@
+{
+  "name": "dmc/m2-module-base",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "description": "Base module for otehr DMC extensions",
+  "homepage": "https://github.com/digitalmanufaktur",
+    "keywords": [
+        "magento2"
+    ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": ">=101.0.1",
+    "magento/magento-composer-installer": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "DMC\\Base\\": "src/"
+    }
+  }
+}

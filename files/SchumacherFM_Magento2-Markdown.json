@@ -1,0 +1,29 @@
+{
+    "name": "schumacherfm/mage2-markdown",
+    "description": "Markdown or Parsedown for Magento2",
+    "require": {
+        "magento/framework": "*",
+        "erusev/parsedown": "~1.4.5",
+        "michelf/php-markdown": "~1.4.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Backend\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Cyrill Schumacher",
+            "homepage": "https://cyrillschumacher.com/",
+            "role": "Developer"
+        }
+    ]
+}

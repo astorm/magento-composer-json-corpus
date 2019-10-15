@@ -1,0 +1,40 @@
+{
+    "name": "flagbit/magento2-flysystem-s3",
+    "description": "S3 Adapter for Magento2 Flysystem integration",
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "Robin Homberg",
+            "email": "robin.homberg@flagbit.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Björn Meyer",
+            "email": "bjoern.meyer@flagbit.de",
+            "role": "DevOps"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "league/flysystem": "1.0.43",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "flagbit/magento2-flysystem": ">=0.1.7"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Flagbit\\FlysystemS3\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

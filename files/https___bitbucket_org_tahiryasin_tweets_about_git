@@ -1,0 +1,20 @@
+{
+    "name": "tahiryasin/tweets-about",
+    "description": "Example of Magento Module - Tahir Yasin",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "abraham/twitteroauth": "^0.6.2",
+        "magento/framework": ">=100.0.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Packt\\TweetsAbout\\": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "rakuten/magento2-connector",
+  "description": "Module Rakuten Connector for Magento 2.3",
+  "keywords": ["modules", "magento", "magento2", "rakuten", "intermediary", "checkout", "marketplace"],
+  "homepage": "https://digitalcommerce.rakuten.com.br/developers/",
+  "license": "MIT",
+  "type": "magento2-module",
+  "support": {
+    "issues": "https://github.com/RakutenBrasil/magento2-rakuten-pay/issues",
+    "source": "https://github.com/RakutenBrasil/magento2-rakuten-pay/"
+  },
+  "authors": [
+    {
+      "name": "Rakuten Digital Commerce",
+      "email": "paytech@rakuten.com.br",
+      "homepage": "https://digitalcommerce.rakuten.com.br/"
+    }
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/magento-composer-installer": "*",
+    "rakuten/rakuten-sdk-php": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Rakuten\\RakutenPay\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

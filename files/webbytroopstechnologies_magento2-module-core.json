@@ -1,0 +1,32 @@
+{
+    "name": "webbytroopstechnologies/magento2-module-core",
+    "description": "Core module for WebbyTroops Magento2 modules",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "keywords": [
+        "Magento 2",
+        "WebbyTroops Core"
+    ],
+    "authors": [
+        {
+            "name": "webbytroops",
+            "email": "webbytroops@gmail.com",
+            "homepage": "http://www.webbytroops.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WebbyTroops\\Core\\": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "mageviper/module-dpd",
+  "description": "Dpd magento 2 module",
+  "require": {
+    "php": "^7.1.0",
+    "t3ko/dpd-pl-api-php": "^0",
+    "mageviper/core": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Szymon Łukaszewicz",
+      "email": "szymon@lukaszewicz.biz"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mageviper\\Dpd\\": ""
+    }
+  }
+}

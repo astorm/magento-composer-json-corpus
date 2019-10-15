@@ -1,0 +1,31 @@
+{
+    "name": "dominicwatts/newsletter",
+    "description": "Additional field in newsletter footer signup",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.2",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\Newsletter\\": ""
+        }
+    }
+}

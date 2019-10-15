@@ -1,0 +1,12 @@
+{
+  "name": "rapidmod/rcore-mage2-test-files",
+  "description": "My personal Playground",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require" : {
+    "google/apiclient" : "2.*"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "luckycart/magento2",
+    "description": "Lucky Cart implementation on Magento 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "support@yuukoo.com",
+            "name": "Yuukoo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yuukoo\\Luckycart\\": ""
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "skywire/wordpressapi",
+    "description": "Wordpress integration",
+    "license": 	"OSL-3.0",
+    "require": {
+        "php": "^7.0|^7.1|^7.2",
+        "magento/magento-composer-installer": "*",
+        "skywire/testframework":"*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "type": "magento2-module",
+    "repositories": {
+        "festframework":{
+            "type": "vcs",
+            "url": "https://github.com/Skywire/m2-test-framework.git"
+        }
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Skywire\\WordpressApi\\": "src"
+        }
+    }
+}

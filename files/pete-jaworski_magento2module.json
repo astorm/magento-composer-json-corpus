@@ -1,0 +1,13 @@
+{
+    "name": "piotrjaworski/magento2module",
+    "description": "Test module for Magento 2",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "PiotrJaworski/magento2module"
+            ]
+        ]
+    }
+}

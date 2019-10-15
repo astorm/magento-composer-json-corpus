@@ -1,0 +1,32 @@
+{
+  "name": "mazeapi/force-login",
+  "description": "Magento 2 Force login for business customer",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mazeapi",
+      "email": "info@mazeapi.com",
+      "homepage": "http://mazeapi.com",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "magento 2",
+    "magento 2 force login",
+    "magento business",
+    "mazeapi",
+    "Tvinga inloggning",
+    "Företagskund"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mazeapi\\ForceLogin\\": ""
+    }
+  },
+  "version": "1.0.6",
+  "minimum-stability": "stable"
+}

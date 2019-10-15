@@ -1,0 +1,21 @@
+{
+  "name": "sussexdev/module-multistepmodal",
+  "description": "A Magento 2 module demonstrating how to implement a frontend multi-step modal.",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "magento2-module",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ScottParsons/module-multistepmodal"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SussexDev\\MultiStepModal\\": ""
+    }
+  }
+}

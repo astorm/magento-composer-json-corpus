@@ -1,0 +1,24 @@
+{
+  "name": "swisspost-yellowcube/magento2-yellowcube",
+  "authors": [
+    {
+      "name": "Sascha Grossenbacher",
+      "email": "sascha.grossenbacher@md-systems.ch"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "homepage": "http://www.yellowcube.ch",
+  "description": "Magento2 extension for YellowCube from SwissPost AG - Switzerland.",
+  "require": {
+    "swisspost-yellowcube/yellowcube-php": "^2.1.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Swisspost\\YellowCube\\": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+ {
+  "name": "kapitus/kapitus-finance",
+  "description": "Magento 2 Kapitus Finance",
+  "require": {
+    "php": "~5.5.22|~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/framework": "^100.0||^101.0||^102.0"
+  },
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Kapitus",
+      "email": "Customersupport@Kapitusservicing.com",
+      "homepage": "https://kapitus.com/en/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Kapitus\\Finance\\": ""
+    }
+  }
+}

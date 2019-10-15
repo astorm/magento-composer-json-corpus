@@ -1,0 +1,27 @@
+{
+  "name": "webshouters/magento2-reindex",
+  "description": "A simple module that allows you to reindex data from Magento 2 admin",
+  "authors": [
+    {
+      "name": "WebShouters Team",
+      "email": "admin@webshouters.com",
+      "homepage": "https://www.webshouters.com"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6",
+    "magento/module-ui": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Wbs\\Reindexer\\": ""
+    }
+  }
+}

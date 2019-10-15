@@ -1,0 +1,24 @@
+{
+    "name": "airmee/magento-2-module",
+    "description": "Airmee Magento 2 Shipping Module",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/module-config": "100.0.*",
+        "magento/module-store": "100.0.*",
+        "magento/module-shipping": "100.0.*",
+        "magento/module-quote": "100.0.*",
+        "magento/framework": "100.0.*",
+        "airmee/php-sdk": "1.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Airmee\\Shipping\\": ""
+        }
+    }
+}

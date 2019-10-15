@@ -1,0 +1,23 @@
+{
+  "name": "hypernova/magento2-cloud-invoice",
+  "description": "A Magento 2 module that stores invoices in your favorite cloud storage service",
+  "type": "magento2-module",
+  "version": "1.3.0",
+  "license": [
+    "AGPL-3.0-or-later"
+  ],
+  "support": {
+      "issues": "https://github.com/Hypernova-Oy/magento2-hypernova-cloud-invoice/issues"
+  },
+  "require": {
+    "php": "~5.6.5|~7.0.6|~7.1.0|~7.2.0",
+    "google/apiclient": "^2.0",
+    "sabre/dav": "*"
+  },
+  "autoload": {
+    "files": [ "src/registration.php" ],
+    "psr-4": {
+      "Hypernova\\CloudInvoice\\": "src"
+    }
+  }
+}

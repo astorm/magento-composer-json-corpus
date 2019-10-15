@@ -1,0 +1,22 @@
+{
+  "name": "uabassguy/brandastic-newsletter-coupon",
+  "description": "N/A",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/module-newsletter": "100.2.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Brandastic\\NewsletterCoupon\\": ""
+    }
+  }
+}

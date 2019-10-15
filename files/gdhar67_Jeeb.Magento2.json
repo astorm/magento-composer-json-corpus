@@ -1,0 +1,30 @@
+{
+    "name": "jeeb/magento2-plugin",
+    "type": "magento2-module",
+    "description": "Cryptopayments integration for Magento 2 via Jeeb",
+    "version": "1.0.0",
+    "keywords": [
+      "jeeb",
+      "bitcoin",
+      "merchant",
+      "magento"
+    ],
+    "minimum-stability":"dev",
+    "homepage": "https://jeeb.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeeb",
+            "homepage": "https://github.com/Jeebio/"
+        }
+    ],
+    "require": {
+        "jeeb/jeeb-php": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Jeeb\\Merchant\\": ""
+        }
+    }
+}

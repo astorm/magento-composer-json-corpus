@@ -1,0 +1,32 @@
+{
+    "name": "mcorp/seo",
+    "type": "magento2-module",
+    "description": "A simple module intended to improve SEO of Magento2.",
+    "version": "1.0.0",
+    "keywords": ["Magento2","SEO"],
+    "homepage": "https://github.com/sourabhmodi60/Mcorp",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Sourabh Modi",
+            "email": "sourabhmodi60@gmail.com",
+            "homepage": "http://litove.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Mcorp/Seo"
+            ]
+        ]
+    }
+}

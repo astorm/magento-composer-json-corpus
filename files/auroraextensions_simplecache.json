@@ -1,0 +1,28 @@
+{
+  "name": "auroraextensions/simplecache",
+  "description": "General-purpose cache used by Aurora Extensions.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@auroraextensions.com"
+    }
+  ],
+  "support": {
+    "email": "support@auroraextensions.com"
+  },
+  "require": {
+    "php": ">=7.1",
+    "magento/framework": "102.*.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AuroraExtensions\\SimpleCache\\": ""
+    }
+  }
+}

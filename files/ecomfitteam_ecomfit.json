@@ -1,0 +1,20 @@
+{
+    "name": "ecomfitteam/ecomfit",
+    "description": "This is a ecomfit module in Magento2",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomfit\\Tracking\\": ""
+        }
+    }
+}

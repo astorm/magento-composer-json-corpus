@@ -1,0 +1,26 @@
+{
+  "name": "collector-bank/module-base",
+  "description": "Shared Settings for Collector Gateways and Collector Iframe",
+  "license": "GPL-3.0",
+  "version": "2.0.3",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "email": "toifarn@gmail.com",
+      "name": "Henrik L\u00f6fstr\u00f6m"
+    }, 
+    {
+      "name": "Tobias Sundgren",
+      "email": "tobias.sundgren@collectorbank.se"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Collector\\Base\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

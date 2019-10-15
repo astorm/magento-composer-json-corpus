@@ -1,0 +1,21 @@
+{
+  "name": "shockwavedesign/magento2-module-mail-mailgun",
+  "description": "Extend shockwave mail",
+  "require": {
+    "shockwavemk/magento2-module-mail": "*",
+    "mailgun/mailgun-php": "*",
+    "php-http/guzzle6-adapter": "^1.0"
+  },
+  "type": "magento2-module",
+  "license": [
+      "UNLICENSED"
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+        "Shockwavedesign\\Mail\\Mailgun\\": ""
+    }
+  }
+}

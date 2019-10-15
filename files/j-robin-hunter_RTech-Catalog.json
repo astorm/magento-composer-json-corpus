@@ -1,0 +1,21 @@
+{
+  "name": "rtech/catalog",
+  "description": "Catalog model",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin Hunter",
+      "email": "hello@romatech.co.uk"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "RTech\\Energy\\": ""
+    }
+  }
+}

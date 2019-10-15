@@ -1,0 +1,20 @@
+{
+    "name": "day4code/template-content-editor",
+    "description": "Magento extension to allow developers to create editable templates within CMS Blocks and Pages, Product and Category descriptions. Dynamically builds an editable form for the editors to update without risking corrupting the code or deviating from the set template design.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Gerard Lamusse"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "~100.0|~101.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

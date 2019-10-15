@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/emailcc",
+    "description": "Add email cc field to customer account area. Transactional emails are also sent to this address.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.4",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xigen\\CC\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

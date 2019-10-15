@@ -1,0 +1,25 @@
+{
+  "name": "mageprashant/magento2-delete-order",
+  "description": "Magento 2 Delete Orders Extension",
+  "homepage": "https://github.com/mageprashant/magento-2-delete-orders",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+		{
+		  "name": "Prashant Patel",
+		  "email": "mageprashant@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/mageprashant/magento-2-delete-orders/issues"
+	},
+	"autoload": {
+		"files": [
+		  "registration.php"
+		],
+		"psr-0": {
+		  "MagePrashant\\Deleteorder\\": ""
+		}
+	}
+}

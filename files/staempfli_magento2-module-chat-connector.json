@@ -1,0 +1,21 @@
+{
+  "name": "staempfli/magento2-module-chat-connector",
+  "description": "Magento 2 Chat Connector required for HipChat and Slack Module",
+  "require": {
+    "php": "~7.0.0",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Staempfli\\ChatConnector\\": ""
+    }
+  }
+}

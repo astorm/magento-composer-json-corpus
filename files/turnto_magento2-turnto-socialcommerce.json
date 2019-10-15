@@ -1,0 +1,14 @@
+{
+    "name": "turnto/social-commerce",
+    "description": "This module connects Magento 2 with TurnTo's Social Commerce service",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": ">= 100"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "TurnTo\\SocialCommerce\\": ""
+        }
+    }
+}

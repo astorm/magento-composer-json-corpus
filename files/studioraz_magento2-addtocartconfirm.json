@@ -1,0 +1,17 @@
+{
+  "name": "studioraz/magento2-addtocartconfirm",
+  "description": "Add to cart confirmation popup",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SR\\AddToCartConfirm\\": ""
+    }
+  }
+}

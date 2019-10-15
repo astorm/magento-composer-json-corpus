@@ -1,0 +1,28 @@
+{
+  "name": "staempfli/magento2-module-gdpr",
+  "description": "Magento 2 General Data Protection Regulation Suite",
+  "require": {
+    "php": "^7.0|^7.1",
+    "magento/framework": "~100.1|~101.0",
+    "staempfli/magento2-module-cookie-consent": "^1.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Marcel Hauri",
+      "email": "marcel.hauri@staempfli.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Staempfli\\Gdpr\\": ""
+    }
+  }
+}

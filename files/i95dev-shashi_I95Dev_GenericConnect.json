@@ -1,0 +1,31 @@
+{
+    "name": "i95dev/module-genericconnect",
+    "description": "",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "I95Dev",
+            "email": "info@i95dev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"type": "magento2-module",
+    "require": {
+	 "php": ">=5.3.0",
+        "ext-soap": "*",
+        "ext-SimpleXML": "*",
+        "ext-openssl": "*",
+        "paragonie/random_compat": "^2.0"
+	},
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "I95Dev\\GenericConnect\\": "",
+            "NetSuite\\": "lib/"
+        },
+        "files": [
+            "registration.php",
+			"lib/includes/functions.php"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "dilanjan/custom-catalog",
+    "description": "Custom Catalog module by Dilanjan",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "100.23.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dilanjan\\CustomCatalog\\": ""
+        }
+    }
+}
+

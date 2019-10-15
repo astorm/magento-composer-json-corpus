@@ -1,0 +1,37 @@
+{
+  "name": "creaminternet/module-dutchshop",
+  "description": "Cream Module DutchShop",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Cream\\DutchShop\\": "src"
+    }
+  },
+  "require": {
+    "magento/framework": ">=100.0.0",
+    "creaminternet/language-nl_nl": "@stable",
+    "creaminternet/language-modules-nl_nl": "@stable"
+  },
+  "require-dev": {
+    "magento/marketplace-eqp": "~1.0.0",
+    "squizlabs/php_codesniffer": "~2.6.1",
+    "phpunit/phpunit": "~4.1.0"
+  },
+  "repositories": {
+    "cream": {
+      "type": "composer",
+      "url": "https://repo.cream.nl/repo/private/"
+    },
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  }
+}

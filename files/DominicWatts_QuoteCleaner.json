@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/quotecleaner",
+    "description": "Allows you to clean up the quote tables in a scheduler task.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "version": "1.0.3",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xigen\\QuoteCleaner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

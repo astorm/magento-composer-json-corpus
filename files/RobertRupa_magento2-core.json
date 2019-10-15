@@ -1,0 +1,30 @@
+{
+  "name": "robertrupa/magento2-core",
+  "description": "Core module to use with other modules from Robert Rupa",
+  "keywords": ["magento", "magento2 extension", "magento 2 extension", "extension", "module", "magento2 module", "magento 2 module"],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "homepage": "https://github.com/RobertRupa/magento2-core",
+  "authors": [{
+    "name": "Robert Rupa",
+    "email": "office@konatsu.pl"
+  }],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "RobertRupa\\Core\\": ""
+    }
+  }
+}

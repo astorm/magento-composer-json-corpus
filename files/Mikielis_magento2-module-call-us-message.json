@@ -1,0 +1,20 @@
+{
+  "name": "mikielis/magento2-module-call-us-message",
+  "description": "Call us message on product page when item is out of stock, Magento 2 module",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "version": "1.0.0",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "authors": [{
+    "name": "Kamil Mikielis",
+    "email": "kamil.mikielis@gmail.com"
+  }],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": { "Mikielis\\StockCallUs\\": "" }
+  }
+}

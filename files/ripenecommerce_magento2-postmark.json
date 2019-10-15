@@ -1,0 +1,39 @@
+{
+    "name": "ripenecommerce/magento2-postmark",
+    "description": "Postmark for Magento 2",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "authors": [
+        {
+            "name": "Szymon Wlodarski",
+            "email": "szymon.wlodarski@polcode.com",
+            "homepage": "http://www.sumoheavy.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Scott Buchanan",
+            "email": "sbuchanan@ripen.com",
+            "homepage": "https://ripen.com",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "support": {
+        "wiki": "https://github.com/ripenecommerce/magento2-postmark/wiki",
+        "forum": "https://github.com/ripenecommerce/magento2-postmark/issues"
+    },
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/framework": "^101.0.8|^102"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ripen\\Postmark\\": ""
+        }
+    }
+}

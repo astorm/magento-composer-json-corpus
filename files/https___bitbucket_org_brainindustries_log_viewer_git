@@ -1,0 +1,20 @@
+{
+  "name": "magezone/magento2-logviewer",
+  "description": "A Magento 2 module with Tracy debug, custom logger, and log view UI",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0|>=7.1.0",
+    "magento/framework": "~100.0",
+    "tracy/tracy": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magezone\\LogViewer\\": ""
+    }
+  }
+}

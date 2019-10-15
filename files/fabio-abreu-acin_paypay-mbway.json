@@ -1,0 +1,22 @@
+{
+  "name": "paypay/mbway",
+  "description": "Modulo Paypay Multibanco",
+  "homepage": "https://www.paypay.pt",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.5.22|~5.6.0|~7.0.0|~7.1.0"
+  },
+  "version": "1.0.30",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+     "Paypay\\Multibanco\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

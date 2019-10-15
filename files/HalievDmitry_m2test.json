@@ -1,0 +1,28 @@
+{
+    "name": "fisha/test",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dmytro Khaliiev",
+            "email": "dima.k@fisha.co.il"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fisha\\Test\\": ""
+        }
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/HalievDmitry/m2test"
+      }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sablesoft/magento2-smsp",
+  "description": "SMSP.BY API Connector",
+  "require": {
+    "php": ">=7.1.0",
+    "sablesoft/magento2-core" : "*",
+    "magento/module-backend"  : "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": ["OSL-3.0"],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {"SableSoft\\Smsp\\": ""}
+  }
+}

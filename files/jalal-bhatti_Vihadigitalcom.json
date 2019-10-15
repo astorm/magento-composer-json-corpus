@@ -1,0 +1,23 @@
+{
+    "name": "vihadigitalcom/banners",
+    "description": "Magento 2 banners extension ",
+	"minimum-stability": "dev",
+    "require": {  
+	    	"magento/framework": "100.1.*",      
+		"magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vihadigitalcom\\Banners\\": ""
+        }
+    }
+}

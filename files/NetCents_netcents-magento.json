@@ -1,0 +1,27 @@
+{
+  "name": "netcentstechnologyinc/merchant",
+  "description": "NetCents Magento 2",
+  "repositories": [
+    { "type": "composer", "url": "https://packagist.org" },
+    {"type": "composer", "url": "https://repo.magento.com/"}
+  ],
+  "authors": [
+    {
+      "name": "NetCents Technology Inc.",
+      "email": "support@net-cents.com",
+      "homepage": "https://www.net-cents.com",
+      "role": "Software Developer"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.1.7",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "NetCents\\Merchant\\": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "julio.com/intelisis"
+	,"version": "0.0.1"
+	,"description": "An integration between Intelisis ERP and julio.com (Magento 2)"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/julio-com/intelisis"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"julio.com/core": ">=0.0.3", "mage2pro/core": ">=5.1.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Julio\\Intelisis\\": ""}}
+	,"keywords": ["Magento 2"]
+}

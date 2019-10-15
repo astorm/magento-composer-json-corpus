@@ -1,0 +1,69 @@
+{
+	"name": "mage2pro/yandex-kassa"
+	,"version": "1.1.3"
+	,"description": "Yandex.Kassa (Яндекс.Касса, Yandex.Checkout) integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/yandex-kassa"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.4.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\YandexKassa\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"Yandex"
+		,"Yandex.Kassa"
+		,"Yandex.Money"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+
+		,"Russia"
+		,"Armenia"
+		,"Azerbaijan"
+		,"Belarus"
+		,"Georgia"
+		,"Kazakhstan"
+		,"Kyrgyzstan"
+		,"Latvia"
+		,"Moldova"
+		,"Tajikistan"
+
+		,"Яндекс"
+		,"Яндекс.Деньги"
+		,"Яндекс.Касса"
+		,"модуль"
+		,"модуль для Magento 2"
+		,"модуль оплаты"
+		,"платёжный модуль"
+
+		,"Россия"
+		,"Армения"
+		,"Азербайджан"
+		,"Беларусь"
+		,"Грузия"
+		,"Казахстан"
+		,"Киргизия"
+		,"Кыргызстан"
+		,"Латвия"
+		,"Молдова"
+		,"Таджикистан"
+
+		,"Bank Cards", "Visa", "MasterCard", "Maestro", "Mir"
+		,"E-Money", "Yandex.Money", "WebMoney", "QIWI"
+		,"Online Banking", "Sberbank", "Alfa-Bank", "Promsvyazbank"
+		,"ЕРИП", "Instant Loans", "КупиВкредит", "Tinkoff Bank"
+		,"Direct Carrier Billing", "Beeline", "MegaFon", "MTS", "Tele2", "Cash"
+	]
+}

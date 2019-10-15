@@ -1,0 +1,34 @@
+{
+    "name": "diepxuan/module-autologin",
+    "description": "Autologin module for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "authors": [
+    {
+        "name": "Tran Ngoc Duc",
+        "email": "ductn@diepxuan.com"
+    }],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require":
+    {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/diepxuan/module-autologin.git"
+    }],
+    "autoload":
+    {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4":
+        {
+            "Diepxuan\\Autologin\\": ""
+        }
+    }
+}

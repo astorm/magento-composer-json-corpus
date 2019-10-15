@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-bestseller-widget",
+    "description": "Magento 2 Bestseller Widget",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.0.4",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\BestsellerWidget\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"name": "mage2pro/smtp"
+	,"version": "0.1.5"
+	,"description": "It sends Magento 2 emails via an external SMTP server"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/smtp"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.6.9", "zendframework/zend-mail": ">=2.8.0"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\SMTP\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"EMail"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"SMTP"
+	]
+}

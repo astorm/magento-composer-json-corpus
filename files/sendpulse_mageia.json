@@ -1,0 +1,19 @@
+{
+    "name": "sendpulse/mageia",
+    "autoload": {
+        "psr-4": {"SendPulse\\Mageia\\":""},
+        "files": ["registration.php"]
+    },
+    "description": "Connect SendPulse with Magento",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "support": {
+        "email": "info@sendpulse.com",
+        "wiki": "https://support.sendpulse.com/969532-Knowledge-Base"
+    },
+    "require": {
+    }
+}

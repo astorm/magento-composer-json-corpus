@@ -1,0 +1,28 @@
+{
+  "name": "payex/magento2-payments",
+  "description": "Official PayEx Payments Extension for Magento2",
+  "type": "magento2-module",
+  "version": "1.1.3",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "ext-bcmath": "*",
+    "ext-soap": "*",
+    "ext-json": "*",
+    "payex/payex-sdk-php": "~1.0.2",
+    "aait/php-name-parser": "~1.0.1",
+    "guzzlehttp/guzzle": "^6.2",
+    "ramsey/uuid": "^3.7"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayEx\\Payments\\": ""
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "magenerds/wishlistnotification",
+  "description": "This module gives you an overview of customers' wishlist products",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "100.1.*",
+    "magenerds/dashboard": "^1.0"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magenerds\\WishlistNotification\\": ""
+    }
+  }
+}

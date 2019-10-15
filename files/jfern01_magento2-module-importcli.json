@@ -1,0 +1,28 @@
+{
+    "name": "jfern01/module-importcli",
+    "description": "A console command for importing catalog files. Based on cedricblondeau/magento2-module-catalog-import-command.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "self@josefernandez.me",
+            "name": "Jose Fernandez"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/module-import-export": "100.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jfern01\\ImportCli\\": ""
+        }
+    }
+}

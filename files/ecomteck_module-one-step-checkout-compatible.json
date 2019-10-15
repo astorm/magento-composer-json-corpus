@@ -1,0 +1,14 @@
+{
+    "name": "ecomteck/module-one-step-checkout-compatible",
+    "description": "Magento 2 One Step Checkout Compatible With other extension.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\OneStepCheckoutCompatible\\": ""
+        }
+    }
+}

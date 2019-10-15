@@ -1,0 +1,39 @@
+{
+    "name": "outeredge/magento-category-attribute-module",
+    "description": "Magento Category Attribute Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "hello@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "require-dev": {
+        "magento-ecg/coding-standard": "2.*",
+        "outeredge/coding-standards": "~1.0.0",
+        "squizlabs/php_codesniffer": "2.6.2",
+        "magento/marketplace-eqp": "~1.0.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\CategoryAttribute\\": ""
+        }
+    }
+}

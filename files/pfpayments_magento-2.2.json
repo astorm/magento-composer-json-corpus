@@ -1,0 +1,35 @@
+{
+	"name" : "postfinancecheckout/magento-2-2",
+	"description" : "PostFinance Checkout integration for Magento 2.2",
+	"keywords": [
+		"PostFinance Checkout",
+		"payment",
+		"php",
+		"magento",
+		"magento2",
+		"magento2.2"
+	],
+	"homepage": "https://www.postfinance.ch/checkout/",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "customweb GmbH",
+			"homepage": "https://customweb.com"
+		}
+	],
+	"type" : "magento2-module",
+	"version" : "1.0.61",
+	"require" : {
+		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+		"magento/framework" : "^101.0.2",
+		"postfinancecheckout/sdk": "1.1.16"
+	},
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4": {
+			"PostFinanceCheckout\\Payment\\": ""
+		}
+	}
+}

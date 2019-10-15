@@ -1,0 +1,33 @@
+{
+  "name": "yireo/magento2-react-development",
+  "type": "magento2-module",
+  "version": "16.9.0",
+  "license": "OSL-3.0",
+  "description": "",
+  "keywords": [
+    "composer-installer",
+    "magento"
+  ],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "^100.0|^101.0|^102.0|^103.0",
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "composer/composer": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\ReactDevelopment\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

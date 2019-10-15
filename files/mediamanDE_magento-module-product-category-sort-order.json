@@ -1,0 +1,57 @@
+{
+  "name": "mediaman/module-product-category-sort-order",
+  "description": "Magento 2 module that provides a sort order for category position",
+  "license": "MIT",
+  "type": "magento2-module",
+  "homepage": "http://mediaman.de/",
+  "keywords": [
+    "composer-installer",
+    "magento",
+    "Magento 2 Module",
+    "Magento 2",
+    "product",
+    "category",
+    "sort order",
+    "api",
+    "headless",
+    "mediaman"
+  ],
+  "authors": [
+    {
+      "email": "hello@mediaman.com",
+      "name": "mediaman GmbH"
+    }
+  ],
+  "scripts": {
+    "phpcs": "phpcs --standard=PSR1,PSR2 ./Plugin ./registration.php ",
+    "static-analyse": "phpstan analyse -l 4 -c phpstan.neon ./Plugin ./registration.php",
+    "test": "phpunit -c phpunit.xml",
+    "ci": "composer run phpcs && composer run static-analyse && composer run test"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "magento/framework": "100.*",
+    "magento/module-catalog": "101.*",
+    "magento/zendframework1": "~1.12.16",
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.1.0",
+    "squizlabs/php_codesniffer": "^3.0",
+    "phpstan/phpstan": "^0.7.0"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "autoload": {
+    "files": [
+      "./registration.php"
+    ],
+    "psr-4": {
+      "Mediaman\\ProductCategorySortOrder\\": ""
+    }
+  }
+}

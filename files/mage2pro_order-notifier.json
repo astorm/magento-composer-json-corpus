@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/order-notifier"
+	,"version": "1.0.0"
+	,"description": "The module sends a new order's data to a specified URL in a JSON format."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/order-notifier"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://www.upwork.com/fl/mage2pro"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\OrderNotifier\\": ""}}
+	,"keywords": ["Magento 2"]
+}

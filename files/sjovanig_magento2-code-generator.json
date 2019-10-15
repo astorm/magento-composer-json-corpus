@@ -1,0 +1,19 @@
+{
+    "name": "sjovanig/magento2-code-generator",
+    "description": "Code generator console command.",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sjovanig\\CodeGenerator\\": ""
+        }
+    }
+}

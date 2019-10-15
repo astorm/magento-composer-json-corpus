@@ -1,0 +1,31 @@
+{
+    "name": "veriteworks/fixprice",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "Magento2 extension for Fixing M2.2 price bug.",
+    "version": "1.0.1",
+    "authors":[
+        {
+            "name": "Hirokazu Nishi",
+            "email": "nishi@veriteworks.co.jp",
+            "homepage": "https://veriteworks.co.jp/",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0.2|~7.1.0",
+        "magento/framework": "~101.0",
+        "lib-libxml": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Veriteworks\\FixPrice\\": ""
+        }
+    }
+}

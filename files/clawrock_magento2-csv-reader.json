@@ -1,0 +1,29 @@
+{
+  "name": "clawrock/magento2-csv-reader",
+  "description": "Optimized csv reader.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "^7.1",
+    "magento/framework": ">=101.0.2",
+    "magento/zendframework1": "^1.13"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ClawRock\\CsvReader\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}

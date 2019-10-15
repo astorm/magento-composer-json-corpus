@@ -1,0 +1,41 @@
+{
+    "name": "trash-panda/m2-callable-event-listeners",
+    "description": "Listen to events with plain PHP callable minus any configuration",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aydin Hassan",
+            "email": "aydin@hotmail.co.uk"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "magento/framework": "100.1 - 101.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "^2.8"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "TrashPanda\\CallableEventListeners\\": ""
+        }
+    },
+    "scripts": {
+        "test": [
+            "@cs",
+            "phpunit"
+        ],
+        "cs": "phpcs src",
+        "cs-fix": "phpcbf src",
+        "coverage" : "phpunit --coverage-text"
+    }
+}

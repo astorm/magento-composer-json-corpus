@@ -1,0 +1,47 @@
+{
+	"name": "smiso/flexible-price-rounding",
+	"description": "Rounding prices in Magento 2",
+	"keywords": [
+		"price",
+		"currency",
+		"cent",
+		"round",
+		"rounding",
+		"swedish",
+		"swiss",
+		"francs",
+		"schweizer",
+		"franken",
+		"rappenrunden",
+		"runden"
+	],
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Karliuka Vitalii",
+			"email": "karliuka.vitalii@gmail.com"
+		},
+		{
+			"name": "Daniel Kradolfer",
+			"email": "kra@smilesolutions.ch",
+			"homepage": "https://smilesolutions.ch"
+		}
+	],
+	"license": [
+		"OSL-3.0"
+	],
+	"require": {
+		"magento/module-directory": "*",
+		"magento/module-sales-rule": "*",
+		"magento/module-tax": "*"
+	},
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"SmileSolutions\\FlexiblePriceRounding\\": ""
+		}
+	}
+}

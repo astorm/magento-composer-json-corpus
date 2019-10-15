@@ -1,0 +1,27 @@
+{
+    "name" : "codisto/codisto-connect",
+    "description" : "Codisto LINQ Magento 2 Extension",
+    "type" : "magento2-module",
+    "version" : "1.91.33",
+    "license" : [
+        "OSL-3.0"
+    ],
+    "require" : {
+        "php": ">=5.5",
+        "magento/framework" : "~100|~101|~102",
+        "ext-pdo_sqlite": "*"
+    },
+    "autoload" : {
+        "files" : [ "registration.php" ],
+        "psr-4" : {
+            "Codisto\\Connect\\" : ""
+        }
+    },
+    "authors" : [
+        {
+            "name" : "Codisto",
+            "homepage" : "https://codisto.com/connect/",
+            "role" : "developer"
+        }
+    ]
+}

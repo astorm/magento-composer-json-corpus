@@ -1,0 +1,41 @@
+{
+    "name": "blackbird/module-logger-sample",
+    "description": "Demo Module for Custom Logger with Magento 2.",
+    "require": {
+        "magento/framework": ">=100.0.0",
+        "monolog/monolog": "^1.16.0"
+    },
+    "keywords": [        
+        "php",
+        "magento",
+        "magento2",
+        "sample",
+        "logger"
+    ],
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://github.com/blackbird-agency/magento-2-logger-example",
+    "authors": [
+        {
+            "name": "Blackbird Team",
+            "email": "hello@bird.eu",
+            "homepage": "https://black.bird.eu/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blackbird-agency/magento-2-logger-example",
+        "issues": "https://github.com/blackbird-agency/magento-2-logger-example/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\LoggerSample\\": ""
+        }
+    }
+}

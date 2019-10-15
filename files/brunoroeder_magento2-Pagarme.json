@@ -1,0 +1,39 @@
+{
+    "name": "roeder/pagarme",
+    "description": "Pagarme module for Magento 2",
+    "version": "1.0.1",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+        "keywords": [
+            "pagar.me",
+            "pagarme",
+            "magento 2",
+            "pagarme magento 2",
+            "magento 2 module",
+            "magento 2 payment module",
+            "magento2-module"
+    ],
+    "authors": [
+    {
+        "email": "contato@brunoroeder.com.br",
+        "name": "Bruno Roeder"
+    }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "*",
+        "pagarme/pagarme-php":"*"
+        },
+        "autoload": {
+            "files": [
+            "registration.php",
+            "PagarMe.php"
+            ],
+            "psr-4": {
+                "Roeder\\Pagarme\\": ""
+            }
+        }
+    }

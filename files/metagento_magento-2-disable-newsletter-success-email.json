@@ -1,0 +1,28 @@
+{
+    "name": "metagento/disable-newsletter-success-magento2",
+    "description": "This Magento 2 extension helps store owner to disable newsletter subscription success email",
+    "require": {
+		"metagento/core-m2":"*"
+    },
+    "type": "magento2-module",
+    "license": [
+		"OSL-3.0"
+    ],
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "metagento",
+            "email": "support@metagento.com",
+            "homepage": "https://www.metagento.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Metagento\\DisableNewsletterSuccess\\": ""
+        }
+    }
+}

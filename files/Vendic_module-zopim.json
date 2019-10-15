@@ -1,0 +1,28 @@
+{
+    "name": "vendic/module-zopim",
+    "description": "Zopim module for Magento 2",
+    "version": "1.1.0",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "^7.0 || ^7.1 || ^7.2",
+        "magento/framework": "*",
+        "magento/module-require-js": "*"
+    },
+    "authors":[
+        {
+            "name":"Tjitse Efde",
+            "email":"Tjitse@vendic.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendic\\Zopim\\": ""
+        }
+    }
+}

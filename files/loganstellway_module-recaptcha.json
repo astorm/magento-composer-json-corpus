@@ -1,0 +1,13 @@
+{
+    "name": "thoughtfully/module-recaptcha",
+    "description": "Google Recaptcha integration for Magento 2",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Thoughtfully\\Recaptcha\\": ""
+        }
+    }
+}

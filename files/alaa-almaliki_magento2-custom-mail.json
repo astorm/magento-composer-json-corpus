@@ -1,0 +1,15 @@
+{
+  "name": "alaa/magento2-custom-mail",
+  "description": "Magento2 Custom Mail",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Alaa\\HeadFooterScripts\\": ""
+    }
+  }
+}

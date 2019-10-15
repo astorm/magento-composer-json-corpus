@@ -1,0 +1,16 @@
+{
+  "name": "photoslurp/pswidget",
+  "description": "photoslurp pswidget",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Photoslurp\\Pswidget\\": ""
+    }
+  },
+  "type": "magento2-module",
+  "version": "3.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ]
+}

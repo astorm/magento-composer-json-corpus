@@ -1,0 +1,16 @@
+{
+  "name": "swiftotter/shipping-surcharge",
+  "description": "A Magento 2 module that adds a shipping surcharge to order total.",
+  "require": {
+    "php": "~5.6.0|^7.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SwiftOtter\\ShippingSurcharge\\": ""
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "foxycom/adroll",
+    "description": "Adroll Tracking by Foxycom",
+    "version": "1.0.6",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "authors": [
+    {
+      "name": "foxycom",
+      "email": "support@foxycom.com",
+      "homepage": "https://foxycom.com/",
+      "role": "Developer"
+    }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Foxycom\\Adroll\\": ""
+        }
+    },
+    "require": {
+        "php": "~5.6.0|~7.0.0",
+        "magento/module-store": "^100.1.2",
+        "magento/module-sales": "^100.1.2",
+        "magento/framework": "^100.1.2",
+        "magento/module-cookie": "^100.1.1",
+        "magento/module-catalog": "^101.0.1"
+    }
+}

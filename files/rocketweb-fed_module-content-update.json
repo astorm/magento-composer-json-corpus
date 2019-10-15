@@ -1,0 +1,23 @@
+{
+    "name": "rocketweb/module-content-update",
+    "description": "Module for creating and updating static content using data scripts.",
+    "type": "magento2-module",
+    "require": {
+        "php": "~5.5|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Rocket Web Inc.",
+            "email": "info@rocketweb.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RocketWeb\\UpgradeData\\": ""
+        }
+    }
+}

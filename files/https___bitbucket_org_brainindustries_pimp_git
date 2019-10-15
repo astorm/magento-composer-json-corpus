@@ -1,0 +1,28 @@
+{
+    "name": "shirtplatform/pimp",
+    "description": "Magento 2 module that adds support for shirtplatform PIMP products",
+    "type": "magento2-module",    
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {    
+        "php": "~5.6.0|~7.0.0|>=7.1.0",
+        "magento/framework": "~100.0|~101.0",
+        "shirtplatform/core": "^0.1",
+        "shirtplatform/creator": "^0.1"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Shirtplatform\\Pimp\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Britka",
+            "email": "pbritka@poweroftwo.sk",            
+            "role": "Developer"
+        }        
+    ]
+}

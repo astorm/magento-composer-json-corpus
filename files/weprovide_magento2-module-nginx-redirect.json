@@ -1,0 +1,22 @@
+{
+    "name": "weprovide/module-nginxredirect",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "mike@weprovide.com",
+            "name": "Mike Oerlemans"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeProvide\\NginxRedirect\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

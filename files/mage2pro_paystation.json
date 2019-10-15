@@ -1,0 +1,32 @@
+{
+	"name": "mage2pro/paystation"
+	,"version": "0.0.8"
+	,"description": "Paystation integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/paystation"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.4.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Paystation\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"New Zealand"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Malaysia"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Paystation"
+	]
+}

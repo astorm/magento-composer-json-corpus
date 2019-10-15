@@ -1,0 +1,18 @@
+{
+  "name": "vmasciotta/m2-print-order-pdf-frontend",
+  "description": "Print the order as a pdf in customer dashboard",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "version": "103.1.3",
+  "require": {
+    "fooman/printorderpdf-implementation-m2": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vmasciotta\\PrintOrderPdf\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

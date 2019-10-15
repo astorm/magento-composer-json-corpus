@@ -1,0 +1,25 @@
+{
+	"name": "mage2pro/yandex-market"
+	,"version": "0.0.1"
+	,"description": "Яндекс.Маркет integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/yandex-market"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.7.14"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\YandexMarket\\": ""}}
+	,"keywords": [
+		"Яндекс.Маркет"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Marketplace"
+	]
+}

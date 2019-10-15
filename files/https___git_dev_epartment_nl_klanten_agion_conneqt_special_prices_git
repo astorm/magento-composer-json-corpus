@@ -1,0 +1,37 @@
+{
+    "name": "agion/m2-special-prices",
+    "description": "AGION Special Prices module for Conneqt",
+    "require": {
+        "magento/framework": ">=101.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AGION B.V.",
+            "email": "support@agion.nl",
+            "homepage": "https://www.agion.nl"
+        }
+    ],
+    "support": {
+        "email": "support@agion.nl",
+        "issues": "https://git.dev.epartment.nl/agion/m2-special-prices/issues"
+    },
+    "homepage": "https://www.agion.nl",
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Agion\\SpecialPrices\\": ""
+        }
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "sequra/magento2-partpayments",
+    "description": "SeQura Part Payments Payment Method",
+    "type": "magento2-module",
+    "keywords": [
+        "payment",
+        "sequra",
+        "pagos",
+        "magento2"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SeQura Engineering",
+            "email": "dev@sequra.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sequra/magento2-core": "~2.3"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sequra\\Partpayments\\": ""
+        }
+    }
+}

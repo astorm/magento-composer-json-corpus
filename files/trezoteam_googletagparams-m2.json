@@ -1,0 +1,22 @@
+{
+    "name": "trezo/module-googletagparams",
+    "description": "Module for implement google tag params into your Magento store",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "suporte@trezo.com.br",
+            "name": "#TrezoTeam"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Trezo\\GoogleTagParams\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

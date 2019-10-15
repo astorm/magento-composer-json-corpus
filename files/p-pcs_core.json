@@ -1,0 +1,17 @@
+{
+	"name": "p-pcs/core"
+	,"version": "0.0.6"
+	,"description": "A custom module for performance-pcs.com (Magento 2)"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/p-pcs/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=5.2.7"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"PPCs\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "elgentos/falcon-mollie",
+    "description": "Mollie implementation for Deity Falcon",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "magento/framework": "*",
+        "mollie/magento2": "^1.5",
+        "deity/falcon-magento": "*",
+        "php": "^7.0",
+        "jakeasmith/http_build_url": "^1.0.1"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elgentos\\FalconMollie\\": ""
+        }
+    }
+}

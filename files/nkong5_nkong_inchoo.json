@@ -1,0 +1,21 @@
+{
+    "name": "inchoo/module-helloworld",
+    "description": "Test module for Magento 2",
+    "version": "0.0.1",
+    "minimum-stability":"beta",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+	"magento/product-community-edition": "2.1.2"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "autoload": {
+    	"files": [ "registration.php" ],
+    	"psr-4": {
+      	  "Inchoo\\Helloworld\\": ""
+  	}
+    }
+}

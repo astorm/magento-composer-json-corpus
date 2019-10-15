@@ -1,0 +1,17 @@
+{
+  "name": "ibrahimch/m2-module-uikit",
+  "description": "Module Divante Uikit for Divante Rapid theme",
+  "license": [
+    "MIT"
+  ],
+  "type": "magento2-module",
+  "version": "1.2.7",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Divante\\Uikit\\": ""
+    }
+  }
+}

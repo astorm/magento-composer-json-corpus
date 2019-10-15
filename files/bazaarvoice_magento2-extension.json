@@ -1,0 +1,17 @@
+{
+  "name": "bazaarvoice/bazaarvoice-magento2-ext",
+  "description": "Bazaarvoice Magento 2 Integration Extension",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "version": "8.1.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bazaarvoice\\Connector\\": ""
+    }
+  }
+}

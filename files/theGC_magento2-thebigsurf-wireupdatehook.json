@@ -1,0 +1,17 @@
+{
+    "name": "the-big-surf/wire-update-hook",
+    "description": "Wire Update Hook",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TheBigSurf\\WireUpdateHook\\": ""
+        }
+    }
+}

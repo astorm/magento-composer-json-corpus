@@ -1,0 +1,15 @@
+{
+    "name": "styla/magento2-connect",
+    "description": "A Magento 2 Styla Magazine support",
+    "type": "magento2-module",
+    "version": "2.1.1",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Styla\\Connect2\\": ""
+        }
+    }
+}

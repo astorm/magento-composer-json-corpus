@@ -1,0 +1,26 @@
+{
+    "name": "dexamage/dexa-indexer",
+    "description": "Reindex from Backend",
+    "keywords": [
+        "Magento 2",
+        "Indexer",
+        "Reindex from Backend"
+    ],
+    "require": {
+        "magento/framework": "100.0.*|100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "213.1.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dexa\\Indexer\\": ""
+        }
+    }
+}

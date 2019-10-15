@@ -1,0 +1,35 @@
+{
+    "name": "scandipwa/sitemap",
+    "type": "magento2-module",
+    "description": "ScandiPWA sitemap module",
+    "keywords": [
+        "magento2",
+        "scandipwa",
+        "pwa",
+        "sitemap"
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "support": {
+        "email": "info@scandiweb.com"
+    },
+    "authors": [
+        {
+            "name": "Ilja Lapkovskis",
+            "email": "ilja@scandiweb.com"
+        }
+    ],
+    "require": {
+        "magento/magento2-base": "^2.3",
+        "scandipwa/source": "^1.0|^2.0"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\Sitemap\\": "src"
+        }
+    }
+}

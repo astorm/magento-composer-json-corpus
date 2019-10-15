@@ -1,0 +1,46 @@
+{
+  "name": "patworx/santander-magento-2",
+  "description": "The official Santander Payment Solutions package",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "magento/module-config": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-store": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-checkout": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-sales": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-quote": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-customer": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-payment": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/module-backend": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "magento/framework": "^100.0.0 | ^101.0.0 | ^102.0.0",
+    "heidelpay/php-basket-api": "~1.0",
+    "heidelpay/php-payment-api": "~1.4"
+  },
+
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.2.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SantanderPaymentSolutions\\SantanderPayments\\": ""
+    }
+  },
+  "support": {
+    "email": "service@patworx.de"
+  },
+  "homepage": "https://www.patworx.de/santander/",
+  "keywords": [
+    "payment",
+    "santander",
+    "magento2",
+    "magento"
+  ]
+}

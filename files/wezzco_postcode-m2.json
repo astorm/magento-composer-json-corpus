@@ -1,0 +1,23 @@
+{
+  "name": "wezz/postcodem2",
+  "description": "Postcode.nl Magento 2 Extension",
+   "authors": [
+        {
+            "name": "Wezz e-Commerce B.V.",
+            "email": "info@wezz.co",
+            "homepage": "http://www.wezz.co"
+        }
+  ],
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "require": {
+    "php": "~5.6.0|~7.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Wezz\\Postcode\\": ""
+    }
+  }
+} 

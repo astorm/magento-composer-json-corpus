@@ -1,0 +1,22 @@
+{
+  "name": "herve/cms-install",
+  "description": "Sample for installing CMS pages and blocks",
+  "require": {
+    "php": "7.0.2|~7.0.6",
+    "magento/framework": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Herve\\CmsInstall\\": ""
+    }
+  }
+}

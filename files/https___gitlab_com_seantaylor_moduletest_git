@@ -1,0 +1,17 @@
+{
+    "name": "seantaylorgmi/test",
+    "description": "Seantaylorgmi Test",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "require": {
+      "php": "7.1.18",
+      "magento/framework": "~100.0.4"
+    },
+    "autoload": {
+      "files": [ "registration.php" ]
+    }
+}

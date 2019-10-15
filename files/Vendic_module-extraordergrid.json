@@ -1,0 +1,20 @@
+{
+    "name": "vendic/module-extraordergrid",
+    "description": "Magento 2 module that provides you with an extra order grid in the admin backend. You can give the grid a custom name and configure what order statuses to show.",
+    "require": {
+        "php": "~7.1.0|~7.2.0|~7.3.0",
+        "magento/module-sales": "^101.0.0|^102.0.0",
+        "magento/magento2-base": "~2.2|~2.3"
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendic\\ExtraOrderGrid\\": ""
+        }
+    }
+}

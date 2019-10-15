@@ -1,0 +1,33 @@
+{
+    "name": "prateekkarki/module-cmsbanner",
+    "description": "Magento 2 extension for adding banners to cms pages",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "pratiek.karki@gmail.com",
+            "name": "Prateek Karki"
+        }
+    ],
+    "keywords": ["magento2", "cms", "banner"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": ">=101.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrateekKarki\\Cmsbanner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

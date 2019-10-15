@@ -1,0 +1,19 @@
+{
+  "name": "zeloc/envinfo",
+  "description": "Display usefull environemnt data",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "mit"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Zeloc\\EnvInfo\\": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "mage2pro/facebook-login"
+	,"version": "1.4.0"
+	,"description": "The «Facebook Login» extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/facebook-login"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.6.8", "mage2pro/facebook": ">=1.0.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\FacebookLogin\\": ""}}
+	,"keywords": [
+		"Authentication"
+		,"eCommerce"
+		,"Facebook"
+		,"Facebook API"
+		,"Facebook Login"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"OAuth2"
+		,"Single sign-on"
+	]
+}

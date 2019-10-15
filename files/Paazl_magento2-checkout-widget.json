@@ -1,0 +1,25 @@
+{
+  "name": "paazl/magento2-checkout-widget",
+  "description": "Paazl checkoutWidget for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.8",
+  "keywords": [
+    "Paazl",
+    "Magento 2",
+    "checkoutWidget",
+    "checkout widget"
+  ],
+  "homepage": "https://github.com/paazl/magento2-checkout-widget",
+  "require": {
+    "magento/framework": ">=100.1.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Paazl\\CheckoutWidget\\": ""
+    }
+  }
+}

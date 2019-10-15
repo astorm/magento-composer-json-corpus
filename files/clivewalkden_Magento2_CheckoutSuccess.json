@@ -1,0 +1,25 @@
+{
+  "name": "clivewalkden/magento2-checkoutsuccess",
+  "description": "A plugin for Magento 2 that keeps the Checkout Success page visible for styling on refresh",
+  "type": "magento2-module",
+  "homepage": "https://github.com/clivewalkden/Magento2_CheckoutSuccess",
+  "authors": [
+    {
+      "name": "Clive Walkden",
+      "email": "clivewalkden@gmail.com",
+      "homepage": "https://clivewalkden.co.uk"
+    }
+  ],
+  "license": "OSL-3.0",
+  "require": {
+    "magento/framework": ">=100.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CliveWalkden\\CheckoutSuccess\\": ""
+    }
+  }
+}

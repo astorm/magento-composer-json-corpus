@@ -1,0 +1,21 @@
+{
+    "name": "pillbox/elasticsuite-son",
+    "description": "Pillbox Elastic - Sonassi",
+    "require": {
+        "elasticsearch/elasticsearch": "^2.2.3",
+        "smile/elasticsuite": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pillbox\\ElasticSuite\\": ""
+        }
+    }
+}

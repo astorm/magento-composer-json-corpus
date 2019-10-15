@@ -1,0 +1,26 @@
+{
+  "name": "asaplog/cotacao",
+  "description": "Cotação de Frete da ASAP Log para Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+  ],
+  "require": {
+  },
+  "authors": [
+    {
+      "name": "Felipe Bocolowski",
+      "email": "fbocolowski@gmail.com",
+      "homepage": "https://asaplog.com.br/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ASAPLog\\Cotacao\\": ""
+    }
+  }
+}

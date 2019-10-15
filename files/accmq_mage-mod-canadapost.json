@@ -1,0 +1,19 @@
+{
+    "name": "accmq/module-canadapost",
+    "description": "N/A",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/framework": "101.0.*",
+        "lib-libxml": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ACCMQ\\CanadaPost\\": ""
+        }
+    }
+}

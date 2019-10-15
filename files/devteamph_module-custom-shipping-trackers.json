@@ -1,0 +1,29 @@
+{
+  "name": "devteamph/module-custom-shipping-trackers",
+  "description": "Magento 2 Custom Shipping Trackers",
+  "version": "1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "type": "magento2-module",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DevTeam\\CustomShippingTrackerss\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Chris Islan",
+      "email": "chris@devteam.com",
+      "homepage": "https://www.devteam.com",
+      "role": "Developer"
+    }
+  ]
+}

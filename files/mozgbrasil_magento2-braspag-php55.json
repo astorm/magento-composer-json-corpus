@@ -1,0 +1,42 @@
+{
+    "name": "mozgbrasil/magento2-braspag-php55",
+    "description": "Integração a Braspag",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": ["cerebrum", "mozg", "magento2", "payments", "pagamentos", "braspag", "debito", "crédito"],
+    "homepage": "http://mozg.com.br",
+    "time": "2016-05-17 15:25:44",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mozg",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento2-braspag-php55/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/magento2-braspag-php55",
+        "docs": "https://github.com/mozgbrasil/magento2-braspag-php55/wiki"
+    },
+    "require" : {
+        "mozgbrasil/magento2-base-php55": "*",
+        "braspag/braspagapiphpsdk": "*"
+    },
+    "suggest": {
+        "mozgbrasil/magento2-base-php55": "Este módulo é requerido como base aos demais módulos da Mozg"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mozg\\Braspag\\": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "biren/magento2-crud-module",
+    "description": "Crud module using composer!",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Biren/Crudimage"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Biren Patel",
+            "role": "Developer"
+        }
+    ]
+}

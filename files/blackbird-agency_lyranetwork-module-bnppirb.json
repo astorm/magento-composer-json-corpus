@@ -1,0 +1,24 @@
+{
+    "name" : "blackbird/module-lyranetwork-bnppirb",
+    "description" : "BNPP IRB payment platform integration for Magento 2",
+    "require" : {
+        "magento/framework": ">=100.0.0",
+        "magento/module-config": ">=100.2.0",
+        "magento/module-directory": ">=100.0.2",
+        "magento/module-payment": ">=100.0.2",
+        "magento/module-checkout": ">=100.0.0",
+        "magento/module-quote": ">=100.0.2",
+        "magento/module-sales": ">=100.0.2"
+    },
+    "type" : "magento2-module",
+    "version" : "2.3.2",
+    "license" : "OSL-3.0",
+    "autoload" : {
+        "files" : [
+            "registration.php"
+        ],
+        "psr-4" : {
+            "Lyranetwork\\Bnppirb\\" : ""
+        }
+    }
+}

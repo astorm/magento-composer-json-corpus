@@ -1,0 +1,26 @@
+{
+    "name": "magentochile/module-webpay",
+    "description": "Accept payments using Webpay Plus Webservices",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*",
+        "magento/module-sales": "*",
+        "magento/module-payment": "*",
+        "magento/module-quote": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magentochile\\Webpay\\": ""
+        }
+    }
+}

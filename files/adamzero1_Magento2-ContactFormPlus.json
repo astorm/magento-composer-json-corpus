@@ -1,0 +1,27 @@
+{
+    "name": "zero1/magento2-contact-form-plus",
+    "description": "Magento 2 module to allow storage and management of submitted contact forms",
+    "require": {
+        "php": "~5.4.11|~5.5.0",
+        "magento/magento-composer-installer": "*",
+        "magento/module-contact": "1.0.0-beta"
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "keywords": [
+        "magento2",
+        "magento 2",
+        "contact forms",
+        "Zero1",
+        "magento2 module",
+        "magento2 modules"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Zero1/ContactFormPlus"
+            ]
+        ]
+    }
+}

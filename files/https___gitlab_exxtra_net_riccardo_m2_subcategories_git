@@ -1,0 +1,24 @@
+{
+  "name": "exxtra/sub-categories",
+  "description": "This module haalt alle categorieën en sub-categorieën op",
+  "require": {
+    "php": "7.0.2|~7.0.6|^7.1.0|^7.2.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Riccardo Finkers",
+      "email": "riccardo@exxtra.nl",
+      "homepage": "https://www.exxtra.nl"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Exxtra\\Subcategories\\": ""
+    }
+  }
+}

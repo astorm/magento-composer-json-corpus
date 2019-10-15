@@ -1,0 +1,30 @@
+{
+  "name": "shaligram/module-catewithimg-widget",
+  "description": "Magento 2 sample extension",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "mageplaza/core-m2": "dev-master"
+  },
+  "type": "magento2-module",
+  "minimum-stability": "dev",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Tridhya",
+      "homepage": "https://www.tridhyatech.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Shaligram\\CatewithimgWidget\\": ""
+    }
+  }
+}

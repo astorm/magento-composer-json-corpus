@@ -1,0 +1,20 @@
+{
+    "name": "siel/acumulus-ma2",
+    "description": "Integrates with your Siel Acumulus online administration",
+    "type": "magento2-module",
+    "version": "5.7.3",
+    "license": [
+        "GPL-3.0"
+    ],
+    "require": {
+        "siel/acumulus": "^5.7.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Siel\\AcumulusMa2\\": ""
+        }
+    }
+}

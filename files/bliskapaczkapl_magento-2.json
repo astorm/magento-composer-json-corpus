@@ -1,0 +1,35 @@
+{
+    "name": "sendit/bliskapaczka-magento-2",
+    "description": "",
+    "require": {
+        "php": "~7.1",
+        "magento/product-community-edition": "~2.1",
+        "bliskapaczkapl/bliskapaczka-api-client": "^3.2"
+    },
+    "authors": [
+        {
+            "name": "Marcin Dykas",
+            "email": "mdykas@divante.pl"
+        },
+        {
+            "name": "Mateusz Koszutowski",
+            "email": "mkoszutowski@divante.pl"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "0.1.3",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sendit\\Bliskapaczka\\": ""
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}

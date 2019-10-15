@@ -1,0 +1,34 @@
+{
+	"name": "mage2pro/omise"
+	,"version": "1.12.3"
+	,"description": "Omise integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/omise"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.11.0", "omise/omise-php": "^2.5.0"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Omise\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Japan"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Omise"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"Thailand"
+	]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "divante-ltd/magento2-gtm",
+  "description": "Google Tag Manager module for Magento 2",
+  "keywords": [
+    "gtm",
+    "google tag manager",
+    "magento 2",
+    "divante"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Adam Sprada",
+      "email": "adam@sprada.pl"
+    }
+  ],
+  "require": {
+    "php": "~5.6.5|7.0.2|~7.0.6",
+    "magento/module-google-analytics": "100.1.*",
+    "magento/module-store": "100.1.*",
+    "magento/framework": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Divante\\GoogleTagManager\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

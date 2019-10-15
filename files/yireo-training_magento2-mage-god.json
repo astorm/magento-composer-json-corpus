@@ -1,0 +1,33 @@
+{
+  "name": "yireo-training/magento2-mage-god",
+  "type": "magento2-module",
+  "version": "0.0.2",
+  "license": "OSL-3.0",
+  "description": "",
+  "keywords": [
+    "composer-installer",
+    "magento"
+  ],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "*",
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "composer/composer": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\MageGod\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

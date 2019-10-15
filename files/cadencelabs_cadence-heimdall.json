@@ -1,0 +1,29 @@
+{
+    "name": "cadence/heimdall",
+    "description": "Magento 2 Multi-Factor Authentication",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "keywords": ["Magento", "Magento 2", "Magento 2 MFA", "Magento 2 TFA", "Magento 2 Multi-Factor", "Magento Authenticator" ],
+    "version": "1.0.5",
+    "authors":[
+        {
+            "name": "Alan Barber",
+            "homepage": "https://www.cadence-labs.com",
+            "email": "info@cadence-labs.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "robthree/twofactorauth": "1.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cadence\\Heimdall\\": ""
+        }
+    }
+}

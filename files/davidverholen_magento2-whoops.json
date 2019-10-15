@@ -1,0 +1,19 @@
+{
+  "name": "davidverholen/mage2-whoops",
+  "description": "Whoops Integration for Magento2",
+  "require": {
+    "filp/whoops": "^2.0.0",
+    "magento/framework": "^100.0.0",
+    "php": "^5.5.0|^7.0.0"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DavidVerholen\\Whoops\\": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "schumacherfm/mage2-pace",
+    "description": "Magento2 Automatic page load progress bar for the backend and frontend.",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "v0.2.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SchumacherFM\\Pace\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Cyrill Schumacher",
+            "homepage": "http://cyrillschumacher.com/",
+            "role": "Developer"
+        }
+    ]
+}

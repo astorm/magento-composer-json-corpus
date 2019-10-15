@@ -1,0 +1,16 @@
+{
+    "name": "medialounge/disabled-products-redirect",
+    "description": "Redirects disabled products to their first parent category.",
+    "require": {
+        "php": "^7.0"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [ "OSL-3.0" ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MediaLounge\\DisabledProductsRedirect\\": ""
+        }
+    }
+}

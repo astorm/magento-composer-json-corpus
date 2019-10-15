@@ -1,0 +1,17 @@
+{
+    "name": "scandiweb/module-core",
+    "description": "Scandiweb Core module for Magento 2 extensions.",
+    "type": "magento2-module",
+    "version": "0.1.4",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Scandiweb\\Core\\": ""
+        }
+    }
+}

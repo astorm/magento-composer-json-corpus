@@ -1,0 +1,37 @@
+{
+  "name": "raguvis/magento2-currency-import",
+  "description": "Enables currency import from https://exchangeratesapi.io or other compatible APIs",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^7.0.0",
+    "magento/module-config": "*",
+    "magento/module-store": "*",
+    "magento/module-backend": "*",
+    "magento/module-directory": "*",
+    "magento/framework": "*"
+  },
+  "require-dev": {
+    "phpro/grumphp": "*",
+    "squizlabs/php_codesniffer" : "*",
+    "roave/security-advisories" : "dev-master@dev",
+    "friendsofphp/php-cs-fixer": "~1.10"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Raguvis\\CurrencyImport\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Valdemaras Zilys",
+      "email": "valdemaras.zilys@gmail.com"
+    }
+  ]
+}

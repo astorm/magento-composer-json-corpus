@@ -1,0 +1,29 @@
+{
+    "name": "joostvanveen/rollbarlogger",
+    "version": "0.2.2",
+    "description": "Logs Magento 2 errors and exceptions to Rollbar.com.",
+    "homepage": "https://github.com/joostvanveen/rollbarlogger",
+    "type": "magento2-module",
+    "minimum-stability": "beta",
+    "require": {
+        "php": "7.*",
+        "rollbar/rollbar": "^1"
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Joost van Veen",
+            "email": "joost@accentinteractive.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Joostvanveen\\RollbarLogger\\": ""
+        }
+    }
+}

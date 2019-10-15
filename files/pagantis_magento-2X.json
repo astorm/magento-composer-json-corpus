@@ -1,0 +1,52 @@
+{
+  "name": "pagantis/magento-2x",
+  "version": "8.2.2",
+  "description": "Pagantis Magento 2 module",
+  "type": "magento2-module",
+  "keywords": [
+    "api",
+    "rest",
+    "magento",
+    "module",
+    "ecommerce",
+    "payment",
+    "checkout",
+    "credit",
+    "pagantis",
+    "financiar",
+    "financiera",
+    "financiación"
+  ],
+  "homepage": "https://pagantis.com/",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pagantis",
+      "email": "integrations@pagantis.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+      "pagantis/orders-api-client": "^2.0",
+      "pagantis/module-utils": "^2.0"
+  },
+  "require-dev": {
+      "pagantis/selenium-form-utils": "^2.0",
+      "magento/module-sales": "102.0.*",
+      "magento/module-checkout": "100.3.*",
+      "magento/module-payment": "100.3.*",
+      "magento/framework": "102.0.*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Pagantis\\Pagantis\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

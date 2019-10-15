@@ -1,0 +1,16 @@
+{
+    "name": "wearejh/m2-core-bug-configurable-get-sub-products",
+    "description": "JH M2 Core Bug Fix - Configurable products get sub-products fails when a sub-prodct is OOS",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jh\\CoreBugConfigurableGetSubProducts\\": ""
+        }
+    }
+}

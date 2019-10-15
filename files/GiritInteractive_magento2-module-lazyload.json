@@ -1,0 +1,37 @@
+{
+    "name": "girit/magento2-module-lazyload",
+    "description": "Magento 2 LazyLoad module by Girit Interactive",
+    "type": "magento2-module",
+    "version": "1.0.8",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/framework": "100.* | 101.*",
+        "girit/magento2-module-core": "*",
+        "simple-html-dom/simple-html-dom": "*"
+    },
+    "authors": [{
+        "name": "Pniel Cohen (Girit Interactive)",
+        "email": "pini@girit.biz",
+        "role": "Developer",
+        "homepage": "https://www.girit-tech.com/"
+    }],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Girit\\LazyLoad\\": ""
+        },
+        "classmap": [
+            "../../../vendor/simple-html-dom/simple-html-dom/"
+        ]
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/Youpie/simple-html-dom"
+    }]
+}

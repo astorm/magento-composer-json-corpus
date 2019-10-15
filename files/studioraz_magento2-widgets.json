@@ -1,0 +1,25 @@
+{
+  "name" : "studioraz/magento2-widgets",
+  "description" : "Magento 2 module for Gazit integration.",
+  "type" : "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Raz",
+      "email": "support@studioraz.co.il"
+    }
+  ],
+  "require": {
+    "php": "~7.0|~7.1|~7.2",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SR\\Widgets\\": ""
+    }
+  }
+}

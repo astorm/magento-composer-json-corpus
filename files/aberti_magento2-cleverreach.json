@@ -1,0 +1,22 @@
+{
+  "name": "aberti/magento2-cleverreach",
+  "description": "CleverReach® extension offers synchronization of your newsletter subscribers and customers with CleverReach® subscription groups.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "CleverReach GmbH & Co. KG"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Logeecom\\CleverReach\\": ""
+    }
+  }
+}

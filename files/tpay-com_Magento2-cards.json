@@ -1,0 +1,28 @@
+{
+  "name": "tpaycom/magento2cards",
+  "description": "Tpay card payments module",
+  "type": "magento2-module",
+  "version": "1.4.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0",
+    "magento/product-community-edition": "^2.3",
+    "tpay-com/tpay-php": "^2.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "tpaycom\\magento2cards\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "tpay.com",
+      "homepage": "https://tpay.com/"
+    }
+  ]
+}

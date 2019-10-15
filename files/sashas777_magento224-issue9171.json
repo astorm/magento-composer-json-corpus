@@ -1,0 +1,21 @@
+{
+  "name": "sashas/magento224-issue9171",
+  "description": "A Magento 2 module for issue #9171",
+  "homepage": "http://www.extensions.sashas.org/",
+  "type": "magento2-module",
+  "version": "2.0.2",
+  "license": [
+    "GPL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "~101.0.4",
+    "magento/module-catalog-import-export": "100.2.3|100.2.4|100.2.5"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Sashas\\Issue9171\\": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "experius/module-logmanager",
+    "description": "",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "maikel@experius.nl",
+            "name": "Maikel Martens"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Experius\\LogManager\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

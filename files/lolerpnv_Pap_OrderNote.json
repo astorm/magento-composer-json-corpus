@@ -1,0 +1,19 @@
+{
+  "name": "tpap/module-ordernote",
+  "description": "N/A",
+  "require": {
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pap\\OrderNote\\": ""
+    }
+  }
+}

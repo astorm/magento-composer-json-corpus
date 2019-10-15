@@ -1,0 +1,25 @@
+{
+    "name": "swissup/module-email",
+    "description": "Magento2 email providers integration (smtp, mandrill, amazon ses)",
+    "keywords": [
+        "email",
+        "smtp",
+        "gmail",
+        "mandrill",
+        "amazon ses",
+        "sendmail"
+    ],
+    "type": "magento2-module",
+    "version": "0.2.5",
+    "license": "OSL-3.0",
+    "require": {
+        "slm/mail": "~1.5",
+        "aws/aws-sdk-php-zf2": ">=1.0.1"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\Email\\": ""
+        }
+    }
+}

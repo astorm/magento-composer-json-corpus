@@ -1,0 +1,21 @@
+{
+    "name": "studioemma/magento2-module-core",
+    "description": "Studio Emma Core module, with general functionality used in Magento 2 project",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.0|>=7.0.0",
+        "magento/framework": ">=100.0.0",
+        "magento/module-catalog": ">=100.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "StudioEmma\\Core\\": ""
+        }
+    }
+}

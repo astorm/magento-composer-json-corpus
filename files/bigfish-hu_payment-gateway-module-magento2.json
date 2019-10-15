@@ -1,0 +1,22 @@
+{
+    "name": "bigfishpaymentgateway/pmgw",
+    "description": "BIG FISH Payment Gateway module for Magento 2",
+    "require": {
+        "bigfish/paymentgateway": "3.0.*",
+        "php": "~5.6.0|~7.0"
+    },
+    "type": "magento2-module",
+    "version": "3.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bigfishpaymentgateway\\Pmgw\\": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "kensium/welcome",
+  "description": "Sample welcome magento 2 module using composer",
+  "require": {
+        "magento/magento-composer-installer": "*"
+    },
+  "version": "dev-master",
+  "type": "magento2-module",
+  "license": "MIT",
+   "extra": {
+        "map": [
+            [
+                "*",
+                "Kensium/Welcome"
+            ]
+        ]
+    },
+  "autoload": {
+      "psr-4": {
+      "Kensium\\Welcome\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "repositories": [
+        {
+           "type": "git",
+           "url": "https://github.com/rajendra85/kensiumwelcome.git"
+
+        }
+    ]
+}

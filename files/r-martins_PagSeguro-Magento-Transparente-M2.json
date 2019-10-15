@@ -1,0 +1,29 @@
+{
+    "name": "ricardomartins/pagseguro",
+    "description": "Magento 2 Transparent Payment Module / PagSeguro Transparente para Magento 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0-or-later",
+    "version": "2.3.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RicardoMartins\\PagSeguro\\": ""
+        }
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-simplexml": "*"
+    },
+    "authors": [
+        {
+            "name": "Ricardo Martins",
+            "email": "pagseguro-transparente@ricardomartins.net.br"
+        }
+    ]
+}

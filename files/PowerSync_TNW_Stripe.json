@@ -1,0 +1,20 @@
+{
+  "name": "tnw/module-stripe",
+  "description": "Stripe Payments for Magento 2",
+  "type": "magento2-module",
+  "version": "2.2.4",
+  "license": "OSL-3.0",
+  "require": {
+    "magento/framework": ">100",
+    "tnw/marketing": "~2",
+    "stripe/stripe-php": "~6.43"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TNW\\Stripe\\": ""
+    }
+  }
+}

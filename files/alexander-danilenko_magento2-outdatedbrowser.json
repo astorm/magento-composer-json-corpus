@@ -1,0 +1,17 @@
+{
+    "name": "alexander-danilenko/magento2-outdatedbrowser",
+    "description": "Magento2 module that prevents site for being viewed in Internet Explorer.",
+    "type": "magento2-module",
+    "version": "0.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FFWAgency\\OutdatedBrowser\\": ""
+        }
+    }
+}

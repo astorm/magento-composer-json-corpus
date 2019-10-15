@@ -1,0 +1,22 @@
+{
+  "name": "scottparsons/module-cmscanonical",
+  "description": "A Magento 2 module that adds a Canonical Link meta tag to CMS pages.",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Scott Parsons",
+      "homepage": "https://www.sussexdev.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ScottParsons\\CmsCanonical\\": ""
+    }
+  }
+}

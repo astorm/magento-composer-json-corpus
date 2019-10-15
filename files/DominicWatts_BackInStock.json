@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/backinstock",
+    "description": "Customers can register their interest for products out of stock and they will be sent an email when the product comes back in stock",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.4",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\BackInStock\\": ""
+        }
+    }
+}

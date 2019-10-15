@@ -1,0 +1,21 @@
+{
+  "name": "bunting/personalisation-m2",
+  "description": "Bunting's suite of machine learning tools boost conversions by serving personalized content to visitors across your site.",
+  "require": {
+    "php": ">=5.5.0",
+    "bunting/core-m2": "1.2.2"
+  },
+  "type": "magento2-module",
+  "version": "1.2.2",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bunting\\Personalisation\\": ""
+    }
+  }
+}

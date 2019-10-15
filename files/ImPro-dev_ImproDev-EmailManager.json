@@ -1,0 +1,25 @@
+{
+    "name" : "improdev/module-emailmanager",
+    "description": "Email Manager",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/ImPro-dev/ImproDev-EmailManager.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ImproDev\\EmailManager\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

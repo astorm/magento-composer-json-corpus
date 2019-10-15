@@ -1,0 +1,26 @@
+{
+  "name": "elgentos/regenerate-catalog-urls",
+  "description": "N/A",
+  "require": {
+    "php": "~7.1|~7.2",
+    "magento/framework": ">=100.1",
+    "magento/module-catalog-url-rewrite": ">=100.1",
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "Iazel/RegenProductUrl/registration.php"
+    ],
+    "psr-4": {
+      "Iazel\\RegenProductUrl\\": "Iazel/RegenProductUrl"
+    }
+  },
+  "replace": {
+    "iazel/module-regen-product-url": "*"
+  }
+}

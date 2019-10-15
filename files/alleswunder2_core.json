@@ -1,0 +1,17 @@
+{
+	"name": "alleswunder/core"
+	,"version": "1.3.0"
+	,"description": "A custom store module for alleswunder.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/alleswunder2/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.0.6"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"AllesWunder\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

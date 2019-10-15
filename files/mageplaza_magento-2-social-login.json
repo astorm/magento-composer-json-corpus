@@ -1,0 +1,49 @@
+{
+  "name": "mageplaza/magento-2-social-login",
+  "description": "Magento 2 Social Login extension is designed for quick login to your Magento 2 store without procesing complex register steps",
+  "require": {
+    "mageplaza/module-core": "^1.4.5",
+    "mageplaza/module-smtp": "^1.2.6",
+    "mageplaza/module-google-recaptcha": "^1.0.2",
+    "mageplaza/module-reports": "^1.1.1",
+    "hybridauth/hybridauth": "^2.14.0"
+  },
+  "type": "magento2-module",
+  "version": "2.7.5",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mageplaza",
+      "email": "support@mageplaza.com",
+      "homepage": "https://www.mageplaza.com",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "magento 2",
+    "social login",
+    "magento 2 social login",
+    "facebook login",
+    "Google Login",
+    "Instagram Login",
+    "LinkedIn Login",
+    "Microsoft Live Login",
+    "Twitter Login",
+    "Yahoo Login",
+    "FourSquare Login",
+    "Amazon Login",
+    "Login",
+    "mageplaza",
+    "google",
+    "facebook",
+    "twitter"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mageplaza\\SocialLogin\\": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "bsscommerce/core",
+    "description": "BSS Commerce - Core Module",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bss\\Core\\": ""
+        }
+    }
+}

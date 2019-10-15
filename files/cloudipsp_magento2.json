@@ -1,0 +1,45 @@
+{
+  "name": "cloudipsp/magento2",
+  "description": "Fondy Magento 2 payment module",
+  "type": "magento2-module",
+  "version": "1.2.3",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "DM",
+          "email": "support@fondy.eu",
+          "homepage": "https://fondy.eu"
+      }
+  ],
+  "keywords": [
+      "magento2_module",
+      "magento2_payment_module",
+      "payment_gateway",
+      "magento2_payment_gateway",
+      "payment_processing",
+      "magento2_payment_processing",
+      "e-commerce",
+      "visa",
+      "mastercard",
+      "debit_card",
+      "credit_card",
+      "authorize",
+      "capture",
+      "recurring",
+      "refund",
+      "3d-secure",
+      "fraud"
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Fondy\\Fondy\\": ""
+    }
+  }
+}

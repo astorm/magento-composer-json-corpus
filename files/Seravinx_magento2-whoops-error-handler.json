@@ -1,0 +1,20 @@
+{
+  "name": "seravinx/magento2-whoops-error-handler",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "description": "Magento 2 Whoops error handler",
+  "require": {
+    "magento/framework": "^100.1.0|^101.0.0|^102.0.0",
+    "filp/whoops": "^2.1",
+    "php": ">=7.0.0",
+    "symfony/var-dumper": "3.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seravinx\\Whoops\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

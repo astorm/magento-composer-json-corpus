@@ -1,0 +1,17 @@
+{
+  "name": "janpetr/algoliasearch-magento2-one-result-redirect",
+  "description": "Magento 2 module to redirect to the product, when there is only one in a results",
+  "type": "magento2-module",
+  "license": ["MIT"],
+  "minimum-stability":"dev",
+  "version": "1.0.0",
+  "require": {
+    "algolia/algoliasearch-magento-2": "@dev"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "JanPetr\\OneResultRedirect\\": ""
+    }
+  }
+}

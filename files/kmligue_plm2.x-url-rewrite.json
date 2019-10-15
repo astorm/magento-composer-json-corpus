@@ -1,0 +1,7 @@
+{
+    "name": "partylite/module-url-rewrite",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {}
+}

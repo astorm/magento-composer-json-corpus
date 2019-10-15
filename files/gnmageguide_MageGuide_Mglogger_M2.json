@@ -1,0 +1,23 @@
+{
+    "name": "mageguide/mglogger",
+    "description": "Adds Custom Logger Functionality mageguide.log",
+    "require": {
+        "magento/framework": "100.*|101.*",
+        "magento/module-ui": "100.*|101.*",
+        "magento/module-config": "100.*|101.*",
+        "magento/module-directory": "100.*|101.*",
+        "mageguide/mgbase": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MageGuide\\Mglogger\\": ""
+        }
+    }
+}

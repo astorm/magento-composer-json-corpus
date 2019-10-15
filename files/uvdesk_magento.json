@@ -1,0 +1,20 @@
+{
+    "name": "webkul/uvdeskconnector",
+    "description": "Magento2 uvdesk connector",
+    "require": {
+	     "magento/project-community-edition": "2.*.*"
+    },
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "src/app/code/Webkul/UvDeskConnector/registration.php"
+        ],
+        "psr-4": {
+            "Webkul\\UvDeskConnector\\": "src/app/code/Webkul/UvDeskConnector"
+        }
+    }
+}

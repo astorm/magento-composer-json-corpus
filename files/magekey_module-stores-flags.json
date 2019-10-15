@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-stores-flags",
+    "description": "Magento 2 Stores Flags",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.1.6",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\StoresFlags\\": ""
+        }
+    }
+}

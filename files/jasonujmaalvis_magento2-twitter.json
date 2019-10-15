@@ -1,0 +1,28 @@
+{
+    "name": "alvis/magento2-twitter",
+    "description": "Twitter feed.",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Jason Ujma-Alvis",
+            "homepage": "https://jason.codes"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/jasonujmaalvis/magento2-twitter",
+        "issues": "https://github.com/jasonujmaalvis/magento2-twitter/issues"
+    },
+    "license": "MIT",
+    "require": {
+        "alvis/magento2-core": "~1.0.0",
+        "abraham/twitteroauth": "^0.6.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Alvis\\Twitter\\": ""
+        }
+    }
+}

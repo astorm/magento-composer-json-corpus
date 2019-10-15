@@ -1,0 +1,31 @@
+{
+  "name": "yireo/magento2-salesblock2-by-email",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "homepage": "https://www.yireo.com/software/magento-extensions/salesblock2",
+  "description": "Block transactions based on email matching",
+  "keywords": [
+    "composer-installer",
+    "magento"
+  ],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/module-customer": "^101.0|^102.0",
+    "magento/module-quote": "^101.0",
+    "yireo/magento2-salesblock2": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\SalesBlock2ByEmail\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

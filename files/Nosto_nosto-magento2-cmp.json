@@ -1,0 +1,43 @@
+{
+  "name": "nosto/module-nostocmp",
+  "description": "Personalize category pages",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "require-dev": {
+    "php": ">=7.1.0"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "nosto/module-nostotagging": "dev-develop",
+    "php": ">=7.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "magento/marketplace-tools",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/magento/marketplace-tools",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nosto\\Cmp\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

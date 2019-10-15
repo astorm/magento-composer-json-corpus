@@ -1,0 +1,28 @@
+{
+  "name": "elatebrain/module-gdpr",
+  "description": "GDPR Module for Magento 2",
+  "require": {
+    "elatebrain/module-core": "^1.0.1"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Elatebrain",
+      "email": "support@elatebrain.com",
+      "homepage": "https://www.elatebrain.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elatebrain\\Gdpr\\": ""
+    }
+  }
+}

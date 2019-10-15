@@ -1,0 +1,20 @@
+{
+    "name": "lcbrq/magento2-dateformatpatch",
+    "description": "Patch for lib-icu inconsistency returning different locale pattern",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LCB\\DateFormatPatch\\": ""
+        }
+    }
+}

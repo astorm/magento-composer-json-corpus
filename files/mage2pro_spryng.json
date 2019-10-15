@@ -1,0 +1,33 @@
+{
+	"name": "mage2pro/spryng"
+	,"version": "1.3.3"
+	,"description": "Spryng Payments integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/spryng"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.11.0", "mage2pro/spryng-sdk": "^1.2.4"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Spryng\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Netherlands"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"Spryng"
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "alaa/magento2-xml-feed-model",
+  "description": "",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": "MIT",
+  "keywords": ["xml feed", "xml data", "Magento Feed"],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0",
+    "magento/framework": "101.0.*",
+    "magento/module-store": "100.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaa\\XmlFeedModel\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "snowio/magento2-attribute-option-code",
+    "license": "MIT",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Alexander Wanyoike",
+            "email": "amw@amp.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "magento/framework": "^100|^101|^102",
+        "magento/module-eav": "^100|^101|^102",
+        "magento/module-catalog": "^101|^102|^103"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "SnowIO\\AttributeOptionCode\\": ""
+        }
+    }
+}

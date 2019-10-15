@@ -1,0 +1,27 @@
+{
+  "name": "fisheye/module-bluefoot-list",
+  "description": "A Magento 2 module to add a list 'page builder block' to the BlueFoot CMS & Page Builder system.",
+  "require": {
+    "gene/bluefoot": "^1.0.30"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "John Hughes",
+      "email": "johnh@fisheyehq.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Fisheye\\BlueFootList\\": ""
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "human-element/module-mini-cart-auto-open",
+  "description": "Magento 2 Human-Element Mini Cart Auto Open Extension",
+  "type": "magento2-module",
+  "version": "2.2.0",
+  "license": [
+    "GPL-3.0"
+  ],
+  "authors": [
+    {
+      "email": "nshiff@human-element.com",
+      "name": "Nate Shiff"
+    },
+    {
+      "email": "sdaugherty@human-element.com",
+      "name": "Seth Daugherty"
+    },
+    {
+      "email": "ajay@human-element.com",
+      "name": "AK"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|^7.0.0",
+    "magento/module-catalog": "103.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "HumanElement\\MiniCartAutoOpen\\": ""
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "logshub/search-module-magento2",
+    "description": "Integration between Magento2 and LogsHub.com Search service",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "logshub/search-client-php": "^1.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Logshub\\SearchModule\\": ""
+        }
+    }
+}

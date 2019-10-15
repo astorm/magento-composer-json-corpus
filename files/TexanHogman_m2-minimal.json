@@ -1,0 +1,18 @@
+{
+  "name": "texanhogman/m2-minimal",
+  "description": "Minimal extension",
+  "require": {
+    "php": ">=5.4.11",
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "TexanHogman/M2-Minimal"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vendic/magento2-stock-change-after-payment",
+  "description": "Magento 2 module to decrease/increase product stock after invoice/creditmemo creation event",
+  "authors": [
+    {
+      "name": "Vendic",
+      "homepage": "https://www.vendic.nl"
+    }
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vendic\\StockChangeAfterPayment\\": ""
+    }
+  }
+}

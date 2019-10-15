@@ -1,0 +1,23 @@
+{
+  "name": "aleksli/module-extended-api",
+  "description": "Extended Magento 2 Api.",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.0.*"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Aleks Litvinov",
+      "email": "aleksliwork@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AleksLi\\ExtendedApi\\": ""
+    }
+  }
+}

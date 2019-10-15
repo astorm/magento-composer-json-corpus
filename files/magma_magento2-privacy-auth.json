@@ -1,0 +1,25 @@
+{
+  "name": "magma/magento2-privacy-auth",
+  "description": "The Magento 2 PrivacyAuth adds customer privacy authorization request in  variuos pages.",
+  "version": "1.0.3",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Magma",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "magento/module-checkout-agreements": ">=100.0",
+    "magento/module-cms": ">=100.0",
+    "magento/module-newsletter": ">=100.0",
+    "magento/framework": "100.0.*|100.1.*|101.0.*|^102.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magma\\PrivacyAuth\\": ""
+    }
+  }
+}

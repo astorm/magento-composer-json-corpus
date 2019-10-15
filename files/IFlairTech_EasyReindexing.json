@@ -1,0 +1,35 @@
+{
+    "name": "iflair/reindexing",
+    "description": "Beneficial for non-technical person to refresh the indexes in single click.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": ">=100.0.0"
+    },
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/IFlairTech/EasyReindexing.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "IFlair",
+            "email": "developer@iflair.com",
+            "homepage": "http://iflair.com/",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IFlair\\Reindexing\\": ""
+        }
+    }
+}

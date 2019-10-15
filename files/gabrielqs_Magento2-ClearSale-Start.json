@@ -1,0 +1,26 @@
+{
+  "name": "gabrielqs/clearsale",
+  "description": "Integração entre o Magento2 e ClearSale Start para análise de risco.",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+  },
+  "authors": [
+    {
+      "name": "Gabriel Queiroz Silva",
+      "email": "gabrielqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gabrielqs\\Clearsale\\": ""
+    }
+  }
+}

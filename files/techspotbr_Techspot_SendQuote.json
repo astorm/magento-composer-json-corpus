@@ -1,0 +1,24 @@
+{
+    "name": "techspot/sendquote",
+    "description": "The Tech Spot Send Quote Module for Magento 2 makes it possible to set up a quotation.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "bruno@techspot.com.br",
+            "name": "Bruno Monteiro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techspot\\SendQuote\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

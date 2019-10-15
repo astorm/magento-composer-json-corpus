@@ -1,0 +1,26 @@
+{
+    "name": "pillbox/featurecarousel",
+    "description": "Magento 2 Featured Product Carousel",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+          "name": "Tim Green",
+          "email": "tim@totallywicked.co.uk",
+          "homepage": "https://www.totallywicked-eliquid.co.uk",
+          "role": "Leader"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pillbox\\FeatureCarousel\\": ""
+        }
+    }
+}

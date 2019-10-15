@@ -1,0 +1,26 @@
+{
+    "name": "pstk/paystack-magento2-module",
+    "description": "Paystack Magento2 Module using \\Magento\\Payment\\Model\\Method\\AbstractMethod",
+    "require": {
+        "yabacon/paystack-php": "2.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "email": "kielsoft@gmail.com",
+            "name": "Olayode Ezekiel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pstk\\Paystack\\": ""
+        }
+    }
+}

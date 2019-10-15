@@ -1,0 +1,20 @@
+{
+    "name": "ovv/generator-code-minifier",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "description": "Generator code minifier",
+    "homepage": "https://github.com/vdevx86/generator-code-minifier",
+    "keywords": ["magento2", "generator", "code", "minifier", "minify"],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "OVV\\GeneratorCodeMinifier\\": "src/"
+        }
+    }
+}

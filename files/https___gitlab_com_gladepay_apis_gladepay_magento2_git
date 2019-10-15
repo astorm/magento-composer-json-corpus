@@ -1,0 +1,23 @@
+{
+    "name": "gpay/gladepay-magento2-module",
+    "description": "Gladepay integration for Magento 2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Light Chinaka",
+            "email": "chinakalight@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ~7.1.21",
+        "gladepay/gladepay": "dev-master"
+    },
+    "type": "magento2-module",
+      "version": "1.0.0",
+      "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Gpay\\Gladepay\\": ""
+    }
+  }
+}

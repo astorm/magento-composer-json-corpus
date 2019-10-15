@@ -1,0 +1,45 @@
+{
+  "name": "pfoc/googleauth",
+  "description": "Modules allow login to Magento 2 administration panel by G Suite Account",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.1.0",
+    "magento/framework": "*"
+  },
+  "homepage": "https://github.com/Pfoc/googleauth",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Maciej Wieczorek",
+      "email": "wieczorek.mj@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pfoc\\AdminObserver\\": ""
+    }
+  },
+  "keywords": [
+    "magento2",
+    "admin",
+    "login",
+    "google",
+    "gsuite",
+    "auth",
+    "authentication",
+    "gmail",
+    "oauth2"
+
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "google/apiclient": "^2.0"
+  }
+}

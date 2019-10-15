@@ -1,0 +1,27 @@
+{
+  "name": "paytabs/expressmagento2",
+  "description": "PayTabs",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "PayTabs",
+      "email": "support@paytabs.com",
+      "homepage": "https://www.paytabs.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": "100.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayTabs\\Express\\": ""
+    }
+  }
+}

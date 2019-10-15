@@ -1,0 +1,35 @@
+{
+  "name": "nirgoldman/magento2_blog",
+  "description": "A simple blog module.",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/refaelgold/magento2_blog.git"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Gold/Blog"
+      ]
+    ]
+  },
+  "authors": [
+  {
+    "name": "Nir Goldman",
+    "homepage": "http://www.nirgoldman.com/",
+    "role": "Developer"
+  }
+]
+}

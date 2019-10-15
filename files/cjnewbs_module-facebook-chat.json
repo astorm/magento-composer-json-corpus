@@ -1,0 +1,30 @@
+{
+  "name": "newbury/module-facebook-chat",
+  "description": "Magento 2 module allowing the easy installation of the Facebook customer chat plugin.",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Newbury\\FacebookChat\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Craig Newbury",
+      "email": "craig@newbury.me",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@newbury.me"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "littlelunch/google-tag-manager",
+    "description": "Module send data to gtm whene add and remove product",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "magepal/magento2-googletagmanager":">=2.0.3"
+    },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Littlelunch\\GoogleTagManager\\": ""
+    }
+  }
+}

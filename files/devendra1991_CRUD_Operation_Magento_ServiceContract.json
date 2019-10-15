@@ -1,0 +1,29 @@
+{
+    "name": "devendra/promotion",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "guptadevendra123@gmail.com",
+            "name": "Devendra1991"
+        }
+    ],
+    "version": "1.2.2",
+    "type": "magento2-module",
+    "require": {},
+    "repositories": [
+      {
+         "type": "git",
+         "url": "https://github.com/devendra1991/CRUD_Operation_Magento_ServiceContract"
+      }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Devendra\\Promotion\\": ""
+        }
+    }
+}
+

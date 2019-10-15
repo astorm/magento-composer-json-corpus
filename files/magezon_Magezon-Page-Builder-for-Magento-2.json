@@ -1,0 +1,25 @@
+{
+    "name": "magezon/module-pagebuilder",
+    "description": "Magento 2 Page Builder: Page Builder, Landing Page Builder, Product Attribute Builder,etc",
+    "require": {
+        "magezon/module-builder": "*",
+        "php": "~7.1.0|~7.2.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magezon\\PageBuilder\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "do-it-well/magento2-module-referralcandy",
+	"description": "Integration with Referral Candy",
+	"type": "magento2-module",
+	"version": "0.0.1",
+	"license": "MIT",
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": {
+			"DIW\\ReferralCandy\\": ""
+		}
+	}
+}

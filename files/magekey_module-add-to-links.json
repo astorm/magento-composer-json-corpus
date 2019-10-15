@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-add-to-links",
+    "description": "Add To Links Ajax",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.3.0",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\AddToLinks\\": ""
+        }
+    }
+}

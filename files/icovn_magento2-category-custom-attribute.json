@@ -1,0 +1,24 @@
+{
+  "name": "icovn/magento2-category-custom-attribute",
+  "description": "",
+
+  "type": "magento2-module",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Nguyễn Quang Huy",
+      "email": "quanghuy.ico@gmail.com",
+      "homepage": "http://icovn.me"
+    }
+  ],
+
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Icovn\\CategoryCustomAttribute\\": ""
+    }
+  }
+
+}

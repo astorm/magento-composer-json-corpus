@@ -1,0 +1,22 @@
+{
+  "name": "andkirby/magento2-log-viewer",
+  "type": "magento2-module",
+  "description": "Magento 2 Log files Viewer. (Composer version of https://github.com/philaturner/LogViewer with some improvements.)",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/philaturner/LogViewer",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PhilTurner\\LogViewer\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Phil Turner",
+      "email": "julietius@gmail.com",
+      "homepage": "https://github.com/philaturner"
+    }
+  ]
+}

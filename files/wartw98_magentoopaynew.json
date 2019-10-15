@@ -1,0 +1,35 @@
+{
+	"name": "wartw/magentoopay"
+	
+	,"description": "歐付寶 OPay to Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://wartw.me",
+	"authors": [
+        {
+            "name": "wartw",
+            "email": "wartw98@gmail.com"
+        }
+    ],
+	"license": "MIT",
+	"minimum-stability": "stable"
+	,"require": {"wartw/core": "v1.*"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AllPay\\": ""}}
+	,"keywords": ["OPay"
+		,"歐付寶"
+		,"API"
+		,"Bank card"
+		,"Barcode payment"
+		,"Credit card"
+		,"CVS payment"
+		,"eCommerce"
+		,"Installment"
+		,"Internet banking"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment gateway"
+		,"Payment integration"
+		,"WebATM payment"
+	]
+}

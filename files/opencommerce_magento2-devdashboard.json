@@ -1,0 +1,46 @@
+{
+    "name": "opencommerce/devdashboard",
+    "type": "magento2-module",
+    "description": "",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Hackathon Berlin 2018 Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/framework": "^101.0.1",
+        "magento/module-config": "^101.0.0",
+        "magento/module-backend": "^100.2.0"
+    },
+    "require-dev": {
+        "phpro/grumphp": "^0.13.1",
+        "magento/marketplace-eqp": "dev-master@dev",
+        "jakub-onderka/php-parallel-lint": "^0.9.2",
+        "phan/phan": "^0.10.3",
+        "phpmd/phpmd": "^2.6"
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        "magento-eqp": {
+            "type": "vcs",
+            "url": "https://github.com/magento/marketplace-eqp.git"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Firegento\\DevDashboard\\": "src/"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    },
+    "scripts": {
+        "check-style": "vendor/bin/phpcs -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "vendor/bin/phpcbf -p --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    }
+}

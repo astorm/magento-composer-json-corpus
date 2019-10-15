@@ -1,0 +1,21 @@
+{
+    "name": "przemyslawdziadek/magento-2-polish-post-shipping-method-module",
+    "description": "",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Przemysław Dziadek",
+            "email": "przemyslaw.dziadek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PolishPostShippingMethod\\": ""
+        }
+    }
+}

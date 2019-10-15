@@ -1,0 +1,21 @@
+{
+    "name": "wizzaro/magento-file-with-attachment-custom-option-type",
+    "description": "Custom Option Type",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Przemysław Dziadek",
+            "email": "przemyslaw.dziadek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wizzaro\\MagentoFileWithAttachmentCustomOptionType\\": ""
+        }
+    }
+}

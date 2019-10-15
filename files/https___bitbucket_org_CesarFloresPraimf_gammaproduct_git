@@ -1,0 +1,23 @@
+{
+  "name": "cesarflores/product",
+  "description": "Upload magento2 module to packagist",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "^7.2"
+  },
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Cesar Flores",
+      "email": "a01561658@itesm.mx"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}

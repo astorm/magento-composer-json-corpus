@@ -1,0 +1,40 @@
+{
+  "name": "yireo/magento2-byattribute-graph-ql",
+  "version": "0.1.0",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "homepage": "https://www.yireo.com/software/magento-extensions/byattribute2",
+  "description": "Show any listing of any product attribute in GraphQL",
+  "keywords": [
+    "composer-installer",
+    "magento"
+  ],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "^100.0|^101.0|^102.0",
+    "magento/module-eav": "^100.0|^101.0|^102.0",
+    "magento/module-catalog": "^101.0|^102.0|^103.0",
+    "magento/module-graph-ql": "^100.3",
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "composer/composer": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\ByAttributeGraphQl\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "suggest": {
+    "yireo/magento2-byattribute2": "*"
+  }
+}

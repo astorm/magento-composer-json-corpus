@@ -1,0 +1,47 @@
+{
+  "name": "mygento/module-payment",
+  "type": "magento2-module",
+  "version": "2.3.1",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/mygento/module-payment",
+  "description": "Mygento Payment Base",
+  "authors": [
+    {
+      "name": "Nikita Tarasov",
+      "email": "nikita@mygento.net",
+      "homepage": "http://www.mygento.net/",
+      "role": "Developer"
+    },
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net",
+      "homepage": "https://www.mygento.ru/"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "mygento"
+  ],
+  "require": {
+      "magento/module-payment": "100.*",
+      "mygento/module-base": "~2.3.1"
+  },
+  "require-dev": {
+      "mygento/coding-standard": "^2.13.3",
+      "vimeo/psalm": "^3.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mygento\\Payment\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

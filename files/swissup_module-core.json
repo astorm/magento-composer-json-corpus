@@ -1,0 +1,21 @@
+{
+    "name": "swissup/module-core",
+    "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+    "keywords": [
+        "core",
+        "installer",
+        "notifier",
+        "swissup services",
+        "module manager",
+        "popup messenger"
+    ],
+    "type": "magento2-module",
+    "version": "1.8.7",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\Core\\": ""
+        }
+    }
+}

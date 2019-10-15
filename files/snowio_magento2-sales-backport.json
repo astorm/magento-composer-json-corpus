@@ -1,0 +1,24 @@
+{
+    "name": "snowio/magento2-sales-backport",
+    "license": "MIT",
+    "description": "Backport of the magento/module-sales in magento v2.2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Alexander Wanyoike",
+            "email": "amw@amp.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "magento/framework": "^100",
+        "magento/module-sales": ">=100.1,<100.2",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Magento\\Sales\\": ""
+        }
+    }
+}

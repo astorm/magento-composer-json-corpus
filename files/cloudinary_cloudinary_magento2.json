@@ -1,0 +1,22 @@
+{
+    "name": "cloudinary/cloudinary-magento2",
+    "description": "Cloudinary Magento 2 Integration.",
+    "type": "magento2-module",
+    "version": "1.10.0",
+    "license": "MIT",
+    "require": {
+        "cloudinary/cloudinary_php": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cloudinary\\Cloudinary\\": ""
+        }
+    },
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/cloudinary/cloudinary_magento2"
+    }]
+}

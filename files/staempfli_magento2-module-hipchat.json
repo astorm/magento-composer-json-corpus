@@ -1,0 +1,21 @@
+{
+  "name": "staempfli/magento2-module-hipchat",
+  "description": "Magento 2 HipChat",
+  "require": {
+    "php": "~7.0.0",
+    "staempfli/magento2-module-chat-connector": "~1.1"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Staempfli\\HipChat\\": ""
+    }
+  }
+}

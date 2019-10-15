@@ -1,0 +1,26 @@
+{
+    "name": "qbees/custom-catalog",
+    "description": "QBees Magento2 module CustomCatalog",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": "~7.0.13|~7.1.0",
+        "magento/module-backend": "100.2.*",
+        "magento/framework": "101.0.*",
+        "magento/framework-message-queue": "100.2.*",
+        "magento/module-amqp": "100.2.*",
+        "magento/module-message-queue": "100.2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "QBees\\CustomCatalog\\": ""
+        }
+    }
+}

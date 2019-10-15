@@ -1,0 +1,13 @@
+{
+    "name": "swissup/module-theme-editor",
+    "description": "Theme styles editing extension from Swissup",
+    "type": "magento2-module",
+    "version": "1.6.1",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\ThemeEditor\\": ""
+        }
+    }
+}

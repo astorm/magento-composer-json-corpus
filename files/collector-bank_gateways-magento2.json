@@ -1,0 +1,28 @@
+{
+  "name": "collector-bank/module-gateways",
+  "description": "",
+  "license": "GPL-3.0",
+  "type": "magento2-module",
+  "version": "2.0.3",
+  "authors": [
+    {
+      "name": "Henrik L\u00f6fstr\u00f6m",
+      "email": "toifarn@gmail.com"
+    },
+    {
+      "name": "Tobias Sundgren",
+      "email": "tobias.sundgren@collectorbank.se"
+    }
+  ],
+  "require": {
+    "collector-bank/module-base": ">=2.0.3"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Collector\\Gateways\\": ""
+    }
+  }
+}

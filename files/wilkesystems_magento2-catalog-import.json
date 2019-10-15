@@ -1,0 +1,20 @@
+{
+    "name": "wilkesystems/magento2-catalog-import",
+    "description": "Magento2 Import catalog via console command",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/module-import-export": "100.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WilkeSystems\\CatalogImport\\": ""
+        }
+    }
+}

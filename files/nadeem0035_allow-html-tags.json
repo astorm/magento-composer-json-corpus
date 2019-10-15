@@ -1,0 +1,36 @@
+{
+  "name": "nadeem0035/allow-html-tags",
+  "description": "Allow html tags in footer copyright text",
+    "keywords": [
+        "Magento 2",
+        "Footer Text",
+        "Allow Html Tag",
+        "Magento 2 Extension Free"
+    ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "type": "magento2-module",
+   "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Nadeem",
+            "email": "nadeem0035@gmail.com",
+            "role": "Developer"
+        }
+    ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Nadeem0035\\AllowHtmlTag\\": ""
+    }
+  },
+  "support": {
+    "email": "nadeem0035@gmail.com"
+  }
+}

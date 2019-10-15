@@ -1,0 +1,44 @@
+{
+	"name": "mage2pro/payfort-mageplaza"
+	,"description": "PayFort integration with Magento 2"
+	,"type": "magento2-module"
+	,"version": "1.0.1"
+	,"license": "MIT"
+	,"authors": [
+		{
+			"name": "Sam Thomas"
+			,"homepage": "https://github.com/imsamthomas"
+			,"role": "Developer"
+		}
+		,{
+			"name": "Mohannad Saleh"
+			,"email": "msaleh@payfort.com"
+			,"homepage": "https://github.com/mohannadsaleh"
+			,"role": "Developer"
+		}
+		,{
+			"name": "Dmitry Fedyuk"
+			,"email": "admin@mage2.pro"
+			,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+			,"role": "Developer"
+		}
+	]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Payfort\\Fort\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"PayFort"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"United Arab Emirates", "Egypt", "Saudi Arabia", "Jordan", "Lebanon", "Qatar"
+	]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "dominicwatts/tracking",
+    "description": "Submit shipment tracking information via controller and shell script",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "php": "~7.0.0||~7.1.0||~7.2.0||~7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xigen\\Tracking\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "creode/magento2-base",
+    "description": "Base Magento2 package for Creode modules",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Gareth Midwood",
+            "email": "gareth.midwood@creode.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/magento-composer-installer": "*",
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creode\\Base\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

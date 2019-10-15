@@ -1,0 +1,40 @@
+{
+    "name": "paymentsense/magento2-module",
+    "description": "Paymentsense Module for Magento 2 Open Source (Community Edition)",
+    "type": "magento2-module",
+    "version": "2.0.8",
+    "license": [
+        "GPL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Paymentsense",
+            "email": "devsupport@paymentsense.com",
+            "homepage": "https://www.paymentsense.co.uk"
+        }
+    ],
+    "keywords": [
+        "paymentsense",
+        "payment_module",
+        "payment_gateway",
+        "payment_processing",
+        "magento2_payment_module",
+        "magento2_payment_gateway",
+        "magento2_payment_processing",
+        "visa",
+        "mastercard",
+        "maestro",
+        "amex",
+        "american_express",
+        "debit_card",
+        "credit_card"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Paymentsense\\Payments\\": ""
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "dannynimmo/magento2-visual-merchandiser-rebuild",
+    "description": "Rebuild Magento 2 Visual Merchandiser categories using the CLI tool",
+    "version": "0.1.2",
+    "type": "magento2-module",
+    "license": "MIT",
+    "keywords": [
+        "magento",
+        "magento2",
+        "visual merchandiser"
+    ],
+    "homepage": "https://github.com/dannynimmo/magento2-visual-merchandiser-rebuild",
+    "authors": [
+        {
+            "name": "Danny Nimmo",
+            "email": "d@nny.nz",
+            "homepage": "https://danny.nz/"
+        }
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+        "magento/framework": "~100.1",
+        "magento/magento-composer-installer": "*",
+        "magento/module-catalog": "~101.0",
+        "magento/module-store": "~100.1",
+        "magento/module-visual-merchandiser": "~100.1",
+        "symfony/console": "~2.3 <2.7"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DannyNimmo\\VisualMerchandiserRebuild\\": ""
+        }
+    }
+}

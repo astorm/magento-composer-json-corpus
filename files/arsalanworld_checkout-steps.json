@@ -1,0 +1,17 @@
+{
+  "name": "arsal/checkout-steps",
+  "description": "Create Additional steps to your checkout page",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Arsal\\CheckoutSteps\\": ""
+    }
+  }
+}

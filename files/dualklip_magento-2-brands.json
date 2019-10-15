@@ -1,0 +1,21 @@
+{
+  "name": "phoenixconnection/brands",
+  "description": "Listado de marcas",
+  "require": {
+    "php": ">=7.0",
+    "magento/product-community-edition": "~2.3.1",
+    "magento/framework": "*",
+    "magento/module-config": "*",
+    "magento/module-catalog": "*"
+  },
+  "minimum-stability": "stable",
+  "type": "magento2-module",
+  "version": "1.2.1",
+  "license": "MIT",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "PhoenixConnection\\Brands\\": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "unity-magento-git-hub-user/pocztapolska-api-classes",
+  "description": "Library for Poczta Polska",
+  "require": {
+    "magento/framework": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": [
+    "Proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Marceli Podstawski",
+      "email": "marceli.podstawski@unity.pl",
+      "homepage": "http://www.unity.pl",
+      "role": "Senior PHP Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PocztaPolska\\ApiClasses\\": ""
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "frontuser/m2-integration",
+  "description": "A Magento 2 modules for Frontuser. Frontuser is a easiest platform to maximize user engagement, retention & conversion.",
+  "type": "magento2-module",
+"version":"v1.0.0",
+  "license": [
+    "GPL-3.0",
+    "AFL-3.0"
+  ],
+"authors": [
+        {
+            "name": "Frontuser",
+            "email": "support@frontuser.com",
+            "homepage": "https://frontuser.com/"
+        }
+    ],
+"require": {
+        "php": "~5.6.0|~7.0.0",
+        "magento/framework": ">=100.0.0",
+        "magento/module-backend": ">=100.0.0",
+        "magento/module-store": ">=100.0.0"
+    },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Frontuser\\Integration\\": ""
+    }
+  },
+  "repositories": {
+    "frontuser": {
+        "type": "vcs",
+        "url": "https://github.com/frontuser/"
+    }
+  }
+}

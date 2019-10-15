@@ -1,0 +1,23 @@
+{
+  "name": "what3words/module-what3words",
+  "description": "What3Words Magento 2 Module",
+  "type": "magento2-module",
+  "require": {
+    "what3words/w3w-php-wrapper": "^2.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "What3Words\\What3Words\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Vicki Tingle",
+      "homepage": "http://gene.co.uk/",
+      "role": "Developer"
+    }
+  ]
+}

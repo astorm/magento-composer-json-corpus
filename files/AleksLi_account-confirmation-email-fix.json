@@ -1,0 +1,23 @@
+{
+  "name": "aleksli/module-account-confirmation-email-fix",
+  "description": "Fix for Magento 2 issue #13044",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.0.*"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Aleks Litvinov",
+      "email": "aleksliwork@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AleksLi\\AccountConfirmationEmailFix\\": ""
+    }
+  }
+}

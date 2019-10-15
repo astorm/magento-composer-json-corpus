@@ -1,0 +1,25 @@
+{
+    "name": "passel/shipping",
+    "description": "Dynamic rates and order sync",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "101.0.*",
+        "magento/module-config": "101.0.*",
+        "magento/module-store": "100.2.*",
+        "magento/module-shipping": "100.2.*",
+        "magento/module-quote": "101.0.*"
+    },
+    "version": "1.0.7",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PasselPtyLtd/magento"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Passel\\Shipping\\": ""
+        }
+    }
+}

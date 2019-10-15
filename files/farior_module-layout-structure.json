@@ -1,0 +1,21 @@
+{
+    "name": "farior/module-layout-structure",
+    "description": "Layout structure visualization module",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "require": {
+        "php": "~5.6.0|7.0.2|~7.0.6",
+        "magento/framework": "*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Farior\\LayoutStructure\\": ""
+        }
+    }
+}

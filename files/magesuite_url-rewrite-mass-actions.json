@@ -1,0 +1,14 @@
+{
+    "name": "creativestyle/magesuite-url-rewrite-mass-actions",
+    "description": "Adds mass actions to url rewrite grid",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageSuite\\UrlRewriteMassActions\\": ""
+        }
+    }
+}

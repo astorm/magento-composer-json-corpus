@@ -1,0 +1,31 @@
+{
+  "name": "alaa/magento2-dynamic-front-name",
+  "description": "Magento 2 Dynamic Front Name",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "magento2",
+    "Admin Front Name",
+    "Backend Front Name"
+  ],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.0.*",
+    "magento/module-store": "100.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaa\\DynamicFrontName\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "frugue/shipping"
+	,"version": "1.0.5"
+	,"description": "A shipping module for frugue.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/frugue/shipping"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"frugue/core": ">=0.6.0", "mage2pro/core": ">=3.7.23"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Frugue\\Shipping\\": ""}}
+	,"keywords": ["Magento 2"]
+}

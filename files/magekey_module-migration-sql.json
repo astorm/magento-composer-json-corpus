@@ -1,0 +1,17 @@
+{
+    "name": "magekey/module-migration-sql",
+    "description": "Magento 2 Migration SQL",
+    "type": "magento2-module",
+    "version": "2.1.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\MigrationSql\\": ""
+        }
+    }
+}

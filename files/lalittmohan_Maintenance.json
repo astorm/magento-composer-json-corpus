@@ -1,0 +1,28 @@
+{
+  "name": "lalitmohan/maintenance",
+  "description": "Magento 2 custom maintenace page with own design.",
+  "type": "magento2-module",
+  "version": "100.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "authors": [
+    {
+      "name": "Lalit Mohan",
+      "email": "lalitmohanwd@gmail.com",
+      "homepage": "http://lalitmohan.business.site/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Lalitmohan\\Maintenance\\": ""
+    }
+  }
+
+}

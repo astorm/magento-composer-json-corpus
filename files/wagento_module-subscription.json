@@ -1,0 +1,20 @@
+{
+  "name": "wagento/module-subscription",
+  "license": [
+    "proprietary"
+  ],
+  "type": "magento2-module",
+  "description": "This Module is for purchase products as subscription compitable with Braintree Payment Method.",
+  "version": "101.0.7",
+  "require": {
+    "magento/framework": "^100.1.0|101.0.*|102.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Wagento\\Subscription\\": ""
+    }
+  }
+}

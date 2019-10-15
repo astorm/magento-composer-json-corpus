@@ -1,0 +1,16 @@
+{
+	"name": "wrapco/core"
+	,"version": "0.0.2"
+	,"description": "A custom module for wrapco.com.au and inkyco.com.au"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/wrapco/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Wrapco\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

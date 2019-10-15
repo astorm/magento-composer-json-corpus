@@ -1,0 +1,20 @@
+{
+  "name": "pmclain/magento2-authorizenetcim",
+  "description": "Authorize.net CIM for Magento 2",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "magento/framework": ">=101.0.0",
+    "pmclain/authorizenet-php-sdk": "~0.1.7"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pmclain\\AuthorizenetCim\\": ""
+    }
+  }
+}

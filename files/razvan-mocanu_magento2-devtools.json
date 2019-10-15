@@ -1,0 +1,26 @@
+{
+    "name": "razvan/module-devtools",
+    "description": "Adds blocks information as comments in page source.",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Razvan\\DevTools\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/razvan-mocanu/magento2-devtools.git"
+        }
+    ]
+}

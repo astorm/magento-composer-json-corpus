@@ -1,0 +1,27 @@
+{
+  "name": "fcamara/register-brazil",
+  "description": "Module to create register of customer brazil",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+        "proprietary"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.1.0" 
+  },
+  "authors": [
+    {
+      "name": "Danilo Cavalcanti",
+      "email": "danilo-cm@hotmail.com",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Fcamara\\RegisterBrazil\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

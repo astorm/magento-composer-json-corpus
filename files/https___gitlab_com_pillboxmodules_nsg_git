@@ -1,0 +1,37 @@
+{
+  "name": "pillbox/nsg",
+  "description": "Magento 2 - Norton Shopping Guarantee",
+  "require": {
+    "magento/framework": ">=101.0.0"
+  },
+  "type": "magento2-module",
+  "license": "proprietary",
+  "keywords": [
+      "magento 2",
+      "pillbox",
+      "norton",
+      "symantec",
+      "nsg",
+      "norton shopping guarantee",
+      "magento 2 nsg",
+      "magento 2 symantec",
+      "magento 2 norton",
+      "magento 2 norton shopping guarantee"
+  ],
+  "authors": [
+    {
+      "name": "Tim Green",
+      "email": "tim@totallywicked.co.uk",
+      "homepage": "https://www.totallywicked-eliquid.co.uk",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pillbox\\NSG\\": ""
+    }
+  }
+}

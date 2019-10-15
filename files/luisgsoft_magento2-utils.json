@@ -1,0 +1,30 @@
+{
+  "name": "gsoftes/ui",
+  "description": "",
+  "require": {
+    "gsoftes/language-es_es": "@stable",
+    "mageplaza/module-smtp": "@stable",
+    "mageplaza/module-delete-orders": "@stable",
+    "mageplaza/module-gdpr": "@stable",
+    "mageplaza/module-multi-flat-rates": "@stable",
+    "mageplaza/module-backend-reindex":"@stable",
+    "mageplaza/module-email-attachments":"@stable",
+    "metagento/disable-newsletter-success-magento2":"@stable"
+  },
+  "suggest": {
+    "mageplaza/magento-2-spanish-language-pack": "Es necesaria pero no tiene rama de producción"
+  },
+  "type": "magento2-module",
+  "license": [
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gsoftes\\Ui\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

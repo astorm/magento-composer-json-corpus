@@ -1,0 +1,51 @@
+{
+  "name": "mygento/shipment",
+  "type": "magento2-module",
+  "version": "2.2.8",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/mygento/payment-base",
+  "description": "Mygento Shipment Base",
+  "authors": [
+    {
+      "name": "Nikita Tarasov",
+      "email": "nikita@mygento.net",
+      "homepage": "http://www.mygento.net/",
+      "role": "Developer"
+    },
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net",
+      "homepage": "https://www.mygento.ru/"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "mygento"
+  ],
+  "require": {
+    "magento/module-sales": "101.*",
+    "magento/module-quote": "101.*",
+    "magento/module-checkout": "100.*",
+    "magento/module-shipping": "100.*",
+    "mygento/base": "^2.2.5"
+  },
+  "require-dev": {
+    "mygento/coding-standard": "2.*",
+    "jakub-onderka/php-parallel-lint": "^0.9.2",
+    "jakub-onderka/php-console-highlighter": "^0.3.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mygento\\Shipment\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

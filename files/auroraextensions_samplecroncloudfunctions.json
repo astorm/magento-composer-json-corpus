@@ -1,0 +1,30 @@
+{
+  "name": "auroraextensions/samplecroncloudfunctions",
+  "description": "Sample module for AuroraExtensions_MagentoCronCloudFunctions.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/auroraextensions/magecroncloudfunctions.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "auroraextensions/magecroncloudfunctions": "~1.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AuroraExtensions\\SampleCronCloudFunctions\\": ""
+    }
+  }
+}

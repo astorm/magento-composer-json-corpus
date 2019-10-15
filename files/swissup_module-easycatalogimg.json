@@ -1,0 +1,31 @@
+{
+    "name": "swissup/module-easycatalogimg",
+    "description": "Easy Catalog Images extension from Swissup",
+    "keywords": [
+        "easycatalogimages",
+        "category thumbnail",
+        "subcategory listing"
+    ],
+    "type": "magento2-module",
+    "version": "1.4.5",
+    "license": "OSL-3.0",
+    "require": {
+        "swissup/module-core": "^1.8.6"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Swissup\\Easycatalogimg\\": ""
+        }
+    },
+    "extra": {
+        "swissup": {
+            "links": {
+                "store"    : "https://swissuplabs.com/magento-2-easy-catalog-images.html",
+                "download" : "https://swissuplabs.com/subscription/customer/products/",
+                "docs"     : "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/",
+                "changelog": "http://docs.swissuplabs.com/m2/extensions/easycatalogimages/changelog/"
+            }
+        }
+    }
+}

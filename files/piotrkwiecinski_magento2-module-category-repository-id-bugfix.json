@@ -1,0 +1,22 @@
+{
+    "name": "piotrkwiecinski/magento2-module-category-repository-id-bugfix",
+    "description": "Fix for Category repository object passed instead of integer",
+    "type": "magento2-module",
+    "version": "0.1.3",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Piotr Kwiecinski",
+            "email": "piokwiecinski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PiotrKwiecinski\\CatalogRepositoryIdFix\\": ""
+        }
+    }
+}

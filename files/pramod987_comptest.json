@@ -1,0 +1,26 @@
+{
+  "name": "pramod987/comptest",
+  "description": "Magento 2 Social Login Extension",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Bluethink"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bluethink\\Comptest\\": ""
+    }
+  }
+}

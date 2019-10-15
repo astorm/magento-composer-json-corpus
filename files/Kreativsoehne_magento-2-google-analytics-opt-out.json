@@ -1,0 +1,31 @@
+{
+    "name": "kreativsoehne/magento-2-google-analytics-opt-out",
+    "license": "MIT",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "homepage": "https://www.kreativundsoehne.de/",
+    "description": "Magento 2 extension to give customers the ability to opt-out Google Analytics tracking. Useful for european union's countries (GDPR)",
+    "keywords":[ "composer-installer", "magento", "magento 2", "gdpr", "dsgvo", "google", "analytics", "optout", "opt-out"],
+    "authors": [
+        {
+            "name": "Kreativ&Söhne GmbH | Michael Fuchs",
+            "email": "michael@kreativsoehne.de"
+        }
+    ],
+    "require": {
+        "magento/framework": "^101.0|^102.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"*",
+        "composer/composer":"*@dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "kreativsoehne\\AnalyticsOptout\\": ""
+      },
+      "files": [
+            "registration.php"
+        ]
+    }
+}

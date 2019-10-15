@@ -1,0 +1,28 @@
+{
+  "name": "kirukan/ordercontroller",
+  "description": "A module to demonstrate fetch Order information from Magento EE Version 2.1.x",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/thamotharan190685/ordercontroller"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-sales": "~100.1"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Kirukan\\OrderController\\": ""
+    }
+  },
+  "minimum-stability":"dev",
+  "prefer-stable": true
+}

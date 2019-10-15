@@ -1,0 +1,23 @@
+{
+  "name": "magma/magento2-cookie-restriction-fix",
+  "description": "Magento 2 module fixing Magento Cookie Restriction bug on Magento 2.1.x versions",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Fabrizio Vanzani"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magma\\CookieRestrictionFix\\": ""
+    }
+  }
+}

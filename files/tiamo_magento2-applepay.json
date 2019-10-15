@@ -1,0 +1,32 @@
+{
+  "name": "tiamo/magento2-applepay",
+  "description": "Magento 2 Apple Pay module",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "Vladyslav K",
+      "email": "vk.tiamo@gmail.com"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "magento2",
+    "braintree",
+    "applepay"
+  ],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.0.*",
+    "magento/module-braintree": "100.2.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Teslaamazing\\ApplePay\\": ""
+    }
+  }
+}

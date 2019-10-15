@@ -1,0 +1,37 @@
+{
+    "name": "encomage/module-guestbook",
+    "description": "Encomage GuestBook extension for Magento 2",
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "authors": [
+        {
+            "name": "Encomage",
+            "email": "hello@encomage.com",
+            "homepage": "https://www.encomage.com",
+            "role": "Technical Support"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "keywords": [
+        "magento 2",
+        "guest book",
+        "reviews",
+        "magento 2 store reviews",
+        "store reviews",
+        "customers review"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Encomage\\GuestBook\\": ""
+        }
+    },
+    "require": {
+        "encomage/module-core": "*"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "lsretail/lsmag-two",
+  "description": "LS Ecommerce - Magento Integration",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "LS Retail Ecommerce Team",
+      "email": "lsomnikl@lsretail.com"
+    }
+  ],
+  "require": {
+    "myclabs/php-enum": "^1.5",
+    "sabre/xml": "^1.5",
+    "nabil1337/case-helper": "^0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ls\\Core\\": "src/Core/",
+      "Ls\\Omni\\": "src/Omni/",
+      "Ls\\Replication\\": "src/Replication/",
+      "Ls\\Customer\\": "src/Customer/",
+	  "Ls\\Webhooks\\": "src/Webhooks/"
+    },
+    "files": [
+      "src/Core/registration.php",
+      "src/Omni/registration.php",
+      "src/Replication/registration.php",
+      "src/Customer/registration.php",
+	  "src/Webhooks/registration.php"
+    ]
+  },
+  "archive": {
+    "exclude": ["/docs", "/README.txt"]
+  }
+}

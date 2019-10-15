@@ -1,0 +1,21 @@
+{
+  "name": "tua/bazaarvoice-magento2-extension",
+  "description": "Bazaarvoice Magento 2 Integration Extension",
+  "type": "magento2-module",
+  "license": [ "MIT" ],
+  "authors": [
+    {
+      "name": "Dennis Rogers",
+      "email": "dennis@storefrontconsulting.com"
+    }
+  ],
+  "version": "17.0.5",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bazaarvoice\\Connector\\": ""
+    }
+  }
+}

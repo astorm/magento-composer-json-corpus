@@ -1,0 +1,33 @@
+{
+    "name": "and3k5/betterdevdeploy",
+    "description": "",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "And3k5\\BetterDevDeploy\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "And3k5/BetterDevDeploy"
+            ]
+        ]
+    }
+}

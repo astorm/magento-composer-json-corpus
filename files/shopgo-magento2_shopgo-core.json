@@ -1,0 +1,32 @@
+{
+    "name": "shopgo/core",
+    "description": "Contains functions commonly used in ShopGo Magento 2 modules.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ShopGo\\Core\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

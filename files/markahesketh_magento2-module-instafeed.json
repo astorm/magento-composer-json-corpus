@@ -1,0 +1,33 @@
+{
+    "name": "markahesketh/magento2-module-instafeed",
+    "description": "Magento 2 Instagram Feed using Instafeed.js",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "keywords": [
+        "magento 2",
+        "extension",
+        "instagram",
+        "instafeed",
+        "social"
+    ],
+    "authors": [
+        {
+            "name": "Mark Hesketh",
+            "email": "contact@markhesketh.co.uk",
+            "homepage": "https://markhesketh.co.uk",
+            "role": "PHP Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MarkHesketh\\Instafeed\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}

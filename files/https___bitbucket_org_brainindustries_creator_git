@@ -1,0 +1,28 @@
+{
+    "name": "shirtplatform/creator",
+    "description": "Magento 2 module that adds support for shirtplatform base products",
+    "type": "magento2-module",    
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {    
+        "php": "~5.6.0|~7.0.0|>=7.1.0",
+        "magento/framework": "~100.0|~101.0",
+        "shirtplatform/core": "^0.1",
+        "shirtplatform/production-tool": "^0.1"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Shirtplatform\\Creator\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Britka",
+            "email": "pbritka@poweroftwo.sk",            
+            "role": "Developer"
+        }        
+    ]
+}

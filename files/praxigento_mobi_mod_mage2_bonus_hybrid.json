@@ -1,0 +1,26 @@
+{
+  "name": "praxigento/mobi_mod_bonus_hybrid",
+  "description": "MOBI: Praxigento_BonusHybrid module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_bonus_hybrid",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\BonusHybrid\\": "",
+      "Praxigento\\Bonus\\Hybrid\\": "",
+      "Praxigento\\Bonus\\Hybrid\\Lib\\Test\\": "test/fw"
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_bonus_base": "dev-master"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "lsretail/lsmag-enterprise",
+  "description": "LS Ecommerce - Magento Commerce integration with LS Central",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "LS Retail",
+      "email": "lsomnikl@lsretail.com"
+    }
+  ],
+  "require": {
+    "lsretail/lsmag-two": "^1.0.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ls\\Commerce\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

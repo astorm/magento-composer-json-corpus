@@ -1,0 +1,25 @@
+{
+  "name": "praxigento/mobi_mod_odoo",
+  "description": "MOBI: Praxigento_Odoo module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_odoo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Odoo\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_pv": "dev-master",
+    "praxigento/mobi_mod_wallet": "dev-master"
+  }
+}

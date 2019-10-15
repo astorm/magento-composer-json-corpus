@@ -1,0 +1,27 @@
+{
+    "name": "fisheye/module-lazyload",
+    "description": "A Magento 2 module that adds support for lazy loading of images.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "magento/module-catalog": "^102.0|^103.0"
+    },
+    "authors": [
+        {
+            "name": "Fisheye Media Ltd.",
+            "homepage": "https://fisheye-webdesign.co.uk/"
+        },
+        {
+            "name": "John Hughes",
+            "email": "johnh@fisheyehq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fisheye\\Lazyload\\": ""
+        }
+    }
+}

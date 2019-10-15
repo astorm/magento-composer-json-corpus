@@ -1,0 +1,47 @@
+{
+    "name": "webgriffe/module-config-override",
+    "description": "A Magento 2 module that reads from file additional configuration",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Webgriffe SRL",
+            "email": "support@webgriffe.com"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0",
+        "magento/framework": "^100.0.0|^101.0.0",
+        "magento/module-backend": "^100.0.0",
+        "magento/module-config": "^100.1.1|^101.0.0",
+        "symfony/yaml": "^2.0|^3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.5",
+        "phpunit/phpunit": "^5.7",
+        "mikey179/vfsStream": "^1.6"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [ "src/registration.php" ],
+        "psr-4": {
+            "Webgriffe\\ConfigOverride\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/"
+        }
+    },
+    "extra": {
+        "magento-force": "override"
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
+}

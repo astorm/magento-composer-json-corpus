@@ -1,0 +1,16 @@
+{
+  "name": "sablesoft/magento2-core",
+  "description": "SableSoft Core Module",
+  "require": {
+    "php": ">=7.1.0",
+    "magento/module-backend": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": ["OSL-3.0"],
+  "autoload":
+  {
+    "files": ["registration.php"],
+    "psr-4": {"SableSoft\\Core\\": ""}
+  }
+}

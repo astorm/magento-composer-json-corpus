@@ -1,0 +1,28 @@
+{
+  "name": "metagento/backend-reindex-magento2",
+  "description": "Help store ownsers to reindex from backend, instead of using command line.",
+  "require": {
+    "metagento/core-m2": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Metagento",
+      "email": "support@metagento.com.com",
+      "homepage": "https://www.metagento.com",
+      "role": "Magento Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Metagento\\BackendReindex\\": ""
+    }
+  }
+}

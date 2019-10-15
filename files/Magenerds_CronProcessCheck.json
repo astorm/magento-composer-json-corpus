@@ -1,0 +1,24 @@
+{
+  "name": "magenerds/cronprocesscheck",
+  "description": "Cron Process check for Magento 2. This modules checks if a cron job process crashed and sets its status to error.",
+  "require": {
+    "magento/framework": "^100.0.0|^101.0.0|^102.0.0",
+    "magenerds/dashboard": "^1.0"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magenerds\\CronProcessCheck\\": ""
+    }
+  }
+}

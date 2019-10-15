@@ -1,0 +1,31 @@
+{
+    "name": "wilkesystems/magento2-german-setup",
+    "description": "Magento2 German Setup",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "magento/module-store": "*",
+        "magento/module-backend": "*",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@wilke.systems"
+        }
+    ],
+    "support": {
+          "email": "maintainer@wilke.systems"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WilkeSystems\\MageGermanSetup\\": ""
+        }
+    }
+}

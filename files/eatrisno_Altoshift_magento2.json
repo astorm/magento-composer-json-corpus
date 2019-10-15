@@ -1,0 +1,35 @@
+{
+  "name": "altoshift/magento2",
+  "description": "Altoshift Magento 2 extension",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Altoshift",
+      "email": "eko@altoshift.com",
+      "homepage": "https://altoshift.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Altoshift\\magento2\\": ""
+    }
+  },
+  "repositories": {
+    "altoshift_magento2": {
+      "type": "path",
+      "url": "."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "damcou/algoliasearch-magento2-external-source",
+  "description": "Demo module to add an external source on the autocomplete menu",
+  "type": "magento2-module",
+  "license": ["MIT"],
+  "minimum-stability":"dev",
+  "version": "1.0.0",
+  "require": {
+    "algolia/algoliasearch-magento-2": "@dev"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Damcou\\ExternalSource\\": ""
+    }
+  }
+}

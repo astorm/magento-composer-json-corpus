@@ -1,0 +1,19 @@
+{
+  "name": "onurgenc/shopfinder",
+  "description": "Shopfinder",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ogenc\\Shopfinder\\": ""
+    }
+  }
+}

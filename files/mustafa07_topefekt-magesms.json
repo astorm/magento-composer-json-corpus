@@ -1,0 +1,36 @@
+{
+  "name": "topefekt/module-magesms",
+  "description": "SMS notification & SMS marketing module for Magento. Free SMS module for Magento with advanced features and user friendly design.",
+  "homepage": "http://www.mage-sms.com",
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.1.0|~7.2.0",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "version": "2.0.4",
+  "license": [
+        "proprietary"
+    ],
+  "authors": [
+    {
+      "name": "Frantisek Barancik",
+      "email": "barancik@sirapy.cz",
+      "homepage": "https://www.sirapy.cz/",
+      "role": "Developer"
+    },
+    {
+      "name": "Lubomir Kozak",
+      "email": "info@topefekt.com",
+      "homepage": "http://www.topefekt.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Topefekt\\Magesms\\": ""
+    }
+  }
+}

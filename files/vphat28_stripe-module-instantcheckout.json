@@ -1,0 +1,16 @@
+{
+    "name": "stripeofficial/module-instant-checkout",
+    "description": "Stripe Instant Checkout payment method integration",
+    "type": "magento2-module",
+    "version": "1.0.10",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Stripeofficial\\InstantCheckout\\": ""
+        }
+    }
+}

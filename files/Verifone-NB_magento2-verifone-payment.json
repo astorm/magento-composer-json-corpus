@@ -1,0 +1,30 @@
+{
+  "name": "verifone/module-payment",
+  "description": "Verifone integration for Magento 2",
+  "require": {
+    "php": "~7.1.0|~7.2.0",
+    "verifone/core": "~1.0.12"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Verifone\\Payment\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Szymon Nosal <simon@lamia.fi>"
+    },
+    {
+      "name": "Lamia Oy",
+      "homepage": "http://lamia.fi/"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ]
+}

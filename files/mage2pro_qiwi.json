@@ -1,0 +1,54 @@
+{
+	"name": "mage2pro/qiwi"
+	,"version": "1.1.4"
+	,"description": "Visa QIWI Wallet (QIWI Кошелёк) integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/qiwi"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.3.2", "mage2pro/phone": ">=1.0.11"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Qiwi\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"QIWI Wallet"
+
+		,"Belarus"
+		,"Brazil"
+		,"Jordan"
+		,"Kazakhstan"
+		,"Moldova"
+		,"Romania"
+		,"Russia"
+		,"United States"
+
+		,"модуль"
+		,"модуль для Magento 2"
+		,"модуль оплаты"
+		,"платёжный модуль"
+		,"QIWI Кошелёк"
+
+		,"Беларусь"
+		,"Бразилия"
+		,"Иордания"
+		,"Казахстан"
+		,"Молдавия"
+		,"Россия"
+		,"Румыния"
+		,"США"
+	]
+}

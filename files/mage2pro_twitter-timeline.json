@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/twitter-timeline"
+	,"version": "1.0.9"
+	,"description": "The «Twitter Timeline» extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/t/174"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.4.44"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TwitterTimeline\\": ""}}
+}

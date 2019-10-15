@@ -1,0 +1,34 @@
+{
+    "name": "magecheck/magento2-reindex",
+    "description": "Reindex your Magento2 from backend/admin",
+    "require": {
+        "php": "^7.0",
+        "magento/framework": ">=2.0.2"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "homepage": "https://www.magecheck.com/",
+    "support": {
+        "email": "victorchiriac89@gmail.com",
+        "issues": "https://github.com/magecheck/magento2-reindex/issues/"
+    },
+    "authors": [
+        {
+            "name": "Victor Chiriac",
+            "email": "victorchiriac89@gmail.com",
+            "homepage": "https://www.magecheck.com/",
+            "role": "Magento Certified Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCheck\\Reindex\\": ""
+        }
+    }
+}

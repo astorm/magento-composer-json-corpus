@@ -1,0 +1,29 @@
+{
+    "name": "bittools/skyhub-m2",
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "require": {
+        "bittools/skyhub-php": "~1.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "authors": [
+        {
+            "name": "Tiago Sampaio",
+            "email": "tiago.sampaio@e-smart.com.br"
+        }
+    ],
+    "support": {
+        "email": "suporte@e-smart.com.br"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BitTools\\SkyHub\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}

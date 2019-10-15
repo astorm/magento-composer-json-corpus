@@ -1,0 +1,23 @@
+{
+  "name": "cwsext/m2-helloworld",
+  "description": "N/A",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/product-community-edition": "*",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Cws/HelloWorld"
+      ]
+    ]
+  }
+}

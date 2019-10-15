@@ -1,0 +1,24 @@
+{
+  "name": "ecomteck/magento2-order-comments",
+  "description": "Magento 2 Module to add  a comment field above the place order button in the checkout",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "keywords": ["magento2"],
+  "license": "MIT",
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Ecomteck",
+      "email": "ecomteck@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ecomteck\\OrderComment\\": ""
+    }
+  }
+}

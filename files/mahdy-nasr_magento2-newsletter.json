@@ -1,0 +1,22 @@
+{
+    "name": "mahdynasr/magento2-newsletter",
+    "description": "N/A",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-newsletter": "100.2.*",
+        "magento/theme-frontend-blank": "100.2.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MahdyNasr\\Newsletter\\": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "ticket-magento2/ticket-customer-magento2",
+    "license": "GPL-3.0-only",
+    "version": "1.0.12",
+    "type": "magento2-module",
+    "description": "Magento module to manger a ticket with customer",
+    "require": {
+        "php": "~7.0.0|~7.1.0"
+    },
+    "authors": [
+        {
+            "name": "Eric Lemes",
+            "email": "eric_efl@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Os\\Customer\\": ""
+        }
+    },
+    "config": {
+        "secure-http": false
+    }
+}

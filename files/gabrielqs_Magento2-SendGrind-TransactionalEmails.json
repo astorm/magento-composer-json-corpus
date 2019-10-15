@@ -1,0 +1,27 @@
+{
+  "name": "gabrielqs/transactional-emails",
+  "description": "Integration between Magento2 and SendGrid. This module can be simply modified to use other transactional email providers by implementing a new Gabrielqs\\TransactionalEmails\\Api\\TransportInterface under Gabrielqs\\TransactionalEmails\\Model\\Transports.",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "sendgrid/sendgrid": "^5.0"
+  },
+  "authors": [
+    {
+      "name": "Gabriel Queiroz Silva",
+      "email": "gabrielqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gabrielqs\\TransactionalEmails\\": ""
+    }
+  }
+}

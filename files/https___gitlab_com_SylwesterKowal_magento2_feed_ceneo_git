@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-feedceneo",
+    "description": "Eksport produkt\u00f3w do CENEO",
+    "type": "magento2-module",
+    "version": "1.0.20",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "kontakt@kowal.co",
+            "name": "kowal"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kowal\\FeedCeneo\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

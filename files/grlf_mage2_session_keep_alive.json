@@ -1,0 +1,20 @@
+{
+  "name": "greenleafmedia/session-keep-alive",
+  "description": "A Magento 2 module that refreshes the PHP session at a determined interval.",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.0.0",
+    "magento/framework": "~100.0.4|~101.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Greenleaf\\SessionKeepAlive\\": ""
+    }
+  }
+}

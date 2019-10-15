@@ -1,0 +1,22 @@
+{
+    "name": "accumula/module-order-tax-management-web-service",
+    "description": "Adds rest webservice support for getting tax details for an order",
+    "require": {},
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Accumula/OrderTaxManagementWebService"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Eric Peterson",
+            "homepage": "https://accumula.com/",
+            "role": "Developer"
+        }
+    ]
+}

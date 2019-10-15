@@ -1,0 +1,28 @@
+{
+    "name": "cybage/storepickup",
+    "description": "An extension to add option for store pickup shipping method on checkout page by Cybage",
+    "authors": [
+      {
+        "name": "Cybage",
+        "email": "Support_ecom@cybage.com"
+      }
+    ],
+    "require": {
+        "php": "~7.0.13|~7.1.0|~7.2.0"
+    },
+    "repositories": [
+    {
+        "type": "composer",
+        "url": "https://packagist.org/packages/cybage/storepickup"
+    }],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cybage\\Storepickup\\": ""
+        }
+    }
+}

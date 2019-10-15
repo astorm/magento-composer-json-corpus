@@ -1,0 +1,22 @@
+{
+    "name":"monogo/cm-cache-backend-redis",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage":"https://github.com/MonogoPolska/monogo-cm-cache-backend-redis",
+    "description":"Fix for excessive Redis calls in Magento 2.x",
+    "authors": [
+        {
+            "name": "Paweł Detka",
+            "email": "pawel.detka@monogo.pl"
+        }
+    ],
+    "require":{
+        "colinmollenhour/cache-backend-redis":"*"
+    },
+    "autoload": {
+        "classmap": [
+            "Monogo/Cache/Backend/Redis.php"
+        ]
+    }
+}

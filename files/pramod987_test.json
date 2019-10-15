@@ -1,0 +1,30 @@
+{
+    "name": "pramod987/module-test",
+    "description":"Magento2 Free Extension Free",
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-backend": "100.0.*|100.1.*|100.2.*",
+        "magento/framework": "100.0.*|100.1.*|101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Bluethink",
+            "email": "mohit@bluethink.in",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pramod987\\Test\\": ""
+        }
+    }
+}

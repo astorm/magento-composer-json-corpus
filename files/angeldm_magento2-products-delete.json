@@ -1,0 +1,23 @@
+{
+    "name": "angeldm/magento2-products-delete",
+    "description": "magento 2 module to delete all products and categories",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [{
+        "email": "angeldm@gmail.com",
+        "name": "Àngel Díaz"
+    }],
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/framework": "102.0.*",
+        "magento/module-catalog": "103.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Angeldm\\ProductsDelete\\": ""
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "zero1/module-indexes",
+    "description": "Enables you to use Mdoq for your magento site",
+    "require": {},
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "keywords": [
+        "Magento 2",
+        "Magento",
+        "Indexes",
+        "Indexers"
+    ],
+    "homepage": "https://packagist.org/packages/zero1/module-indexes",
+    "support": {
+        "email": "support@zero1.co.uk",
+        "docs": "https://github.com/zero1limited/magento2-indexes"
+    },
+    "suggest": {
+        "mdoq/module-connector": "Improves DevOps for Magento2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zero1\\Indexes\\": ""
+        }
+    }
+}

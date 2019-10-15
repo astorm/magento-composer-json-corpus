@@ -1,0 +1,28 @@
+{
+  "name": "mike61988/magento2-newmodule",
+  "description": "Magento 2 NewModule extension",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "authors": [
+    {
+      "name": "Mike61988",
+      "email": "chandlerbing7@gmail.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mk\\Blog\\": ""
+    }
+  }
+}

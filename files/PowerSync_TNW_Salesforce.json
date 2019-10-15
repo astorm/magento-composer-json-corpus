@@ -1,0 +1,20 @@
+{
+    "name": "tnw/salesforce",
+    "description": "Integration between Magento 2 and Salesforce",
+    "require": {
+        "magento/framework": ">100",
+        "tnw/soap-client": "~1",
+        "tnw/marketing": "~2"
+    },
+    "license": [
+        "gpl-3.0"
+    ],
+    "type": "magento2-module",
+    "version": "2.5.21",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "TNW\\Salesforce\\": ""
+        }
+    }
+}

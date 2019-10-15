@@ -1,0 +1,47 @@
+{
+    "name": "mygento/module-sentry",
+    "type": "magento2-module",
+    "version": "2.3.0",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/mygento/module-sentry",
+    "description": "Magento 2 Sentry Logger",
+    "authors": [
+        {
+            "name": "Nikita Tarasov",
+            "email": "nikita@mygento.net",
+            "homepage": "http://www.mygento.net/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mygento",
+            "email": "connect@mygento.net",
+            "homepage": "https://www.mygento.ru/"
+        }
+    ],
+    "keywords": [
+        "magento2",
+        "mygento",
+        "sentry"
+    ],
+    "require": {
+        "magento/framework": "102.*",
+        "sentry/sentry": "^1.10.0"
+    },
+    "require-dev": {
+        "mygento/coding-standard": "^2.13.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mygento\\Sentry\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com"
+        }
+    ]
+}

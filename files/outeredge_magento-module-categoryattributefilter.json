@@ -1,0 +1,32 @@
+{
+    "name": "outeredge/magento-module-categoryattributefilter",
+    "description": "Magento Category Attribute Filter Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "hello@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "require-dev": {
+        "magento-ecg/coding-standard": "~3.0",
+        "outeredge/coding-standards": "~1.0.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\CategoryAttributeFilter\\": ""
+        }
+    }
+}

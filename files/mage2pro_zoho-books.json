@@ -1,0 +1,26 @@
+{
+	"name": "mage2pro/zoho-books"
+	,"version": "0.0.9"
+	,"description": "Zoho Books integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/zoho-books"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.12.21", "mage2pro/zoho": ">=0.0.6", "mage2pro/zoho-bi": ">=0.0.5"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\ZohoBooks\\": ""}}
+	,"keywords": [
+		"Accounting"
+		,"Zoho"
+		,"Zoho Books"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

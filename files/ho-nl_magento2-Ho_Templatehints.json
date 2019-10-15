@@ -1,0 +1,32 @@
+{
+  "name": "honl/magento2-templatehints",
+  "replace": {
+    "ho-nl/magento2-templatehints": "self.version"
+  },
+  "description": "H&O Magento 2 Advanced Template Hints module",
+  "homepage": "https://github.com/ho-nl/magento2-Ho_Templatehints",
+  "authors": [
+    {
+      "name": "Paul Hachmang - H&O",
+      "email": "paul@h-o.nl"
+    }
+  ],
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "license": "BSD-2-Clause",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ho\\Templatehints\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.2-dev"
+    }
+  }
+}

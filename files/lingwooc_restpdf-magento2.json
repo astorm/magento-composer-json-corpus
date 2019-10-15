@@ -1,0 +1,23 @@
+{
+    "name": "thousandmonkeys/m2-restpdf-module",
+    "description": "Module for magento2 to allow invoice pdfs from eadesignro/module-pdfgenerator to be obtained through a rest end point.",
+    "require": {
+        "magento/module-config": "*",
+        "magento/module-catalog": "*",
+        "magento/framework": "*",
+        "eadesignro/module-pdfgenerator": "^1.2.6"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Thousandmonkeys\\Restpdf\\": ""
+        }
+    }
+}

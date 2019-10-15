@@ -1,0 +1,29 @@
+{
+  "name": "tigren/ajaxcart",
+  "description": "Tigren Ajax to Cart",
+  "require": {
+    "php": "~7.0.2|~7.1.0",
+    "tigren/ajaxsuite": "1.1.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Tigren Team",
+      "email": "support@tigren.com",
+      "homepage": "http://www.tigren.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Tigren\\Ajaxcart\\": ""
+    }
+  }
+}

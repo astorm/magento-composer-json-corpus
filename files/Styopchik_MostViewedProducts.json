@@ -1,0 +1,41 @@
+{
+    "name": "netzexpert/module-mostviewedproducts",
+    "description": "N/A",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/framework": ">=100.0.0",
+        "magento/module-catalog": ">=100.0.0",
+        "magento/module-widget": ">=100.0.0"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "~3.0.0",
+        "magento/magento2-functional-testing-framework": "2.4.3",
+        "pdepend/pdepend": "2.5.2",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "~6.5.0",
+        "sebastian/phpcpd": "~3.0.0",
+        "squizlabs/php_codesniffer": "~3.4.0",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Netzexpert\\MostViewedProducts\\": ""
+        }
+    }
+}
+

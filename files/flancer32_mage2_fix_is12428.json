@@ -1,0 +1,21 @@
+{
+  "name": "flancer32/mage2_fix_is12428",
+  "description": "Fix for \"Blocking Google Analytics prevents Checkout\" in Mage 2.2.2 (issue 12428).",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_fix_is12428",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\FixIs12428\\": ""
+    }
+  }
+}

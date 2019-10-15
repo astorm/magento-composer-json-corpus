@@ -1,0 +1,29 @@
+{
+  "name": "picqer/magento2-plugin",
+  "description": "Picqer Extended Integration for Magento 2",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "keywords": [
+    "picqer",
+    "magento2"
+  ],
+  "homepage": "https://github.com/picqer/magento2-plugin",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "authors": [
+    {
+      "name": "Anna van Brecht",
+      "email": "info@picqer.com"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Picqer\\Magento2\\" : ""
+    }
+  }
+}

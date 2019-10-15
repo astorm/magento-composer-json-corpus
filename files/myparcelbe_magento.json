@@ -1,0 +1,41 @@
+{
+    "name": "myparcelbe/magento",
+    "description": "A Magento 2 module that creates MyParcel Belgium labels",
+    "type": "magento2-module",
+    "version": "2.4.2",
+    "homepage": "https://www.sendmyparcel.be",
+    "keywords": ["MyParcel BE", "My Parcel BE", "Bpost", "bpost", "Magento 2"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Reindert Vetter",
+            "email": "info@sendmyparcel.be",
+            "homepage": "https://www.sendmyparcel.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Richard Perdaan",
+            "email": "info@sendmyparcel.be",
+            "homepage": "https://www.sendmyparcel.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6.5 || ^7.0",
+        "myparcelbe/sdk": "~1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4" : {
+            "MyParcelBE\\Magento\\" : ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1-dev"
+        }
+    }
+}

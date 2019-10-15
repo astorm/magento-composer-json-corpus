@@ -1,0 +1,22 @@
+{
+    "name": "m21/module-hreflang",
+    "description": "Dodanie do alternatywnych wersji j\u0119zykowych adres\u00f3w URL dla Google",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\Hreflang\\": ""
+        }
+    }
+}

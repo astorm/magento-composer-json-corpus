@@ -1,0 +1,22 @@
+{
+    "name": "kowal/module-ofertamagentoabonament",
+    "description": "sdsz",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "kowal",
+            "email": "kontakt@kowal.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kowal\\OfertaMagentoAbonament\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

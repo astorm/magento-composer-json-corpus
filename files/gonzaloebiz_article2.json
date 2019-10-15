@@ -1,0 +1,19 @@
+{
+  "name": "gonzalezuy/article2",
+  "autoload": {
+    "psr-4": {"Gonzalezuy\\Article2\\":""},
+    "files": ["registration.php"]
+  },
+  "description": "An example on howto use require",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "Gonzalo Dominguez"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ]
+}

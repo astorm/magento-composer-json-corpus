@@ -1,0 +1,22 @@
+{
+    "name": "studioraz/magento2-configurable-image-rendering",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "magento/framework": "*"
+    },
+    "suggest": {},
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "SR\\ConfigurableImageRendering\\": "src/"
+        }
+    },
+    "support": {
+        "email": "support@studioraz.co.il",
+        "wiki": "http://doc.studioraz.co.il"
+    }
+}

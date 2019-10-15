@@ -1,0 +1,22 @@
+{
+    "name": "javiertelioz/mexicoregions",
+    "description": "Regions of Mexico",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/module-directory": "100.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Javiertelioz\\MexicoRegions\\": ""
+        }
+    }
+}

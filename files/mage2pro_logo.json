@@ -1,0 +1,24 @@
+{
+	"name": "mage2pro/logo"
+	,"description": "A product logotype chooser for Magento 2"
+	,"type": "magento2-module"
+	,"version": "1.3.5"
+	,"license": "proprietary"
+	,"authors": [
+		{
+			"name": "Dmitry Fedyuk"
+			,"email": "admin@mage2.pro"
+			,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+			,"role": "Developer"
+		}
+		,{
+			"name": "Stanislav Luganov"
+			,"email": "pektsekye@gmail.com"
+			,"homepage": "http://hottons.com"
+			,"role": "Developer"
+		}
+	]
+	,"require": {"mage2pro/core": ">=3.6.17"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Logo\\": ""}}
+	,"keywords": ["Magento 2"]
+}

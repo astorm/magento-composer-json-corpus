@@ -1,0 +1,36 @@
+{
+  "name": "connectpos/module-electronic-journal",
+  "description": "N/A",
+  "type": "magento2-module",
+  "version": "19.10.04",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "ConnectPOS",
+      "email": "help@connectpos.com",
+      "homepage": "https://www.connectpos.com/",
+      "role": "Support"
+    }
+  ],
+  "require": {
+    "magento/module-backend": ">100.0",
+    "magento/module-config": ">100.0",
+    "magento/module-store": ">100.0",
+    "magento/module-customer": ">100.0",
+    "magento/module-sales": ">100.0",
+    "magento/module-quote": ">100.0",
+    "magento/module-checkout": ">100.0",
+    "magento/module-ui": ">100.0",
+    "magento/framework": ">100.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SM\\ElectronicJournal\\": ""
+    }
+  }
+}

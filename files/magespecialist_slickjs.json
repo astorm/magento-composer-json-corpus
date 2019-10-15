@@ -1,0 +1,17 @@
+{
+    "name": "msp/slick",
+    "description": "Magento 2 wrapper for kenwheeler/slick",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\Slick\\": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ajourquin/module-disable-customer",
+  "description": "Disable customer account from admin",
+  "version": "1.1.0",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Aurélien Jourquin",
+      "email": "aurelien@growzup.com"
+    }
+  ],
+  "homepage": "https://github.com/ajourquin/module-disable-customer",
+  "keywords": [
+    "magento",
+    "magento2",
+    "customer",
+    "disable"
+  ],
+  "require": {
+    "magento/module-customer": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ajourquin\\DisableCustomer\\": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "mygento/module-js-bundler",
+  "type": "magento2-module",
+  "version": "2.3.0",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/mygento/module-js-bundler",
+  "description": "Magento 2 Advanced JS Bundler",
+  "authors": [
+    {
+      "name": "Nikita Tarasov",
+      "email": "nikita@mygento.net",
+      "homepage": "http://www.mygento.net/",
+      "role": "Developer"
+    },
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net",
+      "homepage": "https://www.mygento.ru/"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "mygento"
+  ],
+  "require": {
+    "magento/module-deploy": "100.3.*"
+  },
+  "require-dev": {
+      "mygento/coding-standard": "^2.13.5",
+      "vimeo/psalm": "^3.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mygento\\JsBundler\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

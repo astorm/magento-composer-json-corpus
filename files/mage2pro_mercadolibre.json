@@ -1,0 +1,27 @@
+{
+	"name": "mage2pro/mercadolibre"
+	,"version": "0.0.1"
+	,"description": "MercadoLibre integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/mercadolibre"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.10.16"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\MercadoLibre\\": ""}}
+	,"keywords": [
+		"MercadoLibre"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Marketplace"
+
+		,"Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Costa Rica", "Dominicana", "Ecuador", "Guatemala", "Honduras", "México", "Nicaragua", "Panamá", "Paraguay", "Perú", "Portugal", "Salvador", "Uruguay", "Venezuela"
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "yireo-training/magento2-example-viewmodel-with-configuration",
+  "type": "magento2-module",
+  "version": "0.0.2",
+  "license": "OSL-3.0",
+  "description": "Example module demonstrating usage Magento 2.2+ ViewModels",
+  "keywords":[ "composer-installer", "magento"],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "^101.0|^102.0",
+    "php": ">=7.0.0"
+  },
+  "require-dev":{
+    "phpunit/phpunit":"*",
+    "composer/composer":"*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\ExampleViewModelWithConfiguration\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

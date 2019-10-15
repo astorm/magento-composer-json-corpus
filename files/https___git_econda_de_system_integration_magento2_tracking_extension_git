@@ -1,0 +1,28 @@
+{
+	"name": "econda/magento2-tracking-extension",
+	"description": "Econda Magento 2 Tracking Extension",
+	"type": "magento2-module",
+	"license": "OSL-3.0",
+	"authors": [{
+	}],
+	"require": {
+		"magento/magento-composer-installer": "*",
+		"econda/tracking": "@stable"
+	},
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Econda/System"
+            ]
+        ]
+    },
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"Econda\\System\\": ""
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "stuifzand/module-structured-data-api",
+  "description": "Api to Add json+ld tags",
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.5.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Stuifzand\\StructuredDataApi\\": ""
+    }
+  }
+}

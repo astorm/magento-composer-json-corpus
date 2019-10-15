@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/facebook"
+	,"version": "1.0.10"
+	,"description": "Facebook APIs"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/facebook"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.6.17"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Facebook\\": ""}}
+}

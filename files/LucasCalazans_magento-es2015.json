@@ -1,0 +1,12 @@
+{
+    "name": "lucas-calazans/module-ecma-script",
+    "description": "A magento module to use ES2015+ with BabelJS",
+    "type":"magento2-module",
+    "version": "dev-master@dev",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "LucasCalazans\\EcmaScript\\": ""
+        }
+    }
+}

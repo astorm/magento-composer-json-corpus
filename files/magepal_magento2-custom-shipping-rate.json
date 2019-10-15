@@ -1,0 +1,49 @@
+{
+    "name": "magepal/magento2-customshippingrate",
+    "description":"Set your own Custom Shipping rates for admin order or create predefined shipping methods for frontend customers",
+    "keywords": [
+        "magento 2",
+        "magento2",
+        "shipping",
+        "magento2 how to create custom shipping method",
+        "magento2 shipping module",
+        "magento2 shipping extension",
+        "custom shipping module",
+        "shipping rates",
+        "shipping extension",
+        "shipping method",
+        "custom shipping",
+        "magento 2 free shipping extension"
+    ],
+    "type": "magento2-module",
+    "version": "1.6.4",
+    "license": [
+        "proprietary"
+    ],
+    "homepage": "http://www.magepal.com/",
+    "support": {
+        "email": "support@magepal.com",
+        "issues": "https://github.com/magepal/magento2-custom-shipping-rate/issues/"
+    },
+    "authors": [
+        {
+            "name": "Renon Stewart",
+            "email": "renon@magepal.com",
+            "homepage": "http://www.magepal.com/",
+            "role": "Leader"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0",
+        "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*",
+        "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagePal\\CustomShippingRate\\": ""
+        }
+    }
+}

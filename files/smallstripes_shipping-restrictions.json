@@ -1,0 +1,34 @@
+{
+  "name": "smallstripes/shipping-restrictions",
+  "description": "Shipping restrictions extension for Magento 2 helps the owner of store to disable shipping for certain criteria",
+  "require": {
+    "smallstripes/magento2-module-core": "^1.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "SmallStripes",
+      "email": "support@smallstripes.com",
+      "homepage": "https://www.smallstripes.com",
+      "role": "Technical Support"
+    }
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "magento 2",
+    "magento 2 shipping restrictions",
+    "magento shipping restrictions",
+    "small stripes",
+    "shipping restrictions"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SmallStripes\\ShippingRestrictions\\": ""
+    }
+  }
+}

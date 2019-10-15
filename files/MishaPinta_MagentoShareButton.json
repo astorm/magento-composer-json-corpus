@@ -1,0 +1,21 @@
+{
+    "name": "pintawebware/sharebuttons",
+    "description": "Pinta ShareButtons",
+     "require": {
+     },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "GPL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": {
+          "pinta\\ShareButtons\\" : "app/code/Pinta/ShareButtons"
+        },
+        "files": [
+          "registration.php"
+        ]
+    }
+}

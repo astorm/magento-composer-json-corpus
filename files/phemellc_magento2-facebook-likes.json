@@ -1,0 +1,22 @@
+{
+    "name": "pheme/magento2-facebook-likes",
+    "description": "Facebook Likes Integration",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/module-config": "100.0.*",
+        "magento/module-store": "100.0.*",
+        "magento/module-catalog": "100.0.*",
+        "magento/framework": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Pheme\\Facebook\\": ""
+        }
+    }
+}

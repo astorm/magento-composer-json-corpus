@@ -1,0 +1,26 @@
+{
+    "name": "emipro/lazyload",
+    "description": "Emipro lazyload for Magento 2",
+    "type": "magento2-module",
+    "license": ["OSL-3.0"],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+         "lazyload": {
+            "url": "https://github.com/emiprotech/lazyload.git",
+            "type": "git"
+            }
+        }
+        
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Emipro\\Lazyload\\": ""
+        }
+    }
+}

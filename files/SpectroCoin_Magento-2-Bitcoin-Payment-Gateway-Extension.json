@@ -1,0 +1,26 @@
+{
+    "name": "spectrocoin/magento2merchant",
+    "type": "magento2-module",
+    "description": "SpectroCoin cryptocurrency payment gateway for Magento2",
+    "version": "1.0.0",
+    "keywords": [
+      "bitcoin", "btc", "xem", "dash", "spectrocoin", "merchant", "magento2", "gateway", "payment", "altcoin"
+    ],
+    "homepage": "https://spectrocoin.com",
+    "require": {
+        "nategood/httpful": "*"
+    },
+	"autoload": {
+    "files": [ "registration.php" ],
+        "psr-4": {
+            "Spectrocoin\\Merchant\\": ""
+        }
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mindaugas Rolius",
+            "email": "mindaugas.rolius@gmail.com"
+        }
+    ]
+}

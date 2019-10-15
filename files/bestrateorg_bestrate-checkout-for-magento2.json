@@ -1,0 +1,39 @@
+{
+    "name": "bestrate/magento2",
+    "type": "magento2-module",
+    "description": "Crypto Payment Gateway for Magento 2 via BestRate",
+    "version": "1.0.2",
+    "keywords": [
+      "bestrate",
+      "bitcoin",
+      "merchant",
+      "waves",
+      "magento",
+      "btc",
+      "ethereum",
+      "litecoin",
+      "eth",
+      "ltc",
+      "ripple",
+      "xrp",
+      "payment",
+      "altcoin",
+      "altcoins"
+    ],
+    "homepage": "https://bestrate.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BestRate team",
+            "homepage": "https://bestrate.org/team"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "BestRate\\Payment\\": ""
+        }
+    }
+}

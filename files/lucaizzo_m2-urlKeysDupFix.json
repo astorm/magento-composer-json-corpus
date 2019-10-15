@@ -1,0 +1,24 @@
+{
+  "name": "enoch/m2-url-keys-dup-fix",
+  "description": "This module checks if url-key exists in database when creating a new product and the url-key is taken from the product name.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+	"magento/module-catalog": "102.0.*"
+  },
+  "license": "GPL-3.0-or-later",
+  "authors": [
+	{
+	  "name": "Luca Izzo",
+	  "email": "izzo.luca@gmail.com",
+	  "homepage": "https://www.lucaizzo.it",
+	  "role": "Developer"
+	}
+  ],
+  "autoload": {
+	"files": [ "registration.php" ],
+	"psr-4": {
+	  "Enoch\\UrlKeys\\": ""
+	}
+  }
+}

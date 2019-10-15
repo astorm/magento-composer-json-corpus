@@ -1,0 +1,35 @@
+{
+  "name": "magenuts/portfolio",
+  "description": "Magenuts Portfolio, A magento 2 module which allow magento 2 store owner to create portfolio.",
+  "require": {
+    "magenuts/core-module": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",  
+  "authors": [
+        {
+            "name": "Magenuts Team",
+            "email": "support@magenuts.com",
+            "homepage": "http://www.magenuts.com",
+            "role": "Technical Support"
+        }
+    ],
+    "keywords": [
+        "magento 2 module",
+        "magento 2 free modules",    
+        "magenuts portfolio module",    
+        "magenuts portfolio magento 2 module",    
+        "free magenuts portfolio module",    
+        "free magenuts portfolio magento 2 module",    
+        "magenuts"
+    ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magenuts\\Portfolio\\": ""
+    }
+  }
+}

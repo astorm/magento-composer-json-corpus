@@ -1,0 +1,26 @@
+{
+    "name": "zipmoney/magento2",
+    "description": "Zip Payment Module for Magento 2",
+    "version": "1.0.8", 
+    "require": {
+        "zipmoney/merchantapi-php": "^1.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "zipMoney",
+            "email": "integrations@zip.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ZipMoney\\ZipMoneyPayment\\":"",
+            "ZipMoney\\ZipMoneyPayment\\Tests\\": ""
+        },    
+        "files": [ "registration.php" ]
+    }
+}

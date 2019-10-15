@@ -1,0 +1,24 @@
+{
+	"name": "mage2pro/portal"
+	,"version": "0.4.5"
+	,"description": "A web portal extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.12.21", "mage2pro/oro": ">=0.0.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Portal\\": ""}}
+	,"keywords": [
+		"CMS"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Web portal"
+	]
+}

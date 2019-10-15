@@ -1,0 +1,23 @@
+{
+  "name": "diggecard/module-giftcard",
+  "description": "A Magento 2 module that add custom giftcard",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "magento/framework": ">=100.0.4"
+  },
+  "minimum-stability" : "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Diggecard\\Giftcard\\": ""
+    }
+  }
+}

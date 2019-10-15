@@ -1,0 +1,38 @@
+{
+    "name": "siteimprove/magento2",
+    "description": "Bridges the gap between Magento and the Siteimprove Intelligence Platform",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Siteimprove",
+            "email": "support@siteimprove.com"
+        },
+        {
+            "name": "Kim Sondrup",
+            "email": "kim@wexo.dk"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "magento/framework": "^100.0 || ^101.0",
+        "symfony/filesystem": "^2.4 || ^3.0 || ^4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Siteimprove\\Magento\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

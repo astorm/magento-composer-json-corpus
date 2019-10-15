@@ -1,0 +1,30 @@
+{
+    "name": "magetoday/banner-slider",
+    "description": "Magento 2 banner slider",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "keywords": [
+        "Study",
+        "Magento2",
+        "Basic",
+        "CRUD",
+        "Banner Slider"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageToday\\BannerSlider\\": ""
+        }
+    },
+    "version": "0.1.0"
+}

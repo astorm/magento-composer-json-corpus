@@ -1,0 +1,24 @@
+{
+  "name": "ph2m/hreflang-m2",
+  "description": "Index Hreflang URLs and display on head block",
+  "homepage": "https://github.com/PH2M/hreflang-m2-m2",
+  "require": {
+    "magento/product-community-edition": "~2.1.0|~2.2.0|~2.3.0"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "PH2M",
+      "email": "contact@ph2m.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PH2M\\Hreflang\\": ""
+    }
+  }
+}

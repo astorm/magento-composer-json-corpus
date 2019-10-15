@@ -1,0 +1,34 @@
+{
+    "name": "controlaltdelete/magento2-live-reload",
+    "description": "Enable Live Reload for Magento 2 when in default or in development mode",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michiel Gerritsen",
+            "email": "michiel@controlaltdelete.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "^100.1|^101.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.8.5",
+        "magento/marketplace-eqp": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ControlAltDelete\\LiveReload\\": "src/"
+        }
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "thedutchmen/module-serializefix",
+    "description": "Magento 2.2.x - Fix for Unable to serialize value",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mikerooijackers.nl",
+            "name": "mike rooijackers"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.0|~7.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TheDutchmen\\SerializeFix\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "stripeofficial/module-bancontact",
+    "description": "Stripe BanContact payment method integration",
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Stripeofficial\\BANCONTACT\\": ""
+        }
+    }
+}

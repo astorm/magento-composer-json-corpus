@@ -1,0 +1,17 @@
+{
+  "name": "davidverholen/cms",
+  "description": "CMS Base Elements",
+  "require": {
+    "php": "^5.5.0|^7.0.0"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DavidVerholen\\Cms\\": ""
+    }
+  }
+}

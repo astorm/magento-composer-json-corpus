@@ -1,0 +1,31 @@
+{
+	"name": "mage2pro/mpay24"
+	,"version": "0.0.8"
+	,"description": "mPAY24 integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/mpay24"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.4.1", "mpay24/mpay24-php": ">=4"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\MPay24\\": ""}}
+	,"keywords": [
+		"API"
+		,"Austria"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"mPAY24"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+	]
+}

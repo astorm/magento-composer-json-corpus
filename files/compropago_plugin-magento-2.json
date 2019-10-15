@@ -1,0 +1,57 @@
+{
+    "name": "compropago/magento2",
+    "description": "A Magento 2 module for ComproPago, cash and SPEI payments",
+    "type": "magento2-module",
+    "version": "5.0.2",
+    "homepage": "https://www.compropago.com",
+    "readme": "README.md",
+    "keywords": [
+        "pagos internet",
+        "payment gateway",
+        "magento 2",
+        "magento2",
+        "compropago",
+        "cash",
+        "spei"
+    ],
+    "license": [
+        "Apache-2.0"
+    ],
+    "require": {
+        "compropago/php-sdk": "^5.0.0.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Compropago\\Magento2\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Rolando Lucio",
+            "email": "rolando@compropago.com"
+        },
+        {
+            "name": "Eduardo Aguilar",
+            "email": "dante.aguilar41@gmail.com"
+        },
+        {
+            "name": "qboDigital",
+            "email": "info@qbo.tech"
+        },
+        {
+            "name": "Rus0",
+            "email": "andoni88@gmail.com"
+        },
+        {
+            "name": "José Beltrán",
+            "email": "j.beltran@live.com.mx"
+        }
+    ],
+    "support": {
+        "docs": "http://demo.compropago.com/plugins/magento2",
+        "email": "soporte@compropago.com",
+        "issues": "https://github.com/compropago/plugin-magento-2/issues",
+        "source": "https://github.com/compropago/plugin-magento-2.git"
+    }
+}

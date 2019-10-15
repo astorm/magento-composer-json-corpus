@@ -1,0 +1,22 @@
+{
+  "name": "satispay/magento2-plugin",
+  "description": "Satispay Magento2 Plugin",
+  "license": "MIT",
+  "keywords": ["satispay", "magento2", "plugin"],
+  "version": "1.2.4",
+  "authors": [
+    {
+      "name": "Satispay",
+      "homepage": "http://satispay.com"
+    }
+  ],
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Satispay\\Satispay\\": ""
+    }
+  }
+}

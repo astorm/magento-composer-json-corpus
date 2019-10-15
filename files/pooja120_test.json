@@ -1,0 +1,35 @@
+{
+    "name": "myproject/module-test",
+    "description": "Myproject_Test",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/module-config": "100.1.*",
+        "magento/module-store": "100.1.*",
+        "magento/module-sales": "100.1.*",
+        "magento/module-quote": "100.1.*",
+        "magento/module-customer": "100.1.*",
+        "magento/module-backend": "100.1.*",
+        "magento/module-tax": "100.1.*",
+        "magento/module-directory": "100.1.*",
+        "magento/module-theme": "100.1.*",
+        "magento/module-catalog": "101.0.*",
+        "magento/module-catalog-inventory": "100.1.*",
+        "magento/module-url-rewrite": "100.1.*",
+        "magento/module-eav": "100.1.*",
+        "magento/framework": "100.1.*",
+        "magento/module-ui": "100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.7",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Myproject\\Test\\": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "saulmoralespa/magento2-pago-facil-chile",
+  "description": "PST pagofacil integration for magento2",
+  "authors": [
+    {
+      "name": "Saul Morales",
+      "email": "info@saulmoralespa.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "saulmoralespa/pstpagofacil": "1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Saulmoralespa\\PagoFacilChile\\": ""
+    }
+  }
+}

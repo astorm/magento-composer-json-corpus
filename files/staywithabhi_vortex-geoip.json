@@ -1,0 +1,32 @@
+{
+    "name": "vortex/geoip",
+    "description": "Vortex GeoIP restriction module enables the website owner to restrict the website for specific countries or IP addresses.",
+    "type": "magento2-module",
+    "version": "2.0.0",
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+      "authors": [
+        {
+            "name": "Abhishek Dixit",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/staywithabhi/vortex-geoip"
+        }
+      ],
+      "minimum-stability": "dev",
+    "keywords": ["Geo Lock", "Geo Location", "Geo Restriction", "IP block"],
+    "homepage": "https://vortexglobalservices.com/",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vortex\\Geoip\\": ""
+        }
+    }
+}

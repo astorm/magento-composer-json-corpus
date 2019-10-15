@@ -1,0 +1,29 @@
+{
+  "name" : "mcw/cron-schedule",
+  "description" : "MCW CronSchedule Module Magento 2",
+  "type" : "magento2-module",
+  "license": "GPL-3.0+",
+  "homepage": "https://github.com/michaelcoleweb/mcw-cronschedule",
+  "authors": [
+    {
+      "name": "Michael Cole",
+      "homepage": "https://github.com/michaelcoleweb",
+      "role": "Developer"
+    }
+  ],
+  "require" : {
+    "php" : "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-store" : "~100.0",
+    "magento/framework" : "~100.0",
+    "mcw/base" : "1.*"
+  },
+  "autoload" : {
+    "files" : ["registration.php"],
+    "psr-4" : {
+      "MCW\\CronSchedule\\" : ""
+    }
+  },
+  "keywords": [
+    "Magento", "Magento 2", "Magento Base"
+  ]
+}

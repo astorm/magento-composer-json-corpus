@@ -1,0 +1,31 @@
+{
+  "name": "vianetz/module-core",
+  "description": "The vianetz Magento core library that provides some utility methods for all our Magento extensions.",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "keywords": [
+    "vianetz"
+  ],
+  "homepage": "http://www.vianetz.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christoph Massmann",
+      "email": "c.massmann@vianetz.com",
+      "homepage": "http://www.vianetz.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@vianetz.com",
+    "faq": "http://www.vianetz.com/en/magento-faq"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vianetz\\Core\\": ""
+    }
+  }
+}

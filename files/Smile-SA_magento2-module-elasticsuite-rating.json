@@ -1,0 +1,48 @@
+{
+    "name" : "smile/module-elasticsuite-rating",
+    "type" : "magento2-module",
+    "license" : "OSL-3.0",
+    "authors" : [
+        {
+            "name" : "Tony DEPLANQUE",
+            "email" : "todep@smile.fr"
+        },
+        {
+            "name" : "Romain Ruaud",
+            "email" : "romain.ruaud@smile.fr"
+        }
+    ],
+    "description" : "Smile ElasticSuite - Rating search module.",
+    "homepage" : "https://github.com/Smile-SA/module-elasticsuite-catalog",
+    "keywords" : [
+        "magento",
+        "magento2",
+        "elasticsearch",
+        "search",
+        "merchandising",
+        "ratings"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require" : {
+        "magento/framework" : ">=100.1.0",
+        "magento/magento-composer-installer" : "*",
+        "magento/module-review" : ">=100.1.0",
+        "smile/elasticsuite" : "~2.7.0"
+    },
+    "require-dev" : {
+        "smile/magento2-smilelab-quality-suite" : "1.0.0"
+    },
+    "autoload" : {
+        "files" : [
+            "registration.php"
+        ],
+        "psr-4" : {
+            "Smile\\ElasticsuiteRating\\" : ""
+        }
+    }
+}

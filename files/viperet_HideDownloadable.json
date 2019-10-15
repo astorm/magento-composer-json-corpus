@@ -1,0 +1,22 @@
+{
+    "name": "smartymedia/hide-downloadable",
+    "description": "A Magento 2.2 module to add \"Is Visible\" attribute to Downloadable products' links. Hides links on \"My Downloadable Products\" account view page if \"Is Visible\" set to \"No\" for that link",
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.0",
+        "magento/framework": "~101.0.4"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+           "Smartymedia\\HideDownloadable\\": ""
+        }
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Vitaly Peretiatko",
+            "email": "viperet@smartmedia.biz"
+        }
+    ]
+}

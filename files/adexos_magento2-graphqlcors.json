@@ -1,0 +1,34 @@
+{
+    "name": "adexos/graphqlcors",
+    "description": "Allows asynchronous requests with Magento2 graphql",
+    "authors": [
+            {
+                "name": "Aurélien Fontaine",
+                "email": "afontaine@adexos.fr",
+                "homepage": "https://www.adexos.fr",
+                "role": "Developer"
+            }
+        ],
+    "require": {
+        "php": "^7.1",
+        "magento/module-graph-ql": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adexos\\GraphqlCors\\": ""
+        }
+    }
+}

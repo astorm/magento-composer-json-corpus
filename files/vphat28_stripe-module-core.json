@@ -1,0 +1,19 @@
+{
+    "name": "stripeofficial/module-core",
+    "description": "Stripe Core payment gateway integration",
+    "require": {
+        "stripe/stripe-php": ">=5.8.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.13",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Stripeofficial\\Core\\": ""
+        }
+    }
+}

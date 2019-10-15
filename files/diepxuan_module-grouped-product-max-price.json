@@ -1,0 +1,27 @@
+{
+    "name": "diepxuan/module-grouped-product-max-price",
+    "description": "show group max price for Magento 2",
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.0.1",
+    "authors": [
+        {
+            "name": "Tran Ngoc Duc",
+            "email": "ductn@diepxuan.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Diepxuan\\GroupedProductMaxPrice\\": ""
+        }
+    }
+}

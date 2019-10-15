@@ -1,0 +1,22 @@
+{
+    "name": "chipulaja/magento2-blank-module",
+    "description": "Blank Module for magento 2",
+    "config": {
+        "sort-packages": true
+    },
+    "license": "MIT",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/framework": "102.0.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Chipulaja\\Magento\\BlankModule\\": ""
+        }
+    },
+    "version": "v0.0.1"
+}

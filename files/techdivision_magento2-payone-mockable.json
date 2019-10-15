@@ -1,0 +1,30 @@
+{
+    "name": "techdivision/payone-mockable",
+    "description": "Extend payone-gmbh/magento-2 module in order to allow provide mock service endpoint",
+    "type": "magento2-module",
+    "license": [
+      "OSL-3.0"
+    ],
+    "support": {
+          "email": "v.justus@techdivision.com"
+	},
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "magento/framework": "^100.0.0|^101.0.0",
+        "payone-gmbh/magento-2": "^2.3"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TechDivision\\PayoneMockable\\": ""
+        }
+    }
+}

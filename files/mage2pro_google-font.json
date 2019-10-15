@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/google-font"
+	,"version": "1.1.4"
+	,"description": "Google Font API."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/google-font"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=5.2.5", "mage2pro/google": "*"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\GoogleFont\\": ""}}
+}

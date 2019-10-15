@@ -1,0 +1,27 @@
+{
+  "name": "auroraextensions/magecroncloudfunctions",
+  "description": "Run Magento 2 cron jobs via Google Cloud Functions.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "support@auroraextensions.com",
+    "issues": "https://github.com/auroraextensions/magecroncloudfunctions/issues"
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AuroraExtensions\\MageCronCloudFunctions\\": ""
+    }
+  }
+}

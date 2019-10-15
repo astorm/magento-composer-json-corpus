@@ -1,0 +1,40 @@
+{
+    "name": "mozgbrasil/magento2-boxpacker-php55",
+    "description": "Módulo de Gerenciamento de Embalagem/Caixa requerido para funcionamento dos métodos de entrega",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": ["cerebrum", "mozg", "magento2", "email", "api", "bridge"],
+    "homepage": "http://mozg.com.br",
+    "time": "2016-09-02 14:30:57",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mozg",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+			"role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento2-boxpacker-php55/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/magento2-boxpacker-php55",
+        "docs": "https://github.com/mozgbrasil/magento2-boxpacker-php55/wiki",
+        "rss": "https://mozg.com.br/feed.xml"
+    },
+    "require" : {
+        "mozgbrasil/magento2-base-php55": "*",
+        "dvdoug/boxpacker": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mozg\\BoxPacker\\": ""
+        }
+    }
+}

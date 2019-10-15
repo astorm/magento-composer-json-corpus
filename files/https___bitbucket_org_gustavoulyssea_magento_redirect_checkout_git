@@ -1,0 +1,28 @@
+{
+  "name": "gustavoulyssea/magento-redirect-checkout",
+  "description": "Magento 2 Redirect To Checkout After Signup and Signin Extension",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Gustavo Ulyssea",
+      "email": "gustavo.ulyssea@gmail.com",
+      "homepage": "https://www.gum.net.br",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GustavoUlyssea\\RedirectCheckout\\": ""
+    }
+  }
+}

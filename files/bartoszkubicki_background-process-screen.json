@@ -1,0 +1,39 @@
+{
+  "name": "bkubicki/module-background-process-screen",
+  "description": "Magento2 module displaying background php process state.",
+  "type": "magento2-module",
+  "version": "1.2.2",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Bartosz Kubicki",
+      "email": "b.w.kubicki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "magento/framework": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "keywords": [
+    "Magento 2"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BKubicki\\BackgroundProcessScreen\\": ""
+    }
+  }
+}

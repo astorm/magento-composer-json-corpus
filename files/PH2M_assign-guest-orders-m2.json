@@ -1,0 +1,24 @@
+{
+  "name": "ph2m/assign-guest-orders-m2",
+  "description": "Automatically reassign guest orders to customer when an account is created",
+  "homepage": "https://github.com/PH2M/assign-guest-orders-m2",
+  "require": {
+    "magento/product-community-edition": "~2.1"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "PH2M",
+      "email": "contact@ph2m.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PH2M\\AssignGuestOrders\\": ""
+    }
+  }
+}

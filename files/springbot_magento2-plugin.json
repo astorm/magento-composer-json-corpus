@@ -1,0 +1,25 @@
+{
+  "name": "springbot/magento2-plugin",
+  "description": "Springbot integration for Magento 2",
+  "type": "magento2-module",
+  "version": "1.8.3",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "springbot/magento2-queue": "1.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Springbot\\Main\\": ""
+    }
+  },
+  "require-dev": {
+    "psy/psysh": "^0.7.2",
+    "phpunit/phpunit": "~4.0"
+  }
+}

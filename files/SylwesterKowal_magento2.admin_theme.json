@@ -1,0 +1,22 @@
+{
+    "name": "wm21w/admintheme",
+    "description": "Wm21w AdminTheme",
+    "require": {
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.34",
+    "minimum-stability": "stable",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Wm21w/AdminTheme"
+            ]
+        ]
+    }
+}

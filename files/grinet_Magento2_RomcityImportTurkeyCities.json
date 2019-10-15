@@ -1,0 +1,33 @@
+{
+    "name": "grinet/romcity-import-turkey-cities",
+    "description": "Adds Turkey cities to your Magento2 Romcity extension for showing as list in address forms after selecting region / Türkiye ilçelerini Magento2 Romcity modülüne ekler ve adres formlarında şehir seçilince ilçeler listelenir",
+    "keywords": ["Magento2", "Turkiye", "Türkiye", "Şehirler", "Şehirleri", "Turkey", "Cities", "Türkei"],
+    "require": {
+        "php": ">=5.6.0",
+        "magento/module-directory": "100.1.*|100.2.*|100.3.*|100.4.*",
+        "magento/framework": "100.1.*|101.0.*|102.0.*|103.0.*|104.0.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Grinet\\RomcityImportTurkeyCities\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Grinet",
+            "homepage": "http://www.grinet.com.tr/",
+            "email": "info@grinet.com.tr"
+        }
+    ],
+    "support": {
+        "email": "info@grinet.com.tr"
+    }
+}

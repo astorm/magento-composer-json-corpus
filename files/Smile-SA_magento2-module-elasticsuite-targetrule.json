@@ -1,0 +1,42 @@
+{
+    "name": "smile/module-elasticsuite-targetrule",
+    "type": "magento2-module",
+    "description": "Smile Elastic Suite - TargetRule Module",
+    "keywords": ["magento2","elasticsuite","targetrule"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": ">=100.2.0",
+        "magento/magento-composer-installer": "*",
+        "magento/module-target-rule": ">=100.2.0",
+        "smile/elasticsuite" : "^2.3.8"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "^1.0.4"
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Richard Bayet",
+            "email": "richard.bayet@smile.fr"
+        },
+        {
+            "name": "Romain Ruaud",
+            "email": "romain.ruaud@smile.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\ElasticsuiteTargetRule\\" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

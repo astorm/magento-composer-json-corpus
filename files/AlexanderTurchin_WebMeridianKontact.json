@@ -1,0 +1,28 @@
+{
+  "name": "webmeridian/kontact",
+  "description": "Create Kontact Person post in customer accaunt",
+  "license": [
+    "OSL-3.0"
+  ],
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Alex Turchin",
+      "email": "alex.t@webmeridian.org",
+      "homepage": "https://webmeridian.org",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WebMeridian\\Kontact\\": ""
+    }
+  },
+  "minimum-stability": "alpha",
+  "prefer-stable": true
+}
+

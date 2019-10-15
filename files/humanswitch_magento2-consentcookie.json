@@ -1,0 +1,42 @@
+{
+    "name": "humanswitch/magento2-consentcookie",
+    "description": "The official ConsentCookie extension for Magento 2",
+    "type": "magento2-module",
+    "homepage": "https://github.com/humanswitch/magento2-consentcookie",
+    "license": "Apache-2.0",
+    "version": "1.1.0",
+    "keywords": [
+        "privacy",
+        "AVG",
+        "GDPR",
+        "consentcookie",
+        "cookie",
+        "consent"
+    ],
+    "authors": [
+        {
+            "name": "Fabio Ros",
+            "email": "fabio@frosit.nl",
+            "role": "Magento Developer",
+            "homepage": "https://www.frosit.nl"
+        },
+        {
+            "name": "HumanSwitch / ConsentCookie",
+            "email": "support@humanswitch.io",
+            "role": "Team ConsentCookie",
+            "homepage": "https://www.consentcookie.nl/"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Humanswitch\\Consentcookie\\": ""
+        }
+    }
+}

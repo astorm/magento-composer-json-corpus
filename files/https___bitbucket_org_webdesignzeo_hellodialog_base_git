@@ -1,0 +1,30 @@
+{
+    "name": "hellodialog/module-base",
+    "description": "Hellodialog base module",
+    "license": "proprietary",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"authors": [
+        {
+            "email": "gydo@zeo.nl",
+            "name": "Gydo Broos"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+	    "magento/module-newsletter": "^100.1"
+    },
+	"suggest" : {
+		"hellodialog/module-transactional-emails": "1.0.0",
+		"hellodialog/module-abandoned-cart": "1.0.0"
+	},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hellodialog\\Base\\": ""
+        }
+    }
+}

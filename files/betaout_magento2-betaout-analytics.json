@@ -1,0 +1,29 @@
+{
+  "name": "betaout/analytics",
+  "description": "Betaout analytics module for Magento 2",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+    "AGPL-3.0+"
+  ],
+  "authors": [
+    {
+      "name": "Betaout",
+      "email": "arjun@betaout.com",
+      "homepage": "https://app.betaout.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Betaout\\Analytics\\": ""
+    }
+  }
+}
+

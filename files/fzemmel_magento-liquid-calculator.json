@@ -1,0 +1,17 @@
+{
+    "name": "fzemmel/module.magento2.liquid.calculator",
+    "description": "UiComponent liquid calculator",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors":[
+        {
+            "name": "Felix Zemmel",
+            "email": "felix@zemmel.es"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

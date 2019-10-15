@@ -1,0 +1,23 @@
+{
+    "name": "magecheck/customer-history-items",
+    "type": "magento2-module",
+    "description": "This extension gives you an extra customer tab that you can see the customer purchase history",
+    "authors": [
+        {
+            "name": "Victor Chiriac",
+            "role": "Magento Certified Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "magento/framework": ">=2.0.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCheck\\CustomerHistoryItems\\": ""
+        }
+    }
+}

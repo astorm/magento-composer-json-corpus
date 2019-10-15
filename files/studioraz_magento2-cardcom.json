@@ -1,0 +1,26 @@
+{
+    "name": "studioraz/magento2-cardcom",
+    "description": "Studioraz - Magento 2 module for Cardcom Payment Gateway (Israel)",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~7.0|~7.1",
+        "magento/framework": "*"
+    },
+    "suggest": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SR\\Cardcom\\": ""
+        }
+    },
+    "support": {
+        "email": "support@studioraz.co.il",
+        "wiki": "http://studioraz.co.il:8090"
+    }
+}

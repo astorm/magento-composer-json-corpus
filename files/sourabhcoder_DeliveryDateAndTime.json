@@ -1,0 +1,28 @@
+{
+  "name": "sourabhcoder/deliverydateandtime",
+  "description": "This is a Magento 2 Module for adding delivery date and time field to the Magento 2 checkout field in one page checkout, it is tested on the Magento 2 luma theme. ",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version" : "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Sourabhcoder",
+      "email": "sourabhkumarsharma778@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sourabh\\DeliveryDateAndTime\\": ""
+    }
+  }
+}

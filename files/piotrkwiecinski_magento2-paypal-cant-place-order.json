@@ -1,0 +1,30 @@
+{
+    "name": "piotrkwiecinski/magento2-paypal-cant-place-order",
+    "description": "Backport of can't place order bug in magento",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "0.1.2",
+    "authors": [
+        {
+            "name": "Piotr Kwiecinski",
+            "email": "piokwiecinski@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/module-paypal": "100.1.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PiotrKwiecinski\\PaypalFix\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}

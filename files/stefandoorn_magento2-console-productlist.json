@@ -1,0 +1,24 @@
+{
+    "name": "stefandoorn/magento2-console-productlist",
+    "description": "Magento 2 Console Product List",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*",
+        "magento/module-catalog": "~100.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": { "StefanDoorn\\ConsoleProductList\\": "" },
+        "files": [ "registration.php" ]
+    },
+    "authors": [
+        {
+            "name": "Stefan Doorn",
+            "email": "stefan@efectos.nl"
+        }
+    ]
+}

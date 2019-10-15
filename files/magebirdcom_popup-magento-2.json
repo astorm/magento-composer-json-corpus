@@ -1,0 +1,16 @@
+{
+  "name": "magebird/popup",
+  "description": "Magebird Popup 2",
+  "type": "magento2-module",  
+  "version": "1.5.3",
+  "license": "proprietary",
+  "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+          "Magebird\\Popup\\": ""
+      }
+  },
+    "require": {
+        "magebird/popup-lib": "*"
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "ingenico-epayments/connect-extension-magento2",
+  "description": "Magento2 Extension for connecting to the Ingenico ePayments Connect platform",
+  "require": {
+    "magento/module-backend": "^100.2.6 || ^101.0.0",
+    "magento/module-catalog": "^102.0.6 || ^102.0.0 || ^103.0.0",
+    "magento/module-checkout": "^100.2.6",
+    "magento/module-config": "^101.0.6 || ^101.0.0",
+    "magento/module-customer": "^101.0.6 || ^101.0.0 || ^102.0.0",
+    "magento/module-directory": "^100.2.5",
+    "magento/framework": "^101.0.6 || ^101.0.0 || ^102.0.0",
+    "magento/module-payment": "^100.2.4",
+    "magento/module-quote": "^101.0.5",
+    "magento/module-sales": "^101.0.5 || ^102.0.0",
+    "magento/module-store": "^100.2.5 || ^101.0.0",
+    "ingenico-epayments/connect-sdk-php": "^5.19.0",
+    "netresearch/module-compatibility-m2": ">=1.0.0",
+    "netresearch/config-fields-m2": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2",
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "conflict": {
+    "nrepayments/module-epayments-m2": "*",
+    "ingenico/module-epayments-m2": "*"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ingenico\\Connect\\": ""
+    }
+  },
+  "replace": {
+    "nrepayments/module-epayments-m2": ">=1.6.1",
+    "ingenico/module-epayments-m2": ">=1.5.0"
+  },
+  "support": {
+    "wiki": "https://www.ingenico.com/epayments/support",
+    "docs": "https://marketplace.magento.com/ingenico-module-connect-m2.html"
+  },
+  "authors": [
+    {
+      "name": "Ingenico ePayments",
+      "email": "connect@ingenico.com",
+      "homepage": "https://epayments.developer-ingenico.com/",
+      "role": "Developer"
+    }
+  ]
+}

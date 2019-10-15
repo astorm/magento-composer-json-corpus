@@ -1,0 +1,13 @@
+{
+    "name": "idealcode/magento2-module-task-tracker",
+    "description": "Simple task tracker for Magento 2",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IdealCode\\TaskTracker\\": ""
+        }
+    }
+}

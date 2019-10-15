@@ -1,0 +1,38 @@
+{
+	"name": "msp/notify",
+	"description": "Magento 2 multi channel notification module",
+	"license": "OSL-3.0",
+	"support": {
+		"issues": "https://github.com/magespecialist/m2-MSP_Notify/issues"
+	},
+	"homepage": "https://github.com/magespecialist/m2-MSP_Notify",
+	"keywords": [
+		"magento",
+		"notification",
+		"tool"
+	],
+	"authors": [
+		{
+			"name": "MageSpecialist",
+			"email": "info@magespecialist.it"
+		}
+	],
+	"require": {
+		"php": "~7.0.0|~7.1.0",
+		"magento/magento2-base": "^2.1|^2.2",
+		"maknz/slack": "^1.7",
+		"irazasyed/telegram-bot-sdk": "^2.0"
+	},
+	"suggest": {
+		"msp/notifier": "Improved version with more functionalities"
+	},
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"MSP\\Notify\\": ""
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "customsumit/magento2-api",
+  "description": "A Magento 2 module that allows Custom Kits from Custom SumIT to be added to a Customer's basket.",
+  "type": "magento2-module",
+  "version": "1.2.11",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "magento/framework": "~100.1.0|~101.0.0|~102.0",
+    "customsumit/adapter-php": "~1.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "CustomSumit\\Api\\": ""
+    }
+  }
+}

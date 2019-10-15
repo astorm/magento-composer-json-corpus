@@ -1,0 +1,20 @@
+{
+  "name": "sannehoogmans/lessconfigdump",
+  "description": "Config Dump For Deployment",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sanne Hoogmans"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SanneHoogmans\\LessConfigDump\\": ""
+    }
+  }
+}

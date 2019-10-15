@@ -1,0 +1,20 @@
+{
+  "name": "metagento/order-delete-magento2",
+  "description": "This Magento 2 extension helps store owner to delete order easily from Order Grid.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "metagento/core-m2": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Metagento\\OrderDelete\\": ""
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "shopgo/amazon-sns",
+    "description": "Integrates Magento 2 with Amazon SNS.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*",
+        "aws/aws-sdk-php": "2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ShopGo\\AmazonSns\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

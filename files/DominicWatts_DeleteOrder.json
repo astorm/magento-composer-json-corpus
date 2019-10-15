@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/deleteorder",
+    "description": "Delete order via admin or in console script.  Database level delete covering many tables.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.2",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\DeleteOrder\\": ""
+        }
+    }
+}

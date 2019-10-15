@@ -1,0 +1,38 @@
+{
+  "name": "supravatm/magento-2-sample-helloworld-extension",
+  "description": "Magento 2 Helloworld Extension",
+  "require": {
+    "magento/project-enterprise-edition": "*"
+  },
+  "type": "magento2-module",
+  "version": "2.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "repositories": [
+    {
+		"type": "composer",
+		"url": "https://github.com/supravatm/m2-module-helloworld.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "supravat M",
+      "email": "supravat.com@gmail.com",
+      "homepage": "https://github.com/supravatm/m2-module-helloworld",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Supravatm\\HelloWorld\\": ""
+    }
+  }
+}

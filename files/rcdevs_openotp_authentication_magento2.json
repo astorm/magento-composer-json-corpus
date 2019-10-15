@@ -1,0 +1,24 @@
+{
+"name": "rcdevs/openotp",
+"description": "OpenOTP 2FA Authentication Plugin enables strong two factor authentication for administrators to login on Magento Dashboard. It displays an overlay on Challenge-Response session, after fill in username and password. The plugin supports global and per user settings configuration. The plugin will transparently handle any OpenOTP Login Mode including LDAP only, OTP only, LDAP+OTP, LDAP+U2F and LDAP+(OTP or U2F). If configured, OpenOTP plugin is able to auto-create new account in Magento while login for the first time.",
+"keywords": ["Magento2", "Admin", "Authentication","Login","Two-Factor","U2F","OpenOTP"],
+"type": "magento2-module",
+"version": "2.0.0",
+"license": "GPL-3.0",
+"minimum-stability": "stable",
+"require": {
+	"ext-soap":"*",
+	"php": "~5.5.0|~5.6.0|~7.0.0"
+ },
+"authors": [ {
+	"name": "RCDevs",
+	"email": "support@rcdevs.com",
+	"homepage": "http://www.rcdevs.com"
+	 } ],
+"autoload": {
+	"files": [ "registration.php" ],
+	"psr-4": {
+		"RCDevs\\OpenOTP\\": ""
+	 	} 
+	} 
+}

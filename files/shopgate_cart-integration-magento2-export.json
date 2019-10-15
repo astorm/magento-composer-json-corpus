@@ -1,0 +1,36 @@
+{
+  "name": "shopgate/cart-integration-magento2-export",
+  "description": "Shopgate export module for Magento 2, handles all export functionality",
+  "license": "Apache-2.0",
+  "type": "magento2-module",
+  "version": "2.9.15",
+  "authors": [
+    {
+      "name": "Konstantin Kiritsenko"
+    },
+    {
+      "name": "André Kraus"
+    },
+    {
+      "name": "Stephan Recknagel"
+    },
+    {
+      "name": "Alexander Wesselburg"
+    },
+    {
+      "name": "Rainer Skistims"
+    }
+  ],
+  "require": {
+    "shopgate/cart-integration-magento2-base": "~2.9.14"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Shopgate\\Export\\": "src/",
+      "Shopgate\\Export\\Tests\\": "tests/"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "auroraextensions/stackdriver",
+  "description": "Integrate Stackdriver services into Magento Open Source and Magento Commerce.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@auroraextensions.com"
+    }
+  ],
+  "support": {
+    "email": "support@auroraextensions.com"
+  },
+  "require": {
+    "php": ">=7.2",
+    "psr/log": "~1.1.0",
+    "magento/framework": "102.*.*",
+    "google/cloud-core": "~1.29.0",
+    "google/cloud-logging": "~1.16.5",
+    "google/cloud-error-reporting": "~0.14.5"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AuroraExtensions\\Stackdriver\\": ""
+    }
+  }
+}

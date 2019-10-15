@@ -1,0 +1,23 @@
+{
+    "name": "banovic/ordernote",
+    "description": "Add order note on checkout - purpose of this module is learning of Magento 2, do not use it in production",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0",
+        "magento/framework": "101.0.*",
+        "magento/module-backend": "100.2.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Banovic\\OrderNote\\": ""
+        }
+    }
+}
+
+

@@ -1,0 +1,23 @@
+{
+    "name": "rocketweb/module-ui-core",
+    "description": "Helper functions and custom Magento 2 UI components",
+    "type": "magento2-module",
+    "require": {
+        "php": "~5.5|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Rocket Web Inc.",
+            "email": "info@rocketweb.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RocketWeb\\UiCore\\": ""
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "mundipagg/mundipagg-magento2-module",
+    "license": "MIT",
+    "version": "1.8.11",
+    "type": "magento2-module",
+    "description": "Magento 2 Module Mundipagg",
+    "require": {
+        "php": ">=5.6.0",
+        "mundipagg/mundiapi": "^3.0",
+        "mundipagg/ecommerce-module-core": "1.10.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.0",
+        "squizlabs/php_codesniffer": "2.7.0",
+        "phpmd/phpmd": "@stable",
+        "pdepend/pdepend": "2.2.2",
+        "sjparkinson/static-review": "~4.1",
+        "fabpot/php-cs-fixer": "~1.2",
+        "lusitanian/oauth": "~0.3 <=0.7.0",
+        "phpunit/phpunit-selenium": ">=1.2",
+        "sebastian/phpcpd": "^2.0",
+        "satooshi/php-coveralls": "^1.0",
+        "phpdocumentor/phpdocumentor": "^2.8",
+        "magento-ecg/coding-standard":"dev-master",
+        "rregeer/phpunit-coverage-check": "^0.1.3",
+        "mundipagg/mundiapi": "^3.0"
+    },
+    "authors":[
+        {
+            "name":"MundiPagg Embeddables Team",
+            "email":"embeddables@mundipagg.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MundiPagg\\MundiPagg\\": ""
+        }
+    },
+    "config":{
+        "secure-http":false
+    }
+}

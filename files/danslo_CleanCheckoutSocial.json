@@ -1,0 +1,16 @@
+{
+    "name": "rubic/magento2-module-clean-checkout-social",
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rubic\\CleanCheckoutSocial\\": "src/"
+        }
+    },
+    "require": {
+        "hybridauth/hybridauth" : "^3.0"
+    }
+}

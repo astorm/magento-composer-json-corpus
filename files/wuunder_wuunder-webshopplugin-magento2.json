@@ -1,0 +1,16 @@
+{
+  "name": "wuunder/magento2-connector",
+  "description": "Magento 2 extension Wuunder",
+  "type": "magento2-module",
+  "version": "2.1.2",
+  "homepage": "https://wearewuunder.com/",
+  "require": {
+    "wuunder/connector-php": ">=1.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Wuunder\\Wuunderconnector\\": ""
+    }
+  }
+}

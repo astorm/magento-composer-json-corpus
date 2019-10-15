@@ -1,0 +1,21 @@
+{
+  "name": "monsieurbiz/mbiz_router",
+  "homepage": "https://github.com/monsieurbiz/Mbiz_Router",
+  "description": "Your routes on Magento 2.",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mbiz\\Router\\": ""
+    }
+  }
+}

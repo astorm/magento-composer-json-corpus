@@ -1,0 +1,22 @@
+{
+  "name": "unbxd/magento2-analytics",
+  "description": "The Magento 2 module, which provides possibility tracking analytics for Unbxd service",
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "unbxd/magento2-product-feed": "^1.0.10",
+    "php": "~7.0.0|~7.1.0|~7.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Unbxd\\Analytics\\": ""
+    }
+  }
+}

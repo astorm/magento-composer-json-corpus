@@ -1,0 +1,20 @@
+{
+  "name": "scandipwa/customer-graph-ql",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+      "magento/magento2-base": "2.3.1"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "ScandiPWA\\CustomerGraphQl\\": "src"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "shopigo/magento2-extension-ajax-pagination-sorting",
+  "description": "Magento 2 AJAX Pagination and Sorting extension by Shopigo",
+  "require": {
+    "php": "^7.0",
+    "magento/module-catalog": "*",
+    "shopigo/magento2-extension-ajax-listing": "*",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Shopigo\\CatalogAjaxToolbar\\": ""
+    }
+  }
+}

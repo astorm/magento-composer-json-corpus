@@ -1,0 +1,16 @@
+{
+    "name": "webtechnologycodes/zipcodeavailablity",
+    "description": "WebTechnologyCodes ZipcodeAvailablity module gives a feature to validate product based on zipcode. whether it is available to the location or not",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+		  "registration.php"
+		],
+		"psr-4": {
+		  "WebTechnologyCodes\\ZipcodeAvailablity\\": ""
+		}
+	}
+}

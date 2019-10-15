@@ -1,0 +1,20 @@
+{
+  "name": "stenik/module-custom-var-accessor",
+  "description": "Provides the ability to access custom var from every phtml template.",
+  "require": {
+    "php": "~5.6.3|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.3",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Stenik\\CustomVarAccessor\\": ""
+    }
+  }
+}

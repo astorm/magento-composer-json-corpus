@@ -1,0 +1,49 @@
+{
+    "name": "tddwizard/magento2-fixtures",
+    "description": "Fixture library for Magento 2 integration tests",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Schmengler",
+            "email": "fs@integer-net.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php",
+            "src/phpunit4.php"
+        ],
+        "psr-4": {
+            "TddWizard\\Fixtures\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TddWizard\\Fixtures\\": "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^7.1",
+        "magento/framework": "^100.1|^101.0|^102.0",
+        "magento/zendframework1": "^1.12",
+        "magento/module-catalog": "^101.0|^102.0|^103.0",
+        "magento/module-customer": "^100.1|^101.0|^102.0",
+        "magento/module-checkout": "^100.1",
+        "magento/module-indexer": "^100.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0",
+        "pds/skeleton": "^1.0",
+        "phpro/grumphp": "^0.11.6",
+        "phpstan/phpstan": "^0.8.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    }
+}

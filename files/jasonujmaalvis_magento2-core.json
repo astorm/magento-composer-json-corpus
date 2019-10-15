@@ -1,0 +1,24 @@
+{
+    "name": "alvis/magento2-core",
+    "description": "Wrapper to contain all module installations.",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Jason Ujma-Alvis",
+            "homepage": "https://jason.codes"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/jasonujmaalvis/magento2-core",
+        "issues": "https://github.com/jasonujmaalvis/magento2-core/issues"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Alvis\\Core\\": ""
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "m2epro/ebay-amazon-rakuten-sears-magento-integration-order-import-and-stock-level-synchronization",
+    "description": "M2E Pro is a Magento trusted (TM), award-winning extension, which allows merchants of all sizes to fully integrate Magento based system(s) into eBay/Amazon/Rakuten.com platforms.",
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "keywords": ["ebay", "amazon", "rakuten", "magento"],
+    "homepage": "http://www.m2epro.com/",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.0.11",
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-catalog": "*",
+        "magento/module-catalog-inventory": "*",
+        "magento/module-config": "*",
+        "magento/module-customer": "*",
+        "magento/module-eav": "*",
+        "magento/module-payment": "*",
+        "magento/module-quote": "*",
+        "magento/module-require-js": "*",
+        "magento/module-sales": "*",
+        "magento/module-sales-sequence": "*",
+        "magento/module-shipping": "*",
+        "magento/module-store": "*",
+        "magento/module-tax": "*"
+    },
+    "suggest": {
+        "magento/module-bundle": "Allows using bundle products in listings and orders",
+        "magento/module-configurable-product": "Allows using configurable products in listings and orders",
+        "magento/module-cron": "Allows execute scheduled tasks even if site not available from M2E Pro Cron Service",
+        "magento/module-grouped-product": "Allows using grouped products in listings and orders"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ess\\M2ePro\\": ""
+        }
+    }
+}

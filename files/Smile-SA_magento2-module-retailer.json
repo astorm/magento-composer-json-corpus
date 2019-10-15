@@ -1,0 +1,43 @@
+{
+    "name": "smile/module-retailer",
+    "type": "magento2-module",
+    "description": "Smile Retailer Suite - Retailer Module",
+    "keywords": ["magento2","retailer suite","retailer","shop","retailer"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-eav": "*",
+        "magento/magento-composer-installer": "*",
+        "smile/module-seller" : "^1.2.0"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "1.0.0"
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Aurélien Foucret",
+            "email": "aurelien.foucret@smile.fr"
+        },
+        {
+            "name": "Romain Ruaud",
+            "email": "romain.ruaud@smile.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\Retailer\\" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

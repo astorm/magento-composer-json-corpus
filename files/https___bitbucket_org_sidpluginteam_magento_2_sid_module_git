@@ -1,0 +1,36 @@
+{
+  "name": "sid-payment/module-instant-eft",
+  "description": "Payment gateway module for directing payments through SID Instant EFT",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-sales": "100.0.*",
+    "magento/module-store": "100.0.*",
+    "magento/module-quote": "100.0.*",
+    "magento/module-checkout": "100.0.*",
+    "magento/module-backend": "100.0.*",
+    "magento/module-payment": "100.0.*",
+    "magento/framework": "100.0.*"
+  },
+  "keywords": [
+    "sid", "payments", "eft",
+    "sid instant eft", "payment gateway"
+  ],
+  "support": {
+    "email": "support@sidpayment.com",
+    "docs": "http://sidpayment.com/getting-started/"
+  },
+  "homepage": "http://sidpayment.com/",
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SID\\InstantEFT\\": ""
+    }
+  },
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ]
+}

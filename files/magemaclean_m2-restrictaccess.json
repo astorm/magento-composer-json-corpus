@@ -1,0 +1,29 @@
+{
+    "name": "magemaclean/m2-restrictaccess",
+    "description": "Magento 2 Restrict Access to catalog, cms pages or custom routes",
+    "require": {
+      "magemaclean/m2-core": "^1.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+      {
+        "name": "MageMaclean",
+        "email": "support@magemaclean.com",
+        "homepage": "https://magemaclean.com",
+        "role": "Leader"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "MageMaclean\\RestrictAccess\\": ""
+      }
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "name": "bardia-module/product-attribute",
+  "description": "N/A",
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BardiaModule\\ProductAttribute\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

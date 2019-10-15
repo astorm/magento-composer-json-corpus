@@ -1,0 +1,16 @@
+{
+  "name": "knbsscommerce/add-multiple-products",
+  "description": "Add Multiple Products Magento2",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Bss\\AddMultipleProducts\\": ""
+    }
+  }
+}

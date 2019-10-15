@@ -1,0 +1,26 @@
+{
+    "name": "pillbox/module-pdfupload",
+    "description": "N/A",
+    "require": {
+        "php": "~7.0.2|~7.1.0"
+    },
+    "authors": [
+        {
+            "name": "Tim Green",
+            "email": "tim@totallywicked.co.uk"
+        }
+    ],
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pillbox\\PDFUpload\\": ""
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "barbanet/magento2-samplemodule",
+    "description": "Magento2 sample module",
+    "type": "magento2-module",
+    "version": "2.24.0",
+    "authors": [
+        {
+            "name": "Damian Culotta",
+            "email": "code@damianculotta.com.ar",
+            "homepage": "https://www.damianculotta.com.ar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0",
+        "magento/framework": "100.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Barbanet\\SampleModule\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

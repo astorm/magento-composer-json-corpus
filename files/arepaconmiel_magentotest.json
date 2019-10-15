@@ -1,0 +1,19 @@
+{
+    "name": "qxd/test",
+    "description": "Qxd test Module for Magento 2",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.5.22|^7.0",
+        "magento/framework": "^100.1.0|^101.0.0|^102.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Qxd\\Test\\": ""
+        }
+    }
+}

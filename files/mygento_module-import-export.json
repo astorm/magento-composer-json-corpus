@@ -1,0 +1,46 @@
+{
+    "name": "mygento/module-import-export",
+    "type": "magento2-module",
+    "version": "2.2.0",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/mygento/module-import-export",
+    "description": "Magento 2 import export array adapter",
+    "authors": [
+        {
+            "name": "Nikita Tarasov",
+            "email": "nikita@mygento.net",
+            "homepage": "http://www.mygento.net/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mygento",
+            "email": "connect@mygento.net",
+            "homepage": "https://www.mygento.ru/"
+        }
+    ],
+    "keywords": [
+        "magento2",
+        "mygento"
+    ],
+    "require": {
+        "magento/module-catalog-import-export": "100.2.*",
+        "magento/module-configurable-import-export": "100.2.*"
+    },
+    "require-dev": {
+        "mygento/coding-standard": "2.*"  
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mygento\\ImportExport\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com"
+        }
+    ]
+}

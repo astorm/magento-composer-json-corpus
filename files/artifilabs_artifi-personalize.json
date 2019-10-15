@@ -1,0 +1,26 @@
+{
+    "name": "artifi/personalize",
+    "description": "Integrates Artifi Product Personalization Engine with Magento 2",
+    "type": "magento2-module",
+	"version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "author": [
+        {
+            "name": "Artifilabs",
+            "email": "anand.garodia@artifilabs.com",
+            "homepage": "http://artifilabs.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Artifi\\Personalize\\": ""
+        }
+    }
+}

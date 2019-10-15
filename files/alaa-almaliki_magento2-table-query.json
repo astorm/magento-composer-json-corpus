@@ -1,0 +1,26 @@
+{
+  "name": "alaa/magento2-table-query",
+  "description": "Magento 2 Table Query",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["magento 2", "magento"],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaa\\TableQuery\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

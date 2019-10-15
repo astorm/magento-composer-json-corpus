@@ -1,0 +1,29 @@
+{
+  "name": "salesandorders/magento-app",
+  "description": "A magento extension for SalesAndOrders marketing platform",
+  "type": "magento2-module",
+  "version": "1.0.14",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sales And Orders",
+      "email": "devtools@salesandorders.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SalesAndOrders\\FeedTool\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/SalesAndOrders/magento-app.git"
+    }
+  ]
+}

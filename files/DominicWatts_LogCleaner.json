@@ -1,0 +1,31 @@
+{
+    "name": "dominicwatts/logcleaner",
+    "description": "Console script and cron task to clean magento logs",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.4",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xigen\\LogCleaner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

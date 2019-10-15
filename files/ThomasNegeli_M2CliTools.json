@@ -1,0 +1,28 @@
+{
+  "name": "tnegeli/m2clitools",
+  "description": "",
+  "type": "magento2-module",
+  "version": "1.4.1",
+  "license": [
+    "MIT"
+  ],
+  "support": {
+    "issues": "https://github.com/ThomasNegeli/M2CliTools/issues"
+  },
+  "keywords": [
+    "magento",
+    "cli"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "magento/framework": ">=100.1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tnegeli\\M2CliTools\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

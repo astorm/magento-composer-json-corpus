@@ -1,0 +1,26 @@
+{
+  "name": "gabrielqs/theme-settings",
+  "description": "Creates placeholders to be used in frequently used places by themes. By doing this, and by having a theme outputting such placeholders, one can avoid template files conflicts.",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+  },
+  "authors": [
+    {
+      "name": "Gabriel Queiroz Silva",
+      "email": "gabrielqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gabrielqs\\ThemeSettings\\": ""
+    }
+  }
+}

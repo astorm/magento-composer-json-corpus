@@ -1,0 +1,20 @@
+{
+  "name": "digitalfy/magento-integration-base",
+  "description": "Digitalfy Base",
+  "require": {
+    "php": "~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Digitalfy\\Base\\": ""
+    }
+  }
+}

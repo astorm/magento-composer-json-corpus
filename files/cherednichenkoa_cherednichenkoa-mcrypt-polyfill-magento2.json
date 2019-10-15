@@ -1,0 +1,25 @@
+{
+    "name": "cherednichenkoa/mcrypt-polyfill",
+    "description": "Fix warning with usage of mcrypt-ext/magento2",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name":     "Artem Cherednichenko",
+            "email":    "artem@ecomitize.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0|~7.1",
+        "mcrypt-ext/magento2": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cherednichenkoa\\McryptPolyfill\\": ""
+        }
+    }
+}

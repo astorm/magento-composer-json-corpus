@@ -1,0 +1,54 @@
+{
+    "name": "morozov-group/magento2-similar-products",
+    "description": "Magento 2 Similar Products Extension",
+	"type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morozov Group",
+            "email": "tech@morozov.group"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Morozov\\Similarity\\": ""
+        }
+    },
+
+    "require-dev": {
+        "magento/marketplace-eqp": "2.0.1",
+        "magento/framework": "*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "vendor/bin/phpcs --config-set default_standard MEQP2",
+            "vendor/bin/phpcs --config-set installed_paths \"$(pwd)/vendor/magento/marketplace-eqp\"",
+            "vendor/bin/phpcs --config-set php5.5_path \"$(which php)\""
+        ],
+        "configure-phpcs": [
+            "vendor/bin/phpcs --config-set default_standard MEQP2",
+            "vendor/bin/phpcs --config-set installed_paths \"$(pwd)/vendor/magento/marketplace-eqp\"",
+            "vendor/bin/phpcs --config-set php5.5_path \"$(which php)\""
+        ]
+    },
+    "extra": {
+        "exclude": [
+            "phpcs.xml"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento/marketplace-eqp.git"
+        }
+    ]
+}

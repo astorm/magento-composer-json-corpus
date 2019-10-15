@@ -1,0 +1,28 @@
+{
+  "name": "sourabhcoder/customerapprove",
+  "description": "This is a Magento 2 Module for approving and disapproving Magento 2 customers from being able to login from backend of Magento 2. ",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version" : "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Sourabhcoder",
+      "email": "sourabhkumarsharma778@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sourabh\\CustomerApprove\\": ""
+    }
+  }
+}

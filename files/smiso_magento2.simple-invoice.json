@@ -1,0 +1,23 @@
+{
+  "name": "smiso/simple-invoice",
+  "description": "Simple Invoice Module for Magento 2",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-checkout": "*",
+    "magento/module-payment": "*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\OfflinePayments\\": ""
+    }
+  },
+  "version": "1.0.0"
+}

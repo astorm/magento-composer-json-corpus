@@ -1,0 +1,25 @@
+{
+  "name": "praxigento/mobi_mod_bonus_base",
+  "description": "MOBI: Praxigento_BonusBase module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_bonus_base",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\BonusBase\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_pv": "dev-master",
+    "praxigento/mobi_mod_wallet": "dev-master"
+  }
+}

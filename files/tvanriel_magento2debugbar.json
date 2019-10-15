@@ -1,0 +1,30 @@
+{
+    "name": "tvanrielwendrich/magento2debugbar",
+    "description": "PHPDebugbar for Magento2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Ted van Riel | Wendrich Digital Agencies",
+            "email": "tvanriel+magento2debugbar@wendrich.com",
+            "role": "Webdeveloper"
+        }
+    ],
+    "require": {
+        "maximebf/debugbar": "^1.12",
+        "filp/whoops": "^2.1",
+        "twig/twig": "^1.24"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0",
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yong\\Magento2DebugBar\\": ""
+        }
+    }
+}

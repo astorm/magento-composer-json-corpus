@@ -1,0 +1,31 @@
+{
+  "name": "davay/carriertemplates",
+  "description": "Magento 2 module that will let merchant configure a separate e-mail template for each of the active carriers",
+  "keywords": ["magento2", "shipment", "email", "templates"],
+  "type": "magento2-module",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/framework": ">=100 <102",
+    "magento/module-newsletter": "100.*",
+    "magento/module-sales": ">=100 <102",
+    "magento/module-config": ">=100 <102",
+    "magento/module-shipping": "100.*",
+    "magento/module-email": "100.*"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "squizlabs/php_codesniffer": "@stable"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Davay\\CarrierTemplates\\": ""
+    }
+  }
+}

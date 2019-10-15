@@ -1,0 +1,27 @@
+{
+  "name": "iceshop/icecatconnect",
+  "description": "The module developed by Iceshop fully automatically loads the full product information in your Magento web store database",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "type": "magento2-module",
+  "version": "2.4.5",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ICEShop\\ICECatConnect\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://bitbucket.org/iceshop/icecatconnect"
+    }
+  ]
+}

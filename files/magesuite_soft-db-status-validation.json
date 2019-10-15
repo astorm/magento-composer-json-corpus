@@ -1,0 +1,16 @@
+{
+    "name": "creativestyle/magesuite-soft-db-status-validation",
+    "description": "Makes the db (schema) validation silently log error instead of throwing critical exception",
+    "type": "magento2-module",
+    "homepage": "https://creativestyle.de",
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MageSuite\\SoftDbStatusValidation\\": ""
+        }
+    }
+}

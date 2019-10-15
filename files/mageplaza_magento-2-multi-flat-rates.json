@@ -1,0 +1,23 @@
+{
+  "name": "mageplaza/module-multi-flat-rates",
+  "description": "Magento 2 Multi Flat Rates extension",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mageplaza",
+      "email": "support@mageplaza.com",
+      "homepage": "https://www.mageplaza.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mageplaza\\Multiflatrates\\": ""
+    }
+  }
+}

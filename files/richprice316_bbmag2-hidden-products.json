@@ -1,0 +1,13 @@
+{
+    "name": "bigboppa/module-hidden-products",
+    "description": "Hidden Products Module",
+    "require": {
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Bigboppa\\HiddenProducts\\": ""
+        }
+    }
+}

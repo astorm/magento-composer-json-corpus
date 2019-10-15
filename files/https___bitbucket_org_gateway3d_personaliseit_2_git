@@ -1,0 +1,13 @@
+{
+	"name":"gateway3d/magento2-personaliseit2",
+	"description": "Gateway3D Personalise-iT",
+	"require": {
+		"magento/framework": "102.0.*"
+	},
+	"type": "magento2-module",
+	"version": "2.3.0.0-dev",
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": { "Gateway3D\\PersonaliseIt\\": "" }
+	}
+}

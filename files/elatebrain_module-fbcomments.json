@@ -1,0 +1,28 @@
+{
+  "name": "elatebrain/module-fbcomments",
+  "description": "Magento 2 module to add facebook comments on your e-commerce site.",
+  "require": {
+    "elatebrain/module-core": "^1.0.3"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Elatebrain",
+      "email": "support@elatebrain.com",
+      "homepage": "https://www.elatebrain.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elatebrain\\FBComments\\": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "wapone/module-stickers",
+  "description": "Product Discount Stickers for Magento 2",
+  "type": "magento2-module",
+  "version": "0.0.4",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "magento/framework": "100.0.*|100.1.*|101.0.*",
+    "wapone/base": "*"
+  },
+  "authors": [
+    {
+      "name": "WaPoNe",
+      "email": "michele.fantetti@gmail.com",
+      "homepage": "http://www.fantetti.net"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WaPoNe\\Stickers\\": ""
+    }
+  }
+}

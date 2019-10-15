@@ -1,0 +1,26 @@
+{
+    "name": "optiweb/mailerlite_m2",
+    "description": "Mailerlite integration for Magento 2",
+    "type": "magento2-module",
+    "version": "1.2.2",
+    "authors": [
+        {
+            "name": "Ales Cankar",
+            "email": "ales.cankar@optiweb.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "magento/framework": "^101.0.0 || ^102.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Optiweb\\MailerLite\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

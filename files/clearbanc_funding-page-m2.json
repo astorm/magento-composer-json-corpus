@@ -1,0 +1,23 @@
+ {
+  "name": "clearbanc/funding-page-m2",
+  "description": "Clearbanc's Funding page extension for Magento v2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Clearbanc",
+      "email": "support@clearbanc.com",
+      "homepage": "https://clearbanc.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Clearbanc\\FundingPage\\": ""
+    }
+  }
+}

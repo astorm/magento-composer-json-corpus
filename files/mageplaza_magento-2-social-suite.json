@@ -1,0 +1,24 @@
+{
+  "name": "mageplaza/module-social-suite",
+  "description": "Magento 2 Social Suite",
+  "require": {
+    "mageplaza/module-core": "^1.4.4",
+    "mageplaza/magento-2-social-login": "^2.7.4",
+    "mageplaza/module-social-share": "^1.0.0",
+    "mageplaza/module-facebook-plugin": "^1.0.1",
+    "mageplaza/module-instagram-feed": "^1.0.0",
+    "mageplaza/module-twitter-widget": "^1.0.0",
+    "mageplaza/module-share-cart": "^1.0.2"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mageplaza",
+      "email": "support@mageplaza.com",
+      "homepage": "https://www.mageplaza.com",
+      "role": "Technical Support"
+    }
+  ]
+}

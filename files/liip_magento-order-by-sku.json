@@ -1,0 +1,21 @@
+{
+  "name": "liip/magento-order-by-sku",
+  "description": "Allows to add product to cart by specifying SKU only from widget.",
+  "license": "MIT",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "suggest": {
+    "magento/framework": "You must require magento framework in your project."
+  },
+  "type": "magento2-module",
+  "version": "0.0.4",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Liip\\OrderBySku\\": ""
+    }
+  }
+}

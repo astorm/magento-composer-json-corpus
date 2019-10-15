@@ -1,0 +1,48 @@
+{
+    "name": "visma/module-framework-lock-patch",
+    "description": "Implementation of patches from MAGENTO-22829",
+    "require": {
+        "php": "^7",
+        "magento/framework": "102.0.2",
+        "magento/module-config": "101.1.2",
+        "netresearch/composer-patches-plugin": "^1"
+    },
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Visma\\FrameworkLockPatch\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "extra": {
+        "patches": {
+            "magento/framework": {
+                "102.0.2": [
+                    {
+                        "title": "[MAGENTO-22829] Cache locking issue",
+                        "url": "https://dl.trollweb.no/m2-patch-composer/MAGENTO-22829/MAGENTO-22829-framework.patch",
+                        "sha1": "b1adb7daa748d4f52a37cbd856c0f2bb503b03c1"
+                    }
+                ]
+            },
+            "magento/module-config": {
+                "101.1.2": [
+                    {
+                        "title": "[MAGENTO-22829] Cache locking issue",
+                        "url": "https://dl.trollweb.no/m2-patch-composer/MAGENTO-22829/MAGENTO-22829-module-config.patch",
+                        "sha1": "aa87f017e5306140038672dd1d808ff3fae751e4"
+                    }
+                ]
+            }
+        }
+    }
+}

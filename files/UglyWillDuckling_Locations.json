@@ -1,0 +1,32 @@
+{
+    "name": "gaussdev/locations",
+    "description": "",
+    "require": {
+        "php": "~5.5.0|~5.6.0",
+        
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GaussDev\\Locations\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "GaussDev/locations"
+            ]
+        ]
+    }
+}

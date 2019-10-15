@@ -1,0 +1,19 @@
+{
+    "name": "swiftotter/advanced-pricing-bug",
+    "description": "A (miniature) module designed to fix a big Magento bug.",
+    "require": {
+        "php": "~7.0.6"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GNU-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+          "SwiftOtter\\AdvancedPricingBug\\": ""
+        }
+    }
+}

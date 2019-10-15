@@ -1,0 +1,35 @@
+{
+    "name": "maller86/module-distribution",
+    "type": "magento2-module",
+    "keywords": ["magento2", "module", "distribution", "flysystem", "destination"],
+    "description": "Your distribution manager for Magento 2.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fjodor Maller",
+            "homepage": "https://github.com/maller86"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "league/flysystem": "1.0.51",
+        "league/flysystem-sftp": "1.0.18",
+        "spatie/flysystem-dropbox": "1.0.6",
+        "enl/flysystem-cloudinary": "v1.1.1",
+        "league/flysystem-aws-s3-v3": "1.0.22",
+        "nao-pon/flysystem-google-drive": "1.1.10",
+        "jacekbarecki/flysystem-onedrive": "1.0.1",
+        "argentcrusade/flysystem-selectel": "1.2.0",
+        "superbalist/flysystem-google-storage": "7.2.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FjodorMaller\\Distribution\\": "/"
+        }
+    }
+}

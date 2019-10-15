@@ -1,0 +1,32 @@
+{
+  "name": "diglin/module-innopayws",
+  "description": "Magento 2 Module to extend the web service of Lyra Network Extension",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0|~7.1",
+    "lyranetwork/module-innopay": "^2.1.0|^2.2.0"
+  },
+  "version": "1.0.5",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Sylvain Rayé",
+      "email": "support@diglin.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:digmodules/innocard_magento2.git"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Diglin\\InnopayWs\\": ""
+    }
+  }
+}

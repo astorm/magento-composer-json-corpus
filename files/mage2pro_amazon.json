@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/amazon"
+	,"version": "1.0.16"
+	,"description": "A core package for the Amazon APIs"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.4.45", "amzn/login-and-pay-with-amazon-sdk-php": "*"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Amazon\\": ""}}
+}

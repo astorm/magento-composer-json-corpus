@@ -1,0 +1,24 @@
+{
+  "name": "omegacommerce/module-search",
+  "description": "Omega Instant Search",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-store": "100.1.*|100.2.*",
+    "magento/module-backend": "100.1.*|100.2.*",
+    "magento/framework": "100.1.*|100.2.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "src/Search/registration.php"
+    ],
+    "psr-4": {
+      "OmegaCommerce\\Api\\": "src/Api",
+      "OmegaCommerce\\Search\\": "src/Search"
+    }
+  }
+}

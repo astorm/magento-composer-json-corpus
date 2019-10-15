@@ -1,0 +1,22 @@
+{
+    "name": "msp/owlcarousel2",
+    "description": "",
+    "require": {
+        "php": "*",
+        "msp/common": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\OwlCarousel2\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "magefan/module-blog-comments-recaptcha",
+    "description": "Add recaptcha to Magefan Blog Comments",
+    "require": {
+        "msp/recaptcha" : "^2.0.2",
+        "magefan/module-blog" : "^2.8.9"
+    },
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Magefan\\BlogCommentsReCaptcha\\": ""
+        }
+    }
+}

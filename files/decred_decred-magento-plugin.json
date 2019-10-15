@@ -1,0 +1,19 @@
+{
+  "name": "decred/decred-magento-plugin",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "ISC",
+  "keywords": ["decred", "crypto", "dcr", "bitcoin", "payment method", "magento2"],
+  "require": {
+    "php": "~5.6.0|~7.0.0|~7.1.0",
+    "decred/decred-php-api": "^0.0.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Decred\\Payments\\": ""
+    }
+  }
+}

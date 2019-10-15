@@ -1,0 +1,17 @@
+{
+  "name": "krifollk/module-code-generator",
+  "license": "MIT",
+  "description": "Code generator for magento 2",
+  "require": {
+    "php": "~7.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Krifollk\\CodeGenerator\\": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ffm/smtpconfigurator",
+  "description": "Smtp server configurator",
+  "require": {
+    "magento/framework" : "101.0.*",
+    "ffm/common": "*"
+  },
+  "authors": [
+    {
+      "name": "Nadia Sala",
+      "email": "n.sala@fitforme.nl"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Ffm\\SmtpConfigurator\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

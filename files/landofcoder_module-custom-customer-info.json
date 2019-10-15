@@ -1,0 +1,23 @@
+{
+    "name": "landofcoder/module-custom-customer-info",
+    "description": "The module allow a customer add new sub customer account from his dashboard or add exists customers account as child of the current customer.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@landofcoder.com",
+            "name": "Landofcoder",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\CustomCustomerInfo\\": ""
+        }
+    }
+}

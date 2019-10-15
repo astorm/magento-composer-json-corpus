@@ -1,0 +1,39 @@
+{
+  "name": "olegnax/module-core",
+  "description": "Olegnax Core. Required by all Olegnax extensions and themes.",
+  "version": "1.0.10.1",
+  "type": "magento2-module",
+  "license": [
+      "OSL-3.0"
+  ],
+  "require": {
+	"php": "~7.1.3||~7.2.0",
+	"ext-simplexml": "*",
+	"ext-json": "*",
+	"magento/module-catalog": "^103.0.0",
+	"magento/module-cms": "^103.0.0",
+	"magento/module-admin-notification": "^100.3.0",
+	"magento/module-store": "^101.0.0"
+  },
+  "keywords": [
+    "magento 2",
+    "olegnax",
+    "core"
+  ],
+  "authors": [
+    {
+      "name": "Olegnax",
+      "email": "mail@olegnax.com",
+      "homepage": "https://olegnax.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+	"files": [
+	  "registration.php"
+	],
+	"psr-4": {
+	  "Olegnax\\Core\\": ""
+	}
+  }
+}

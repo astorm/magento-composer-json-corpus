@@ -1,0 +1,24 @@
+{
+  "name": "snowdog/magento2-vue-checkout",
+  "description": "Magento 2 Checkout module based on Vue.js",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paweł Szafrański",
+      "email": "szafran89@gmail.com"
+    },
+    {
+      "name": "Bartek Igielski",
+      "email": "igloczek@gmail.com"
+    }
+  ],
+  "require": {
+    "magento/module-checkout": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}

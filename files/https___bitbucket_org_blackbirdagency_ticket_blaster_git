@@ -1,0 +1,27 @@
+{
+    "name": "blackbird/ticketblaster",
+    "description": "Ticket manager for events",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "require": {
+        "magento/magento-composer-installer": "*",
+        "magento/framework": ">=100.0.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Blackbird\\TicketBlaster\\": ""
+        }
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Blackbird",
+            "homepage": "http://black.bird.eu/",
+            "role": "Developer"
+        }
+    ]
+}

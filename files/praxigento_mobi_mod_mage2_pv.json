@@ -1,0 +1,25 @@
+{
+  "name": "praxigento/mobi_mod_pv",
+  "description": "MOBI: Praxigento_Pv module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_pv",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Pv\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_downline": "dev-master",
+    "praxigento/mobi_mod_warehouse": "dev-master"
+  }
+}

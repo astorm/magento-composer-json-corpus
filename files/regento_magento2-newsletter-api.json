@@ -1,0 +1,34 @@
+{
+  "name": "regento/magento2-newsletter-api",
+  "description": "Newsletter API Extension for Magento 2 helps the developer of store simply subscribe an email to default newsletter subscriber by calling an API",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Regento",
+      "email": "info@regento.net",
+      "homepage": "https://regento.net",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "magento 2",
+    "magento 2 newsletter",
+    "magento newsletter",
+    "regento",
+    "newsletter",
+    "newsleeter api"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Regento\\NewsletterAPI\\": ""
+    }
+  }
+}

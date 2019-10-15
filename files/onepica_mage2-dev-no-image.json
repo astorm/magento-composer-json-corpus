@@ -1,0 +1,19 @@
+{
+    "name": "onepica/mage2-dev-no-image",
+    "license": "GPL-2.0",
+    "description": "Fix for Magento 2. It fixes the case when there is no a required option swatch image in media.",
+    "require": {
+        "php": "~7.0.6",
+        "magento/framework": "^100.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OnePica\\NoImage\\": ""
+        }
+    }
+}

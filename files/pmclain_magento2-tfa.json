@@ -1,0 +1,22 @@
+{
+  "name": "pmclain/magento2-tfa",
+  "description": "Two Factor Authentication for Magento 2 Admin",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0",
+    "magento/framework": "~101.0.0||~100.3.0",
+    "pragmarx/google2fa": "~2.0.0",
+    "bacon/bacon-qr-code":"~1.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pmclain\\Tfa\\": ""
+    }
+  }
+}

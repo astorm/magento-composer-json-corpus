@@ -1,0 +1,34 @@
+{
+    "name": "msp/module-notifier-event",
+    "description": "Event based rule engine for MSP Notifier",
+    "require": {
+        "php": "^7.0|^7.1|^7.2",
+        "magento/magento2-base": "^2.2|^2.3",
+        "msp/module-notifier-event-api": "^0.1",
+        "msp/module-notifier-template-api": "^0.1",
+        "msp/module-notifier": "^0.1"
+    },
+    "suggest": {
+        "msp/module-notifier-queue": "Asynchronous messages queue manager for MSP Notifier"
+    },
+    "authors": [
+        {
+            "name": "Riccardo Tempesta",
+            "email": "riccardo.tempesta@magespecialist.it"
+        },
+        {
+            "name": "Giacomo Mirabassi",
+            "email": "giacomo.mirabassi@magespecialist.it"
+        }
+    ],
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\NotifierEvent\\": ""
+        }
+    }
+}

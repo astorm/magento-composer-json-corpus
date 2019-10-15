@@ -1,0 +1,27 @@
+{
+  "name": "safalweb/pagescrollup",
+  "description": "Page Scroll Up module add 'scroll to top' element on storefront and provide to wide range of options in backend for this feature.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "authors": [
+    {
+      "name": "Ankit Patel",
+      "email": "ankit@safalweb.com",
+      "homepage": "http://www.safalweb.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Safalweb\\PageScrollUp\\": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "hammer/wh",
+    "description": "It creates a new shell command with a handful of M2 tools",
+    "type": "magento2-module",
+    "version": "0.1.3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian De Cicco",
+            "email": "sdecicco@hammer.net"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Hammer\\WH\\": ""
+        }
+    }
+}

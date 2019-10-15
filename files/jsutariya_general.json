@@ -1,0 +1,20 @@
+{
+    "name": "jsutariya/general",
+    "description": "General Module",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "jsutariya@gmail.com",
+            "name": "Jaimin Sutariya"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JS\\General\\": ""
+        }
+    }
+}

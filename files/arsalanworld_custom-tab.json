@@ -1,0 +1,17 @@
+{
+  "name": "arsal/custom-tab",
+  "description": "Create Dynamic Custom Tabs on Product View Page",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Arsal\\CustomTab\\": ""
+    }
+  }
+}

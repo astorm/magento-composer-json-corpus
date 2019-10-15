@@ -1,0 +1,34 @@
+{
+    "name": "bangerkuwranger/magento-2-product-new-mass-actions",
+    "description": "Add product grid mass actions to manually set the New status of products.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+    	{
+      		"name": "Chad A. Carino",
+      		"email": "artist@chadacarino.com"
+    	}
+  	],
+  	"autoload": {
+    	"files": [
+      		"registration.php"
+    	],
+    	"psr-4": {
+      		"Bangerkuwranger\\Productnewmassactions\\": ""
+    	}
+  },
+ 	"extra": {
+        "map": [
+            [
+                "*",
+                "Bangerkuwranger/Productnewmassactions"
+            ]
+        ]
+    }
+}

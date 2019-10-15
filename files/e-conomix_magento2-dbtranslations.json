@@ -1,0 +1,28 @@
+{
+  "name": "e-conomix/module-dbtranslations",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": ["MIT"],
+  "description": "Economix DB translation module",
+  "keywords":[ "composer-installer", "magento"],
+  "authors": [
+    {
+      "name": "Benjamin Rosenberger",
+      "email": "rosenberger@e-conomix.at"
+    }
+  ],
+  "require": {
+    "magento/framework": "101.*|102.*"
+  },
+  "require-dev":{
+    "composer/composer":"*@dev"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Economix\\DbTranslations\\": ""
+    }
+  }
+}

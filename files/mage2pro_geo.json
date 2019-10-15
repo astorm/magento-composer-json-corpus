@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/geo"
+	,"version": "1.2.3"
+	,"description": "A geocoding library for my Magento 2 extensions."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/geo"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.12.21", "willdurand/geocoder": "3.3.0"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Geo\\": ""}}
+}

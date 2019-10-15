@@ -1,0 +1,26 @@
+{
+    "name": "simonchik/mageplaza-additional-menus-remover",
+    "description": "Remove Mageplaza Marketing menu's from Magento 2 backend",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Belvg\\MageplazaAdditionalMenusRemover\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Simonchik/Belvg_MageplazaAdditionalMenusRemover"
+        }
+    ]
+}

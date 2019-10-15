@@ -1,0 +1,26 @@
+{   
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Professio\\Inboxify\\": ""
+        }
+    },
+    
+    "name": "professio/inboxify",
+    "description": "Professio Inboxify Integration for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.3",    
+    "homepage": "http://www.inboxify.nl/",
+    "keywords": ["php", "newsletter", "api", "client", "rest-json", "http", "magento2"],
+    "license": "MIT",
+    "require": {
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-sockets": "*",
+        "magento/framework": "~100.0.1|~100.1.1|~100.2.1",
+        "magento/module-checkout": "~100.0.1|~100.1.1|~100.2.1",
+        "magento/module-customer": "~100.0.1|~100.1.1|~100.2.1",
+        "magento/module-store": "~100.0.1|~100.1.1|~100.2.1",
+        "professio/inboxify-api-php": "~1.0"
+    }    
+}

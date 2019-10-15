@@ -1,0 +1,27 @@
+{
+  "name": "quickpay/magento2",
+  "description": "Implements integration with the QuickPay payment service provider.",
+  "authors": [
+    {
+      "name": "Rasmus Bech",
+      "email": "me@rbech.com"
+    }
+  ],
+  "require": {
+    "php": "~5.6|^7.0|^7.1|^7.2",
+    "quickpay/quickpay-php-client": "1.0.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "QuickPay\\Payment\\": ""
+    }
+  }
+}

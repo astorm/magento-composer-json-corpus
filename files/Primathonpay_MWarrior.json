@@ -1,0 +1,29 @@
+{
+  "name": "primathonpay/mwarrior-token-payment",
+  "description": "Primathonpay MWarrior token payment",
+  "type": "magento2-module",
+  "version": "2.2.0",
+    "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "primathon"
+      }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-sales": "100.1.*",
+    "magento/module-quote": "100.1.*",
+    "magento/module-checkout": "100.1.*",
+    "magento/module-payment": "100.1.*",
+    "primathonpay/mwarrior-api-php": "1.9.2"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Primathonpay\\MWarrior\\": ""
+    }
+  }
+}

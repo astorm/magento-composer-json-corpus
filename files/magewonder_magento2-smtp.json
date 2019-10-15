@@ -1,0 +1,28 @@
+{
+    "name": "magewonder/magento2-smtp",
+    "description": "Configure Magento 2 to use custom SMTP server to send email",
+    "authors": [
+        {
+            "name": "Mage Wonder",
+            "email": "support@magewonder.com"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|~7.0.6",
+        "sendgrid/sendgrid": "^5.0"
+    },
+    "type": "magento2-module",
+    "version": "1.2.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MageWonder\\Smtp\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

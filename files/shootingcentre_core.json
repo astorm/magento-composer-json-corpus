@@ -1,0 +1,16 @@
+{
+	"name": "shootingcentre/core"
+	,"version": "0.0.3"
+	,"description": "A custom module for shootingcentre.ca"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/shootingcentre/core"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"ShootingCentre\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

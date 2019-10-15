@@ -1,0 +1,30 @@
+{
+    "name": "vignates/redbox-customerattribute",
+    "description": "Linkedin Customer attribute",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "vignates@gmail.com",
+            "name": "Vignesh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vignates/Custom-customer-attribute"
+        }],
+    "autoload": {
+        "psr-4": {
+            "Redbox\\CustomerAttribute\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

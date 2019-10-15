@@ -1,0 +1,21 @@
+{
+    "name": "gmigmi/helloworld",
+    "description": "Gmigmi Helloworld",
+    "require": {
+      "php": ">=5.4.0"
+    },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Gmigmi/Helloworld"
+            ]
+        ]
+    }
+}

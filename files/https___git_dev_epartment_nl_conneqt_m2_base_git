@@ -1,0 +1,37 @@
+{
+    "name": "conneqt/m2-base",
+    "description": "Conneqt Base Module for Magento 2",
+    "require": {
+        "magento/framework": ">=101.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.16",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Conneqt",
+            "email": "hello@conneqt.io",
+            "homepage": "https://www.conneqt.io"
+        }
+    ],
+    "support": {
+        "email": "support@conneqt.io",
+        "issues": "https://git.dev.epartment.nl/conneqt/m2-base/issues"
+    },
+    "homepage": "https://www.conneqt.io",
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Conneqt\\Base\\": ""
+        }
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+	"name": "mage2pro/paymill"
+	,"version": "1.7.2"
+	,"description": "Paymill integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/paymill"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.11.0", "mage2pro/paymill-sdk": "^4.4.4"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Paymill\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Paymill"
+		,"Refund"
+
+		,"Austria"
+		,"Belgium"
+		,"Bulgaria"
+		,"Croatia"
+		,"Czech Republic"
+		,"Denmark"
+		,"Estonia"
+		,"Faroe Islands"
+		,"Finland"
+		,"France"
+		,"Germany"
+		,"Greece"
+		,"Hungary"
+		,"Ireland"
+		,"Iceland"
+		,"Isle of Man"
+		,"Italy"
+		,"Latvia"
+		,"Liechtenstein"
+		,"Lithuania"
+		,"Luxembourg"
+		,"Malta"
+		,"Monaco"
+		,"Netherlands"
+		,"Norway"
+		,"Poland"
+		,"Portugal"
+		,"Romania"
+		,"Sweden"
+		,"Switzerland"
+		,"Slovakia"
+		,"Slovenia"
+		,"Spain"
+		,"United Kingdom"
+	]
+}

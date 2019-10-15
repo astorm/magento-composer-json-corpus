@@ -1,0 +1,33 @@
+{
+    "name": "ecomteck/module-delete-orders",
+    "description": "Magento 2 extension allow to admin user to delete test order.",
+    "type": "magento2-module",
+    "version": "1.0.1",
+	"keywords": [
+        "magento 2",
+        "delete order"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"homepage": "https://www.ecomteck.com/",
+    "support": {
+        "email": "ecomteck@gmail.com",
+        "issues": "https://github.com/ecomteck/module-delete-orders/issues"
+    },
+    "authors": [
+        {
+            "name": "Ecomteck",
+            "email": "ecomteck@gmail.com",
+            "homepage": "https://www.ecomteck.com/",
+            "role": "Owner"
+        }
+    ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Ecomteck\\DeleteOrders\\": ""
+    }
+  }
+}

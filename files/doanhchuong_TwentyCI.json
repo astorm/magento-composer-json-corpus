@@ -1,0 +1,26 @@
+{
+    "name": "twentycitest/module-websiterestriction",
+    "description": "Module to prevent access to the frontend of a website for unauthenticated (not logged in) users.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "thiendoanh93@gmail.com",
+            "name": "Doanhpt"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2",
+        "magento/framework": "~100.0.4",
+        "magento/module-customer": "~100.1|~101.0|~102.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TwentyCI\\WebsiteRestriction\\": ""
+        }
+    }
+}

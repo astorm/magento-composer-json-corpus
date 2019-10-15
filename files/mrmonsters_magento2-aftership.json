@@ -1,0 +1,23 @@
+{
+    "name"       : "mrmonsters/magento2-aftership",
+    "description": "Aftership extension for Magento 2",
+    "type"       : "magento2-module",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Chin Tiong",
+            "email": "alvin.tanct@gmail.com"
+        }
+    ],
+    "autoload"   : {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mrmonsters\\Aftership\\": ""
+        }
+    },
+    "require"    : {
+        "aftership/aftership-php-sdk": "^5.1"
+    }
+}

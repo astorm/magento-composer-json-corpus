@@ -1,0 +1,28 @@
+{
+    "name": "ainnomix/module-cms-setup",
+    "description": "N/A",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ainnomix\\CmsSetup\\": ""
+        }
+    },
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-cms": "~102.0.0",
+        "magento/framework": "~101.0.0"
+    },
+    "require-dev": {
+        "ainnomix/magento2-quality-suite": "~1.0"
+    }
+}

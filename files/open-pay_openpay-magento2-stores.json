@@ -1,0 +1,27 @@
+{
+    "name": "openpay/magento2-stores",
+    "description": "Openpay integration for Magento 2 (Cash payment)",
+    "type": "magento2-module",    
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "require": {
+        "openpay/sdk": "1.2.*"
+    },
+    "authors": [
+        {
+            "name": "Openpay",
+            "homepage": "http://www.openpay.mx/docs/libraries.html",
+            "email": "soporte@openpay.mx"
+        },
+        {
+            "name": "Federico Balderas",
+            "homepage": "https://openpay.mx",
+            "email": "federico.balderas@openpay.mx"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["*", "Openpay/Stores"]
+        ]
+    }
+}

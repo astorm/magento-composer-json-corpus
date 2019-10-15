@@ -1,0 +1,17 @@
+{
+  "name": "creativestyle/magesuite-file-upload",
+  "description": "Adds possibility to upload additional types of files into media gallery.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\FileUpload\\": ""
+    }
+  }
+}

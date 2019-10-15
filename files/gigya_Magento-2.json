@@ -1,0 +1,52 @@
+{
+  "name": "gigya/magento2-im",
+  "description": "Gigya Identity Management for Magento 2",
+  "type": "magento2-module",
+  "version": "5.4.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Guy A",
+      "email": "guy.av@gigya-inc.com"
+    },
+    {
+      "name": "Alexandre Khayrullin",
+      "email": "akhayrullin@clever-age.com"
+    },
+    {
+      "name": "Vincent Lemaire",
+      "email": "vincentlemaire@clever-age.com"
+    },
+    {
+      "name": "Yan Nasonov",
+      "email": "yan.na@gigya-inc.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "magento/module-customer": "*",
+    "magento/module-checkout": "*",
+    "aws/aws-sdk-php": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0",
+    "phpmd/phpmd": "@stable",
+    "pdepend/pdepend": "~2.5.0",
+    "squizlabs/php_codesniffer": "2.6.2",
+    "magento/marketplace-eqp": "*"
+  },	
+  
+  "autoload": {
+    "psr-4": { "Gigya\\GigyaIM\\": "" },
+    "files": [ "registration.php" ]
+  }
+}

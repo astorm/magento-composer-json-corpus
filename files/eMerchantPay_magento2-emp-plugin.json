@@ -1,0 +1,96 @@
+{
+    "name": "emerchantpay/magento2-emp-plugin",
+    "description": "emerchantpay Payment Gateway for Magento 2",
+    "type": "magento2-module",
+    "version": "1.1.9",
+    "license": [
+        "GPL-2.0"
+    ],
+    "authors": [
+        {
+            "name": "emerchantpay",
+            "email": "shopping_carts@emerchantpay.com",
+            "homepage": "https://emerchantpay.com"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|7.1.*",
+        "genesisgateway/genesis_php": "1.14.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "1.*@stable"
+    },
+    "keywords": [
+        "emerchantpay",
+        "magento2_module",
+        "magento2_payment_module",
+        "payment_gateway",
+        "magento2_payment_gateway",
+        "payment_processing",
+        "magento2_payment_processing",
+        "e-commerce",
+        "visa",
+        "mastercard",
+        "debit_card",
+        "credit_card",
+        "authorize",
+        "capture",
+        "recurring",
+        "refund",
+        "void",
+        "3d-secure",
+        "alipay",
+        "earthport",
+        "neteller",
+        "ezeewallet",
+        "paybyvouchers",
+        "sofort",
+        "paysafecard",
+        "ppro",
+        "ideal",
+        "cashu",
+        "inpay",
+        "p24",
+        "paypal",
+        "paypal_express",
+        "paysec",
+        "trustly",
+        "trustly_sale",
+        "trustly_withdrawal",
+        "eps",
+        "giropay",
+        "przelewy24",
+        "qiwi",
+        "safetypay",
+        "trustpay",
+        "bcmc",
+        "mybank",
+        "webmoney",
+        "poli",
+        "sdd",
+        "sct_payout",
+        "sdd_refund",
+        "sdd_recurring",
+        "idebit",
+        "idebit_payin",
+        "idebit_payout",
+        "insta_debit",
+        "insta_debit_payin",
+        "insta_debit_payout",
+        "citadel",
+        "citadel_payin",
+        "citadel_payout",
+        "tc40",
+        "fraud",
+        "chargeback",
+        "wechat"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EMerchantPay\\Genesis\\": ""
+        }
+    }
+}

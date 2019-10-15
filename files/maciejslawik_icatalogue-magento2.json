@@ -1,0 +1,42 @@
+{
+  "name": "mslwk/icatalogue-magento2",
+  "description": "Interactive catalogue module for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.4",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Maciej Sławik",
+      "email": "maciekslawik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0.0",
+    "magento/framework": "*",
+    "magento/module-backend": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "Catalogue",
+    "Flipbook"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MSlwk\\ICatalogue\\": ""
+    }
+  }
+}

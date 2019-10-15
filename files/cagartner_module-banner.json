@@ -1,0 +1,22 @@
+{
+    "name": "cagartner/module-banner",
+    "description": "Module to control custom banner",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "contato@carlosgartner.com.br",
+            "name": "Carlos Gartner"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Redstage\\Banner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

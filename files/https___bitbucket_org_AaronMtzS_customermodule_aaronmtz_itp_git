@@ -1,0 +1,24 @@
+{
+  "name": "gammajafed/customer",
+  "description": "Testing Magento Customer Module",
+  "require": {
+    "magento/module-catalog": "100.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Aaron Martinez",
+      "email": "aaron.ajms@gmail.com",
+      "homepage": "https://www.gammapartners.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}

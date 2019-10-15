@@ -1,0 +1,30 @@
+{
+	"name": "mage2pro/dynamics365"
+	,"version": "0.2.9"
+	,"description": "Microsoft Dynamics 365 integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/dynamics365"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.3.35"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Dynamics365\\": ""}}
+	,"keywords": [
+		"CRM"
+		,"Dynamics 365"
+		,"Dynamics CRM"
+		,"Dynamics CRM Online"
+		,"Dynamics CRM Web API"
+		,"eCommerce"
+		,"ERP"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Microsoft"
+	]
+}

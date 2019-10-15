@@ -1,0 +1,28 @@
+{
+    "name": "scandiweb/locale-resolver-fix",
+    "type": "magento2-module",
+    "description": "Fix for Magento locale resolver",
+    "keywords": [
+        "magento2"
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Ilja Lapkovskis",
+            "email": "ilja@scandiweb.com"
+        }
+    ],
+    "require": {
+        "magento/product-community-edition": "^2.3"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Scandiweb\\LocaleResolverFix\\": "src"
+        }
+    }
+}

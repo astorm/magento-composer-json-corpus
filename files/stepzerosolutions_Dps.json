@@ -1,0 +1,23 @@
+{
+    "name": "stepzerosolutions/dps",
+    "description": "Stepzero DPS PxPay 2 payment solutions",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+	"stepzerosolutions/base":"1.0.1"
+    },
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "minimum-stability":"stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Stepzerosolutions\\Dps\\": ""
+        }
+    }
+}

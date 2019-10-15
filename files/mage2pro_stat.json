@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/stat"
+	,"version": "1.0.1"
+	,"description": "The module fixes the «Cannot gather stats» error on clearing the static files cache via the Magento 2 backend"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/stat"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Stat\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "elements-ft/magento2-module-kashier",
+    "description": "",
+    "require": {
+        "php": "7.*",
+        "elements-ft/kashier-php": "~1.0",
+        "magento/module-vault": "*",
+        "magento/framework": "*",
+        "magento/module-payment": "*",
+        "magento/module-sales": "*",
+        "magento/module-config": "*",
+        "magento/module-backend": "*",
+        "magento/module-checkout": "*",
+        "magento/module-store": "*",
+        "magento/module-quote": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "version": "1.0.0-RC1",
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ITeam\\Kashier\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "ITeam/Kashier"
+            ]
+        ]
+    }
+}

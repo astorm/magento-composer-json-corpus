@@ -1,0 +1,20 @@
+{
+  "name": "creativestyle/magesuite-free-gift",
+  "description": "Adds sales rule to add free/discounted gift",
+  "keywords": ["magento2"],
+  "require": {
+    "php": ">=7.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageSuite\\FreeGift\\": ""
+    }
+  }
+}

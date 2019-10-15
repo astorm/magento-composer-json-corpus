@@ -1,0 +1,36 @@
+{
+    "name": "shippit/magento2",
+    "description": "Shippit Integration Module",
+    "type": "magento2-module",
+    "version": "1.5.0",
+    "require": {
+        "magento/module-backend": "^100.2.0|^101.0.0",
+        "magento/module-config": "^101.0.0",
+        "magento/module-store": "^100.2.0|^101.0.0",
+        "magento/module-shipping": "^100.2.0",
+        "magento/module-quote": "^101.0.0",
+        "magento/module-checkout": "^100.2.0",
+        "php": "^7.0|^7.1|^7.2"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "^4.0"
+    },
+    "replace": {
+        "shippit/shipping": "1.5.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shippit\\Shipping\\": ""
+        }
+    },
+    "prefer-stable": true,
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

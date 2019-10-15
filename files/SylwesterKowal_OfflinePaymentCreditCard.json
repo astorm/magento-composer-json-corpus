@@ -1,0 +1,21 @@
+{
+    "name": "wm21w/offlinepaymentcreditcard",
+    "description": "Wm21w OfflinePaymentCreditCard",
+    "require": {
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Wm21w/OfflinePaymentCreditCard"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "winmile/module-ukrainian-regions",
+  "description": "Magento 2 module to add Ukrainian Regions",
+  "authors": [
+    {
+      "name": "Serhii Koval",
+      "email": "sergiy.koval@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "version": "1.0.1",
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "magento/framework": "102.0.*",
+    "magento/module-directory": "100.3.*"
+  },
+  "type": "magento2-module",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WinMile\\UkrainianRegions\\": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tobai/magento2-geo-ip2",
+  "description": "Integrate MaxMind GeoIP2 DB into Magento 2.",
+  "keywords": ["magento2", "MaxMind"],
+  "license":["MIT"],
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "require": {
+    "geoip2/geoip2": "~2.0"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Tobai\\GeoIp2\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Yurii Torbyk",
+      "homepage": "http://yurii.me"
+    }
+  ]
+}

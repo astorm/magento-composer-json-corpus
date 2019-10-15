@@ -1,0 +1,23 @@
+{
+    "name": "opengento/feature-toggle2",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Opengento",
+            "email": "contact@opengento.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "qandidate/toggle": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Opengento\\FeatureToggle2\\": ""
+        }
+    }
+}

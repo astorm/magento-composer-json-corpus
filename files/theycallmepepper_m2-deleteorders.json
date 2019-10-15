@@ -1,0 +1,35 @@
+{
+    "name": "tcmp/deleteorders",
+    "description": "Admin actions for deleting orders.",
+    "require": {
+        "php": "~5.6|~7.0|~7.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/theycallmepepper/m2-deleteorders.git"
+        }
+    ],
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TCMP\\DeleteOrders\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "David Young",
+            "email": "davidaaronyoung@gmail.com",
+            "homepage": "https://www.davidaaronyoung.com",
+            "role": "Developer"
+        }
+    ]
+}

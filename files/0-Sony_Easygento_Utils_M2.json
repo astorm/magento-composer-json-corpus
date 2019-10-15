@@ -1,0 +1,27 @@
+{
+    "name": "easygento/magento2-utils",
+    "description": "Magento 2 Module with some tools to make dev life and debugging easier",
+    "authors": [
+        {
+            "name": "Phuong LE",
+            "email": "sony@menincode.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0",
+        "magento/framework": "100.1.*|101.0.*|102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "0.2.3",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Easygento\\Utils\\": ""
+        }
+    }
+}

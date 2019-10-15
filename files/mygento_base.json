@@ -1,0 +1,49 @@
+{
+  "name": "mygento/base",
+  "type": "magento2-module",
+  "version": "2.2.16",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/mygento/base",
+  "description": "Mygento Base",
+  "authors": [
+    {
+      "name": "Nikita Tarasov",
+      "email": "nikita@mygento.net",
+      "homepage": "http://www.mygento.net/",
+      "role": "Developer"
+    },
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "mygento"
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": "101.*",
+    "magento/module-config": "101.*",
+    "magento/module-store": "100.*",
+    "magento/module-sales": "101.*"
+  },
+  "require-dev": {
+    "mygento/coding-standard": "2.*",
+    "phpunit/phpunit": "~6.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mygento\\Base\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

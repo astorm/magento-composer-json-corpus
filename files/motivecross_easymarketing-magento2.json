@@ -1,0 +1,21 @@
+{
+  "name": "motive/easymarketing-magento2",
+  "description": "Easymarketing Module for Magento 2",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Jonas Blum",
+      "email:": "jonas.blum@motive.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Motive\\Easymarketing\\": ""
+    }
+  }
+}

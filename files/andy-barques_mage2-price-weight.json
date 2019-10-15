@@ -1,0 +1,17 @@
+{
+  "name": "barques/pricebyweight",
+  "description": "Magento 2 module - update product price based on weight",
+  "type": "magento2-module",
+  "version": "0.0.2",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Barques/PriceByWeight"
+      ]
+    ]
+  },
+  "require": {
+    "magento/project-community-edition": "2.*"
+  }
+}

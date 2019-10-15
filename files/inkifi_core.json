@@ -1,0 +1,17 @@
+{
+	"name": "inkifi/core"
+	,"version": "0.1.8"
+	,"description": "A custom module for inkifi.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/inkifi/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.12.14"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Inkifi\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

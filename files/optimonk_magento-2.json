@@ -1,0 +1,19 @@
+{
+    "name": "wse/optimonk",
+    "description": "OptiMonk module for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.6",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.5.0",
+        "magento/framework": ">=100.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wse\\OptiMonk\\": ""
+        }
+    }
+}

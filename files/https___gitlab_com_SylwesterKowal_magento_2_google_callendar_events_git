@@ -1,0 +1,23 @@
+{
+    "name": "celesta/advanced-google-calendar",
+    "description": "Integration of Google Calendar to Magento 2",
+    "version": "1.0.0",
+    "require": {
+        "php": "7.*",
+        "ext-json": "*",
+        "google/apiclient": "^2.0",
+        "rlanvin/php-rrule": "1.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Celesta\\AdvancedGoogleCalendar\\": ""
+        }
+    }
+}

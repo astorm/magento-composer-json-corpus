@@ -1,0 +1,30 @@
+{
+    "name": "codilar/magento2-mail_tracker",
+    "description": "Track all your promotional as well as transactional emails sent from your Magento platform. You'll get to know when each of the emails were sent, and also when they were opened by the customer",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/framework": ">=100.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Codilar Technologies",
+            "email": "support@codilar.com",
+            "homepage": "https://www.codilar.com",
+            "role": "Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codilar\\MailTracker\\": ""
+        }
+    }
+}

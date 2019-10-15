@@ -1,0 +1,43 @@
+{
+  "name": "agencednd/module-pimgento",
+  "description": "Module Pimgento for Magento 2",
+  "require": {
+    "php": "^7.0",
+    "magento/framework": ">=100.0.1",
+    "magento/module-backend": ">=100.0.1",
+    "magento/module-catalog": ">=100.0.1",
+    "magento/module-eav": ">=100.0.1",
+    "magento/module-store": ">=100.0.1"
+  },
+  "type": "magento2-module",
+  "version": "100.4.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "Attribute/registration.php",
+      "Category/registration.php",
+      "Entities/registration.php",
+      "Family/registration.php",
+      "Import/registration.php",
+      "Log/registration.php",
+      "Option/registration.php",
+      "Product/registration.php",
+      "Variant/registration.php",
+      "VariantFamily/registration.php",
+      "Upgrade/registration.php"
+    ],
+    "psr-4": {
+      "Pimgento\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Agence DnD",
+      "homepage": "http://www.dnd.fr/",
+      "role": "Developer"
+    }
+  ]
+}

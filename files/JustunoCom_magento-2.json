@@ -1,0 +1,23 @@
+{
+    "name": "justuno/social",
+    "description": "Justuno offers optimized marketing campaigns with customizable design, powerful targeting & segmentation, and A/B testing.",
+    "type": "magento2-module",
+    "version": "100.0.6",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+      "php": ">=5.5.0"
+    },
+    "autoload": {
+        "files": [ "src/registration.php" ],
+        "psr-4": {
+            "Justuno\\Social\\": "src/"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/justunocom/"},
+        {"packagist.org": false}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "praxigento/mobi_mod_pension_fund",
+  "description": "MOBI: Praxigento_PensionFund module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_pension_fund",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\PensionFund\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_bonus_hybrid": "dev-master"
+  }
+}

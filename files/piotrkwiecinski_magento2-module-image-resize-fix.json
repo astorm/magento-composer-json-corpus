@@ -1,0 +1,25 @@
+{
+  "name": "piotrkwiecinski/magento2-module-image-resize-fix",
+  "description": "Fix for catalog image resize",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": "OSL-3.0",
+  "require": {
+    "magento/module-catalog": "101.0.6"
+  },
+  "authors": [
+    {
+      "name": "Piotr Kwiecinski",
+      "email": "piokwiecinski@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PiotrKwiecinski\\ImageResizeFix\\": ""
+    }
+  }
+}

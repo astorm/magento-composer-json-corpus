@@ -1,0 +1,29 @@
+{
+  "name": "qordoba/magento2-connector",
+  "description": "Qordoba Connector Magento-2 Extension",
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/module-catalog": "*",
+    "magento/module-cms": "*",
+    "qordoba/qordoba-php": "~1.0.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "type": "magento2-module",
+  "version": "1.0.28",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Qordobacode/magento-2"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Qordoba\\Connector\\": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "idealcode/magento2-windows-compatibility",
+    "description": "Windows compatibility for Magento2",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IdealCode\\WindowsCompatibility\\": ""
+        }
+    }
+}

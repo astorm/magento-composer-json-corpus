@@ -1,0 +1,22 @@
+{
+  "name": "asulpunto/cronedit",
+  "description": "Cronedit",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Asulpunto\\Cronedit\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

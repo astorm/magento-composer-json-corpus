@@ -1,0 +1,26 @@
+{
+  "name": "netresearch/module-compatibility-m2",
+  "description": "Magento2 Extension for enabling extensions to support multiple Magento2 versions at once",
+  "require": {
+    "php": "~7.1.3|^7.2.0",
+    "magento/framework": "^102.0.0"
+  },
+  "type": "magento2-module",
+  "version": "3.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Netresearch\\Compatibility\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Paul Siedler",
+      "email": "paul.siedler@netreseach.de",
+      "homepage": "http://www.netresearch.de",
+      "role": "Developer"
+    }
+  ]
+}

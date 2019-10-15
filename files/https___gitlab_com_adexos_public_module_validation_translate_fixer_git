@@ -1,0 +1,27 @@
+{
+    "name": "adexos/module-validation-translate-fixer",
+    "description": "workaround to fix the missed translation with mage/validation widget",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Adexos",
+            "email": "contact@adexos.fr"
+        }
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adexos\\TranslateValidationFixer\\": ""
+        }
+    }
+}

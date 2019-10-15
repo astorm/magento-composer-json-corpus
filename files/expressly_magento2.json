@@ -1,0 +1,27 @@
+{
+    "name": "expressly/magento2",
+    "description": "Magento 2 Expressly module",
+    "version": "0.1.0",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/expressly/php-common"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "expressly/php-common": "2.3.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Expressly\\Expressly\\": ""
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sumage/catalogslider",
+  "description": "A Magento 2 module for managing product sliders with different type of special products.",
+  "type": "magento2-module",
+  "version": "1.1.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Sushant Kumar",
+      "email": "sushant693@gmail.com",
+      "role": "Created this extension"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "SuMage\\CatalogSlider\\": ""
+    }
+  }
+}

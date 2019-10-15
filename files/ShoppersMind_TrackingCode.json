@@ -1,0 +1,25 @@
+{
+    "name": "smind/trackingcode",
+    "description": "Shopper's mind certified shop satisfaction survey module for Magento 2",
+    "type": "magento2-module",
+    "version": "0.1.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0"
+    },
+    "authors": [{
+        "name": "Uros Grilc",
+        "email": "info@urosgrilc.com",
+        "homepage": "http://www.urosgrilc.com/",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "SMind\\TrackingCode\\": ""
+        }
+    }
+}

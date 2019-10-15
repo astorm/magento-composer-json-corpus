@@ -1,0 +1,17 @@
+{
+	"name": "albumenvy/popup"
+	,"version": "1.0.0"
+	,"description": "The «How to use Mediaclip Design Tool» popup for albumenvy.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/albumenvy/popup"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"albumenvy/core": ">=0.0.4", "mage2pro/core": ">=3.7.26"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"AlbumEnvy\\Popup\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "tcmp/opcache",
+    "description": "OPcache GUI for Magento 2.x Admin Panel",
+    "require": {
+        "php": "~5.6|~7.0|~7.1"
+    },
+    "suggest": {
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/theycallmepepper/m2-opcache-gui.git"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "0.0.4",
+    "license": [
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TCMP\\OpCache\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "David Young",
+            "email": "davidaaronyoung@gmail.com",
+            "homepage": "https://www.davidaaronyoung.com",
+            "role": "Developer"
+        },
+        {
+            "name": "TCMP Studio",
+            "email": "support@tcmp.studio",
+            "homepage": "https://tcmp.studio",
+            "role": "Developer"
+        }
+    ]
+}

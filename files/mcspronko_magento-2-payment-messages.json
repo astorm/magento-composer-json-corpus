@@ -1,0 +1,33 @@
+{
+  "name": "pronko/magento-2-payment-messages",
+  "description": "Payment Messages module for Magento 2.x",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pronko Consulting",
+      "homepage": "https://www.pronkoconsulting.com/"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/framework": "100.0.*|100.1.*|101.0.*",
+    "magento/module-checkout": "100.0.*|100.1.*|100.2.*",
+    "magento/module-quote": "100.0.*|100.1.*|100.2.*",
+    "psr/log": "1.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pronko\\PaymentMessages\\": ""
+    }
+  }
+}

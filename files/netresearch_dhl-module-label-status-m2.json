@@ -1,0 +1,42 @@
+{
+  "name": "dhl/module-label-status",
+  "description": "Provide label status information in Magento 2 sales order grid.",
+  "version": "1.0.1",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/module-sales": "^101.0.0 || ^102.0.0",
+    "magento/framework": "^101.0.0 || ^102.0.0",
+    "magento/module-ui" : "^101.0.0",
+    "dhl/module-shipping-m2": "^0.10.0"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Sebastian Ertner",
+      "email": "sebastian.ertner@netresearch.de"
+    },
+    {
+      "name": "Andreas Müller",
+      "email": "andreas.mueller@netresearch.de"
+    },
+    {
+      "name": "Max Melzer",
+      "email": "max.melzer@netresearch.de"
+    }
+  ],
+  "support": {
+    "wiki": "http://dhl.support.netresearch.de/",
+    "issues": "http://dhl.support.netresearch.de/support/tickets/new",
+    "docs": "http://dhl.support.netresearch.de/support/solutions/articles/12000023174",
+    "email": "dhl.support@netresearch.de"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dhl\\LabelStatus\\": ""
+    }
+  }
+}

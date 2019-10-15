@@ -1,0 +1,33 @@
+{
+  "name": "pillbox/smartsupp",
+  "description": "Magento 2 Smartsupp Online Chat",
+  "require": {
+    "magento/framework": ">=101.0.0"
+  },
+  "type": "magento2-module",
+   "license": "proprietary",
+  "keywords": [
+      "magento 2",
+      "pillbox",
+      "smartsupp",
+      "live chat",
+      "livechat",
+      "magento 2 smartsupp"
+  ],
+  "authors": [
+    {
+      "name": "Smartsupp",
+      "email": "info@smartsupp.com",
+      "homepage": "https://www.smartsupp.com/",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Smartsupp\\Smartsupp\\": ""
+    }
+  }
+}

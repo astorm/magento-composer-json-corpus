@@ -1,0 +1,25 @@
+{
+  "name": "praxigento/mobi_mod_bonus_global_sales",
+  "description": "MOBI: Praxigento_BonusGlobalSales module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_bonus_global_sales",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\BonusGlobalSales\\": "",
+      "Praxigento\\Bonus\\GlobalSales\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_bonus_loyalty": "dev-master"
+  }
+}

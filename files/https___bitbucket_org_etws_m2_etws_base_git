@@ -1,0 +1,33 @@
+{
+  "name": "etws/base",
+  "description": "ETWS Base extension for Magento 2",
+  "keywords": [
+    "magento2"
+  ],
+  "type": "magento2-module",
+  "version": "0.1.3",
+  "authors":[
+    {
+      "name":"ET Web Solutions",
+      "email": "support@etwebsolutions.com",
+      "homepage": "http://www.etwebsolutions.com/"
+    }
+  ],
+  "support": {
+    "email": "support@etwebsolutions.com",
+    "docs": "http://doc.etwebsolutions.com/instruction/m2-base"
+  },
+  "require": {
+    "magento/framework": "100.*.*",
+    "magento/magento-composer-installer": "*",
+    "monolog/monolog": "1.16.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ETWS\\Base\\": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "ianitsky/module-viacep",
+    "description": "",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "ianitsky@gmail.com",
+            "name": "Douglas Ianitsky"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ianitsky\\ViaCep\\": ""
+        }
+    }
+}

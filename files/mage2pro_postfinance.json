@@ -1,0 +1,32 @@
+{
+	"name": "mage2pro/postfinance"
+	,"version": "1.1.4"
+	,"description": "PostFinance integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/postfinance"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.7.5"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\PostFinance\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"PostFinance"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+
+		,"Switzerland"
+	]
+}

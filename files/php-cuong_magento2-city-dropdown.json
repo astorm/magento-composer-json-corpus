@@ -1,0 +1,39 @@
+{
+    "name": "php-cuong/magento2-city-dropdown",
+    "description":"Magento2 City Dropdown Extension",
+    "keywords": [
+        "magento 2",
+        "magento 2 extension",
+        "city dropdown",
+        "magento 2 address",
+        "magento 2 city dropdown",
+        "city dropdown in magento 2"
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|~7.0.6|~7.0.13|~7.1.0",
+        "magento/module-backend": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "magento/framework": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "php-cuong/magento2-module-core": "2.2.*"
+    },
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Cuong NQ",
+            "email": "bestearnmoney87@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPCuong\\CityDropdown\\": ""
+        }
+    }
+}

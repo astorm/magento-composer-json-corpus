@@ -1,0 +1,23 @@
+{
+    "name": "setor7soft/magento2-cielo",
+    "description": "Solução para pagamentos da cielo no Magento 2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "developercielo/api-3.0-php": "dev-master",
+        "magento/module-payment": "100.1.*",
+        "magento/module-checkout": "100.1.*",
+        "magento/module-sales": "100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Setor7\\Cielo\\": ""
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "gabrielqs/pagseguro-redirect",
+  "description": "Integração transparente entre o Magento 2 e a Cielo utilizando o método de integração WebService",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "gabrielqs/installments": "0.1.0"
+  },
+  "authors": [
+    {
+      "name": "Gabriel Queiroz Silva",
+      "email": "gabrielqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gabrielqs\\Cielo\\": ""
+    }
+  }
+}

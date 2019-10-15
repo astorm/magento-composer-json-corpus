@@ -1,0 +1,17 @@
+{
+	"name": "sayitwithagift/core"
+	,"version": "0.0.8"
+	,"description": "A custom module for sayitwithagift.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/sayitwithagift/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.8.0"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"SayItWithAGift\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

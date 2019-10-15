@@ -1,0 +1,24 @@
+{
+    "name": "technogex/customer-attribute",
+    "description": "Magento 2 Customer Custom Attributes",
+    "homepage": "http://technogex.com",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "authors": [
+        {
+            "name": "Technogex",
+            "email": "support@technogex.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Technogex\\CustomerAttribute\\": ""
+        }
+    }
+}

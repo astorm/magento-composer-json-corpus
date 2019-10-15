@@ -1,0 +1,29 @@
+{
+  "name": "voicyou/cartprinter",
+  "description": "This is a Magento 2 Module for printing all your products that are present inside your cart into a pdf file.",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "voicyou/menuoptions":"~1.0.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Voicyou",
+      "email": "voicyou123@gmail.com",
+      "homepage": "http://www.voicyou.in/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Voicyou\\CartPrinter\\": ""
+    }
+  }
+}

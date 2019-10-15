@@ -1,0 +1,28 @@
+{
+    "name": "ghoster/facebook-comment",
+    "description": "Adds an extra tab to the Magento 2 Product View page with Facebook Comment Edit",
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "authors": [
+        {
+            "name": "Tuyen Nguyen",
+            "homepage": "https://www.thinghost.info/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GhoSter\\FacebookComment\\": ""
+        }
+    }
+}

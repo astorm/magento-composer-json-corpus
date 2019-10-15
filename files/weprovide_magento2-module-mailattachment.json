@@ -1,0 +1,21 @@
+{
+    "name": "weprovide/magento2-module-mailattachment",
+    "description": "Extends TransportBuilder with attachment functionality",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "dwayne@weprovide.com",
+            "name": "Dwayne Hanekamp"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "WeProvide\\MailAttachment\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "oye/module-delivery-date",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-checkout": "100.0.*",
+    "magento/module-sales": "100.0.*",
+    "magento/framework": "100.0.*"
+  },
+  "type": "magento2-module",
+  "version": "2.0.4",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Oye\\Deliverydate\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/oyenet/m2DeliveryDate2.git"
+    }
+  ]
+}

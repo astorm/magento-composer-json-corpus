@@ -1,0 +1,48 @@
+{
+    "name": "smile/module-store-locator",
+    "type": "magento2-module",
+    "description": "Smile Store Locator",
+    "keywords": ["magento2", "map", "geocoding", "geolocalisation", "retail"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-contact": "*",
+        "smile/module-map": "^1.1.0",
+        "smile/module-retailer": "^1.2.0",
+        "willdurand/geocoder": "^3.3"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "1.0.0"
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Aurélien FOUCRET",
+            "email": "aurelien.foucret@smile.fr"
+        },
+        {
+            "name": "Romain Ruaud",
+            "email": "romain.ruaud@smile.fr"
+        },
+        {
+            "name": "Guillaume Vrac",
+            "email": "guillaume.vrac@smile.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\StoreLocator\\" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

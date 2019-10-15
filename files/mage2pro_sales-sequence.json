@@ -1,0 +1,27 @@
+{
+	"name": "mage2pro/sales-sequence"
+	,"version": "1.0.14"
+	,"description": "The «Sales Documents Numeration» extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/sales-documents-numeration"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.4.44"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\SalesSequence\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"Invoice"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Order"
+		,"Refund"
+		,"Sales document"
+		,"Shipment"
+	]
+}

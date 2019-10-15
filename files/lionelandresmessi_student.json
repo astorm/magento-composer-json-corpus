@@ -1,0 +1,28 @@
+{
+  "name": "vuthanhdo/student-magento2",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Lionel",
+      "email": "lionel@trueplus.vn",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "VuThanhDo\\Student\\": ""
+    }
+  }
+}

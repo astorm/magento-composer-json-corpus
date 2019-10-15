@@ -1,0 +1,24 @@
+{
+    "name": "magefan/module-lazyload",
+    "description": "Images lazyloading on Magento 2 store.",
+    "require": {
+        "magefan/module-community" : ">=2.0.6"
+    },
+    "type": "magento2-module",
+    "version": "2.0.6",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Magefan",
+            "email": "support@magefan.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magefan\\LazyLoad\\": ""
+        }
+    }
+}

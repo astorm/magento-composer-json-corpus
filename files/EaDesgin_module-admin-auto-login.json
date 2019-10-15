@@ -1,0 +1,21 @@
+{
+    "name": "eadesign/module-admin-auto-login",
+    "type": "magento2-module",
+    "version": "1.4.100",
+    "license": "Apache-2.0",
+    "require": {
+        "magento/framework": "100.* | 101.* | 102.0.*"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Vaimo\\AdminAutoLogin\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Kassner",
+            "email": "rafael.kassner@vaimo.com"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "magekey/module-xsd-merger",
+    "description": "Magento 2 XSD Merger",
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0.13|~7.1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\XsdMerger\\": ""
+        }
+    }
+}

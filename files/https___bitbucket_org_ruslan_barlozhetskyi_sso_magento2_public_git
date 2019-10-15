@@ -1,0 +1,29 @@
+{
+  "name": "benhauer/salesmanago-integration",
+  "description": "Magento2 marketing automation extension",
+  "type": "magento2-module",
+  "version": "3.0.2",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.3",
+    "salesmanago/api-sso-util": "2.5.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Benhauer\\Salesmanago\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "SALESmanago",
+      "email": "dev@salesmanago.pl"
+    }
+  ]
+}

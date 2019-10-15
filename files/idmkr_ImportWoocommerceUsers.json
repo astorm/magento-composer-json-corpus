@@ -1,0 +1,23 @@
+{
+    "name": "idmkr/module-importwoocommerceusers",
+    "description": "Import user from csv woocommerce",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Idmkr",
+            "email": "florent@idmkr.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Idmkr\\ImportWoocommerceUsers\\": ""
+        }
+    }
+}

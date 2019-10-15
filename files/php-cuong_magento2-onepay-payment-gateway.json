@@ -1,0 +1,43 @@
+{
+    "name": "php-cuong/magento2-onepay-payment-gateway",
+    "description":"Magento 2 OnePay Payment Gateway",
+    "keywords": [
+        "Payment Gateway",
+        "Magento 2 OnePay Payment Gateway",
+        "Magento 2",
+        "Magento 2 Extension",
+        "Magento 2 Extension Free",
+        "OnePay Payment Gateway",
+        "OnePay in Magento 2",
+        "OnePay"
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|~7.0.6|~7.0.13|~7.1.0",
+        "magento/module-backend": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "magento/module-checkout": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "magento/module-payment": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "magento/framework": "100.0.*|100.1.*|101.0.*|100.2.*",
+        "php-cuong/magento2-module-core": "2.2.*"
+    },
+    "type": "magento2-module",
+    "version": "2.1.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Gia Phu Group",
+            "email": "bestearnmoney87@gmail.com",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPCuong\\OnePay\\": ""
+        }
+    }
+}

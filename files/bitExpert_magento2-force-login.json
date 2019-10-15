@@ -1,0 +1,62 @@
+{
+  "name": "bitexpert/magento2-force-customer-login",
+  "description": "The Force Login module for Magento2 redirects a storefront visitor to the Magento2 Frontend login page, if the visitor is not logged in. It is possible to configure the whitelisted urls to add custom definitions.",
+  "type": "magento2-module",
+  "version": "3.1.0",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Florian Horn",
+      "email": "F.Horn@bitExpert.de",
+      "homepage": "http://www.bitExpert.de"
+    },
+    {
+      "name": "Stephan Hochdörfer",
+      "email": "S.Hochdoerfer@bitExpert.de",
+      "homepage": "http://www.bitExpert.de"
+    }
+  ],
+  "require": {
+    "php": "~7.1.3|~7.2",
+    "magento/framework": "~102.0.0|~102.0.1",
+    "magento/module-backend": "~101.0.0|~101.0.1",
+    "magento/module-customer": "~102.0|~102.0.1",
+    "magento/module-store": "~101.0.0|~101.0.1",
+    "magento/module-ui": "~101.1.0|~101.1.1"
+  },
+  "require-dev": {
+    "magento/marketplace-eqp": "^2.0",
+    "phing/phing": "~2.0",
+    "phpunit/phpunit": "~6.0",
+    "captainhook/captainhook": "^4.0",
+    "captainhook/plugin-composer": "^4.0",
+    "bitexpert/phing-securitychecker": "^0.4.0",
+    "phpstan/extension-installer": "^1.0.1",
+    "phpstan/phpstan": "^0.11.0@dev",
+    "bitexpert/phpstan-magento": "dev-master"
+    },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BitExpert\\ForceCustomerLogin\\": ""
+    }
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@test"
+    ],
+    "cs-check": "vendor/bin/phing sniff",
+    "cs-fix": "vendor/bin/phing cs-fix",
+    "test": "vendor/bin/phing unit"
+  }
+}

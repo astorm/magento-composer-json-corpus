@@ -1,0 +1,32 @@
+{
+  "name": "payex/magento2-payment-menu",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "description": "A PayEx Payment Menu module for Magento 2",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sammy Nordström",
+      "email": "sammy.nordstrom@visma.com"
+    }
+  ],
+  "keywords": ["magento", "payment", "payex"],
+  "require": {
+    "payex/magento2-client": "^1.0",
+    "ext-json": "*"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "autoload": {
+    "files" : [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayEx\\PaymentMenu\\": ""
+    }
+  }
+}

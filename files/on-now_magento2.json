@@ -1,0 +1,20 @@
+{
+	"name": "on-now/pagseguro-magento2",
+	"type": "magento2-module",
+	"license": [
+	    "OSL-3.0",
+	    "AFL-3.0"
+	],
+	"require": {
+	    "php": "~5.5.0|~5.6.0|7.*",
+	    "pagseguro/pagseguro-php-sdk": "4.*"
+	},
+	"autoload": {
+	  "files": [
+	     "registration.php"
+	    	],
+	  "psr-4": {
+	    "UOL\\PagSeguro\\": ""
+	  }
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "shockwavemk/magento2-module-page-cache",
+  "description": "Magento2 PageCache Improvements",
+  "type": "magento2-module",
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Shockwavemk\\PageCache\\": ""
+    }
+  }
+}

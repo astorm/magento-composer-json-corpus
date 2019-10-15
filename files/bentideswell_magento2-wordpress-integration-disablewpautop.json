@@ -1,0 +1,14 @@
+{
+	"name":"bentideswell/magento2-wordpress-integration-disablewpautop",
+	"description":"Disable the wpautop functionality.",
+	"type":"magento2-module",
+	"require":{
+		"magento/product-community-edition":"^2.0.0"
+	},
+	"autoload":{
+		"files":["registration.php"],
+		"psr-4":{
+			"FishPig\\WordPress_DisableWpautop\\":""
+		}
+	}
+}

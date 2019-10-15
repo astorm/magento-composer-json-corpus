@@ -1,0 +1,17 @@
+{
+	"name": "decormarket.com/core"
+	,"version": "0.0.4"
+	,"description": "A custom module for decormarket.com (Magento 2)"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/decormarket-com/core"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=5.1.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"DecorMarket\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

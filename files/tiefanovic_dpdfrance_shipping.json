@@ -1,0 +1,19 @@
+{
+    "name": "dbdfrance/magento2-shipping",
+    "description": "A Magento 2 shipping method",
+    "require": {
+      "php": ">=5.6.5"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "DPDFrance\\Shipping\\": ""
+      }
+    }
+}

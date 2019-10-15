@@ -1,0 +1,34 @@
+{
+    "name": "manishjoy/module-producturlrewrite",
+    "description": "free magento 2 extension to resolve product url rewrite issue",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/framework": "102.0.*",
+        "magento/module-catalog": "103.0.*",
+        "magento/module-directory": "100.3.*",
+        "magento/module-eav": "102.0.*"
+    },
+    "authors": [
+        {
+          "name": "Manish Joy",
+          "email": "manishjoy1993@hotmail.com",
+          "homepage": "https://manishjoy.github.io",
+          "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\ProductUrlRewrite\\": ""
+        }
+    }
+}

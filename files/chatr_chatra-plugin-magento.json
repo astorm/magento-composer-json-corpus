@@ -1,0 +1,26 @@
+{
+	"name": "chatra/plugin-magento",
+    "description": "Live chat for your store",
+	"homepage": "https://github.com/chatr/chatra-plugin-magento",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Denis Olesik",
+			"email": "support@chatra.io",
+			"homepage": "https://chatra.io"
+		}
+	],
+	"license": [
+		"OSL-3.0",
+		"AFL-3.0"
+	],
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"Chatra\\Livechat\\": ""
+		}
+	}
+}

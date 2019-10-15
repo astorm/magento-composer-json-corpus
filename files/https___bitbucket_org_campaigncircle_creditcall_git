@@ -1,0 +1,27 @@
+{
+    "name": "ccircle/creditcall",
+    "description": "Creditcall integration for Magento 2 using Omnipay",
+    "type": "magento2-module",
+    "version": "0.0.1-beta",
+    "license": [
+        "CampaignCircle"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "meebio/omnipay-creditcall": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://bitbucket.org/campaigncircle/creditcall.git"
+        }
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "CCircle/Creditcall"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "zero1\/module-custom-logging",
+    "description": "Allows you to configure different logging 'stacks' on a per environment basis. This would allow you to have a logging level of DEBUG on non_production and ERROR on production.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|^7.0.0",
+        "magento\/product-community-edition": "^2.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "proprietary"
+    ],
+    "keywords": [
+        "Magento 2",
+        "Magento",
+        "Logging",
+        "Logs"
+    ],
+    "homepage": "https://packagist.org/packages/zero1/magento2-CustomLogging",
+    "support": {
+        "email": "support@zero1.co.uk",
+        "docs": "https://github.com/zero1limited/magento2-CustomLogging"
+    },
+    "suggest": {
+        "mdoq/module-connector": "Improves DevOps for Magento2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zero1\\CustomLogging\\": ""
+        }
+    }
+}

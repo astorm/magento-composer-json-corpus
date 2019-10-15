@@ -1,0 +1,43 @@
+{
+  "name": "becopay/magento2-becopay-gateway",
+  "description": "becopay magento 2 payment gateway",
+  "homepage": "https://becopay.com/en/io",
+  "keywords": [
+    "becopay",
+    "payment",
+    "magento 2",
+    "module",
+    "client",
+    "api",
+    "php"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "becopay/invoice_sdk_php": "^1.1"
+  },
+  "type": "magento2-module",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "becopay team",
+      "email": "io@becopay.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/becopay/Magento2-Becopay-Gateway/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Becopay\\BecopayPaymentGateway\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "Test/"
+    }
+  }
+}

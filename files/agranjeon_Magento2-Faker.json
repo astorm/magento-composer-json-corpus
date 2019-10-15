@@ -1,0 +1,28 @@
+{
+  "name": "agranjeon/magento2-faker",
+  "description": "Faker module for Magento2",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "magento/framework": ">=100.0.1"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "^1.8"
+  },
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Agranjeon\\Faker\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexandre Granjeon",
+      "homepage": "https://github.com/agranjeon",
+      "role": "Developer"
+    }
+  ]
+}

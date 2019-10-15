@@ -1,0 +1,24 @@
+{
+  "name": "flancer32/mage2_ext_grid_column_renderer",
+  "description": "Example of the grid's column renderer with link to the customer card.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_ext_grid_column_renderer",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\GridLink\\": ""
+    }
+  }
+}

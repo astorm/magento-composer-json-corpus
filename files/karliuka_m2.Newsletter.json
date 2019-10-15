@@ -1,0 +1,25 @@
+{
+    "name": "faonni/module-newsletter",
+    "description": "Extension include a List-Unsubscribe header in your newsletter emails.",
+    "type": "magento2-module",
+	"version": "2.0.1",
+    "authors": [{
+        "name" : "Karliuka Vitalii",
+        "email": "karliuka.vitalii@gmail.com"
+    }],		
+	"license": [
+		"OSL-3.0"
+	],
+	"require": {
+		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+		"magento/module-newsletter": "100.2.*"
+	},
+	"autoload": {
+        "files": [ 
+            "registration.php" 
+        ],
+        "psr-4": {
+            "Faonni\\Newsletter\\": ""
+        }
+	}
+}

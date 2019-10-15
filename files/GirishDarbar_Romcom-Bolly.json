@@ -1,0 +1,22 @@
+{
+    "name": "romcom/bolly",
+    "description": "Magento 2 banners extension ",
+  "minimum-stability": "dev",
+    "require": {        
+    "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.2.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Romcom\\Bolly\\": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "belvg/module-popup",
+    "description": "Magento 2 Popup builder",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "store@belvg.com",
+            "name": "BelVG LLC"
+        }
+    ],
+    "version": "2.0.8",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/app/code/BelVG/Popup/registration.php"
+        ],
+        "psr-4": {
+            "BelVG\\Popup\\": "src/app/code/BelVG/Popup"
+        }
+    }
+}

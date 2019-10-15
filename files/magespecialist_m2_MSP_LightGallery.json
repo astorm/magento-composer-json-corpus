@@ -1,0 +1,23 @@
+{
+    "name": "msp/lightgallery",
+    "description": "Magento module wrapper for LightGallery",
+    "require": {
+        "php": "*",
+        "msp/common": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.1.1",
+    "license": "OSL 3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\LightGallery\\": ""
+        }
+    }
+}

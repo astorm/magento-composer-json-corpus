@@ -1,0 +1,34 @@
+{
+    "name": "trezo/internalpayment",
+    "description": "Internal payment method (only for admin orders)",
+    "license": "GPL-3.0",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "email": "contato@trezo.com.br",
+            "name": "Trezo"
+        }
+    ],
+    "keywords": [
+        "trezo",
+        "mageup",
+        "internal payment method",
+        "magento 2",
+        "magento 2 module",
+        "magento 2 payment module",
+        "magento2-module"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0||~7.1.0||~7.2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Trezo\\InternalPayment\\": ""
+        }
+    }
+}

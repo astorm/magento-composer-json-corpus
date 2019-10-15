@@ -1,0 +1,26 @@
+{
+    "name": "bleez/pagseguro",
+    "description": "Modulo do pagseguro para magento 2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": ">=5.1.0",
+        "pagseguro/php": "@stable"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bleez\\Pagseguro\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

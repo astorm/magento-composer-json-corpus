@@ -1,0 +1,16 @@
+{
+    "name": "loganstellway/module-propel-media",
+    "description": "PropelMedia conversion tracking for Magento 2",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LoganStellway\\PropelMedia\\": ""
+        }
+    },
+    "require": {
+        "magento/framework": "^100.1.0|101.0.*"
+    }
+}

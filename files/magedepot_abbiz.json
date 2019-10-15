@@ -1,0 +1,7 @@
+{
+    "name": "magedepot/abbiz",
+    "description": "Mage Depot: Abbiz Extension",
+    "type": "magento2-module",
+    "version": "0.0.1"
+}
+

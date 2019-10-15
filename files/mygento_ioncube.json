@@ -1,0 +1,51 @@
+{
+  "name": "mygento/ioncube",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/mygento/ioncube",
+  "description": "Ioncube support for Magento 2",
+  "authors": [
+    {
+      "name": "Nikita Tarasov",
+      "email": "nikita@mygento.net",
+      "homepage": "https://www.mygento.ru/",
+      "role": "Developer"
+    },
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net",
+      "homepage": "https://www.mygento.ru/"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "mygento",
+    "ioncube"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": "100.*",
+    "zendframework/zend-code": "~2.4.6"
+  },
+  "require-dev": {
+    "mygento/coding-standard": "2.*",
+    "jakub-onderka/php-parallel-lint": "^0.9.2",
+    "jakub-onderka/php-console-highlighter": "^0.3.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ioncube\\Di\\": ""
+    }
+  },
+  "bin": ["bin/ioncube_generator"],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

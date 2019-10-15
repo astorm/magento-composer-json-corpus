@@ -1,0 +1,22 @@
+{
+  "name": "flagbit/magento2-virtual-customer-session",
+  "description": "Allows developers to login to customer sessions without knowing the password.",
+  "license": "LGPL-2.1",
+  "version": "1.0",
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flagbit\\VirtualCustomerSession\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Flagbit GmbH & Co. KG",
+      "homepage": "http://www.flagbit.de/",
+      "role": "Developer"
+    }
+  ]
+}

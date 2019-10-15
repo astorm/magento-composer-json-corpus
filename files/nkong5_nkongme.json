@@ -1,0 +1,22 @@
+{
+    "name": "nkong5/module-test",
+    "description": "Test module for Magento 2",
+    "version": "0.0.1",
+    "minimum-stability":"beta",
+    "require": {
+        "magento/project-community-edition": "*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Nkong5/Test"
+            ]
+        ]
+    }
+}

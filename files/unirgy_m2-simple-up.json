@@ -1,0 +1,19 @@
+{
+    "name": "unirgy/m2-simple-up",
+    "description": "",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "2.0.6",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Unirgy\\SimpleUp\\": ""
+        }
+    }
+}

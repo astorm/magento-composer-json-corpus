@@ -1,0 +1,39 @@
+{
+  "name": "aissyass/magento2-jobs",
+  "description": "Magento 2 Jobs",
+  "keywords": [
+    "magento 2",
+    "magento",
+    "jobs",
+    "department",
+    "magento module",
+    "magento module free",
+    "magento extension",
+    "magento extension free"
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/framework": "101.0.*"
+  },
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Yassine AISSAOUI",
+      "email": "aissyass91@gmail.com",
+      "role": "Magento 2 Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PHPAISS\\Jobs\\": ""
+    }
+  }
+}

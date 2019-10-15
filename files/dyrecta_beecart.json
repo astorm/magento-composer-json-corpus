@@ -1,0 +1,21 @@
+{
+    "name": "dyrecta/beecart",
+    "description": "Magento 2 Beecart Init Data",
+    "version": "0.8.0",
+    "license": "MIT",
+    "type": "magento2-module",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/dyrecta/beecart"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dyrecta\\Beecart\\": ""
+        }
+    }
+}

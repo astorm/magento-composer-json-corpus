@@ -1,0 +1,32 @@
+{
+  "name": "peasoup-development/storefinder",
+  "description":"Magento2 Store Finder Module",
+  "keywords": [
+    "magento 2",
+    "Store Finder",
+    "Store Locator"
+  ],
+  "require": {
+
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Robert Mark Williamson",
+      "email": "robert.williamson1986@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Peasoup\\Storefinder\\": ""
+    }
+  }
+}

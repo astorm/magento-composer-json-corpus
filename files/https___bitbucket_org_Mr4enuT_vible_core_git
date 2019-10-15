@@ -1,0 +1,23 @@
+{
+    "name": "vible/core",
+    "description": "VIBLE Core Module for Magento 2.*",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "4enuttl@gmail.com",
+            "name": "Taras Lishchynskiy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vible\\Core\\": ""
+        }
+    }
+}

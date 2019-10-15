@@ -1,0 +1,15 @@
+{
+  "name": "smartsupp/smartlook",
+  "description": "Look at your website through your customer's eyes! We will record everything visitors do on your site.",
+  "type": "magento2-module",
+  "version": "2.0.3",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Smartsupp\\Smartlook\\": ""
+    }
+  }
+}

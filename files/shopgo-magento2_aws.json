@@ -1,0 +1,33 @@
+{
+    "name": "shopgo/aws",
+    "description": "A module that integrates AWS SDK into Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*",
+        "aws/aws-sdk-php": "3.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ShopGo\\Aws\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Ammar",
+            "email": "ammar@shopgo.me"
+        },
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mirasvit/module-blog-sample-data",
+  "description": "Blog Sample Data",
+  "require": {
+    "mirasvit/module-core": "dev-master|>=1.2.46",
+    "mirasvit/module-blog": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.4-alpha1",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "src/BlogSampleData/registration.php"
+    ],
+    "psr-4": {
+      "Mirasvit\\BlogSampleData\\": "src/BlogSampleData"
+    }
+  }
+}

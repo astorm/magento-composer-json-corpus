@@ -1,0 +1,31 @@
+{
+  "name": "payex/magento2-core",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "description": "Core module for PayEx Payments in Magento 2",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sammy Nordström",
+      "email": "sammy.nordstrom@visma.com"
+    }
+  ],
+  "keywords": ["magento", "payment", "payex"],
+  "require": {
+    "payex/payex-sdk-php": "^3.0"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "autoload": {
+    "files" : [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayEx\\Core\\": ""
+    }
+  }
+}

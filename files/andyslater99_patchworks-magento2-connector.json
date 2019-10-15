@@ -1,0 +1,24 @@
+{
+    "name": "patchworks/magento2-connector",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Patchworks\\Connector\\": ""
+        }
+    },
+    "description": "Patchworks Connector module for Magento2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Patchworks",
+            "email": "support@patchworks.co.uk",
+            "homepage": "http://www.patchworks.co.uk"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "technodelight/magento2-symfony-debug",
+  "description": "Symfony Debug module for Magento2",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "repositories": {
+    "magento-repo": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zsolt Gal",
+      "email": "zenc@zenc.hu",
+      "homepage": "https://github.com/technodelight",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "magento/framework": "^100.1"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "use-include-path": true
+  },
+  "autoload": {
+    "files": [
+      "magento/app/code/Technodelight/SymfonyDebug/registration.php"
+    ],
+    "psr-0": {
+      "Technodelight\\SymfonyDebug\\": "magento/app/code"
+    }
+  }
+}

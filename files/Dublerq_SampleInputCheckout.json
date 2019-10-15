@@ -1,0 +1,26 @@
+{
+    "name": "dublerq/sampleinputcheckout",
+    "description": "",
+    "require": {
+        "php": "~7.0.0|~7.1.0",
+        "magento/framework": "~100.1.0|101.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dublerq\\SampleInputCheckout\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Dublerq/SampleInputCheckout"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "way2enjoy/magento2",
+  "type": "magento2-module",
+  "version": "1.1.5",
+  "description": "Make your web shop faster by compressing your JPEG and PNG images. This plugin automatically optimizes your images by integrating with the popular image compression services Way2enjoy.",
+  "keywords": [
+    "way2enjoy",
+    "tinypng",
+    "tinyjpg",
+    "compress",
+    "images",
+    "api",
+    "magento",
+    "magento2",
+    "plugin",
+    "module"
+  ],
+
+  "homepage": "https://way2enjoy.com/developers",
+  "license": "MIT",
+
+  "support": {
+    "email": "support@way2enjoy.com"
+  },
+
+  "authors": [{
+    "name": "James",
+    "email": "support@way2enjoy.com"
+  }],
+
+  "minimum-stability": "alpha",
+  "require": {
+    "php": ">=5.5.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "way2enjoy/way2enjoy": ">=1.5"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mikey179/vfsstream": "~1",
+    "squizlabs/php_codesniffer": "~2.0",
+    "codeception/aspect-mock": "*"
+  },
+
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {"Way2enjoy\\Magento\\": "src"}
+  }
+}

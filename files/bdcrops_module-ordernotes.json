@@ -1,0 +1,25 @@
+{
+    "name": "bdc/module-ordernotes",
+    "description": "BDCrops OrderNotes module for Magento 2 extensions.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"authors": [{
+            "name": "Abdul Matin",
+            "email": "matinict@gmail.com",
+			      "company": "BDCrops Inc"
+        }
+    ],
+	"homepage": "https://www.bdcrops.com",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BDC\\OrderNotes\\": ""
+        }
+    }
+}

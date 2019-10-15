@@ -1,0 +1,20 @@
+{
+  "name": "borisperevyazko/module-google-markup",
+  "description": "Insert google markup into site",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Boris Perevyazko",
+      "email": "borisperevyazko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Borisperevyazko\\GoogleMarkup\\": ""
+    }
+  }
+}

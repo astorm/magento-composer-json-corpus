@@ -1,0 +1,17 @@
+{
+  "name": "tylerschade/magento-index-management",
+  "description": "Adds useful index management features to the Magento 2 admin panel",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TylerSchade\\IndexManagement\\": "src//"
+    }
+  }
+}

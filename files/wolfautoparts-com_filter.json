@@ -1,0 +1,17 @@
+{
+	"name": "wolfautoparts.com/filter"
+	,"version": "0.0.7"
+	,"description": "A custom product filtering module for wolfautoparts.com (Magento 2)"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/wolfautoparts-com/filter"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=5.1.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Wolf\\Filter\\": ""}}
+	,"keywords": ["Magento 2"]
+}

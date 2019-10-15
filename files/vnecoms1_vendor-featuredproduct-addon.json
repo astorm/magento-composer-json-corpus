@@ -1,0 +1,16 @@
+{
+    "name": "vnecoms/module-vendors-featured-product-addon",
+    "description": "N/A",
+
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vnecoms\\VendorsFeaturedProduct\\": ""
+        }
+    }
+}

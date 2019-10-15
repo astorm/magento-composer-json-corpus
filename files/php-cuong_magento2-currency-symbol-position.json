@@ -1,0 +1,37 @@
+{
+  "name": "php-cuong/magento2-currency-symbol-position",
+  "description":"Magento 2 change the currency symbol position from left to right or from right to left",
+  "keywords": [
+    "magento 2",
+    "magento",
+    "currency symbol",
+    "currency symbol position",
+    "magento 2 extension",
+    "magento 2 extension free"
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+    "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
+  },
+  "type": "magento2-module",
+  "version": "2.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Cuong Ngo",
+      "email": "bestearnmoney87@gmail.com",
+      "role": "Magento 2 Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PHPCuong\\CurrencySymbolPosition\\": ""
+    }
+  }
+}

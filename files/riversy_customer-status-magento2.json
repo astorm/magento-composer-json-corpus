@@ -1,0 +1,34 @@
+{
+    "name": "riversy/module-customer-status",
+    "description": "",
+    "require": {
+        "php": "~7.1.3|~7.2.0",
+        "magento/magento2-base": "~2.3.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+
+    "version": "1.0.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Riversy\\CustomerStatus\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Riversy/CustomerStatus"
+            ]
+        ]
+    }
+}

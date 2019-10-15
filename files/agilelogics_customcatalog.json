@@ -1,0 +1,19 @@
+{
+	"name" : "agilelogics/customcatalog",
+	"description" : "Agilelogics M2 module CustomCatalog",
+	"type" : "magento2-module",
+	"version" : "0.0.1",
+	"require" : {
+		"php" : "~7.0.0",
+		"magento/framework" : "~100.0.4"
+	},
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4" : {
+			"Agilelogics\\CustomCatalog\\" : ""
+		}
+	},
+	"minimum-stability" : "stable"
+}

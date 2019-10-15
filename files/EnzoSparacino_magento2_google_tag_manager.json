@@ -1,0 +1,21 @@
+{
+    "name": "sparacino/module-gtm",
+    "description": "Google Tag Manager",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Enzo Franco Sparacino",
+            "email": "esparacino@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sparacino\\GTM\\": ""
+        }
+    }
+}

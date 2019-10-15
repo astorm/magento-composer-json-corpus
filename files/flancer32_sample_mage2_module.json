@@ -1,0 +1,21 @@
+{
+  "name": "flancer32/sample_mage2_module",
+  "description": "Magento 2 sample module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/sample_mage2_module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\Sample\\": "src/"
+    }
+  }
+}

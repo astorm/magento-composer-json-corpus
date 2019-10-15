@@ -1,0 +1,27 @@
+{
+  "name": "iceshop/icecatlive",
+  "description": "A Magento 2 module for updating of products from IceCat",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "type": "magento2-module",
+  "version": "2.1.8",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ICEShop\\Icecatlive\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://bitbucket.org/iceshop/icecatlive"
+    }
+  ]
+}

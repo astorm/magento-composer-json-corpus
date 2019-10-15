@@ -1,0 +1,30 @@
+{
+  "name": "shopgate/connect-integration-magento2",
+  "description": "Magento 2.X plugin for Shopgate Connect",
+  "homepage": "https://github.com/shopgate/connect-integration-magento2",
+  "license": "Apache-2.0",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Shopgate",
+      "email": "interfaces@shopgate.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "shopgate/connect-integration-sdk-php": "^0.6.0@dev",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "php-coveralls/php-coveralls": "^2.1"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Shopgate\\Connect\\": "src/",
+      "Shopgate\\Connect\\Tests\\": "src/Test/"
+    }
+  }
+}

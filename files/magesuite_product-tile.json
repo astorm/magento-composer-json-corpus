@@ -1,0 +1,16 @@
+{
+  "name": "creativestyle/magesuite-product-tile",
+  "description": "Extensible product tile",
+  "type": "magento2-module",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\ProductTile\\": ""
+    }
+  }
+}

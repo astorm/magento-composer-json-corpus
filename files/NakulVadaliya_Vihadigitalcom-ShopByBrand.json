@@ -1,0 +1,26 @@
+{
+    "name": "vihadigitalcom/shopbybrand",
+    "description": "Vihadigitalcom Shop By Brand",
+    "minimum-stability": "dev",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Vihadigitalcom",
+            "email": "sales@vdcstore.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Vihadigitalcom\\ShopByBrand\\": ""
+        }
+    }
+}

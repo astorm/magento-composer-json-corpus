@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-adc-popup",
+    "description": "Magento 2 Added to Cart Popup",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.0.7",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\AdcPopup\\": ""
+        }
+    }
+}

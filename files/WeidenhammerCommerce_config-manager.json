@@ -1,0 +1,26 @@
+{
+  "name": "hammer/config-manager",
+  "description": "Hammer Config Manager",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Weidenhammer",
+      "email": "ecommerce@mhammer.net",
+      "homepage": "https://www.hammer.net",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Hammer\\ConfigManager\\": ""
+    }
+  }
+}

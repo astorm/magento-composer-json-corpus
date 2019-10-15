@@ -1,0 +1,21 @@
+{
+    "name": "markshust/magento2-module-removefavicon",
+    "description": "The Remove Favicon module removes all favicons from the HTML head.",
+    "require": {
+        "php": ">=7.1",
+        "magento/framework": "102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MarkShust\\RemoveFavicon\\": ""
+        }
+    }
+}

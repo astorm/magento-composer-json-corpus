@@ -1,0 +1,33 @@
+{
+    "name": "credevlabz/magento2-directory-indian-states",
+    "description": "Add Indian states in checkout form dropdown list in Magento2.",
+    "license": "GPL-3.0",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "credevator@gmail.com",
+            "name": "Aman Srivastava"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "magento/magento-composer-installer": "*",
+      "magento/module-directory": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Credevlabz\\DirectoryIndianStates\\": ""
+        }
+    },
+    "extra": {
+		"map": [
+			[
+				"*",
+				"Credevlabz/DirectoryIndianStates"
+			]
+		]
+	}
+}

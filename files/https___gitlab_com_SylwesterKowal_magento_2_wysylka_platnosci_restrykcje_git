@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-polskieplatnosciwysylka",
+    "description": "Standardowe metody p\u0142atno\u015bci oraz wysy\u0142ki w Polsce",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "kowal.co",
+            "email": "kontakt@kowal.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kowal\\PolskiePlatnosciWysylka\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

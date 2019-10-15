@@ -1,0 +1,25 @@
+{
+    "name": "review/module-reminder",
+    "description": "Product Review Reminder Module",
+    "type": "magento2-module",
+	"version": "1.1.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "mohitrajput724@gmail.com",
+            "name": "Mohit Chauhan"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"magento/module-catalog": "^1.1.0"
+	},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Review\\Reminder\\": ""
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-zaufaneopinieceneo",
+    "description": "Magento 2 - Zaufane Opinie Ceneo.pl",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "kontakt@kowal.co",
+            "name": "Sylwester Kowal - https://kowal.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kowal\\ZaufaneOpinieCeneo\\": ""
+        }
+    }
+}

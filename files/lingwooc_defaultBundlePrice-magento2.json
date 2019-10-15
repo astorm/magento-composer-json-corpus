@@ -1,0 +1,17 @@
+{
+	"name": "thousandmonkeys/m2-bundledefaultprice-module",
+	"description": "This module allows you to show the default price of a bundle in the catalog and product pages.",
+	"type": "magento2-module",
+	"license": [
+	  "OSL-3.0",
+	  "AFL-3.0"
+	],
+	"require": {
+	},
+	"autoload": {
+	  "files": [ "registration.php" ],
+	  "psr-4": {
+		"ThousandMonkeys\\BundleDefaultPrice\\": ""
+	  }
+	}
+  }

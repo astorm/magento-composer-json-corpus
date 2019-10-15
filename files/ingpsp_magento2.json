@@ -1,0 +1,21 @@
+{
+  "name": "ingpsp/ing-magento2",
+  "description": "ING PSP for Magento 2",
+  "version": "3.1.1",
+  "require": {
+    "ingpsp/ing-php": ">=1.4.2"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ING\\Payment\\": ""
+    }
+  }
+}

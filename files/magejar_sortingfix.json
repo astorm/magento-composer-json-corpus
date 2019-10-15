@@ -1,0 +1,35 @@
+{
+    "name": "magejar/module-sortingfix",
+    "description": "Sorting fix for module",
+    "keywords": ["magejar","sortingfix","catalog","magento-sortingfix"],
+    "require": {
+   		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/module-store": "@stable",
+		"magento/module-catalog": "@stable",
+		"magento/module-backend": "@stable",
+		"magento/module-eav": "@stable",
+		"magento/framework": "@stable"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+	"authors": [
+        {
+            "name": "Magejar ",
+            "email": "info@magejar.com",
+            "homepage": "https://magejar.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magejar\\Toolbar\\": ""
+        }
+    }
+}

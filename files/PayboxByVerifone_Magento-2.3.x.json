@@ -1,0 +1,19 @@
+{
+  "name": "paybox/epayment23",
+  "description": "Epayment payment module for Magento 2.3",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.1.3||^7.2.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Paybox\\Epayment\\": ""
+    }
+  }
+}

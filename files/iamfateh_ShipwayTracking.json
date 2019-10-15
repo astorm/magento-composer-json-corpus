@@ -1,0 +1,21 @@
+{
+    "name": "vikas/shipwaytracking",
+    "description": "Shipway Module magento 2",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Onjection",
+            "email": "contact@onjection.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "vikas\\shipwaytracking\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

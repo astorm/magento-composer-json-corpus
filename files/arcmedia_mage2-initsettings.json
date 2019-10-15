@@ -1,0 +1,21 @@
+{
+    "name": "arcmedia/mage2-initsettings",
+    "description": "Basic Settings for webshops in Switzerland",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "David Lee, Arcmedia AG",
+            "email": "david.lee@arcmedia.ch"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Arcmedia\\InitSettings\\": ""
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "voicyou/cron",
+  "description": "This is a Magento 2 Module for listing all the cron jobs that are installed in your Magento 2 store. ",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+    "voicyou/menuoptions":"~1.0.0"
+  },
+  "type": "magento2-module",
+  "version":"1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Voicyou",
+      "email": "voicyou123@gmail.com",
+      "homepage": "http://www.voicyou.in/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Voicyou\\Cron\\": ""
+    }
+  }
+}

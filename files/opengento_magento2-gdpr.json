@@ -1,0 +1,55 @@
+{
+    "name": "opengento/module-gdpr",
+    "description": "Gdpr Compliance Module for Magento 2",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2",
+        "gdpr",
+        "rgpd"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-zip": "*",
+        "mikehaertl/phpwkhtmltopdf": "^2.3.1",
+        "magento/framework": ">=100.1.0",
+        "magento/module-backend": ">=100.0.0",
+        "magento/module-config": ">=100.0.2",
+        "magento/module-customer": ">=100.0.2",
+        "magento/module-quote": ">=100.0.0",
+        "magento/module-sales": ">=100.0.2",
+        "magento/module-review": ">=100.0.0",
+        "magento/module-email": ">=100.0.0",
+        "magento/module-newsletter": ">=100.0.2"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "magento/marketplace-eqp": "^1.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://github.com/opengento/magento2-gdpr",
+    "authors": [
+        {
+            "name": "Opengento Team",
+            "email": "opengento@gmail.com",
+            "homepage": "https://opengento.fr/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/opengento/magento2-gdpr",
+        "issues": "https://github.com/opengento/magento2-gdpr/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Opengento\\Gdpr\\": ""
+        }
+    }
+}

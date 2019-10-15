@@ -1,0 +1,23 @@
+{
+    "name": "kowal/module-adminpopup",
+    "description": "Okienko popup do panelu administratora",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "kowal sp. z o.o.",
+            "email": "kontakt@kowal.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kowal\\AdminPopup\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "omise/omise-magento",
+    "description": "Accept payments on your Magento 2 website with Omise",
+    "keywords": ["omise", "payment", "debitcard", "creditcard", "internetbanking", "magento"],
+    "homepage": "https://github.com/omise/omise-magento",
+    "authors": [
+        {
+          "name": "Omise",
+          "email": "support@omise.co"
+        }
+    ],
+    "version": "2.9.0",
+    "minimum-stability": "stable",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7",
+        "magento/magento-composer-installer": "0.1.13",
+        "magento/module-payment": ">=100.1",
+        "magento/module-checkout": ">=100.1",
+        "magento/module-sales": ">=100.1",
+        "omise/omise-php": "2.11.1"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Omise\\Payment\\": ""
+        }
+    }
+}

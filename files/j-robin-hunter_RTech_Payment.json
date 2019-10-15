@@ -1,0 +1,22 @@
+{
+  "name": "rtech/payment",
+  "description": "Romatech Payment Module",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin Hunter",
+      "email": "hello@romatech.co.uk"
+    }
+  ],
+  "require": {
+    "rtech/neo": "^1.0",
+    "rtech/zoho": "^1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "RTech\\Payment\\": ""
+    }
+  }
+}

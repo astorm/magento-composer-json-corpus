@@ -1,0 +1,42 @@
+{
+    "name": "blackbird/module-disable-reports",
+    "description": "This module lets not overloaded the database of reports and log.",
+    "keywords": [        
+        "php",
+        "magento",
+        "magento2",
+        "optimization",
+        "reports"
+    ],
+    "require": {
+        "magento/framework": ">=100.0.0",
+        "magento/module-reports": ">=100.0.0",
+        "magento/module-logging": ">=100.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://github.com/blackbird-agency/magento-2-disabled-reports",
+    "authors": [
+        {
+            "name": "Blackbird Team",
+            "email": "hello@bird.eu",
+            "homepage": "https://black.bird.eu/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blackbird-agency/magento-2-disabled-reports",
+        "issues": "https://github.com/blackbird-agency/magento-2-disabled-reports/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\DisableReports\\": ""
+        }
+    }
+}

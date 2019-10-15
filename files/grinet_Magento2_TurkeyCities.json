@@ -1,0 +1,32 @@
+{
+    "name": "grinet/turkeycities",
+    "description": "Adds Turkey cities to your Magento2 for showing as list in address forms / Türkiye Şehirlerini Magento2 sitenize ekler ve adres formlarında şehirler listelenir",
+    "keywords": ["Magento2", "Turkiye", "Türkiye", "Şehirler", "Şehirleri", "Turkey", "Cities", "Türkei"],
+    "require": {
+		"magento/module-directory": "100.*"
+	},
+    "version": "1.0.2",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Grinet\\TurkeyCities\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Grinet",
+            "homepage": "http://www.grinet.com.tr/",
+            "email": "info@grinet.com.tr"
+        }
+    ],
+    "support": {
+        "email": "info@grinet.com.tr"
+    }
+}

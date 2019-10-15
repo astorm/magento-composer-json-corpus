@@ -1,0 +1,42 @@
+{
+    "name": "netzexpert/module-productconfigurator",
+    "description": "N/A",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/framework": "101.0.*|102.0.*",
+        "magento/module-backend": "100.0.*|100.2.*|101.0.*|102.0.*",
+        "magento/module-catalog": "102.0.*|103.0.*",
+        "magento/module-eav": "101.0.*|102.0.*",
+        "magento/module-quote": "101.0.*|101.1.*|102.0.*",
+        "magento/module-sales": "101.0.*|102.0.*",
+        "magento/module-import-export": ">=100.0.0 < 104"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "phpmd/phpmd": "^2.3",
+        "squizlabs/php_codesniffer": "^2.5",
+        "sebastian/phpcpd": "^2.0",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.44",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Netzexpert\\ProductConfigurator\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
+

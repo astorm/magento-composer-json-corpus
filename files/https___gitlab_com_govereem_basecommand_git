@@ -1,0 +1,19 @@
+{
+    "name": "gidsoft/basecommand",
+    "description": "Easy start for building Magento 2 commands",
+    "require": {
+        "php": "^5.5.22|^7.0",
+        "magento/framework": "^100.0.2|^101.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.5",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gidsoft\\Basecommand\\": ""
+        }
+    }
+}

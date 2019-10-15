@@ -1,0 +1,24 @@
+{
+	"name": "mage2pro/customer-location"
+	,"version": "1.0.4"
+	,"description": "The «Customer Location» extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/t/78"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.5.22"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\CustomerLocation\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"freegeoip.net"
+		,"Geolocation"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

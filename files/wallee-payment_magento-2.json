@@ -1,0 +1,35 @@
+{
+	"name" : "wallee/magento-2-2",
+	"description" : "wallee integration for Magento 2.2",
+	"keywords": [
+		"wallee",
+		"payment",
+		"php",
+		"magento",
+		"magento2",
+		"magento2.2"
+	],
+	"homepage": "https://www.wallee.com/",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "customweb GmbH",
+			"homepage": "https://customweb.com"
+		}
+	],
+	"type" : "magento2-module",
+	"version" : "1.0.61",
+	"require" : {
+		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+		"magento/framework" : "^101.0.2",
+		"wallee/sdk": "1.1.16"
+	},
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4": {
+			"Wallee\\Payment\\": ""
+		}
+	}
+}

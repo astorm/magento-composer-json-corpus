@@ -1,0 +1,43 @@
+{
+    "name": "viaconnect/magento2-connector",
+    "description": "VIA-Connect - Magento 2 Connector",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "keywords": ["ebay", "magento2"],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "php-http/message": "^1.6.0",
+        "php-http/guzzle6-adapter": "^1.1.0",
+        "php-http/multipart-stream-builder": "^1.0.0",
+        "ramsey/uuid": "^3.7.0",
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-bundle": "*",
+        "magento/module-catalog": "*",
+        "magento/module-catalog-inventory": "*",
+        "magento/module-config": "*",
+        "magento/module-configurable-product": "*",
+        "magento/module-cron": "*",
+        "magento/module-customer": "*",
+        "magento/module-eav": "*",
+        "magento/module-grouped-product": "*",
+        "magento/module-payment": "*",
+        "magento/module-quote": "*",
+        "magento/module-require-js": "*",
+        "magento/module-sales": "*",
+        "magento/module-sales-sequence": "*",
+        "magento/module-shipping": "*",
+        "magento/module-store": "*",
+        "magento/module-tax": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "VIAeBay\\Connector\\": ""
+        }
+    }
+}

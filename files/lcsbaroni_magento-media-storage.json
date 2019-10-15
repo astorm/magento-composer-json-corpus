@@ -1,0 +1,23 @@
+{
+  "name": "lcsbaroni/magento-media-storage",
+  "description": "Configure media storage backend for your store.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Baroni",
+      "email": "luis.baroni@chaordicsystems.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MediaStorage\\Web\\": ""
+    }
+  },
+  "require": {
+    "league/flysystem-aws-s3-v3": "1.0.*"
+  }
+}

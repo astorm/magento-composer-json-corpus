@@ -1,0 +1,26 @@
+{
+  "name": "echron/magento2-module-scss",
+  "description": "Magento2 module for Scss support",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stijn Duynslaeger",
+      "email": "stijn@echron.be",
+      "homepage": "http://echron.be"
+    }
+  ],
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "leafo/scssphp": "0.6.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Echron\\Scss\\": ""
+    }
+  }
+}

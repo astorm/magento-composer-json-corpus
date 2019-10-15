@@ -1,0 +1,50 @@
+{
+    "name": "ainnomix/etm",
+    "description": "Magento 2 Entity type manager",
+    "type": "magento2-module",
+    "keywords": [
+        "magento",
+        "magento2",
+        "entity-type",
+        "entity-type-manager",
+        "etm"
+    ],
+    "homepage": "https://github.com/Ainnomix/magento2-etm",
+    "authors": [
+        {
+            "name": "Roman Tomchak",
+            "email": "romantomchak@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Ainnomix/magento2-etm/issues"
+    },
+    "require": {
+        "magento/framework": "~102.0.0",
+        "magento/module-eav": "~102.0.0",
+        "magento/module-backend": "~101.0.0",
+        "magento/module-ui": "~101.1.0"
+    },
+    "replace": {
+        "ainnomix/module-etm-api": "self.version",
+        "ainnomix/module-etm-core": "self.version",
+        "ainnomix/module-etm-admin-ui": "self.version"
+    },
+    "autoload": {
+        "files": [
+            "src/module-etm-api/registration.php",
+            "src/module-etm-core/registration.php",
+            "src/module-etm-admin-ui/registration.php"
+        ],
+        "psr-4": {
+            "Ainnomix\\EtmApi\\": "src/module-etm-api",
+            "Ainnomix\\EtmCore\\": "src/module-etm-core",
+            "Ainnomix\\EtmAdminUi\\": "src/module-etm-admin-ui"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

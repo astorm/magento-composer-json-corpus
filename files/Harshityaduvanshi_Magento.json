@@ -1,0 +1,30 @@
+ {
+  "name": "ced/bundleposition",
+  "minimum-stability":"dev",
+  "description": "Bundle Product Listng Product",
+  "type": "magento2-module",
+  "version": "1.0.0",
+    "require": {
+    "php": ">=5.4.0"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "CedCoss",
+      "email": "harshityadav@cedcoss.com",
+      "homepage": "https://www.Cedcoss.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ced\\BundlePosition\\": ""
+    }
+  }
+}

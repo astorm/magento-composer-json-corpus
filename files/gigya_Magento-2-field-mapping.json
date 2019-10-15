@@ -1,0 +1,24 @@
+{
+  "name": "gigya/magento2-field-mapping",
+  "description": "Provide field mapping functionality to Gigya M2 module",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Guy A",
+      "email": "guy.av@gigya-inc.com"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "*",
+    "gigya/magento2-im" : "*"
+  },
+  "autoload": {
+    "psr-4": { "Gigya\\Gigya_FieldMapping\\": "" },
+    "files": [ "registration.php" ]
+  }
+}

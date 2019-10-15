@@ -1,0 +1,32 @@
+{
+  "name": "icyd/magento2_payula",
+  "description": "PayuLatam module for Magento 2",
+  "require": {
+    "php": ">=7.0.0",
+    "magento/product-community-edition": ">=2.2.0",
+    "magento/module-checkout": ">=100",
+    "magento/module-payment": ">=100",
+    "magento/module-sales": ">=100",
+    "magento/framework": ">=100"
+  },
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Icyd\\Payulatam\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Alberto Vázquez",
+      "homepage": "https://github.com/icyd/magento2_payula"
+    }
+  ],
+  "license": [
+    "CC-BY-SA-4.0",
+    "AFL-3.0"
+  ]
+}

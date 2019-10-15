@@ -1,0 +1,19 @@
+{
+    "name": "phoenix-media/magento2-cleanup",
+    "description": "The module archives and removes old files.",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "ext-zlib": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.9.5",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Phoenix\\Cleanup\\": ""
+        }
+    }
+}

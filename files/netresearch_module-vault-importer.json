@@ -1,0 +1,40 @@
+{
+    "name": "netresearch/module-vault-importer",
+    "version": "0.1.0",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Module to add cli commands to import secrets from vault",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+        "ext-json": "*",
+        "magento/framework": "^101.0.0 || ^102.0.0",
+        "csharpru/vault-php": "^3.6.0",
+        "magento/module-config": "^101.0.0 || ^102.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.9"
+    },
+    "authors":[
+        {
+            "name": "Paul Siedler",
+            "email": "paul.siedler@netresearch.de"
+        },
+        {
+            "name": "Max Melzer",
+            "email": "max.melzer@netresearch.de"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Netresearch\\VaultImport\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}

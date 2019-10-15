@@ -1,0 +1,31 @@
+{
+    "name": "kreativsoehne/magento-2-price-after-login",
+    "license": "MIT",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "homepage": "https://www.kreativundsoehne.de/",
+    "description": "A Magento 2 extension which lets you determine which user groups are able to see the prices at all",
+    "keywords":[ "composer-installer", "magento", "magento 2", "price", "user"],
+    "authors": [
+        {
+            "name": "Kreativ&Söhne GmbH | Michael Fuchs",
+            "email": "michael@kreativsoehne.de"
+        }
+    ],
+    "require": {
+        "magento/framework": "^101.0|^102.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"*",
+        "composer/composer":"*@dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "kreativsoehne\\PriceAfterLogin\\": ""
+      },
+      "files": [
+            "registration.php"
+        ]
+    }
+}

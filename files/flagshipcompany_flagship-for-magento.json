@@ -1,0 +1,20 @@
+{
+  "name": "flagshipcompany/flagship-for-magento",
+  "description": "A module that allows you to ship with flagship",
+  "type": "magento2-module",
+  "version": "1.0.29",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "flagshipcompany/flagship-api-sdk": "^1.1"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Flagship\\Shipping\\": ""
+    }
+  }
+}

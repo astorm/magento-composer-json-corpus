@@ -1,0 +1,21 @@
+{
+    "name": "vdc/helloworld",
+    "description": "helloworld",
+    "minimum-stability": "dev",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "license": [
+    		"OSL-3.0"
+  		],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+	"psr-4": {
+            "Vdc\\Helloworld\\": ""
+        }    
+}
+}

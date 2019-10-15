@@ -1,0 +1,26 @@
+{
+  "name": "ctidigital/module-catalogjs",
+  "description": "Adds models that are triggered when a customer selects options on the product page.",
+  "version": "1.0.3",
+  "keywords": [
+    "magento 2"
+  ],
+  "require": {
+    "magento/magento-composer-installer": "*"
+  },
+  "suggest": {
+
+  },
+  "type": "magento2-module",
+  "license": [
+
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CtiDigital\\CatalogJS\\": ""
+    }
+  }
+}

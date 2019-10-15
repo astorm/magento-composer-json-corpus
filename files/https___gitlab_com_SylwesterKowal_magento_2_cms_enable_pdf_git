@@ -1,0 +1,21 @@
+{
+    "name": "kowal/enablepdf",
+    "description": "Kowal Enable Pdf",
+    "require": {
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Kowal/EnablePdf"
+            ]
+        ]
+    }
+}

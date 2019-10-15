@@ -1,0 +1,34 @@
+{
+    "name": "paycertify/plugin-magento-v2",
+    "description": "PayCertify Gateway payment method",
+    "require": {
+        "magento/module-sales": "101.0.*",
+        "magento/module-config": "101.0.*",
+        "magento/module-store": "100.2.*",
+        "magento/module-quote": "101.0.*",
+        "magento/module-checkout": "100.2.*",
+        "magento/module-backend": "100.2.*",
+        "magento/module-payment": "100.2.*",
+        "magento/module-catalog": "102.0.*",
+        "magento/module-ui": "101.0.*",
+        "magento/module-directory": "100.2.*",
+        "magento/framework": "101.0.*",
+        "zendframework/zend-json": "~2.0"
+    },
+    "suggest": {
+        "magento/module-cookie": "100.2.*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PayCertify\\Gateway\\": ""
+        }
+    }
+}

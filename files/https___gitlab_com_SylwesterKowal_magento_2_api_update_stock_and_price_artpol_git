@@ -1,0 +1,23 @@
+{
+  "name": "kowal/module-apiupdatestockandprice",
+  "description": "Masowa aktualizacja cen i stan\u00f3w",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "email": "kontakt@kowal.co",
+      "name": "kowal sp. z o.o."
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Kowal\\ApiUpdateStockAndPrice\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

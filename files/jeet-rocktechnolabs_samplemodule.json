@@ -1,0 +1,29 @@
+{
+  "name": "jeet-rocktechnolabs/samplemodule",
+  "description": "Sample Module ",
+  "require": {
+    "magento/module-store": ">100.0",
+    "magento/module-backend": ">100.0",
+    "magento/framework": ">100.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Jeet Rock",
+      "email": "jeet@rocktechnolabs.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+        "Jeet\\Rock\\": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "flowcommerce/flowconnector",
+    "description": "Flow Connector",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "tech@flow.io",
+            "name": "Flow Tech"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FlowCommerce\\FlowConnector\\": ""
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.2.0"
+    }
+}

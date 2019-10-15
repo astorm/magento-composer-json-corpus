@@ -1,0 +1,42 @@
+{
+  "name": "sarus-io/magento2-sarus-sso",
+  "description": "Magento 2 extension - SSO Identity Provider",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sarus Team",
+      "homepage": "https://sarus.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "ext-openssl": "*",
+    "magento/module-customer": "100.*.*|101.*.*",
+    "magento/module-store": "100.*.*",
+    "magento/module-config": "100.*.*|101.*.*",
+    "magento/module-backend": "100.*.*",
+    "magento/framework": "100.*.*|101.*.*",
+    "lightsaml/lightsaml": "^1.4",
+    "vaimo/composer-patches": "^3.24.1"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Sarus\\SsoIdp\\": ""
+    }
+  },
+  "extra": {
+    "patches": {
+      "lightsaml/lightsaml": {
+        "lightsaml_fix_encryption": "lightsaml_fix_encryption.patch"
+      }
+    }
+  }
+}

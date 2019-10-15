@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-brochure",
+    "description": "Brochure Module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.0.0",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\Brochure\\": ""
+        }
+    }
+}

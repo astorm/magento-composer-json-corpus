@@ -1,0 +1,35 @@
+{
+  "name": "dopamedia/statemachine",
+  "description": "StateMachine for Magento2",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6",
+    "magento/framework": "100.1.0",
+    "magento/zendframework1": "1.12.16",
+    "phpdocumentor/graphviz": "~1.0.4",
+    "zendframework/zend-math": "~2.4.0",
+    "zendframework/zend-stdlib": "~2.4.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "type": "magento2-module",
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dopamedia\\StateMachine\\": ""
+    }
+  }
+}

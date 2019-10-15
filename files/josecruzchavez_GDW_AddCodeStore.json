@@ -1,0 +1,27 @@
+{
+  "name": "gdw/addcodestore",
+  "description": "Módulo GDW Add Code Store",
+  "authors": [
+    {
+      "name": "José Cruz Chávez",
+      "email": "josecruz@gestiondigitalweb.com"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "gdw/core": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GDW\\AddCodeStore\\": ""
+    }
+  }
+}

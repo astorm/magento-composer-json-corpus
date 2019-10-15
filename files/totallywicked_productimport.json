@@ -1,0 +1,20 @@
+{
+    "name": "pillbox/productimport",
+    "description": "Pillbox Product Import",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pillbox\\ProductImport\\": ""
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"name": "julio.com/stock"
+	,"version": "0.0.2"
+	,"description": "The module updates stock in Magento 2 from Dropbox files"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/julio-com/stock"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {
+		"julio.com/intelisis": ">=0.0.1"
+		,"kunalvarma05/dropbox-php-sdk": ">=0.2.1"
+		,"mage2pro/core": ">=5.1.9"
+	}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Julio\\Stock\\": ""}}
+	,"keywords": ["Magento 2"]
+}

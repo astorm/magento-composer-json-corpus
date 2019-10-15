@@ -1,0 +1,21 @@
+{
+  "name": "opsway/magento2-onelogin",
+  "description": "Module that makes it possible to login to Magento Admin via Onelogin Identity provider",
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6|^7.1",
+    "onelogin/php-saml": "2.10.2"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "OpsWay\\OneLogin\\": ""
+    }
+  }
+}

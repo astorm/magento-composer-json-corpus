@@ -1,0 +1,35 @@
+{
+    "name": "pay_dunya/magento-module",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "description": "PayDunya Magento Payment Gateway",
+    "license": "MIT",
+    "keywords": [
+        "Paiement", "paiement en ligne", "Sénégal", 
+        "Joni Joni", "Visa", "Master Card", "Credit Card",
+        "Plateforme de paiement en ligne Afrique", "Paiement Sénégal",
+        "Passerelle de paiement en ligne", "PayDunya", "PAYDUNYA", "paydunya", "paydunya.com",
+        "Marchand en ligne", "payment gateway", "payment gateway Africa",
+        "online payment gateway", "mobile payments", "best payment gateway",
+        "orange money", "client php", "api", "php client", "library"
+    ],
+    "authors": [
+        {
+            "name": "PayDunya",
+            "email": "paydunya@paydunya.com",
+            "homepage": "https://paydunya.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0",
+        "paydunya/paydunya": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Paydunya\\PaydunyaMagento\\": ""
+        }
+    }
+}

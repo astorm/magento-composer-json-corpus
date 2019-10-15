@@ -1,0 +1,20 @@
+{
+  "name": "afterpay/afterpay-module",
+  "description": "Afterpay Magento 2 Module",
+  "type": "magento2-module",
+  "version": "2.5.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "payintegrator/afterpay": ">=2.1.0",
+    "magento/module-payment": ">=100.2.2"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Afterpay\\Payment\\": ""
+    }
+  }
+}

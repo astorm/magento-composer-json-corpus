@@ -1,0 +1,29 @@
+{
+  "name": "pawan/customeravatar",
+  "description": "Customer can their avatar to magento ",
+  "homepage": "https://github.com/pawankparmar/customeravatar",
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "keywords": ["magento2"],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
+  "support": {
+        "issues": "https://github.com/pawankparmar/customeravatar/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pawan\\CustomerAvatar\\": ""
+    }
+  }
+}

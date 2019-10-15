@@ -1,0 +1,25 @@
+{
+    "name": "m21/module-feedgmc",
+    "description": "Eksport produktów do Google Merchant Center",
+    "type": "magento2-module",
+    "version": "0.74.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "sylwester.kowal@21w.pl",
+            "name": "21w.pl Sylwester Kowal"
+        }
+    ],
+    "require": {
+        "m21/kategoriagmc": "*",
+        "m21/gmcproducttype": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "M21\\FeedGmc\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

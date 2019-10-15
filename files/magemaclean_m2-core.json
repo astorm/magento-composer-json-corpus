@@ -1,0 +1,25 @@
+{
+    "name": "magemaclean/m2-core",
+    "description": "MageMaclean Core module for MageMaclean extensions",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "MageMaclean",
+        "email": "support@magemaclean.com",
+        "homepage": "https://magemaclean.com",
+        "role": "Leader"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "MageMaclean\\Core\\": ""
+      }
+    }
+  }

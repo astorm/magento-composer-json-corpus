@@ -1,0 +1,23 @@
+{
+  "name": "templatestudio/module-core",
+  "description": "Template Studio Core is the base extension required by all our other extensions.",
+  "type": "magento2-module",
+  "version": "2.1.0",
+  "authors": [
+    {
+      "name": "Templatestudio UK",
+      "email": "nick@templatestudio.com",
+      "homepage": "http://templatestudio.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Templatestudio\\Core\\": ""
+    }
+  }
+}

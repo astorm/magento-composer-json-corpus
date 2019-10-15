@@ -1,0 +1,19 @@
+{
+    "name": "thecactus117/cache-debug",
+    "license": "MIT",
+    "type": "magento2-module",
+    "description": "Debug cache module for Magento 2",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TheCactus117\\CacheDebug\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

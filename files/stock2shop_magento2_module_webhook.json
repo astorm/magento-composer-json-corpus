@@ -1,0 +1,16 @@
+{
+	"name": "stock2shop/magento2_module_webhook"
+	,"version": "1.1.6"
+	,"description": "The module sends new order's data to a specified URL in a JSON format."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/stock2shop/magento2_module_webhook"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://www.upwork.com/fl/mage2pro"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Stock2Shop\\OrderExport\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "outeredge/magento-zebreco-module",
+    "description": "Magento Zebreco Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "outeredge/zebreco-php": "dev-master",
+        "outeredge/edge-module": "2.3.1",
+        "erusev/parsedown": "1.6.3"
+    },
+    "require-dev": {
+        "magento-ecg/coding-standard": "~3.0",
+        "outeredge/coding-standards": "~1.0.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\ZebrecoIntegration\\": ""
+        }
+    },
+    "minimum-stability": "alpha"
+}

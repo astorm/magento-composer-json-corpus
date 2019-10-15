@@ -1,0 +1,23 @@
+{
+  "name": "smaily/smailyformagento",
+  "description": "Magento 2 Smaily extension",
+  "version": "0.9.1",
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Smaily",
+      "email": "info@smaily.com",
+      "homepage": "https://www.smaily.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Smaily\\SmailyForMagento\\": ""
+    }
+  }
+}

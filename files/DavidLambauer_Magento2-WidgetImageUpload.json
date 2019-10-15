@@ -1,0 +1,20 @@
+{
+    "name": "dlambauer/magento2-module-backend-widget-imageupload",
+    "description": "Simply add Images to your Widget",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "mail@davidlambauer.de",
+            "name": "David Lambauer"
+        }
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dlambauer\\WidgetImageUpload\\": ""
+        }
+    }
+}

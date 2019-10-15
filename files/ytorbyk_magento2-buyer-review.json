@@ -1,0 +1,30 @@
+{
+  "name": "tobai/magento2-buyer-review",
+  "description": "Checks whether an author of product review already bought the product.",
+  "keywords": ["magento2"],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license":["MIT"],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Tobai/BuyerReview"
+      ]
+    ]
+  },
+  "authors": [
+    {
+      "name": "Yurii Torbyk",
+      "homepage": "http://to-bai.com/"
+    },
+    {
+      "name": "Vitalii Bairak",
+      "homepage": "http://to-bai.com/"
+    }
+  ]
+}

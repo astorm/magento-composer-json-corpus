@@ -1,0 +1,21 @@
+{
+    "name": "rayms/magento2-order-events-broadcaster",
+    "description": "A magento 2 extension that broadcast data to an API for certain order events",
+    "type": "magento2-module",
+    "authors": [
+      {
+        "name": "Ray Santillan",
+        "email": "raymsantillan@gmail.com",
+        "homepage": "http://github.com/fagray",
+        "role": "developer"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Rayms\\OrderEventsBroadcaster\\": ""
+      }
+    }
+  }

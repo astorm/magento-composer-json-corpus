@@ -1,0 +1,30 @@
+{
+  "name": "saulmoralespa/magento2-placetopay",
+  "description": "placetopay integration for magento2",
+  "authors": [
+    {
+      "name": "Saul Morales Pacheco",
+      "email": "info@saulmoralespa.com",
+      "homepage": "https://saulmoralespa.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "dnetix/redirection": "^0.6.1"
+
+  },
+  "type": "magento2-module",
+  "version": "0.0.3",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Saulmoralespa\\PlaceToPay\\": ""
+    }
+  }
+}

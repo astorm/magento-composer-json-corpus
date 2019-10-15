@@ -1,0 +1,27 @@
+{
+    "name": "diepxuan/module-sitemap",
+    "description": "Sitemap page for Magento 2",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
+    },
+    "type": "magento2-module",
+    "version": "0.0.2.1",
+    "authors": [
+        {
+            "name": "Tran Ngoc Duc",
+            "email": "ductn@diepxuan.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Diepxuan\\Sitemap\\": ""
+        }
+    }
+}

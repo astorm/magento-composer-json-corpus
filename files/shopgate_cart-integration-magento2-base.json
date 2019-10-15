@@ -1,0 +1,45 @@
+{
+  "name": "shopgate/cart-integration-magento2-base",
+  "description": "Shopgate base module for Magento 2, handles communication with merchant API and routing calls",
+  "license": "Apache-2.0",
+  "type": "magento2-module",
+  "version": "2.9.19",
+  "authors": [
+    {
+      "name": "Konstantin Kiritsenko"
+    },
+    {
+      "name": "André Kraus"
+    },
+    {
+      "name": "Stephan Recknagel"
+    },
+    {
+      "name": "Alexander Wesselburg"
+    },
+    {
+      "name": "Rainer Skistims"
+    }
+  ],
+  "require": {
+    "shopgate/cart-integration-sdk": "2.9.78",
+    "magento/module-grouped-product": "^100.0",
+    "magento/module-bundle": "^100.0",
+    "magento/module-configurable-product": "^100.0"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Shopgate\\Base\\": "src/",
+      "Shopgate\\Base\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}

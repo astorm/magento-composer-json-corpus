@@ -1,0 +1,37 @@
+{
+    "name": "tkotosz/block-decorator-magento2",
+    "description": "Tkotosz - Block Decorator module for Magento 2",
+    "type": "magento2-module",
+    "repositories": {
+        "magento-repo": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tibor Kotosz",
+            "email": "kotosy@gmail.com",
+            "homepage": "https://github.com/tkotosz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "magento/framework": "^100.1|^101.0|^102.0",
+        "magento/module-catalog": "^101.0|^102.0|^103.0"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "use-include-path": true
+    },
+    "autoload": {
+        "files": [
+            "src/Tkotosz/BlockDecorator/registration.php"
+        ],
+        "psr-0": {
+            "Tkotosz\\BlockDecorator\\": "src"
+        }
+    }
+}

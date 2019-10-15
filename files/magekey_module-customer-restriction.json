@@ -1,0 +1,21 @@
+{
+    "name": "magekey/module-customer-restriction",
+    "description": "Magento 2 Customer Restriction",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "2.1.4",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nick@magekey.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\CustomerRestriction\\": ""
+        }
+    }
+}

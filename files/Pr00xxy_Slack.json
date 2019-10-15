@@ -1,0 +1,32 @@
+{
+  "name": "pr00xxy/slack",
+  "description": "Slack Message Module for Magento 2 integration with your Slack Workspace",
+  "authors": [
+    {
+      "name": "Hampus Westman",
+      "email": "hampus.westman@gmail.com",
+      "homepage": "https://github.com/Pr00xxy"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Pr00xxy\\Slack\\": ""
+    }
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Pr00xxy/Slack"
+      ]
+    ]
+  }
+}

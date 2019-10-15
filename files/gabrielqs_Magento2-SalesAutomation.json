@@ -1,0 +1,26 @@
+{
+  "name": "gabrielqs/sales-automation",
+  "description": "Allows the creation of rules to automate the sales process.",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+  },
+  "authors": [
+    {
+      "name": "Gabriel Queiroz Silva",
+      "email": "gabrielqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gabrielqs\\SalesAutomation\\": ""
+    }
+  }
+}

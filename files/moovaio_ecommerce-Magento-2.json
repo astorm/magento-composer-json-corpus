@@ -1,0 +1,16 @@
+{
+  "name": "moova/magento2",
+  "description": "Módulo de envíos Moova para Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.8",
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Improntus\\Moova\\": ""
+    }
+  }
+}

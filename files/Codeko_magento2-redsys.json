@@ -1,0 +1,25 @@
+{
+    "name": "codeko/redsys",
+    "description": "Magento 2 Redsys virtual POS extension",
+    "type": "magento2-module",
+    "version": "3.0.6",
+    "license": [
+        "AGPL-3.0"
+    ],
+    "author": [
+        {
+            "name": "Codeko",
+            "email": "codeko@codeko.com",
+            "homepage": "http://http://codeko.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codeko\\Redsys\\": ""
+        }
+    }
+}

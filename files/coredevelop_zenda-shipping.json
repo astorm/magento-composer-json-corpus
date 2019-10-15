@@ -1,0 +1,37 @@
+{
+    "name": "zenda/module-shipping",
+    "description": "Zenda Shipping for Magento 2",
+    "require": {
+        "php": "^5.6|^7.0|^7.1",
+        "magento/framework": "^100|^101|^102",
+        "magento/module-sales": "^100|^101|^102",
+        "magento/module-quote": "^100|^101",
+        "magento/module-store": "^100|^101",
+        "magento/module-directory": "^100"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:coredevelop/zenda-shipping.git"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zenda\\Shipping\\": ""
+        }
+    }
+}
+

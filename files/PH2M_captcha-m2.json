@@ -1,0 +1,24 @@
+{
+  "name": "ph2m/captcha-m2",
+  "description": "Captcha for Magento 2",
+  "homepage": "https://github.com/PH2M/captcha-m2",
+  "require": {
+    "magento/product-community-edition": "~2.2"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "PH2M",
+      "email": "contact@ph2m.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PH2M\\Captcha\\": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+   "name": "webbytroops/wishlistapis",
+   "description": "WebbyTroops Wishlist APIs",
+   "require": {
+   },
+   "type": "magento2-module",
+   "version": "1.0.1",
+   "license": [
+       "OSL-3.0",
+       "AFL-3.0"
+   ],
+    "keywords": [
+    
+   ],
+   "authors": [
+       {
+           "name": "webbytroops",
+           "email": "contact@webbytroops.com",
+           "homepage": "https://www.webbytroops.com/"
+       }
+   ],
+   "autoload": {
+       "files": [
+           "registration.php"
+       ],
+       "psr-4": {
+           "WebbyTroops\\WishlistAPI\\": ""
+       }
+   }
+}

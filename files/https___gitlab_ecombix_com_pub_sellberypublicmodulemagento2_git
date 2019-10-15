@@ -1,0 +1,17 @@
+{
+  "name": "sellbery/magento2-application",
+  "description": "Easy integration with marketplaces and shopping engines",
+  "type": "magento2-module",
+  "version": "1.1.2",
+  "license": [
+    "Apache-2.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sellbery\\Application\\": ""
+    }
+  }
+}

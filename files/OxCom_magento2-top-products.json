@@ -1,0 +1,50 @@
+{
+  "name": "oxcom/magento2-top-products",
+  "description": "This is a module that extends Magento2 API to get list of TOP products.",
+  "type": "magento2-module",
+  "license": "LGPL-3.0",
+  "keywords": [
+    "magento2",
+    "top products",
+    "api"
+  ],
+  "homepage": "https://github.com/OxCom/magento2-top-products",
+  "require": {
+    "php": ">=5.6",
+    "magento/module-config": "100.0.*|100.1.*|101.0.*",
+    "magento/module-store": "100.0.*|100.1.*|100.2.*",
+    "magento/module-backend": "100.0.*|100.1.*|100.2.*",
+    "magento/module-directory": "100.0.*|100.1.*|100.2.*",
+    "magento/framework": "100.0.*|100.1.*|101.0.*"
+  },
+  "require-dev": {
+    "magento/zendframework1": "1.12.*|1.13.*",
+    "phpunit/phpunit": "5.3.5",
+    "squizlabs/php_codesniffer": "^3.1",
+    "sebastian/phpcpd": "^3.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "OxCom\\MagentoTopProducts\\": ""
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+    ]
+  },
+  "authors": [
+    {
+      "name": "OxCom",
+      "email": "lancer.oxcom@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}

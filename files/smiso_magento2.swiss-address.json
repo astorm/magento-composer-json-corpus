@@ -1,0 +1,33 @@
+{
+  "name": "smiso/swissaddress",
+  "description": "Address representation for Switzerland",
+  "keywords": [
+    "address",
+    "magento",
+    "swiss",
+    "switzerland"
+  ],
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Daniel Kradolfer",
+      "email": "kra@smilesolutions.ch",
+      "homepage": "https://smilesolutions.ch"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "magento/module-customer": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SmileSolutions\\SwissAddress\\": ""
+    }
+  }
+}

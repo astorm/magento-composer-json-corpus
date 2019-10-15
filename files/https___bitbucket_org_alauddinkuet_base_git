@@ -1,0 +1,39 @@
+{
+    "name": "nascenia/module-base",
+    "description": "Nascenia Base Module",
+    "keywords": [
+        "magento 2",
+        "magento2"
+    ],
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/framework": "102.0.*",
+        "magento/module-backend": "101.0.*",
+        "magento/module-catalog": "103.0.*",
+        "magento/module-checkout": "100.3.*",
+        "magento/module-config": "101.1.*",
+        "magento/module-customer": "102.0.*",
+        "magento/module-directory": "100.3.*",
+        "magento/module-instant-purchase": "100.3.*",
+        "magento/module-payment": "100.3.*",
+        "magento/module-paypal": "100.3.*",
+        "magento/module-quote": "101.1.*",
+        "magento/module-sales": "102.0.*",
+        "magento/module-ui": "101.1.*",
+        "magento/module-vault": "101.1.*",
+        "magento/module-store": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nascenia\\Base\\": ""
+        }
+    }
+}

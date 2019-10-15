@@ -1,0 +1,25 @@
+{
+    "name": "dominicwatts/magentodump",
+    "description": "Magento with Symfony VarDumper replacement to Zend_Debug",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\MagentoDump\\": ""
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "fisheye/module-store-help",
+    "description": "A Magento 2 module that adds a 'store help' block to the site footer.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "magento/module-store": "^100.2"
+    },
+    "authors": [
+        {
+            "name": "Fisheye Media Ltd.",
+            "homepage": "https://fisheye-webdesign.co.uk/"
+        },
+        {
+            "name": "John Hughes",
+            "email": "johnh@fisheyehq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fisheye\\StoreHelp\\": ""
+        }
+    }
+}

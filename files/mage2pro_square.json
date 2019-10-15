@@ -1,0 +1,31 @@
+{
+	"name": "mage2pro/square"
+	,"version": "2.4.2"
+	,"description": "Square Payments integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/square"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.0.7"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Square\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Square"
+		,"USA", "Canada", "Japan", "Australia", "United Kingdom"
+	]
+}

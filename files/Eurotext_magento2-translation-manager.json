@@ -1,0 +1,28 @@
+{
+    "name": "eurotext/magento2-translation-manager",
+    "description": "EUROTEXT Translation Manager for Magento2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rico Neitzel",
+            "email": "info@buro71a.de"
+        },
+        {
+            "name": "Matthias Walter",
+            "email": "matthias.walter@mwltr.de"
+        }
+    ],
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0",
+        "eurotext/rest-api-client": "^1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Eurotext\\TranslationManager\\": "src"
+        }
+    }
+}

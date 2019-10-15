@@ -1,0 +1,15 @@
+{
+  "name": "rival-ecommerce/magento-mviewfix",
+  "description": "A Magento 2 module that adds a unique key to the Magento changelog tables. Fixes reindexing the same product several times each product update.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Rival\\MviewFix\\": ""
+    }
+  }
+}

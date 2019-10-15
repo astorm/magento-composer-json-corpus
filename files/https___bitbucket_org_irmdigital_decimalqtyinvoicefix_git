@@ -1,0 +1,22 @@
+{
+    "name": "irm/module-decimalqtyinvoicefix",
+    "description": "Fix for invoicing decimal quantities in Magento 2.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "omur@irm.net.tr",
+            "name": "Ömür Yanıkoğlu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IRM\\DecimalQtyInvoiceFix\\": ""
+        }
+    }
+}

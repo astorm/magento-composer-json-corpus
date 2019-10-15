@@ -1,0 +1,31 @@
+{
+  "name": "landofcoder/module-ajaxscroll",
+  "description": "Freely Scroll down & See what page of the catalog they're on, Automatically loading, Similar technique as seen on Twitter, Facebook",
+  "require": {
+    "landofcoder/module-all" : "1.*"
+  },
+  "keywords": [
+    "landofcoder",
+    "landofcoder ajax scroll",
+    "landofcoder ajax scroll magento 2 extension"
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "authors": [
+      {
+          "name": "Landofcoder",
+          "email": "landofcoder@gmail.com",
+          "role": "Magento 2 Lof Setup Extension"
+      }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Lof\\AjaxScroll\\": ""
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "creativestyle/content-constructor-frontend-extension",
+  "description": "Content Constructor Frontend Magento 2 Extension",
+  "type": "magento2-module",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+    "magento/framework": "^101.0.0",
+    "magento/module-cms": "^102.0.0",
+    "creativestyle/content-constructor-asset-extension": "~1.0.0",
+    "creativestyle/content-constructor": "~1.0.0",
+    "creativestyle/frontend-extension": "~1.0.0",
+    "creativestyle/brand-management-extension": "~1.0.0",
+    "creativestyle/product-bestsellers-ranking-extension": "~1.0.0",
+    "creativestyle/product-positive-indicators-extension": "~1.0.0",
+    "creativestyle/daily-deal-extension": "~1.0.0",
+    "creativestyle/cms-tag-manager-extension": "~1.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Creativestyle\\ContentConstructorFrontendExtension\\": ""
+    }
+  }
+}

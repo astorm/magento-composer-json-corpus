@@ -1,0 +1,17 @@
+{
+    "name": "a2test/testcart",    
+    "description": "Send abandoned cart emails",
+    "type": "magento2-module",
+    "version": "3.0.7",    
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "support": {
+        "email": "info@test.com"       
+    },
+    "require" : {
+        "mandrill/mandrill": "1.0.*",
+        "ebizmarts/magento2-mandrill": "3.0.*"
+    }
+}

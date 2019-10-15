@@ -1,0 +1,17 @@
+{
+  "name": "orange35/magento2-core",
+  "version": "1.0.0",
+  "description": "Set of dependencies for Orange35 Magento modules",
+  "type": "magento2-module",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Orange35\\Core\\": ""
+    }
+  }
+}

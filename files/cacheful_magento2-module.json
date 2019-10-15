@@ -1,0 +1,17 @@
+{
+    "name": "cacheful/magento2-module",
+    "description": "Cacheful Magento 2 client",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+      "guzzlehttp/guzzle": "^5.3.3|^6.2.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cacheful\\Client\\": ""
+        }
+    }
+}

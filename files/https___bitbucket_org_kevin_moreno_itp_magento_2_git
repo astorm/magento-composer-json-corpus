@@ -1,0 +1,28 @@
+{
+  "name": "kevinmoreno/magento2-customer-override",
+  "description": "ITP - Override Magento Customer Module",
+  "require":{
+    "magento/module-catalog": "100.*",
+    "php": "~7.0.13|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Kevin Moreno",
+      "email": "kevin.moreno@gammapartners.com",
+      "homepage": "https://gammapartners.com/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+    }
+  }
+}

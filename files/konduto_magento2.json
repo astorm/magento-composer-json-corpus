@@ -1,0 +1,30 @@
+{
+  "name": "konduto/magento2",
+  "description": "Konduto Anti Fraud Module",
+  "version": "1.0.5",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Trezo",
+      "email": "contato@trezo.com.br"
+    },
+    {
+      "name": "Cristhian Silveira Silva",
+      "email": "cristhian@trezo.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~7.0.0||~7.1.0||~7.2.0",
+    "konduto/sdk": "v2.0.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Konduto\\Antifraud\\": ""
+    }
+  }
+}

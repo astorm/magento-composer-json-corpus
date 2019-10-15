@@ -1,0 +1,28 @@
+{
+	"name": "mage2pro/zoho-bi"
+	,"version": "0.1.0"
+	,"description": "A common library for my «Zoho Books» and «Zoho Inventory» Magento 2 extensions"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/tags/zoho"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.3.40", "mage2pro/zoho": ">=0.0.8"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\ZohoBI\\": ""}}
+	,"keywords": [
+		"Zoho"
+		,"Accounting"
+		,"Zoho Books"
+		,"Inventory"
+		,"Zoho Inventory"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "magars/price-unit",
+  "type": "magento2-module",
+  "description": "Display product price with there units",
+  "keywords": ["magento", "magento2 extension", "magento 2 extension", "extension", "module", "magento2 module", "magento 2 module"],
+  "version": "1.0.0",
+  "homepage": "https://github.com/arshadmuhammad/magars-magento2-price-unit",
+  "authors": [
+    {
+      "name": "Arshad Muhammad",
+      "email": "mhmmd.ars86@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.2.0",
+    "magento/framework": "^101.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagArs\\PriceUnit\\": ""
+    }
+  }
+}

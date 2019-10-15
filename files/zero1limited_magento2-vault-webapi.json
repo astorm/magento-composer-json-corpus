@@ -1,0 +1,23 @@
+{
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Zero1\\VaultWebApi\\": ""
+    }
+  },
+  "description": "A Magento 2 module to expose rest api endpoints that allow vault tokens to be imported.",
+  "name": "zero1/vault-web-api",
+  "require": {
+  },
+  "support": {
+    "email": "sales@zero1.co.uk",
+    "docs": "https://github.com/zero1limited/magento2-vault-webapi"
+  },
+  "suggest": {
+    "mdoq/module-connector": "Enables you to connect to the Mdoq platform (https://www.mdoq.io)"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1"
+}

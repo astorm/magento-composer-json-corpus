@@ -1,0 +1,25 @@
+{
+    "name": "kingflamez/rave-magento2",
+    "description": "Rave Payment gateway for accepting payments worldwide",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Oluwole Adebiyi",
+            "email": "flamekeed@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rave\\Payments\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

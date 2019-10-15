@@ -1,0 +1,60 @@
+{
+  "name": "begateway/magento2-payment-module",
+  "description": "BeGateway Magento 2 payment module",
+  "type": "magento2-module",
+  "version": "1.2.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "beGateway",
+          "email": "techsupport@begateway.com",
+          "homepage": "https://begateway.com"
+      }
+  ],
+  "keywords": [
+      "begateway",
+      "ecomcharge",
+      "bepaid",
+      "magento2_module",
+      "magento2_payment_module",
+      "payment_gateway",
+      "magento2_payment_gateway",
+      "payment_processing",
+      "magento2_payment_processing",
+      "e-commerce",
+      "visa",
+      "mastercard",
+      "belkart",
+      "erip",
+      "halva",
+      "ерип",
+      "халва",
+      "debit_card",
+      "credit_card",
+      "authorize",
+      "capture",
+      "recurring",
+      "refund",
+      "void",
+      "3d-secure",
+      "fraud",
+      "chargeback"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0",
+    "magento/module-sales": "*",
+    "magento/module-quote": "*",
+    "magento/module-checkout": "*",
+    "magento/module-payment": "*",
+    "begateway/begateway-api-php": "~4.2.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "BeGateway\\BeGateway\\": ""
+    }
+  }
+}

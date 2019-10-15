@@ -1,0 +1,24 @@
+{
+    "name": "eurotext/magento2-translation-manager-eav",
+    "type": "magento2-module",
+    "description": "Eurotext Translation Manager EAV Extension",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matthias Walter",
+            "email": "matthias.walter@mwltr.de"
+        }
+    ],
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0",
+        "eurotext/magento2-translation-manager": "^1.0.1"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Eurotext\\TranslationManagerEav\\": "src"
+        }
+    }
+}

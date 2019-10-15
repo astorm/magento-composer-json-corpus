@@ -1,0 +1,19 @@
+{
+  "name": "assaka/interceptor",
+  "description": "Interceptor for Magento 2",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Assaka/Interceptor"
+      ]
+    ]
+  },
+  "minimum-stability": "dev"
+}

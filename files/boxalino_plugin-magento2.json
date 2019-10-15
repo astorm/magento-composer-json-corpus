@@ -1,0 +1,30 @@
+{
+  "name": "boxalino/plugin-magento2",
+  "description": "Boxalino Magento 2 plugin",
+  "type": "magento2-module",
+  "homepage": "http://www.boxalino.com",
+  "keywords": ["boxalino","intelligence","real-time","personalization","magento"],
+  "support": {
+    "email": "support@boxalino.com"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "7.*",
+    "magento/module-catalog": "*",
+    "magento/module-layered-navigation": "*",
+    "magento/module-search": "*",
+    "magento/module-indexer": "*",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Boxalino\\Intelligence\\": "",
+      "Thrift\\":"Lib/Thrift",
+      "com\\boxalino\\bxclient\\v1\\":"Lib"
+    }
+  }
+}

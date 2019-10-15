@@ -1,0 +1,25 @@
+{
+    "name": "bassurman/touchize-m2",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "a.grigorenko.belvg@gmail.com"
+        }
+    ],
+    "require": {},
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "Commerce/registration.php",
+            "CommerceBanners/registration.php"
+        ],
+        "psr-4": {
+            "Touchize\\Commerce\\": "Commerce",
+            "Touchize\\CommerceBanners\\": "CommerceBanners"
+        }
+    }
+}

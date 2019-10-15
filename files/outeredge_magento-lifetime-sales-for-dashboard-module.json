@@ -1,0 +1,29 @@
+{
+    "name": "outeredge/magento-lifetime-sales-for-dashboard-module",
+    "description": "Magento Lifetime Sales For Dashboard Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "magento-ecg/coding-standard": "~3.0",
+        "outeredge/coding-standards": "~1.0.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\LifetimeSalesForDashboard\\": ""
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "lucas-calazans/module-path-hint",
+    "type": "magento2-module",
+    "description": "Magento 2 - Alias to path hint",
+    "version": "1.0.0",
+    "authors":[
+        {
+            "name":"Lucas Calazans",
+            "email":"contato@lucascalazans.com.br"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LucasCalazans\\PathHint\\": ""
+        }
+    }
+}

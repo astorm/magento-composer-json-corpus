@@ -1,0 +1,23 @@
+{
+  "name": "pillbox/slider-core",
+  "description": "Product Slider Core for Magento 2",
+  "type": "magento2-module",
+  "version": "1.3.11",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mageplaza",
+      "email": "support@mageplaza.com",
+      "homepage": "https://github.com/mageplaza/module-core",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mageplaze\\Core\\": ""
+    }
+  }
+}

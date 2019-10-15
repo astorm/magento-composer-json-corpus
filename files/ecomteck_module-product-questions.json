@@ -1,0 +1,33 @@
+{
+    "name": "ecomteck/module-product-questions",
+    "description":"Ecomteck Product Questions Free",
+    "keywords": [
+        "ecomteck",
+        "product questions",
+        "questions and answers",
+        "question product",
+        "product questions free",
+        "magento 2 extension free"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Ecomteck",
+            "email": "ecomteck@gmail.com",
+            "role": "Magento 2 Extension Solutions"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\ProductQuestions\\": ""
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rawveg/norton-shopping-guarantee",
+  "description": "Magento 2 - Norton Shopping Guarantee",
+  "require": {
+    "magento/framework": ">=101.0.0",
+    "rawveg/norton-shopping-guarantee": "^1.0"
+  },
+  "type": "magento2-module",
+  "license": "proprietary",
+  "keywords": [
+      "magento 2",
+      "Rawveg",
+      "norton",
+      "symantec",
+      "nsg",
+      "norton shopping guarantee",
+      "magento 2 nsg",
+      "magento 2 symantec",
+      "magento 2 norton",
+      "magento 2 norton shopping guarantee"
+  ],
+  "authors": [
+    {
+      "name": "Tim Green",
+      "email": "rawveg@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Rawveg\\NSG\\": ""
+    }
+  }
+}

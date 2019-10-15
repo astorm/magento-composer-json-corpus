@@ -1,0 +1,28 @@
+{
+    "name": "practice/console-utils",
+    "description": "This is a test",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }       
+    ],
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Practice\\ConsoleUtils\\": ""
+        }
+    }
+}

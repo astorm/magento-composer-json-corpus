@@ -1,0 +1,22 @@
+{
+    "name": "codilar/gst",
+    "description": "Magento 2 GST Extension for India",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "products@codilar.com",
+            "name": "Codilar Technologies"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codilar\\Gst\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "robertrupa/download-tab",
+    "description": "Used to load images from rest API to Detail product tab",
+    "keywords": ["magento", "magento2 extension", "magento 2 extension", "extension", "module", "magento2 module", "magento 2 module", "api", "rest", "download"],
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "homepage": "https://github.com/RobertRupa/magento2-DownloadTab",
+    "authors": [{
+        "name": "Robert Rupa",
+        "email": "robert@konatsu.pl"
+    }],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/module-catalog": ">=101.0",
+        "ext-json": "*"
+    },
+    "suggest": {
+
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RobertRupa\\DownloadTab\\": ""
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "mb-tec/m2-terms_and_conditions",
+  "type": "magento2-module",
+  "version": "1.1",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Matthias Büsing",
+      "email": "info@mb-tec.eu",
+      "homepage": "https://mb-tec.eu"
+    }
+  ],
+  "require": {
+    "php" : "^7.0 || ^7.1",
+    "magento/framework": "^100.0.0 | ^101.0.0",
+    "magento/module-checkout-agreements": "^100.1"
+  },
+  "require-dev": {
+    "magento/marketplace-eqp": "^1.0",
+    "phpmd/phpmd": "^2.6",
+    "phpunit/phpunit": "^6.5",
+    "sebastian/phpcpd": "^3.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MbTec\\TermsAndConditions\\": ""
+    }
+  }
+}

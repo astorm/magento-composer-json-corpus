@@ -1,0 +1,25 @@
+{
+  "name": "nofraud/connect",
+  "description": "Sends your transactions to NoFraud for verification of no fraud.",
+  "type": "magento2-module",
+  "version": "0.2.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Nofraud/nofraud_connect"
+        }
+    ],
+  "require": {
+    "php": ">7.0.1",
+    "magento/framework": ">100.1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "NoFraud\\Connect\\": ""
+    }
+  }
+}

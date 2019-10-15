@@ -1,0 +1,22 @@
+{
+  "name": "swarming/magento2-buzzi-consume",
+  "description": "Magento 2 Buzzi.io Consume",
+  "type": "magento2-module",
+  "version": "1.0.3",
+  "license": ["proprietary"],
+  "authors": [
+    {
+      "name": "Swarming Technology",
+      "homepage": "https://swarmingtech.com"
+    }
+  ],
+  "require": {
+    "swarming/magento2-buzzi-base": "^1.0.0"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Buzzi\\Consume\\": ""
+    }
+  }
+}

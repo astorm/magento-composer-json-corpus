@@ -1,0 +1,44 @@
+{
+    "name": "koren-software/module-simple-cms-menu",
+    "description": "Simple CMS menu for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rene Korss",
+            "email": "rene@koren.ee",
+            "homepage": "https://koren.ee",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "magento/magento-coding-standard": "dev-master",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "scripts": {
+        "build": [
+            "@format",
+            "@tests",
+            "@phpcs"
+        ],
+        "tests": "../../vendor/bin/phpunit",
+        "coverage": "../../vendor/bin/phpunit --coverage-html ./coverage",
+        "format": "./vendor/bin/php-cs-fixer fix",
+        "phpcs": "./vendor/bin/phpcs --standard=../../vendor/magento/magento-coding-standard/Magento2 --ignore=vendor -s ."
+    },
+    "autoload": {
+        "psr-4": {
+            "Koren\\SimpleCmsMenu\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Framework\\": "../../vendor/magento/framework/",
+            "PHP_CodeSniffer\\": "./vendor/squizlabs/php_codesniffer/src/"
+        }
+    }
+}

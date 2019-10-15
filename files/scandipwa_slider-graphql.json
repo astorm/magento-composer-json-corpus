@@ -1,0 +1,34 @@
+{
+    "name": "scandipwa/slider-graphql",
+    "description": "ScandiPWA Graphql extension for Slider",
+    "keywords": [
+        "magento2",
+        "scandipwa",
+        "pwa"
+    ],
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "support": {
+        "email": "info@scandiweb.com"
+    },
+    "authors": [
+        {
+            "name": "Yefim Butrameev",
+            "email": "yefim.butrameev@scandiweb.com"
+        }
+    ],
+    "require": {
+        "magento/magento2-base": "^2.3.1",
+        "scandipwa/slider": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\SliderGraphQl\\": "src/"
+        }
+    }
+}

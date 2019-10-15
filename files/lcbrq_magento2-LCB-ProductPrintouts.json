@@ -1,0 +1,25 @@
+{
+    "name": "lcbrq/magento2-product-printouts",
+    "description": "Magento2 module skeleton for product printouts",
+    "authors": [
+        {
+            "name": "Silpion Tomasz Gregorczyk",
+            "email": "tom@lcbrq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "dompdf/dompdf": "*",
+        "magento/framework": ">=100.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "OSL",
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "LCB\\ProductPrintouts\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vnecoms/module-developertoolbar",
+  "description": "vnecoms magento Developer Toolbar",
+  "keywords": ["magento developer toolbar", "vnecoms developer toolbar"],
+  "homepage": "https://www.vnecoms.com",
+  "type": "magento2-module",
+  "require": {
+    "php": ">=5.5.9",
+    "magento/framework": "~100.1"
+  },
+  "version": "1.0.2",
+  "license": [ "proprietary" ],
+  "autoload": {
+    "files": [ "src/app/code/Mgt/DeveloperToolbar/registration.php" ],
+    "psr-4": {
+      "Mgt\\DeveloperToolbar\\": "src/app/code/Mgt/DeveloperToolbar"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}

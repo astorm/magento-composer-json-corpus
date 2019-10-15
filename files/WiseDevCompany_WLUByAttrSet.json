@@ -1,0 +1,35 @@
+{
+    "name": "wise/module-wlubyattrset",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "magento/module-widget": "101.0.*",
+        "magento/module-catalog": "102.0.*"
+    },
+    "description": "Magento 2 Extension for update widget layout options by Attribute set",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/WiseDevCompany/WLUByAttrSet",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Eugene Malofienko",
+            "email": "eugene.malofienko@wdg.com.ua",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WiseDevCompany/WLUByAttrSet"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wise\\WidgetLayoutUpdatesByAttributeSet\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "prefer-stable": true
+}

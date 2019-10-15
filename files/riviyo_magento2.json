@@ -1,0 +1,26 @@
+{
+  "name": "vrolijkonline/riviyo-magento2",
+  "description": "Official Riviyo Magento 2 module",
+  "keywords": ["riviyo","reviews","magento","magento 2"],
+  "homepage": "https://github.com/riviyo/magento2",
+  "type": "magento2-module",
+  "version": "0.0.5",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "vrolijkonline/core": "~0.1"
+  },
+  "authors": [
+    {
+      "name": "Martijn Cuijten",
+      "email": "support@vrolijkonline.nl",
+      "homepage": "https://www.vrolijkonline.nl"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vrolijkonline\\Riviyo\\": ""
+    }
+  }
+}

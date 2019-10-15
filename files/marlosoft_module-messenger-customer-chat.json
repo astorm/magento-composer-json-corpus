@@ -1,0 +1,18 @@
+{
+  "name": "marlosoft/module-messenger-customer-chat",
+  "description": "Facebook Messenger's customer chat plugin integration for Magento 2.x",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Marlosoft\\MessengerCustomerChat\\": ""
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  }
+}

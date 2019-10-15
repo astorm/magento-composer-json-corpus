@@ -1,0 +1,37 @@
+{
+    "name": "altolabs/snappic-magento2",
+    "description": "Snappic connector for Magento 2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/module-store": "^100.0",
+        "magento/module-backend": "^100.0",
+        "magento/module-catalog": "^101.0",
+        "magento/framework": "^100.0",
+        "lib-libxml": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AltoLabs\\Snappic\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

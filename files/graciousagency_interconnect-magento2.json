@@ -1,0 +1,32 @@
+{
+    "name": "graciousstudios/interconnect-magento2",
+    "description": "Webhook module for Magento2 that channels data to the Gracious Interconnect webservice which in turn formats and proxies the data to connected consumer services",
+    "type": "magento2-module",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "gracious",
+            "email": "info@gracious.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "~7.2",
+        "mockery/mockery": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gracious\\Interconnect\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

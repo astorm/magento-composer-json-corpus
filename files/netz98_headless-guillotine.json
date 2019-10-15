@@ -1,0 +1,23 @@
+{
+  "name": "n98/headless-guillotine",
+  "description": "Frontend routing whiteliste configurations for headless setups.",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "netz98 GmbH",
+      "email": "magento@netz98.de"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "N98\\Guillotine\\": ""
+    }
+  }
+}

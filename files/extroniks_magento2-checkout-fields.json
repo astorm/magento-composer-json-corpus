@@ -1,0 +1,19 @@
+{
+    "name": "extroniks/magento2-checkout-fields",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Erakovic",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Extroniks\\CheckoutFields\\": "src/"
+        }
+    }
+}

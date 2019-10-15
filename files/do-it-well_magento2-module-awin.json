@@ -1,0 +1,13 @@
+{
+	"name": "do-it-well/magento2-module-awin",
+	"description": "Integration with AWIN Affiliate Marketing",
+	"type": "magento2-module",
+	"version": "1.0.2",
+	"license": "MIT",
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": {
+			"DIW\\AWIN\\": ""
+		}
+	}
+}

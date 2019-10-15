@@ -1,0 +1,34 @@
+{
+    "name": "devredboxdigital/module-customer",
+    "description": "Demo to added add field to registeration",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type":"magento2-module",
+    "version":"1.0.1",
+    "authors": [
+        {
+            "name": "Niraj",
+            "email": "nirajketan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "RedboxDigital\\Customer\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ngagestudios/Redboxdigitalcustomer"
+        }
+    ],
+    "require": {
+	"php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    }
+}

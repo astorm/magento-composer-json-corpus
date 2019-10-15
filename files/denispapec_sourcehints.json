@@ -1,0 +1,31 @@
+{
+    "name": "papec/source-hints",
+    "description": "Hints for templates/blocks/containers when inspecting code",
+    "homepage": "https://www.github.com/denispapec/sourcehints",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Denis Papec",
+            "email": "denis.papec@gmail.com"
+        }
+    ],
+    "keywords": [
+        "magento",
+        "Magento 2",
+        "source",
+        "frontend"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Papec\\SourceHints\\": ""
+        }
+    }
+}

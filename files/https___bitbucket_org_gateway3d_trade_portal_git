@@ -1,0 +1,14 @@
+{
+	"name":"gateway3d/magento2-tradeportal",
+	"description": "Custom Gateway Trade Portal",
+	"require": {
+		"magento/framework": "101.0.*",
+		"gateway3d/magento2-personaliseit2": "2.2.*.*"
+	},
+	"type": "magento2-module",
+	"version": "0.0.0.4-dev",
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": { "CustomGateway\\TradePortal\\": "" }
+	}
+}

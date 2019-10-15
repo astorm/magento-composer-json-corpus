@@ -1,0 +1,17 @@
+{
+	"name": "doormall.hk/shipping"
+	,"version": "1.2.0"
+	,"description": "A custom shipping module for doormall.hk"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/doormall-hk/shipping"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.8.9"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Doormall\\Shipping\\": ""}}
+	,"keywords": ["Magento 2", "Shipping", "Hong Kong"]
+}

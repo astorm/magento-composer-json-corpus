@@ -1,0 +1,24 @@
+{
+    "name": "vandersonramos/magento2-remove-add-to-cart",
+    "description": "This module remove the add to cart button for guest",
+    "keywords": ["magento2", "disable add to cart button", "hide add to cart button for guest"],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vanderson Ramos",
+            "email": "ramos.vandersoninfor@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VandersonRamos\\RemoveAddToCart\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "jahvi/magento2-copy-theme-override",
+    "description": "Magento 2 command to automatically copy files into active theme",
+    "authors": [
+        {
+            "name": "Javier Villanueva",
+            "email": "javiervd@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
+        "magento/framework": "101.0.*|102.0.*",
+        "symfony/console": "^2.8.0|^4.1.0"
+    },
+    "require-dev": {
+        "php-mock/php-mock-phpunit": "^1.1",
+        "phpunit/phpunit": "^5.7",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.1.10",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jahvi\\CopyThemeOverride\\": ""
+        }
+    }
+}

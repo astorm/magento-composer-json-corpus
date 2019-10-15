@@ -1,0 +1,49 @@
+{
+  "name": "dr/widget",
+  "description": "Extends the core module 'Magento_Widget'.",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    }
+  ],
+  "require": {
+    "php": "^5.5.0|^7.0.0",
+    "magento/module-widget": "^100.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.1.0",
+    "squizlabs/php_codesniffer": "1.5.3",
+    "phpmd/phpmd": "@stable",
+    "pdepend/pdepend": "2.2.2",
+    "sebastian/phpcpd": "2.0.0",
+    "zendframework/zend-http": "~2.4.6",
+    "phing/phing": "@stable",
+    "satooshi/php-coveralls": "@stable"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "Widget"
+  ],
+  "type": "magento2-module",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "DR\\Widget\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DR\\Widget\\Test\\": "tests"
+    }
+  }
+}

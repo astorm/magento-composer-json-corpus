@@ -1,0 +1,38 @@
+{
+    "name": "angeldm/magento2-command-cleanner",
+    "type": "magento2-module",
+    "description": "magento 2 module to clean directories pub and var",
+    "keywords": [
+        "composer-installer",
+        "magento",
+        "Magento 2",
+        "Angeldm"
+    ],
+    "homepage": "https://github.com/angeldm/magento2-command-cleanner",
+    "license": "OSL-3.0",
+    "authors": [{
+        "name": "Àngel Díaz",
+        "email": "angeldm@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.1.0",
+        "magento/framework": "102.*"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "~1.0.0",
+        "phpunit/phpunit": "^6.5",
+        "allure-framework/allure-phpunit": "~1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Angeldm\\Cleanner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+    }]
+}

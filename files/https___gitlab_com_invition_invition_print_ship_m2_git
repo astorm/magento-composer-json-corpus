@@ -1,0 +1,30 @@
+{
+	"name": "invition/invition-print-ship-m2",
+	"type": "magento2-module",
+	"description": "Invition Print & Ship Magento 2 extension",
+	"license": ["BSD-3-Clause"],
+	"authors": [
+        {
+            "name": "Nick Hageman",
+            "email": "n.hageman@interclient.nl"
+        },
+        {
+			"name": "Mike Sies",
+            "email": "mike@invition.eu"
+        }
+	],
+	"homepage": "https://invition.eu/",
+	"require": {
+		"php": ">=7.0",
+		"magento/magento-composer-installer": "*",
+		"invition/partnerclient": "~1.4"
+	},
+	"autoload": {
+		"files": [ 
+			"registration.php"
+		],
+		"psr-4": {
+			"Invition\\InvitionPrintShipM2\\": ""
+		}
+	}
+}

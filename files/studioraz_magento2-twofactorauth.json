@@ -1,0 +1,17 @@
+{
+  "name": "studioraz/magento2-twofactorauth",
+  "description": "Magento 2 for customer login Two Factor Authentication",
+  "type": "magento2-module",
+  "version": "1.1.4",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Raz",
+      "email": "support@studioraz.co.il"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": { "SR\\TwoFactorAuth\\": ""}
+  }
+}

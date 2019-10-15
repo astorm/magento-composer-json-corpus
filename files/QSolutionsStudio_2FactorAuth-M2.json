@@ -1,0 +1,29 @@
+{
+  "name": "qextensions/google2factor",
+  "description": "Google Authenticator two-factor authentication integrated for Magento 2 admin users",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.2.0",
+  "authors": [
+    {
+      "name": "Wojciech M. Wnuk",
+      "email": "wojtek@qsolutionsstudio.com",
+      "homepage": "http://qsolutionsstudio.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Qextensions\\Google2factor\\": "src"
+    }
+  }
+}

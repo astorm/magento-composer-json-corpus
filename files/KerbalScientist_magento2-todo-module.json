@@ -1,0 +1,26 @@
+{
+    "name": "kstools/magento2-todo-module",
+    "description": "Todo tasks management",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com",
+            "role": "Module frame code generator. It's impossible not to confirm :)"
+        },
+        {
+            "name": "Anton Balovnev",
+            "email": "an43.bal@gmail.com",
+            "role": "Just a piece of wetware."
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kstools\\Todo\\": ""
+        }
+    }
+}

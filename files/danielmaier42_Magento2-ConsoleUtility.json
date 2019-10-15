@@ -1,0 +1,26 @@
+{
+  "name": "danielmaier/consoleutility",
+  "description": "Easy to use base-package made for developing CLI-Applications in Magento 2",
+  "license": "GPL-3.0-or-later",
+  "type": "magento2-module",
+  "version": "1.1.5",
+  "authors": [
+    {
+      "name": "Daniel Maier",
+      "email": "office@maierdaniel.de",
+      "homepage": "https://www.maierdaniel.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DanielMaier\\ConsoleUtility\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "require": {
+    "symfony/console": "^4.1",
+    "psr/log": "^1.1"
+  }
+}

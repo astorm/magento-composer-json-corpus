@@ -1,0 +1,27 @@
+{
+    "name": "ktpl/popup",
+    "description": "N/A",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+     "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/vishalktpl/CHAT"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ktpl\\Popup\\": ""
+        }
+    }
+}

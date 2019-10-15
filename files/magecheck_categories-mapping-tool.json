@@ -1,0 +1,23 @@
+{
+    "name": "magecheck/categories-mapping-tool",
+    "type": "magento2-module",
+    "description": "This extension allows you to add products to categories based on product attributes",
+    "authors": [
+        {
+            "name": "Victor Chiriac",
+            "role": "Magento Certified Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "magento/framework": ">=2.0.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCheck\\CategoriesMappingTool\\": ""
+        }
+    }
+}

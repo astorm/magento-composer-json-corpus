@@ -1,0 +1,22 @@
+{
+  "name": "mirasvit/module-profiler",
+  "description": "Magento 2 Profiler",
+  "require": {
+    "magento/framework": "100.*|101.*|102.*",
+    "jdorn/sql-formatter": "^1.2",
+    "symfony/yaml": ">=2.2.4"
+  },
+  "version": "1.0.7",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "./registration.php"
+    ],
+    "psr-4": {
+      "Mirasvit\\Profiler\\": "src/Profiler"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"name": "mage2pro/tinkoff"
+	,"version": "0.0.5"
+	,"description": "Tinkoff Bank (Тинькофф Банк) integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/tinkoff"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.4.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Tinkoff\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Russia"
+		,"Tinkoff Bank"
+
+		,"модуль"
+		,"модуль для Magento 2"
+		,"модуль оплаты"
+		,"платёжный модуль"
+		,"Россия"
+		,"Тинькофф Банк"
+	]
+}

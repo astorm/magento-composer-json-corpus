@@ -1,0 +1,27 @@
+{
+  "name": "wojtekn/magento2-cron-manager",
+  "description": "Magento 2 module which allows enabling/disabling Magento 2 cron jobs in crontab.",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wojtek Naruniec",
+      "email": "wojtek@naruniec.me"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "magento/framework": ">=100.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "squizlabs/php_codesniffer": "^2.5"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Wojtekn\\CronManager\\": ""
+    }
+  }
+}

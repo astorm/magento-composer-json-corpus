@@ -1,0 +1,17 @@
+{
+	"name": "thousandmonkeys/m2-overlaymagnify-module",
+	"description": "Put the default magnify preview over the top of the thumbnail in magento2.",
+	"type": "magento2-module",
+	"license": [
+	  "OSL-3.0",
+	  "AFL-3.0"
+	],
+	"require": {
+	},
+	"autoload": {
+	  "files": [ "registration.php" ],
+	  "psr-4": {
+		"ThousandMonkeys\\OverlayMagnify\\": ""
+	  }
+	}
+  }

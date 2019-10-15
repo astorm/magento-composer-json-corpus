@@ -1,0 +1,28 @@
+{
+  "name": "studioraz/magento2-rtlcss",
+  "description": "Magento 2 RTL CSS module.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/studioraz/rtlcss-php"
+    }
+  ],
+  "require": {
+    "magento/framework": "~100.0|~101.0|~102.0",
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0",
+    "studioraz/rtlcss-php": "1.0.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SR\\Rtlcss\\": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "msp/cashondelivery",
+    "description": "",
+    "require": {
+        "php": "^7.0|^7.1",
+        "msp/common": "*",
+
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\CashOnDelivery\\": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "edmondscommerce/magento2-scripts",
+  "description": "Magento 2 scripts",
+  "type": "magento2-module",
+  "require": {},
+  "type": "magento2-module",
+  "notification-url": "https://packagist.org/downloads/",
+  "license": [
+    "MIT"
+  ],
+  "bin": ["bin/fixpermissions.bash"]
+}

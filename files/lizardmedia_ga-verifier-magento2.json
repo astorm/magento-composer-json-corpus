@@ -1,0 +1,40 @@
+{
+  "name": "lizardmedia/module-ga-verifier",
+  "description": "Magento2 module for adding Google Analytics verification scripts without uploading files to the server",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Michał Broniszewski",
+      "email": "michal.broniszewski@lizardmedia.pl"
+    },
+    {
+      "name": "Michał Kobierzyński",
+      "email": "michal.kobierzynski@lizardmedia.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "magento/module-url-rewrite": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "LizardMedia\\GoogleAnalyticsVerifier\\": ""
+    }
+  }
+}

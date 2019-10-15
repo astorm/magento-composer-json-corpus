@@ -1,0 +1,28 @@
+{
+    "name": "paymentez/magento2",
+    "description": "Paymentez magento 2 integration.",
+    "require": {
+        "magento/magento-composer-installer": "^0.1.13",
+        "paymentez/sdk": "1.1.0"
+    },
+    "authors": [
+        {
+            "name": "Cristian Benavides",
+            "email": "cbenavides@paymentez.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.1.12",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Paymentez\\Module\\": ""
+        }
+    }
+}

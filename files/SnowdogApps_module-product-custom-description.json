@@ -1,0 +1,23 @@
+{
+    "name": "snowdog/module-product-custom-description",
+    "require": {
+        "magento/magento-composer-installer": "*",
+        "magento/module-catalog": "*",
+        "magento/module-ui": "*",
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Snowdog\\CustomDescription\\": ""
+        }
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "description": "This extension for M2 will add a new tab in product admin edition which will allow introduce custom description rows"
+}

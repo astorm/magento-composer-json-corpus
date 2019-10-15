@@ -1,0 +1,22 @@
+{
+    "name": "msp/zendesk",
+    "description": "",
+    "require": {
+        "php": "^5.5|^5.6|^7.0|^7.1",
+        "magento/magento-composer-installer": "*",
+        "msp/common" : "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\Zendesk\\": ""
+        }
+    }
+}

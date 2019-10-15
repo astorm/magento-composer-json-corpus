@@ -1,0 +1,13 @@
+{
+    "name": "creativestyle/magesuite-url-rewrite",
+    "description": "",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageSuite\\UrlRewrite\\": ""
+        }
+    }
+}

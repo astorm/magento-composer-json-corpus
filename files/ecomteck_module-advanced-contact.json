@@ -1,0 +1,29 @@
+{
+    "name": "ecomteck/module-advanced-contact",
+    "description": "Ecomteck Advanced Contact",
+    "require": {
+        "magento/module-contact": "*",
+        "ecomteck/module-core": "*"
+    },
+    "keywords": [
+        "ecomteck",
+        "advanced contact",
+        "magento 2 contact",
+        "advanced contact free",
+        "magento 2 extension free"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\AdvancedContact\\": ""
+        }
+    }
+}

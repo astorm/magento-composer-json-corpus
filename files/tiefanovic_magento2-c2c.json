@@ -1,0 +1,18 @@
+{
+  "name": "awstreams/c2c",
+  "description": "Magento2 customer to customer(c2c) marketplace module.",
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "AWstreams/C2C"
+      ]
+    ]
+  }
+}

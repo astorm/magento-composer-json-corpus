@@ -1,0 +1,25 @@
+{
+  "name": "praxigento/mobi_mod_core",
+  "description": "MOBI: Praxigento_Core module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_core",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "require": {
+    "flancer32/php_data_object": "^0.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Core\\": "",
+      "Praxigento\\Core\\Test\\": "test/fw"
+    }
+  }
+}

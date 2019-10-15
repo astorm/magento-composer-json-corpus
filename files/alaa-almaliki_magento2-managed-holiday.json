@@ -1,0 +1,32 @@
+{
+  "name": "alaa/magento2-managed-holiday",
+  "description": "Magento2 Managed Holiday",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "MIT",
+  "keywords": [
+    "magento holiday",
+    "holiday"
+  ],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/framework": ">=101.0.2",
+    "magento/module-cms": ">=102.0.2",
+    "magento/module-backend": ">=100.2.2",
+    "magento/module-ui": ">=101.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaa\\ManagedHoliday\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "pagamastarde/magento-2x",
+  "description": "Paga+Tarde Magento 2 module",
+  "type": "magento2-module",
+  "keywords": [
+    "api",
+    "rest",
+    "magento",
+    "module",
+    "ecommerce",
+    "payment",
+    "checkout",
+    "credit",
+    "pagamastarde",
+    "financiar",
+    "financiera",
+    "financiación"
+  ],
+  "homepage": "https://pagamastarde.com/",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Digital Origin",
+      "email": "integration@pagamastarde.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+      "pagamastarde/orders-api-client": "^1.0",
+      "pagamastarde/module-utils": "^1.1"
+  },
+  "require-dev": {
+      "pagantis/selenium-form-utils": "^2.0",
+      "magento/module-sales": "102.0.*",
+      "magento/module-checkout": "100.3.*",
+      "magento/module-payment": "100.3.*",
+      "magento/framework": "102.0.*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "DigitalOrigin\\Pmt\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

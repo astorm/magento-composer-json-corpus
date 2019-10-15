@@ -1,0 +1,14 @@
+{
+  "name": "trive/strive-gulp",
+  "description": "Gulpfile for Strive - PostCSS Magento 2 system",
+  "type": "magento2-module",
+  "version": "1.0.6",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marjan Bonus",
+      "email": "bonus@trive.digital",
+      "homepage": "http://trive.digital/"
+    }
+  ]
+}

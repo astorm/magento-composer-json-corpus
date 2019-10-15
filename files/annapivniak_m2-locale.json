@@ -1,0 +1,20 @@
+{
+    "name": "pivniak/module-locale",
+    "description": "Add missing locales",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "suggest": {
+        "magento/framework": "You must require magento framework in your project."
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pivniak\\Locale\\": ""
+        }
+    }
+}

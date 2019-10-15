@@ -1,0 +1,29 @@
+{
+    "name": "monogo/pagespeed-analysis",
+    "description": "Magento 2 module for Google PageSpeed Analysis",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+
+        "magento/magento-composer-installer": "*",
+        "magento/framework": ">102.0.0",
+        "symfony/console": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.8",
+    "license": "MIT",
+    "keywords": ["Magento 2", "pagespeed", "insights"],
+    "authors": [
+        {
+            "name": "Monogo Sp z o.o.",
+            "email": "pawel.detka@monogo.pl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Monogo\\PagespeedAnalysis\\": ""
+        }
+    }
+}

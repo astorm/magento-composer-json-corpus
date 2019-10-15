@@ -1,0 +1,23 @@
+{
+	"name": "mage2pro/flag"
+	,"version": "1.0.5"
+	,"description": "A Magento 2 interface to the lipis/flag-icon-css library."
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.6.19"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Flag\\": ""}}
+	,"keywords": [
+		"Country flag"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

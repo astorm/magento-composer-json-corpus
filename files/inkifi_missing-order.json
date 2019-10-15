@@ -1,0 +1,17 @@
+{
+	"name": "inkifi/missing-order"
+	,"version": "1.0.4"
+	,"description": "A special handling of the Mediaclip missing orders for inkifi.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/inkifi/missing-order"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"inkifi/mediaclip": ">=1.0.2", "mage2pro/core": ">=3.12.10"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Inkifi\\MissingOrder\\": ""}}
+	,"keywords": ["Magento 2"]
+}

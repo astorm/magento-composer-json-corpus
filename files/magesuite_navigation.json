@@ -1,0 +1,19 @@
+{
+  "name": "creativestyle/magesuite-navigation",
+  "description": "Backend logic for magesuite navigation",
+  "type": "magento2-module",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "creativestyle/magesuite-media": "^1.0.0",
+    "creativestyle/magesuite-category": "^1.0.0",
+    "creativestyle/magesuite-product-tile": "^1.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\Navigation\\": ""
+    }
+  }
+}

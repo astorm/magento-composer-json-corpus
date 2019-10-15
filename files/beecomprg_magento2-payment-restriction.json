@@ -1,0 +1,47 @@
+{
+    "name": "beecomprg/module-payment-restriction",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "0.1.1",
+    "authors": [{
+            "name": "Lukas Beranek",
+            "email": "lukas@beecom.io"
+        }
+    ],
+    "description": "Magento 2 Payment Restriction Module",
+    "homepage": "https://github.com/beecomprg/magento2-payment-restriction",
+    "keywords": [
+        "magento",
+        "magento2",
+        "payment",
+        "shipping",
+        "checkout",
+        "fulfillment"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    },
+    "require": {
+        "magento/framework": ">=101.0.0",
+        "magento/module-payment": "*",
+        "beecomprg/magento-2-module-core": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Beecom\\PaymentRestriction\\": ""
+        }
+    },
+   "minimum-stability": "dev",
+   "prefer-stable": true
+}

@@ -1,0 +1,25 @@
+{
+    "name": "sisow/plg-magento2",
+    "description": "Accepting payments with Sisow",
+    "require": {
+        "magento/module-sales": ">=100.0",
+        "magento/module-payment": ">=100.0",
+        "magento/module-quote": ">=100.0"
+    },
+    "type": "magento2-module",
+	"version": "5.3.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Sisow\\Payment\\": ""
+        }
+    },
+    "repositories": [{
+            "type": "composer",
+            "url": "https://repo.magento.com"
+        }]
+}

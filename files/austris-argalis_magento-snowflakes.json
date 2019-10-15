@@ -1,0 +1,33 @@
+{
+  "name": "davay/module-snowflakes",
+  "description": "Magento2 module that will add magic-snowflakes to your store",
+  "keywords": [
+    "magento2",
+    "snowflakes",
+    "magic-snowflakes",
+    "module"
+  ],
+  "type": "magento2-module",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/module-config": "~100.0|~101.0"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "squizlabs/php_codesniffer": "@stable"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Davay\\Snowflakes\\": ""
+    }
+  }
+}

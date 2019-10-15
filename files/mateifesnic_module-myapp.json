@@ -1,0 +1,13 @@
+{
+   "name": "mateifesnic/module-myapp",
+   "description": "Test Module for Magento 2",
+   "type": "magento2-module",
+   "extra": {
+         "map": [
+             [
+                   "*",
+                   "CanopyApp/MyApp"
+             ]
+          ]
+    }
+}

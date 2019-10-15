@@ -1,0 +1,22 @@
+{
+    "name": "m21/module-multicurrencymsrppriceconversion",
+    "description": "Wyliczenie ceny katalogowej w oparciu o wielowalutow\u0105 cen\u0119 MSRP",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "bok@21w.pl",
+            "name": "21w.pl Sylwester Kowal"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\MulticurrencyMsrpPriceConversion\\": ""
+        }
+    }
+}

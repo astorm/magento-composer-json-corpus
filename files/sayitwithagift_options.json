@@ -1,0 +1,17 @@
+{
+	"name": "sayitwithagift/options"
+	,"version": "1.0.1"
+	,"description": "A custom options module for sayitwithagift.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/sayitwithagift/options"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.8.2"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"SayItWithAGift\\Options\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "sarang/store-maintenance",
+	"description": "Easily manage enabling and disabling of maintenance mode",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+    	"OSL-3.0",
+    	"AFL-3.0"
+  	],
+    "require": {
+		"magento/framework": "100.*|101.*"
+	},
+	"authors": [
+		{
+		  "name": "Sarang",
+		  "email": "sarang281@gmail.com"
+		}
+	],
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": {
+		  "Sarang\\StoreMaintenance\\": ""
+		}
+	}
+}

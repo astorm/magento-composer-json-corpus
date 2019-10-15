@@ -1,0 +1,20 @@
+{
+    "name": "ronald2wing/module-magento2bugfixer",
+    "description": "Fix Magento 2 bugs",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/module-elasticsearch": "100.3.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ronald2Wing\\Magento2BugFixer\\": ""
+        }
+    }
+}

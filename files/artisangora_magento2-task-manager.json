@@ -1,0 +1,21 @@
+{
+    "name": "artisangora/task",
+    "authors": [
+        {
+            "name": "Georgiy Baranov"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "GPL-3.0",
+    "require": { },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Artisangora\\Task\\": ""
+        }
+    }
+}

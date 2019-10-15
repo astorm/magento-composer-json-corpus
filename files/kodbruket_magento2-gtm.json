@@ -1,0 +1,48 @@
+{
+  "name": "kodbruket/magento2-gtm",
+  "version": "1.0.4",
+  "description": "Google Tag Manager for Magento 2",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Andreas Karlsson",
+      "email": "andreas@kodbruket.se"
+    }
+  ],
+  "type": "magento2-module",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/module-sales": "*",
+    "magento/module-quote": "*",
+    "magento/module-checkout": "*",
+    "magento/module-tax": "*",
+    "magento/framework": "*",
+    "magento/zendframework1": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "phpmd/phpmd": "^2.4",
+    "squizlabs/php_codesniffer": "^2.5",
+    "sebastian/phpcpd": "^2.0",
+    "magento/marketplace-eqp": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kodbruket\\Gtm\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit",
+    "phpcs": "phpcs"
+  }
+}

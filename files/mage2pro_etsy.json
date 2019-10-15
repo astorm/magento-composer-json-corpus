@@ -1,0 +1,27 @@
+{
+	"name": "mage2pro/etsy"
+	,"version": "0.0.1"
+	,"description": "Etsy integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/etsy"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.10.20"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Etsy\\": ""}}
+	,"keywords": [
+		"Etsy"
+		,"eCommerce"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Marketplace"
+		,"Handmade"
+		,"Vintage"
+	]
+}

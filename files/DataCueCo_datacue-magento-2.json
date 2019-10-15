@@ -1,0 +1,31 @@
+{
+    "name": "datacue/magento_module",
+    "description": "Magento 2 Module for DataCue",
+    "version": "1.1.1",
+    "license": "GPL-2.0",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "DataCue",
+            "email": "contact@datacue.co",
+            "homepage": "https://www.datacue.co"
+        },
+        {
+            "name": "chenruimin",
+            "email": "ruiminch@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "datacue/client": "1.0.8.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataCue\\MagentoModule\\": "./"
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

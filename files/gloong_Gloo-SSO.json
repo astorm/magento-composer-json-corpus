@@ -1,0 +1,26 @@
+{
+    "name": "gloo/module-sso",
+    "description": "A Sign Sign On Extension based on OAuth2 that provides the ability to log into magento using data from IdPs",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require":{
+        "magento/module-customer":"101.0.*"
+    },
+    "authors":[
+        {
+            "name":"David Umoh",
+            "email":"engineering@gloo.ng"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gloo\\SSO\\": ""
+        }
+    }
+}

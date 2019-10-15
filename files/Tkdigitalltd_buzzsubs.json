@@ -1,0 +1,17 @@
+{
+  "name": "buzzsubs/buzzsubs",
+  "description": "Buzzsub’s cutting edge gamified email subscriber app gives you the ability to make your pop-ups truly interactive.",
+  "require": {
+  },
+  "type": "magento2-module",
+  "version": "1.2.6",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Tkdigital\\Buzzsubs\\": ""
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "metagento/stock-qty-m2",
+    "description": "Magento 2 Extension shows quantity in stock on product page, compatible with configurable product",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "metagento/core-m2": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "metagento",
+            "email": "support@metagento.com",
+            "homepage": "https://www.metagento.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Metagento\\StockQty\\": ""
+        }
+    }
+}

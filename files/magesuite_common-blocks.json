@@ -1,0 +1,18 @@
+{
+  "name": "creativestyle/magesuite-common-blocks",
+  "description": "Extension with automatic script that will install common blocks used by each template e.g.: Columns in footer. USPs in topbar..",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "magento/framework": "^101.0.0|^102.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\CommonBlocks\\": ""
+    }
+  }
+}

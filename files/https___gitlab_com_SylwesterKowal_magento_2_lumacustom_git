@@ -1,0 +1,23 @@
+{
+  "name": "kowal/lumacustom",
+  "description": "",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "version": "1.0.11",
+  "authors": [
+    {
+      "name": "kowal sp. z o.o.",
+      "email": "kontakt@kowal.co"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Kowal\\Lumacustom\\": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "redchamps/module-customer-carts",
+  "description": "It will enable shopping carts tab from customer edit interface in admin.",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "require": {
+    "magento/module-customer": "*",
+    "magento/module-sales": "*"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "RedChamps\\CustomerCarts\\": ""
+    }
+  }
+}

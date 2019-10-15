@@ -1,0 +1,26 @@
+{
+    "name": "snowio/magento2-lock",
+    "license": "MIT",
+    "description": "A Magento 2 module which provides a multi-server lock service",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Alexander Wanyoike",
+            "email": "amw@amp.co"
+        },
+        {
+            "name": "Josh Di Fabio",
+            "email": "joshdifabio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "magento/framework": "^100|^101|^102"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "SnowIO\\Lock\\": ""
+        }
+    }
+}

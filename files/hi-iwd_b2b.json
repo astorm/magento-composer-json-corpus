@@ -1,0 +1,17 @@
+{
+    "name": "iwd/b2b",
+    "description": "Magento B2B eCommerce Extension",
+    "type": "magento2-module",
+    "version": "2.2.1",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IWD\\B2B\\": ""
+        }
+    }
+}

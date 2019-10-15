@@ -1,0 +1,32 @@
+{
+  "name": "msp/security-suite-common",
+  "description": "Magento2 Security Suite by MageSpecialist Common Libraries",
+  "require": {
+    "php": "^7.0|^7.1",
+    "magento/magento-composer-installer": "*"
+  },
+  "suggest": {
+    "msp/security-suite": "Full MageSpecialist Security Suite",
+    "msp/notify": "Event based notify system",
+    "msp/security-suite-logger": "Security Suite Logging system"
+  },
+  "conflict": {
+    "msp/userlockout": "*"
+  },
+  "authors": [
+    {
+      "name": "Riccardo Tempesta",
+      "email": "riccardo.tempesta@magespecialist.it"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MSP\\SecuritySuiteCommon\\": ""
+    }
+  }
+}

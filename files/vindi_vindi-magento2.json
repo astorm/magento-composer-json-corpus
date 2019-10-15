@@ -1,0 +1,23 @@
+{
+    "name": "vindi/vindi-magento2",
+    "description": "Módulo de cobrança Vindi para o Magento 2",
+    "type": "magento2-module",
+    "version": "1.2.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "comunidade@vindi.com.br",
+            "name": "Comunidade Vindi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vindi\\Payment\\": ""
+        }
+    }
+}

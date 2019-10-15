@@ -1,0 +1,21 @@
+{
+    "name": "qtochat/magento2-sample-module",
+    "description": "Here We Create Collection Grid , Edit/Add Grid Row And Installer In Magento2",
+    "require": {
+        
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Qtochat\\Grid\\": ""
+        }
+    }
+}

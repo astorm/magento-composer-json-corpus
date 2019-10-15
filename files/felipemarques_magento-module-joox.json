@@ -1,0 +1,13 @@
+{
+    "name": "felipemarques/magento-joox-maker-tool",
+    "description": "Magento Joox Maker Tool",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "FelipeMarques/JooxMakerTool"
+            ]
+        ]
+    }
+}

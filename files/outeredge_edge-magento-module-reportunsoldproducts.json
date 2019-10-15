@@ -1,0 +1,25 @@
+{
+    "name": "outeredge/edge-magento-module-reportunsoldproducts",
+    "description": "Unsold Products report for M2, Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\ReportUnsoldProducts\\": ""
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "name" : "elastic/app-search-magento",
+  "description" : "Elastic App Search official integration for Magento 2",
+  "homepage": "https://github.com/elastic/app-search-magento",
+  "keywords" : [
+    "search",
+    "client",
+    "elastic",
+    "magento",
+    "magento2"
+  ],
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "authors" : [
+    {"name" : "Aurélien FOUCRET", "email": "aurelien.foucret@elastic.co"}
+  ],
+  "require" : {
+    "php" : "^7.1",
+    "elastic/app-search" : "^1.0.0",
+    "magento/framework": ">=101.0.0",
+    "magento/module-catalog": ">=102.0.6"
+  },
+  "require-dev" : {
+    "squizlabs/php_codesniffer": "@stable",
+    "phpmd/phpmd": "@stable",
+    "magento/marketplace-eqp": "@stable",
+    "overtrue/phplint": "@stable"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Elastic\\AppSearch\\Framework\\Search\\" : "src/framework-search",
+      "Elastic\\AppSearch\\Framework\\AppSearch\\" : "src/framework-app-search",
+      "Elastic\\AppSearch\\Search\\" : "src/module-search",
+      "Elastic\\AppSearch\\CatalogSearch\\" : "src/module-catalog-search",
+      "Elastic\\AppSearch\\CatalogGraphQl\\" : "src/module-catalog-graph-ql",
+      "Elastic\\AppSearch\\Synonyms\\" : "src/module-synonyms"
+    },
+    "files": [
+      "src/framework-search/registration.php",
+      "src/framework-app-search/registration.php",
+      "src/module-search/registration.php",
+      "src/module-catalog-search/registration.php",
+      "src/module-catalog-graph-ql/registration.php",
+      "src/module-synonyms/registration.php"
+    ]
+  }
+}

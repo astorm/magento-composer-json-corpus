@@ -1,0 +1,26 @@
+{
+	"name": "mage2pro/moysklad"
+	,"version": "0.0.1"
+	,"description": "МойСклад integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/moysklad"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.7.14"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Moysklad\\": ""}}
+	,"keywords": [
+		"CRM"
+		,"МойСклад"
+		,"eCommerce"
+		,"ERP"
+		,"Integration"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

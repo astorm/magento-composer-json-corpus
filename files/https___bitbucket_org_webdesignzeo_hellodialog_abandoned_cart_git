@@ -1,0 +1,29 @@
+{
+    "name": "hellodialog/module-abandoned-cart",
+    "description": "Hellodialog abandoned cart extension",
+    "license": "proprietary",
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"authors": [
+        {
+            "email": "gydo@zeo.nl",
+            "name": "Gydo Broos"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+	    "hellodialog/module-base": "1.0.0"
+    },
+	"suggest" : {
+		"hellodialog/module-transactional-emails": "1.0.0"
+	},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hellodialog\\AbandonedCart\\": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "datareporter/module-core",
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "description": "Core Magento2 module containing base containers for config and news",
+  "license": [ "MIT" ],
+  "keywords":[ "composer-installer", "magento2", "data privacy"],
+  "authors": [
+    {
+      "name": "Benjamin Rosenberger",
+      "email": "rosenberger@e-conomix.at"
+    }
+  ],
+  "require": {
+    "magento/framework": "101.*|102.*"
+  },
+  "require-dev":{
+    "composer/composer":"*@dev"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DataReporter\\Core\\": ""
+    }
+  }
+}

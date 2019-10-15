@@ -1,0 +1,22 @@
+{
+    "name": "digitek/module-shoppingcartmgt",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "This is a magento2 extension to manage Shopping Cart from the admin. An admin user can log into magento admin to see shopping cart details. Each Cart will be displayed and can be searched by user or date range or amount.",
+    "require": {
+    },
+    "authors":[
+        {
+            "name":"David Umoh",
+            "email":"umohdavid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Digitek\\ShoppingCartMgt\\": ""
+        }
+    }
+}

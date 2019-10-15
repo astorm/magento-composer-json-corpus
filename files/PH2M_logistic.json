@@ -1,0 +1,34 @@
+{
+  "name": "ph2m/logistic",
+  "description": "Manage imports/exports",
+  "homepage": "https://github.com/PH2M/logistic",
+  "require": {
+    "magento/product-community-edition": ">=2.1",
+    "firegento/fastsimpleimport": "~1.2.0",
+    "firegento/extendedimport": "dev-master"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "PH2M",
+      "email": "contact@ph2m.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PH2M\\Logistic\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": {
+    "firegento_extendedimport2": {
+      "type": "vcs",
+      "url": "https://github.com/firegento/FireGento_ExtendedImport2"
+    }
+  }
+}

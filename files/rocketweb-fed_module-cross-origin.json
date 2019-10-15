@@ -1,0 +1,24 @@
+{
+    "name": "rocketweb/module-cross-origin",
+    "description": "Fixes cross origin JavaScript error on 3rd party iframes and other.",
+    "require": {
+        "php": "~5.5|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1",
+        "magento/module-page-cache": "100.2.*"
+    },
+    "type": "magento2-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Rocket Web Inc.",
+            "email": "fed@rocketweb.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RocketWeb\\CrossOrigin\\": ""
+        }
+    }
+}

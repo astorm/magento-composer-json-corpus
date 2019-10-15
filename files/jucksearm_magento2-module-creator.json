@@ -1,0 +1,40 @@
+{
+    "name": "jucksearm/magento2-module-creator",
+    "description": "Magento 2 Module Creator will help you to save time on develop application.",
+    "version": "100.1.1",
+    "type": "magento2-module",
+    "homepage": "http://github.com/jucksearm/magento2-module-creator",
+    "authors": [{
+        "name": "Jucksearm Boonmor",
+        "email": "jucksearm.bkk@gmail.com",
+        "role": "Developer"
+    }],
+    "keywords": [
+        "magento",
+        "magento2",
+        "module",
+        "creator",
+        "module generator"
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/framework": "100.1.*",
+        "composer/composer": "@alpha",
+        "php": ">5.3 || ^7.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jucksearm\\ModuleCreator\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "100.1.x-dev"
+        }
+    }
+}

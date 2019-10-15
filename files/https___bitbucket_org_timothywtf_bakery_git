@@ -1,0 +1,20 @@
+{
+  "name": "gonzo/bakery",
+  "description": "A Doctrine ORM to Magento 2 Mapper",
+  "license": "MIT",
+  "require": {
+    "gonzo/bakery-core": "dev-master",
+    "symfony/config": "^3.0 || ^4.0",
+    "doctrine/orm": "*"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gonzo\\Bakery\\": "",
+      "Entities\\": "../../../Entities/"
+    }
+  }
+}

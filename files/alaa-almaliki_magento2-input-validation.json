@@ -1,0 +1,24 @@
+{
+  "name": "alaa/magento2-input-validation",
+  "description": "Magento2 Rv Input Validation Based on Respect Validation",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "respect/validation": "^1.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Alaa\\RvInputValidation\\": ""
+    }
+  }
+}

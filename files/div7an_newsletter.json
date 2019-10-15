@@ -1,0 +1,22 @@
+{
+  "name": "divvy/newsletter",
+  "description": "Adds functionality to newsletter subsription element",
+  "type": "magento2-module",
+  "version": "2.0.3",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Divvy",
+      "email": "support@divvy.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Divvy\\Newsletter\\": ""
+    }
+  }
+}

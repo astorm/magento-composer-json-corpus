@@ -1,0 +1,13 @@
+{
+    "name": "bigboppa/module-import-attributes",
+    "description": "Import Attributes Module",
+    "require": {
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Bigboppa\\ImportAttributes\\": ""
+        }
+    }
+}

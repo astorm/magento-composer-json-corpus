@@ -1,0 +1,21 @@
+{
+  "name": "alexryall/slider",
+  "description": "Magento 2 module for creating unlimited sliders with unlimited items",
+  "require": {
+    "php": "~5.5.22|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "version": "2.1.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AlexRyall\\Slider\\": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "tony-blog/magento2-customer-selector",
+    "description": "Magento 2 Customer Selector Module",
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tony.liu",
+            "email": "tony.liu@abmgood.com"
+        }
+    ]
+}

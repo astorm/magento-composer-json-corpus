@@ -1,0 +1,16 @@
+{
+  "name": "itmods/tax-magento2-extension",
+  "description": "ITMods Tax module for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "OSL-3.0",
+  "require": {
+    "magento/framework": "100.0.*|100.1.*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Itmods\\Tax\\": ""
+    }
+  }
+}

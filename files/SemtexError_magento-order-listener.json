@@ -1,0 +1,20 @@
+{
+  "name": "hybrid-saas/order-listener",
+  "description": "Send a request to Hybrid Saas when a order is made.",
+  "require": {
+    "php": ">=7.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "ISC"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "HybridSaaS\\OrderListener\\": ""
+    }
+  }
+}

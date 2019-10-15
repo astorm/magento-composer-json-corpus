@@ -1,0 +1,24 @@
+{
+  "name": "fontera/m2-bash-completion",
+  "description": "Magento 2 bash completion",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": ["GPL-3.0"],
+  "repositories": {
+    "mage2": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0",
+    "stecman/symfony-console-completion": "^0.7.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Fontera\\BashCompletion\\": ""
+    }
+  }
+}

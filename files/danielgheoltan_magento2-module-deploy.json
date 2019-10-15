@@ -1,0 +1,22 @@
+{
+    "name": "danielgheoltan/magento2-module-deploy",
+    "description": "Sets all themes to physical before deploying static view files.",
+    "require": {
+        "php": "*",
+        "magento/framework": ">=100.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DG\\Deploy\\": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "divido/divido-magento2",
+    "description": "Powered by Divido financing gateway",
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Divido\\DividoFinancing\\": ""
+        }
+    },
+    "require": {
+        "divido/merchant-sdk": "^2.1",
+        "divido/merchant-sdk-guzzle-6": "^1.0"
+        }
+}

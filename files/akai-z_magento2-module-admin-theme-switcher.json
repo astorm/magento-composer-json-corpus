@@ -1,0 +1,26 @@
+{
+    "name": "akai/magento2-module-admin-theme-switcher",
+    "description": "A module that adds an option to switch between admin themes to Magento 2 admin panel",
+    "require": {
+        "php": "~5.6.5 || 7.0.2 || 7.0.4 || ~7.0.6 || ~7.1.0",
+        "magento/module-store": "100.0.* || 100.1.* || 100.2.*",
+        "magento/module-theme": "100.0.* || 100.1.* || 100.2.*",
+        "magento/framework": "100.0.* || 100.1.* || 100.2.*"
+    },
+    "type": "magento2-module",
+    "license": "GPL-2.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Akai\\AdminThemeSwitcher\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Ammar K.",
+            "homepage": "https://api.github.com/user/4558603/"
+        }
+    ]
+}

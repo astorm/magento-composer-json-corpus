@@ -1,0 +1,22 @@
+{
+  "name": "flancer32/mage2_ext_free_rates",
+  "description": "Magento 2: Currency converter to get rates from https://free.currencyconverterapi.com/",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_ext_free_rates",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\FreeRates\\": ""
+    }
+  }
+}

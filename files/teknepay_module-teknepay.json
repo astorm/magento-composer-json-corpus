@@ -1,0 +1,29 @@
+{
+    "name": "teknepay/module-teknepay",
+    "description": "This is a payment module for Teknepay Gateway.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "support@teknepay.com",
+            "name": "Teknepay"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "teknepay/teknepay-api-php": ">= 1.0.0",
+        "php" : ">= 5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teknepay\\Teknepay\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

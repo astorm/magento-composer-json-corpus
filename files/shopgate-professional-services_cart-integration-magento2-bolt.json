@@ -1,0 +1,11 @@
+{
+    "name": "shopgate/cart-integration-magento2-bolt",
+    "description": "Shopgate bolt module for Magento 2, Extends check_cart functionality to make it possible to prepare preserve and return information about a quote",
+    "type": "magento2-module",
+    "version": "0.2.1",
+    "license": "Apache-2.0",
+    "require": {
+        "shopgate/cart-integration-magento2-base": "^2.9.17",
+        "shopgate/cart-integration-magento2-export": "^2.9.14"
+    }
+}

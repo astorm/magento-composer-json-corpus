@@ -1,0 +1,30 @@
+{
+	"name" : "purchasedat/magento2-payment",
+	"description" : "Purchased.AT payment module for Magento 2.x",
+	"version" : "1.0.31",
+	"require" : {
+		"php" : "~5.5.0|~5.6.0|~7.0.0",
+		"magento/module-config" : "100.*",
+		"magento/module-store" : "100.*",
+		"magento/module-checkout" : "100.*",
+		"magento/module-sales" : "100.*",
+		"magento/module-customer" : "100.*",
+		"magento/module-payment" : "100.*",
+		"magento/module-quote" : "100.*",
+		"magento/module-backend" : "100.*",
+		"magento/module-directory" : "100.*",
+		"magento/module-theme" : "100.*",
+		"magento/framework" : "100.*",
+		"purchased-at/sdk-php" : "1.3.*"
+	},
+	"license" : "OSL-3.0",
+	"autoload" : {
+		"psr-4" : {
+			"PurchasedAt\\Magento2Payment\\" : ""
+		},
+		"files" : [
+			"registration.php"
+		]
+	},
+	"type" : "magento2-module"
+}

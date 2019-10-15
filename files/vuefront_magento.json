@@ -1,0 +1,23 @@
+{
+  "name": "vuefront/module-vuefront",
+  "description": "Vuefront api for magento2",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "require": {
+    "webonyx/graphql-php": "0.12.6",
+    "magefan/module-blog": "2.8.10",
+    "ext-json": "*"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vuefront\\Vuefront\\": ""
+    }
+  }
+}

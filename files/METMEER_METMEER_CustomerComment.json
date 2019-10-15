@@ -1,0 +1,25 @@
+{
+    "name": "metmeer/customer-comment",
+    "description": "METMEER CustomerComment",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "METMEER",
+            "email": "support@metmeer.nl"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "METMEER\\CustomerComment\\": ""
+        }
+    },
+    "repositories": [
+    ]
+}

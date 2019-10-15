@@ -1,0 +1,30 @@
+{
+  "name": "girginsoft/module-shopfinder",
+  "description": "Shopfinder module for challenge",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "magento/framework": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Girginsoft\\Shopfinder\\": ""
+    }
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Girginsoft/Shopfinder"
+      ]
+    ]
+  }
+}

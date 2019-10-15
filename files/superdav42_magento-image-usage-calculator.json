@@ -1,0 +1,19 @@
+{
+  "name": "devstone/magento2-module-usagecalculator",
+  "description": "Usage calculator for purchasing images or artwork at various resolutions.",
+  "type": "magento2-module",
+  "license": [
+    "GPL-3.0"
+  ],
+  "require": {
+    "devstone/module-imageproducts": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DevStone\\UsageCalculator\\": ""
+    }
+  }
+}

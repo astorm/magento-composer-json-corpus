@@ -1,0 +1,21 @@
+{
+    "name": "magecodenet/m2-minimum-order-fix",
+    "description": "M2 Fix Minimum Order Amount module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "dixon.diart@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCode\\MinimumOrderFix\\": ""
+        }
+    }
+}

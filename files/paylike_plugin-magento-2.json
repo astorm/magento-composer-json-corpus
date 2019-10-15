@@ -1,0 +1,32 @@
+{
+  "name": "paylike/plugin-magento",
+  "description": "Paylike magento2 gateway development",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ionut Calara",
+      "email": "ionut.calara@gmail.com"
+    }
+  ],
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.1",
+    "lmc/steward": "dev-master",
+    "vlucas/phpdotenv": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Magento\\": "tests/",
+      "Config\\": "config/"
+    },
+    "files": [
+      "include/currencies.php",
+      "include/beforeLoad.php"
+    ]
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  }
+}

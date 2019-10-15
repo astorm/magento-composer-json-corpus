@@ -1,0 +1,24 @@
+{
+    "name": "tawfekov/twilio-m2",
+    "description": "Add TwiML Support to magento order/shipment/invoice events",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "tawfekov@gmail.com",
+            "name": "Tawfek Daghistani"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twilio/sdk": "^5.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twilio\\Notification\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

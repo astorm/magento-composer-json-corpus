@@ -1,0 +1,21 @@
+{
+    "name": "hms/module-test",
+    "description": "Test Module",
+    "authors": [
+        {
+            "name": "Konstantin Zhidkovskiy",
+            "email": "k.zhidkovskiy@gmail.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hms\\TestModule\\": ""
+        }
+    }
+}

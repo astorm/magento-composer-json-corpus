@@ -1,0 +1,26 @@
+{
+    "name": "lucasart/stock-status-label",
+    "description": "Magento2 module to add stock status availability info label to product page",
+    "keywords": ["magento2"],
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "magento/module-swatches": "^100.2.3"
+    },
+    "version": "1.2.5",
+    "autoload": {
+        "psr-4": {
+            "Lucasart\\StockStatusLabel\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Luca Sculco",
+            "email": "sculco.luca@gmail.com",
+            "homepage": "http://www.lucasart.it"
+        }
+    ]
+}

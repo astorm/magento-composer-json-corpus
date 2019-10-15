@@ -1,0 +1,25 @@
+{
+  "name": "mdevrees/addcustomercli",
+  "type": "magento2-module",
+  "version": "1.0.5",
+  "description": "Module which adds cli option to create customer",
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "authors": [
+    {
+      "name": "Mycha de Vrees",
+      "email": "m.devrees@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mdevrees\\AddCustomerCli\\": ""
+    }
+  }
+}
+

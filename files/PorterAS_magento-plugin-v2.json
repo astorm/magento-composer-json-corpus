@@ -1,0 +1,29 @@
+{
+    "name": "porterbuddy/module-magento2",
+    "description": "Porterbuddy module for Magento 2",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-config": ">=100.1.0",
+        "tobai/magento2-geo-ip2": "~1.0",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-json": "*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Convert Group AS",
+            "email": "post@convert.no"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Porterbuddy\\Porterbuddy\\": ""
+        }
+    }
+}

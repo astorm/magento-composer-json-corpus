@@ -1,0 +1,21 @@
+{
+    "name": "emp/magento2integration",
+    "authors": [
+        {
+            "name": "Emailplatform",
+            "email": "support@emailplatform.com",
+            "homepage": "https://emailplatform.com"
+        }
+    ],
+    "description": "Connect to eMailPlatform with Magento",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EMP\\Emailplatform\\": ""
+        }
+    }
+}

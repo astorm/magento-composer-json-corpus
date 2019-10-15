@@ -1,0 +1,29 @@
+{
+    "name": "luanet/magento2-push",
+    "description": "Fork Intelipost Push",
+    "type": "magento2-module",
+    "version": "1.0.6",
+    "authors": [
+        {
+            "name": "Lucas Santos",
+            "email": "lsantos@lua.net",
+            "homepage": "http://lua.net/"
+        }
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "intelipost/magento2-basic": "1.*",
+        "intelipost/magento2-quote": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Intelipost\\Push\\": ""
+        }
+    }
+}

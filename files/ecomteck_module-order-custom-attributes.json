@@ -1,0 +1,23 @@
+{
+    "name": "ecomteck/module-order-custom-attributes",
+    "description": "A Magento 2 module is allow admin create, manage custom attributes to display on checkout page, order info",
+    "require": {
+        "ecomteck/module-custom-attribute-management": "2.0.*"
+    },
+    "type": "magento2-module",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\OrderCustomAttributes\\": ""
+        }
+    }
+}

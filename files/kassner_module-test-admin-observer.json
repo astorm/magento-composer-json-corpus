@@ -1,0 +1,15 @@
+{
+    "name": "kassner/module-test-admin-observer",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kassner\\TestAdminObserver\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

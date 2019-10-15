@@ -1,0 +1,20 @@
+{
+  "name": "ashish-wagento/module-searchmodified",
+  "license": [
+    "OSL-3.0"
+  ],
+  "type": "magento2-module",
+  "description": "This Module is use to search string and find modified files.",
+  "version": "100.0.1",
+  "require": {
+    "magento/framework": "100.0.0|100.1.0|101.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Wagento\\SearchModified\\": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "qbo-tech/compropago-magento2",
+  "type": "magento2-module",
+  "description": "ComproPago Magento2 Module",
+  "homepage": "https://github.com/compropago/plugin-magento-2",
+  "version": "3.1.0.3",
+  "keywords": [
+    "pagos internet",
+    "payment gateway",
+    "magento 2",
+    "magento2",
+    "compropago",
+    "cash"
+  ],
+  "license": [
+    "Apache-2.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7",
+    "compropago/php-sdk": "^4.0.1.1"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Compropago\\Magento2\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Rolando Lucio",
+      "email": "rolando@compropago.com"
+    },
+    {
+      "name": "Eduardo Aguilar",
+      "email": "dante.aguilar41@gmail.com"
+    },
+    {
+      "name": "qboDigital",
+      "email": "info@qbo.tech"
+    },
+    {
+      "name": "Rus0",
+      "email": "andoni88@gmail.com"
+    }
+  ]
+}

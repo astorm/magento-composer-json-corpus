@@ -1,0 +1,26 @@
+{
+    "name": "worldpay/magento2-module-payments",
+    "description": "Worldpay Payments",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*",
+        "magento/module-sales": "*",
+        "magento/module-payment": "*",
+        "magento/module-quote": "*",
+        "worldpay/worldpay-lib-php": "~2.1.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.30",
+    "license": [
+        "proprietary"
+    ],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Worldpay\\Payments\\": ""
+        }
+    }
+}

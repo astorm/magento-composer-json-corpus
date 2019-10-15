@@ -1,0 +1,23 @@
+{
+    "name": "resursbank/checkout",
+    "type": "magento2-module",
+    "version": "6.0.5",
+    "description": "Resursbank Checkout module for Magento 2.",
+    "keywords": ["magento", "checkout", "resursbank"],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "resursbank/ecomphp": "1.3.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Resursbank\\Checkout\\": ""
+        }
+    }
+}

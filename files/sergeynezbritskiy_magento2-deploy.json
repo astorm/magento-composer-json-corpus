@@ -1,0 +1,27 @@
+{
+    "name": "sergeynezbritskiy/magento2-deploy",
+    "description": "This package allows you easily install magento 2 from scratch, setup already existing project within new location, and update existing projects",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Nezbritskiy",
+            "email": "admin@sergeynezbritskiy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0"
+    },
+    "support": {
+        "issues": "https://github.com/sergeynezbritskiy/magento2-deploy/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SergeyNezbritskiy\\Deploy\\": ""
+        }
+    }
+}

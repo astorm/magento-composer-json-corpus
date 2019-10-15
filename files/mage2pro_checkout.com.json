@@ -1,0 +1,34 @@
+{
+	"name": "mage2pro/checkout.com"
+	,"version": "1.5.5"
+	,"description": "Checkout.com integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/checkout-com"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {
+		"mage2pro/core": ">=3.11.6", "mage2pro/phone": ">=1.0.0", "checkout/checkout-php-api": "^1.2.3"
+	}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\CheckoutCom\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"Checkout.com"
+	]
+}

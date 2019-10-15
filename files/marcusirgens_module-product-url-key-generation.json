@@ -1,0 +1,38 @@
+{
+    "name": "marcuspi/module-product-url-key-generation",
+    "description": "Slightly better support for URL key generation in Magento 2",
+    "require": {
+        "php": "^7.1",
+        "magento/module-catalog": "^103",
+        "magento/module-catalog-url-rewrite": "^100.3",
+        "cocur/slugify": "^3.2"
+    },
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Marcuspi\\ProductUrlKeyGeneration\\": "src/"
+        }
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "magento/magento-coding-standard": "^4.0",
+        "phpunit/phpunit": "^7.5",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.1.32"
+        }
+    }
+}

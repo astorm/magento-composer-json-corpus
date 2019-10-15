@@ -1,0 +1,18 @@
+{
+  "name": "wiringa/magento2-dump-server",
+  "description": "Magento 2 Symfony Dump Server",
+  "type": "magento2-module",
+  "license": "MIT",
+  "require": {
+    "symfony/var-dumper": "^4.1",
+    "php": "^7.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Wiringa\\DumpServer\\": ""
+    }
+  }
+}

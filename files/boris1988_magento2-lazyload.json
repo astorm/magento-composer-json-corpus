@@ -1,0 +1,20 @@
+{
+  "name": "borisperevyazko/module-lazyload",
+  "description": "Lazyloading for images on category/search pages",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Boris Perevyazko",
+      "email": "borisperevyazko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Borisperevyazko\\Lazyload\\": ""
+    }
+  }
+}

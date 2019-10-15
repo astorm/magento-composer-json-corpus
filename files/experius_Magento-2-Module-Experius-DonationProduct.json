@@ -1,0 +1,23 @@
+{
+    "name": "experius/module-donationproduct",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "derrick@experius.nl",
+            "name": "Derrick Heesbeen"
+        }
+    ],
+    "version": "1.2.2",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Experius\\DonationProduct\\": ""
+        }
+    }
+}

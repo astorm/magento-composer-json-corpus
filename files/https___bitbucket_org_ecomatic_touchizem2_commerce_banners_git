@@ -1,0 +1,26 @@
+{
+    "name": "touchizem2/commerce-banners",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "alex@ecomatic.se"
+        }
+
+    ],
+    "require": {
+        "touchizem2/commerce":"1.0.1"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Touchize\\CommerceBanners\\": ""
+        }
+    }
+}

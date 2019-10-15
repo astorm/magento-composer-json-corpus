@@ -1,0 +1,23 @@
+{
+    "name": "m21/module-googletagmanager",
+    "description": "Magento 2 Google Tag Manager",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "bok@21w.pl",
+            "name": "21w.pl Sylwester Kowal"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\GoogleTagManager\\": ""
+        }
+    }
+}

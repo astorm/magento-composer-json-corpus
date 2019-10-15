@@ -1,0 +1,16 @@
+{
+	"name": "discountkitchenfactory/core"
+	,"version": "0.3.0"
+	,"description": "A custom module for discountkitchenfactory.co.uk"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/discountkitchenfactory/core"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dkf\\Core\\": ""}}
+	,"keywords": ["Magento 2"]
+}

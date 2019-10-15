@@ -1,0 +1,24 @@
+{
+  "name": "testm/custom-catalog",
+  "description": "CustomCatalog",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "authors": [{
+    "name": "Serhii Havrylchuk",
+    "email": "shavrylchuk@gmail.com",
+    "role": "developer"
+  }],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Testm\\CustomCatalog\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

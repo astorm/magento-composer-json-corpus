@@ -1,0 +1,22 @@
+{
+    "name": "msp/common",
+    "description": "",
+    "require": {
+        "php": "^7.0|^7.1|^7.2",
+        
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\Common\\": ""
+        }
+    }
+}

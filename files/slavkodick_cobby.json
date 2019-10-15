@@ -1,0 +1,20 @@
+{
+	"name" : "slavkodick/cobby",
+	"description" : "This extension for Magento 2 provides a direct integration of the cobby management methods to your Magento 2 shop.",
+	"version" : "1.42.1-beta",
+	"type" : "magento2-module",
+	"license" : "OSL-3.0",
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4" : {
+			"Mash2\\Cobby\\" : ""
+		}
+	},
+	"authors" : [{
+			"name" : "Dima Janzen",
+			"email" : "contact@mash2.com"
+		}
+	]
+}

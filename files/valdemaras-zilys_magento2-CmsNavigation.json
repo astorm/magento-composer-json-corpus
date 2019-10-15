@@ -1,0 +1,30 @@
+{
+  "name": "raguvis/magento2-cms-navigation",
+  "description": "CMS Navigation module",
+  "type": "magento2-module",
+  "version": "0.0.8",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "require-dev": {
+    "phpro/grumphp": "*",
+    "squizlabs/php_codesniffer" : "*",
+    "roave/security-advisories" : "dev-master@dev",
+    "friendsofphp/php-cs-fixer": "~1.10"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Raguvis\\CmsNavigation\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Valdemaras Zilys",
+      "email": "valdemaras.zilys@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "myparcelcom/magento",
+    "description": "A Magento 2 module for MyParcel.com",
+    "type": "magento2-module",
+    "homepage": "https://www.myparcel.com/",
+    "keywords": ["MyParcel", "My Parcel", "Magento 2"],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "myparcelcom/api-sdk": "1.1.1"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4" : {
+            "MyParcelCOM\\Magento\\" : ""
+        }
+    }
+}

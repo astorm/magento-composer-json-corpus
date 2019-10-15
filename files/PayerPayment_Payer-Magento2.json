@@ -1,0 +1,26 @@
+{
+    "name": "payer/magento2",
+    "description": "Payer Checkout module for Magento 2",
+    "type": "magento2-module",
+    "keywords": [
+        "payer",
+        "magento2",
+        "payment module",
+        "payment",
+        "ecommerce"
+    ],
+    "homepage": "https://github.com/PayerPayment/Payer-PhpSdk",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.0.0",
+        "payer/sdk": "^1.1.13"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Payer\\Checkout\\": ""
+        }
+    }
+}

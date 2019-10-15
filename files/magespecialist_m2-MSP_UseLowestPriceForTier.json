@@ -1,0 +1,28 @@
+{
+    "name": "msp/uselowestpricefortier",
+    "description": "",
+    "require": {
+        "php": "~7.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "license": "OSL 3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\UseLowestPriceForTier\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magespecialist/m2-MSP_UseLowestPriceForTier"
+        }
+    ]
+}

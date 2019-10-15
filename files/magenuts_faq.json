@@ -1,0 +1,33 @@
+{
+    "name": "magenuts/module-faq",
+    "description": "Magento 2 module help magento store owner to add dynamic faqs at store front.",
+    "type": "magento2-module",
+    "require": {
+        "magenuts/core-module": "*"
+    },
+    "version": "1.0.0",
+    "license": "GPL-3.0-or-later",      
+    "authors": [
+        {
+            "name": "Magenuts Team",
+            "email": "support@magenuts.com",
+            "homepage": "http://www.magenuts.com",
+            "role": "Technical Support"
+        }
+    ],
+    "keywords": [
+        "magento 2 module",
+        "magento 2 free modules",    
+        "magenuts portfolio module",    
+        "magenuts portfolio magento 2 module",    
+        "free magenuts portfolio module",    
+        "free magenuts portfolio magento 2 module",    
+        "magenuts"
+    ],  
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Magenuts\\Faq\\": ""
+        }
+    }
+}

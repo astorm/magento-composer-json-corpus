@@ -1,0 +1,17 @@
+{
+    "name" : "nstudios/module-products-info-widget",
+    "description": "Widget to load products in CMS pages",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.0|~7.2"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NStudios\\ProductsInfoWidget\\": ""
+        }
+    }
+}

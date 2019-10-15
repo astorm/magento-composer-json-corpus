@@ -1,0 +1,22 @@
+{
+  "name": "magmodules/magento2-sooqr",
+  "description": "Sooqr integration for Magento 2",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "magento/framework": ">=100.1.0",
+    "ext-libxml": "*",
+    "ext-dom": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magmodules\\Sooqr\\": ""
+    }
+  }
+}

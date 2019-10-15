@@ -1,0 +1,22 @@
+{
+    "name": "channelengine/magento2",
+    "description": "ChannelEngine Magento2",
+    "type": "magento2-module",
+    "authors": [
+        {           
+            "name": "Christiaan de Ridder",
+            "email": "christiaan@channelengine.com"
+        }
+    ],
+    "version": "1.2.0",
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": ">=101.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "ChannelEngine\\Magento2\\": ""
+        }
+    }
+}

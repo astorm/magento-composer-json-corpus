@@ -1,0 +1,22 @@
+{
+    "name": "sankartest/module-paymenttest",
+    "description": "Testing magneto github",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/magento/"},
+        {"packagist.org": false}
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hexasoft\\FraudLabsPro\\": ""
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "inkifi/store"
+	,"version": "1.0.4"
+	,"description": "A custom store module for inkifi.com"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/inkifi/store"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"inkifi/core": ">=0.1.6", "mage2pro/core": ">=4.3.4", "mage2pro/flag": ">=1.0.5"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Inkifi\\Store\\": ""}}
+	,"keywords": ["Magento 2"]
+}

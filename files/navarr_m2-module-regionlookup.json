@@ -1,0 +1,44 @@
+{
+  "name": "navarr/m2-module-regionlookup",
+  "type": "magento2-module",
+  "description": "Magento 2 Region Lookup API",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+
+  "require": {
+    "php": "^5.6|^7.0",
+    "magento/module-directory": "^100.0.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Navarr\\RegionLookup\\": ""
+    }
+  },
+
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.0",
+    "phpmd/phpmd": "@stable",
+    "magento/marketplace-eqp": "@stable"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+
+  "scripts": {
+    "test": [
+      "@codestyle-check"
+    ],
+    "codestyle-check": [
+      "phpcs --ignore=vendor/* --standard=psr2 ./",
+      "phpcs --ignore=vendor/* --standard=MEQP2 --runtime-set installed_paths vendor/magento/marketplace-eqp ./"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "pillbox/productattachment",
+    "description": "Magento2 Product Attachment Module",
+    "license": "proprietary",
+    "type": "magento2-module",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~7.0.2|~7.1.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "authors": [
+        {
+          "name": "Prince Patel",
+          "email": "mail.mageprince@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Prince\\Productattach\\": ""
+        }
+    }
+}

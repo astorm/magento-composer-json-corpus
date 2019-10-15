@@ -1,0 +1,21 @@
+{
+    "name": "emizentech/shopbybrand",
+    "description": "Emizentech Shop By Brand",
+    "authors": [
+        {
+            "name": "Amit Samsukha",
+            "email": "amit@emizentech.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Emizentech\\ShopByBrand\\": ""
+        }
+    }
+}

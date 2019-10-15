@@ -1,0 +1,65 @@
+{
+    "name": "tigrensolutions/magento-integration-suite",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Tigren Solutions",
+            "email": "info@tigren.com"
+        }
+    ],
+    "description": "Magento 2 Integration Suite ",
+    "homepage": "https://www.tigren.com",
+    "keywords": [
+        "magento",
+        "magento2",
+        "integration",
+        "api",
+        "rest",
+        "soap",
+        "graphql"
+    ],
+    "replace": {
+        "tigren/module-catalog-graph-ql": "self.version",
+        "tigren/module-compare-graph-ql": "self.version",
+        "tigren/module-core": "self.version",
+        "tigren/module-customer-graph-ql": "self.version",
+        "tigren/module-quote-graph-ql": "self.version",
+        "tigren/module-review-graph-ql": "self.version",
+        "tigren/module-store-graph-ql": "self.version",
+        "tigren/module-wishlist-graph-ql": "self.version",
+        "tigren/module-review": "self.version",
+        "tigren/module-pwa-firebase": "self.version",
+        "tigren/module-cms-graph-ql": "self.version"
+    },
+    "autoload": {
+        "files": [
+            "src/module-catalog-graph-ql/registration.php",
+            "src/module-compare-graph-ql/registration.php",
+            "src/module-core/registration.php",
+            "src/module-customer-graph-ql/registration.php",
+            "src/module-quote-graph-ql/registration.php",
+            "src/module-review-graph-ql/registration.php",
+            "src/module-store-graph-ql/registration.php",
+            "src/module-wishlist-graph-ql/registration.php",
+            "src/module-review/registration.php",
+            "src/module-pwa-firebase/registration.php",
+            "src/module-cms-graph-ql/registration.php"
+        ],
+        "psr-4": {
+            "Tigren\\CatalogGraphQl\\": "src/module-catalog-graph-ql",
+            "Tigren\\CompareGraphQl\\": "src/module-compare-graph-ql",
+            "Tigren\\Core\\": "src/module-core",
+            "Tigren\\CustomerGraphQl\\": "src/module-customer-graph-ql",
+            "Tigren\\QuoteGraphQl\\": "src/module-quote-graph-ql",
+            "Tigren\\ReviewGraphQl\\": "src/module-review-graph-ql",
+            "Tigren\\StoreGraphQl\\": "src/module-store-graph-ql",
+            "Tigren\\WishlistGraphQl\\": "src/module-wishlist-graph-ql",
+            "Tigren\\Review\\": "src/module-review",
+            "Tigren\\ProgressiveWebApp\\": "src/module-pwa-firebase",
+            "Tigren\\CmsGraphQl\\": "src/module-cms-graph-ql"
+        }
+    },
+   "minimum-stability": "dev",
+   "prefer-stable": true
+}

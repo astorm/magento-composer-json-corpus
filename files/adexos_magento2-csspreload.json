@@ -1,0 +1,37 @@
+{
+  "name": "adexos/magento2-csspreload",
+  "description": "Magento 2 module that allows loading of stylesheets with the preload attribute",
+  "type": "magento2-module",
+  "version": "1.2.3",
+  "license": [
+    "MIT"
+  ],
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "require": {
+    "magento/framework": ">=100.1.0",
+    "psr/log": "~1.0"
+  },
+  "authors": [
+    {
+      "name": "Darren Belding",
+      "email": "darren.belding@meanbee.com"
+    },
+     {
+      "name": "Adexos Team",
+      "email": "dev@adexos.fr"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Adexos\\CSSPreload\\": "/src"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "mage4/extratabs",
+  "description": "Organize product page information, display static blocks data in tabular form with easy to use interface.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Mage4\\ExtraTabs\\": ""
+    }
+  }
+}

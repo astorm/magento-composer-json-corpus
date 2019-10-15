@@ -1,0 +1,20 @@
+{
+    "name": "gocoin\/gocoinpayment",
+    "description": "Magento2 Module for processing Gocoin Payments",
+    "require": {
+        "php": "~5.5.0|~5.6.0|^7.0.0",
+		"gocoin/gocoin-php": "^0.7"
+    },
+    "type": "magento2-module",
+    "license": [
+        "Apache"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gocoin\\Gocoinpayment\\": ""
+        }
+    }
+}

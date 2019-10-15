@@ -1,0 +1,17 @@
+{
+    "name": "mitto-ag/magento2-core",
+    "description": "Mitto core module for Magento 2",
+    "require": {
+        "magento/framework": "100.*|101.*|102.*"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mitto\\Core\\": ""
+        }
+    }
+}

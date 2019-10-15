@@ -1,0 +1,17 @@
+{
+  "name": "notive/ok-app-magento2",
+  "keywords": ["ok", "okit", "php", "magento2"],
+  "description": "OK payment integration for Magento2",
+  "require": {
+    "okitcom/ok-lib-php": "1.6.3"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Okitcom\\OkLibMagento\\": ""
+    }
+  }
+}

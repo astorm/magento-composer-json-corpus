@@ -1,0 +1,18 @@
+{
+  "name": "thousandmonkeys/m2-flatcategories-module",
+  "description": "A flat category rest endpoint for magento2 to work round the stupidity that is the default tree interface.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "ThousandMonkeys\\FlatCategories\\": ""
+    }
+  }
+}

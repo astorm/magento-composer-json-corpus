@@ -1,0 +1,22 @@
+{
+  "name": "jframeworks/shippingtracking",
+  "description": "Track Shipment allows customer to track his order shipping using USPS, Fedex, UPS and DHL shipping methods.",
+  "keywords" : ["snapcx", "shipping tracking", "order tracking", "magento2"],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },	
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": [
+	"OSL-3.0",
+        "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "jframeworks\\shippingtracking\\": ""
+    }
+  }
+}

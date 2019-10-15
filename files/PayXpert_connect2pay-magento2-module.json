@@ -1,0 +1,19 @@
+{
+  "name": "payxpert/connect2pay-magento2-module",
+  "description": "PayXpert payment module for Magento 2",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+    "payxpert/connect2pay": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.1.1",
+  "license": [
+    "Apache-2.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Payxpert\\Connect2Pay\\": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "name": "sunilit42/test",
+    "description": "Test module for Magento 2",
+    "type": "magento2-module"
+}

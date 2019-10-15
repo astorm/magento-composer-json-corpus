@@ -1,0 +1,24 @@
+{
+    "name": "elogic/module-vendor",
+    "description": "Test module",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Ivan Bondar",
+            "email":"bondar.ivan@elogic.com.ua"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Elogic\\Vendor\\": ""
+        }
+    }
+}

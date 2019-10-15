@@ -1,0 +1,17 @@
+{
+    "name": "loganstellway/module-social",
+    "description": "Social media integration for Magento 2",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LoganStellway\\Social\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "lusitanian/oauth": "^0.8.10"
+    }
+}

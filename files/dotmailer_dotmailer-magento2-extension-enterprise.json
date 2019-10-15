@@ -1,0 +1,25 @@
+{
+  "name": "dotmailer/dotmailer-magento2-extension-enterprise",
+  "description": "Engagement Cloud integration for Magento Commerce",
+  "type": "magento2-module",
+  "version": "1.0.4",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "dotmailer/dotmailer-magento2-extension": ">=3.0.2",
+    "magento/module-reward": ">=100 <102",
+    "magento/module-customer-segment": ">=100 <103",
+    "magento/module-store": ">=100 <102"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Dotdigitalgroup\\Enterprise\\": ""
+    }
+  }
+}

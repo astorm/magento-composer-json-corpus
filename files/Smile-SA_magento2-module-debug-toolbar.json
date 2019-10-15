@@ -1,0 +1,27 @@
+{
+    "name": "smile/module-debug-toolbar",
+    "type": "magento2-module",
+    "description": "Smile Debug Toolbar",
+    "homepage": "https://github.com/Smile-SA/magento2-module-debug-toolbar",
+    "keywords": ["magento2", "debug", "toolbar"],
+    "authors": [
+        {
+            "name": "Laurent Minguet",
+            "email": "dirtech@smile.fr"
+        }
+    ],
+    "license": "EPL-2.0",
+    "version": "4.0.2",
+    "require": {
+        "php": ">=7.1.3",
+        "magento/framework": ">=102.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\DebugToolbar\\": ""
+        }
+    }
+}

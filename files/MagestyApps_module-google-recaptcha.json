@@ -1,0 +1,21 @@
+{
+  "name": "magestyapps/module-google-recaptcha",
+  "description": "Google reCAPTCHA module for Magento 2",
+  "require": {
+    "php": ">=5.5.0",
+    "magestyapps/module-base": ">=1.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "minimum-stability":"dev",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MagestyApps\\ReCaptcha\\": ""
+    }
+  }
+}

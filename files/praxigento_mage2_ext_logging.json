@@ -1,0 +1,26 @@
+{
+  "name": "praxigento/mage2_ext_logging",
+  "description": "Monolog Cascade integration to Magento 2.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mage2_ext_logging",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/filesystem": "*",
+    "theorchard/monolog-cascade": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Logging\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "php-cuong/magento2-module-core",
+    "description":"PHPCuong Core module for Magento 2",
+    "keywords": [
+        "PHPCuong Core module for Magento 2"
+    ],
+    "require": {
+        "php": "5.6.*|7.0.*|7.1.*|7.2.*",
+        "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*",
+        "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "2.2.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Cuong NQ",
+            "email": "bestearnmoney87@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPCuong\\Core\\": ""
+        }
+    }
+}

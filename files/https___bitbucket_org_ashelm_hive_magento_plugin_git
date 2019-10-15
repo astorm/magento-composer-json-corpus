@@ -1,0 +1,40 @@
+{
+    "name": "hive-together/hive-merchant-magento",
+    "description": "Hive Merchant integration for Magento 2.1.x",
+    "homepage": "https://merchant.hivetogether.com/",
+    "type": "magento2-module",
+    "version": "0.1.1",
+    "keywords": [
+      "magento2",
+      "hive",
+      "hivetogether",
+      "magento-module",
+      "discounts"
+    ],
+    "authors": [
+        {
+            "name": "Austin Helm",
+            "email": "austin.helm@hivetogether.com",
+            "homepage": "https://www.hivetogether.com/",
+            "role": "Bussines Owner"
+        }
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Hive\\HiveMerchant\\": ""
+        }
+    },
+    "require": {
+      "magento/framework": "100.*"
+    },
+    "non-feature-branches": [
+        "latest-.*",
+        "00*",
+        "release",
+        "development"
+    ]
+}

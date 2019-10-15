@@ -1,0 +1,17 @@
+{
+  "name": "creativestyle/magesuite-email-attachments",
+  "description": "This extension adds PDF attachments to emails.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\EmailAttachments\\": ""
+    }
+  }
+}

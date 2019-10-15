@@ -1,0 +1,25 @@
+{
+  "name": "flancer32/mage2_ext_log_api",
+  "description": "Magento 2 activities logger (API, JS errors)",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_ext_log_api",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "monolog/monolog": ">=1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\LogApi\\": ""
+    }
+  }
+}

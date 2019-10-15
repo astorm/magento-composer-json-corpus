@@ -1,0 +1,32 @@
+{
+  "name": "kash/gateway",
+  "description": "Kash Payment Gateway",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-payment": "100.1.*",
+    "magento/module-checkout": "100.1.*",
+    "magento/module-sales": "100.1.*",
+    "magento/module-quote": "100.1.*",
+    "magento/module-customer": "100.1.*",
+    "magento/module-directory": "100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:withkash/magento2-payment-gateway.git"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Kash\\Gateway\\": ""
+    }
+  }
+}

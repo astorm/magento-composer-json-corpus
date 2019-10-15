@@ -1,0 +1,27 @@
+{
+  "name": "fasapay/magento2-fasapay-sci",
+  "description": "FasaPay Payment SCI Module for Magento 2",
+  "keywords": ["magento", "fasapay", "module"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FasaPay Team",
+      "email": "technical@fasapay.com"
+    }
+  ],
+  "type": "magento2-module",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "FasaPay\\PaymentSci\\": "src/"
+    }
+  }
+}

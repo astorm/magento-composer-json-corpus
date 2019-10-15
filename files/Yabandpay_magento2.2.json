@@ -1,0 +1,21 @@
+{
+  "name": "yabandpayment/magento2.2",
+  "description": "YaBand Payment Module for Magento 2",
+  "require": {
+    "ext-json": "*",
+    "yabandpayment/api": "^1.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "YaBandPay\\Payment\\": ""
+    }
+  }
+}

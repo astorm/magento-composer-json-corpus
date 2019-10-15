@@ -1,0 +1,29 @@
+{
+    "name": "emb/test",
+    "description": "Test Module",
+    "require": {
+        "php": "~7.1.12"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": [
+        "proprietary"
+    ],
+    "repositories": [
+	{
+        "type": "composer",
+        "url": "https://github.com/mujahid-emb/embtest.git"
+    }
+	],
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Emb\\Test\\": ""
+        }
+    }
+}

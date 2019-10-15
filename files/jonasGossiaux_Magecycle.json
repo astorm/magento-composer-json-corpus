@@ -1,0 +1,133 @@
+{
+    "name": "starchlord/magitasamirite",
+    "description": "magento2 test",
+    "type": "project",
+    "version": "0.0.1",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+      {
+          "name": "Jonas Gossiaux",
+          "email": "jonas.gossiaux@duo.be"
+      },
+      {
+          "name": "Arno Vande Cappelle",
+          "email": "arno.vande.cappelle@duo.be"
+      }
+  ],
+    "require": {
+      "magento/product-community-edition": "2.2.6",
+      "composer/composer": "@alpha"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~6.2.0",
+      "squizlabs/php_codesniffer": "3.2.2",
+      "phpmd/phpmd": "@stable",
+      "pdepend/pdepend": "2.5.2",
+      "friendsofphp/php-cs-fixer": "~2.2.1",
+      "lusitanian/oauth": "~0.8.10",
+      "sebastian/phpcpd": "2.0.4"
+    },
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    "replace": {
+      "amzn/amazon-pay-and-login-magento-2-module": "*",
+      "amzn/amazon-pay-and-login-with-amazon-core-module": "*",
+      "amzn/amazon-pay-module": "*",
+      "amzn/login-with-amazon-module": "*",
+      "dotmailer/dotmailer-magento2-extension": "*",
+      "klarna/module-core": "*",
+      "klarna/module-kp": "*",
+      "klarna/module-ordermanagement": "*",
+      "magento/module-admin-notification": "*",
+      "magento/module-advanced-pricing-import-export": "*",
+      "magento/module-analytics": "*",
+      "magento/module-braintree": "*",
+      "magento/module-bundle-import-export": "*",
+      "magento/module-catalog-analytics": "*",
+      "magento/module-catalog-rule-configurable": "*",
+      "magento/module-catalog-widget": "*",
+      "magento/module-configurable-import-export": "*",
+      "magento/module-configurable-product-sales": "*",
+      "magento/module-currency-symbol": "*",
+      "magento/module-customer-analytics": "*",
+      "magento/module-customer-import-export": "*",
+      "magento/module-dhl": "*",
+      "magento/module-downloadable-import-export": "*",
+      "magento/module-fedex": "*",
+      "magento/module-grouped-import-export": "*",
+      "magento/module-instant-purchase": "*",
+      "magento/module-marketplace": "*",
+      "magento/module-multishipping": "*",
+      "magento/module-new-relic-reporting": "*",
+      "magento/module-offline-payments": "*",
+      "magento/module-paypal": "*",
+      "magento/module-quote-analytics": "*",
+      "magento/module-release-notification": "*",
+      "magento/module-review-analytics": "*",
+      "magento/module-sales-analytics": "*",
+      "magento/module-sales-inventory": "*",
+      "magento/module-sample-data": "*",
+      "magento/module-send-friend": "*",
+      "magento/module-swagger": "*",
+      "magento/module-swagger-webapi": "*",
+      "magento/module-tax-import-export": "*",
+      "magento/module-ups": "*",
+      "magento/module-usps": "*",
+      "magento/module-vault": "*",
+      "magento/module-wishlist-analytics": "*",
+      "shopialfb/facebook-module": "*",
+      "temando/module-shipping-m2": "*",
+      "vertex/module-tax": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+        "Magento\\Setup\\": "setup/src/Magento/Setup/",
+        "Magento\\": "app/code/Magento/"
+      },
+      "psr-0": {
+        "": [
+          "app/code/",
+          "generated/code/"
+        ]
+      },
+      "files": [
+        "app/etc/NonComposerComponentRegistration.php"
+      ],
+      "exclude-from-classmap": [
+        "**/dev/**",
+        "**/update/**",
+        "**/Test/**"
+      ]
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+        "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+        "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
+        "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+        "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
+      }
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+      }
+    ],
+    "extra": {
+      "magento-force": "override"
+    }
+  }
+  
+ 

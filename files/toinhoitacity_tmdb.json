@@ -1,0 +1,38 @@
+{
+  "name": "toinhoitacity/tmdb",
+  "description": "The Movie DB for Magento 2.x",
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "minimum-stability": "dev",
+  "type": "magento2-module",
+  "license": [
+  ],
+  "authors": [
+    {
+      "name": "Antonio Gutierrez",
+      "email": "toinhoitacity@yahoo.com.br",
+      "homepage": "https://www.antoniogutierrez.com.br",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Toinhoitacity\\Tmdb\\": ""
+    }
+  },
+  "version": "1.0.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Toinhoitacity/Tmdb"
+      ]
+
+    ]
+  }
+}

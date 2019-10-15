@@ -1,0 +1,20 @@
+{
+  "name": "orange35/magento2-custom-option-value-save-handler",
+  "description": "Fix for magento issue #5067",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|7.0.*|7.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orange35\\CustomOptionValueSaveHandler\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

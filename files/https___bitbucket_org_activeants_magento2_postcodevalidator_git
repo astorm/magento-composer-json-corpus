@@ -1,0 +1,22 @@
+{
+    "name": "activeants/magento2-postcodevalidator",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3",
+    "description": "A minor enhancement to the postcode validator for Dutch postcodes",
+    "keywords": ["magento2", "dutch", "postcode", "validator"],
+    "authors": [
+        {
+            "name": "Active Ants B.V.",
+            "email": "automatisering@activeants.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ActiveAnts\\PostcodeValidator\\": ""
+        }
+    }
+}

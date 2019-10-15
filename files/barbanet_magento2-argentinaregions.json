@@ -1,0 +1,21 @@
+{
+    "name": "barbanet/magento2-argentinaregions",
+    "description": "Regions of Argentina for Magento2.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0|~7.1|~7.2",
+        "magento/module-directory": "100.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Barbanet\\ArgentinaRegions\\": ""
+        }
+    }
+}

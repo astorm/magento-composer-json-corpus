@@ -1,0 +1,25 @@
+{
+  "name": "ecomteck/module-core",
+  "description": "Ecomteck Core for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Ecomteck",
+      "email": "ecomteck@gmail.com",
+      "homepage": "https://ecomteck.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ecomteck\\Core\\": ""
+    }
+  }
+}

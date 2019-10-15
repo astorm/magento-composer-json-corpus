@@ -1,0 +1,29 @@
+{
+  "name": "w3d/exportorders",
+  "description": "A Magento 2 module that exports orders in different formats",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+        {
+            "name": "Nertila Lika",
+            "email": "nertila@w3development.net",
+            "homepage": "http://w3development.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Elvis Tavasja",
+            "email": "elvis@w3development.net",
+            "homepage": "http://w3development.net",
+            "role": "Developer"
+        }
+  ],
+  
+  "extra": {
+    "map": [
+         [
+           "*",
+           "W3D/Exportorders"
+         ]
+    ]
+   }
+}

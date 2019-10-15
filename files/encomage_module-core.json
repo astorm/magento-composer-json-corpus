@@ -1,0 +1,26 @@
+{
+    "name": "encomage/module-core",
+    "description": "Encomage Core for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Encomage",
+            "email": "hello@encomage.com",
+            "homepage": "https://www.encomage.com",
+            "role": "Technical Support"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Encomage\\Core\\": ""
+        }
+    }
+}

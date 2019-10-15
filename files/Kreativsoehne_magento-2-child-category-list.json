@@ -1,0 +1,22 @@
+{
+    "name": "kreativsoehne/magento-2-child-category-list",
+    "description": "List child categories with their category image.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "michael@kreativsoehne.de",
+            "name": "Michael Fuchs | Kreativ&Söhne GmbH"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kreativsoehne\\ChildCategoryList\\": ""
+        }
+    }
+}

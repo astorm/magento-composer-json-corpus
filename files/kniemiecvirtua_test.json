@@ -1,0 +1,24 @@
+{
+  "name": "kniemiecvirtua/test",
+  "description": "Test module for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Author Name",
+      "email": "hello@example.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Virtua\\Test\\": ""
+    }
+  }
+}

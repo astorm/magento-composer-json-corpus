@@ -1,0 +1,20 @@
+{
+  "name": "andreani/magento22",
+  "description": "Módulo de envíos Andreani para Magento 2.2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "spipu/html2pdf": "^4.6"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-0": {
+      "Andreani": "src"
+    },
+    "psr-4": {
+      "Ids\\Andreani\\": ""
+    }
+  }
+}

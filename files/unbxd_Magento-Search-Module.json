@@ -1,0 +1,23 @@
+{
+  "name": "unbxd/magento2-search",
+  "description": "The Magento 2 module, which provides the ability to search the site using the Unbxd service",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "unbxd/magento2-product-feed": "*",
+    "unbxd/magento2-analytics": "*",
+    "php": "~7.0.0|~7.1.0|~7.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Unbxd\\Search\\": ""
+    }
+  }
+}

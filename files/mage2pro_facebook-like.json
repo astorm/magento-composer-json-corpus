@@ -1,0 +1,26 @@
+{
+	"name": "mage2pro/facebook-like"
+	,"version": "1.0.9"
+	,"description": "The «Facebook Like & Share» extension for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/facebook-like"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.4.44", "mage2pro/facebook": ">=1.0.8"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\FacebookLike\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"Facebook"
+		,"Facebook API"
+		,"Facebook Like"
+		,"Facebook Share"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+	]
+}

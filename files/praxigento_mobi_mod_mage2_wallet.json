@@ -1,0 +1,24 @@
+{
+  "name": "praxigento/mobi_mod_wallet",
+  "description": "MOBI: Praxigento_Wallet module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_wallet",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Wallet\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_accounting": "dev-master"
+  }
+}

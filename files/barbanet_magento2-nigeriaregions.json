@@ -1,0 +1,21 @@
+{
+    "name": "barbanet/magento2-nigeriaregions",
+    "description": "Regions of Nigeria for Magento2.",
+    "require": {
+        "php": "~5.6.0|~7.0.0|~7.1.0",
+        "magento/module-directory": "100.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Barbanet\\NigeriaRegions\\": ""
+        }
+    }
+}

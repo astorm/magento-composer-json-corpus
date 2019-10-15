@@ -1,0 +1,24 @@
+{
+  "name": "foomber/module-seller",
+  "description": "External seller info orders",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Franco Occhi",
+      "email": "franconicolasocchi@gmail.com",
+      "homepage": "",
+      "role": "Technical Support"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Foomber\\Seller\\": ""
+    }
+  }
+}

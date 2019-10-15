@@ -1,0 +1,26 @@
+{
+  "name": "loewenstark/maileon2",
+  "description": "Simple Extension for Maileon/xQueue",
+  "require": {
+    "php": "~7.0.0|~7.1.0",
+    "magento/module-store": "*",
+    "magento/module-backend": "*",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Mathis Klooss",
+      "email": "mathis@mage-profis.de"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Loewenstark\\Maileon2\\": ""
+    }
+  }
+}

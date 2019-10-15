@@ -1,0 +1,23 @@
+{
+    "name": "dominicwatts/autoinvoice",
+    "description": "Automatically invoice orders based on order meeting configured conditions",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.3",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "dominic@xigen.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xigen\\AutoInvoice\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

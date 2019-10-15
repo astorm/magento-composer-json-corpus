@@ -1,0 +1,30 @@
+{
+    "name": "landofcoder/module-setup",
+    "description": "Import sample data, transfer data",
+    "keywords": [
+        "landofcoder",
+        "landofcoder all",
+        "landofcoder core extension"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Lof Setup Extension"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\Setup\\": ""
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "softwarech/magento-2-ebay",
+    "description": "Test component for Magento 2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Softwarech\\Magento2Ebay\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/softwarech/magento-2-ebay"
+        }
+    ]
+}

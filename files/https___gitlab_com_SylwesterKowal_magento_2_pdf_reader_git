@@ -1,0 +1,22 @@
+{
+    "name": "m21/module-pdfreader",
+    "description": "Generator PDF reader dla Magento 2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "bok@21w.pl",
+            "name": "21w.pl Sylwester Kowal"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\Pdfreader\\": ""
+        }
+    }
+}

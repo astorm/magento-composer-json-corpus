@@ -1,0 +1,20 @@
+{
+  "name": "dopamedia/module-measure",
+  "description": "Magento2 Measure Module",
+  "require": {
+    "php": "^7"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dopamedia\\Measure\\": ""
+    }
+  }
+}

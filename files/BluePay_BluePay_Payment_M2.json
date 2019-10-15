@@ -1,0 +1,28 @@
+{
+    "name": "bluepay/payment",
+    "description": "BluePay credit card & ACH Payment plugin for M2",
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "authors": [
+        {
+    	    "name": "Justin Slingerland",
+            "email": "jslingerland@bluepay.com",
+            "homepage": "http://www.bluepay.com",
+            "role": "Developer"
+    	}
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BluePay\\Payment\\": ""
+        }
+    }
+}

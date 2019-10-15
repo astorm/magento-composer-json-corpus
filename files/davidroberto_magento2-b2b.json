@@ -1,0 +1,27 @@
+{
+  "name": "davidrobert/magento2-b2b",
+  "description": "Restrict a website to a customers' group",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "David Robert",
+      "email": "contact@david-robert.fr",
+      "homepage": "http://david-robert.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "DavidRobert\\B2B\\": ""
+    }
+  }
+}

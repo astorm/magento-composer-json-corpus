@@ -1,0 +1,26 @@
+{
+  "name": "instamojo/instamojo-magento-2",
+  "description": "Instamojo integration for Magento 2",
+  "type": "magento2-module",
+  "homepage": "https://github.com/instamojo/instamojo-magento-2/",
+  "keywords": ["instamojo", "magento", "magento 2", "plugin", "extension", "payment", "gateway"],
+  "version": "1.0.5",
+  "license": [
+      "MIT"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": ">=100.0.4 <102"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Instamojo\\Imojo\\": ""
+    }
+  },
+  "support": {
+        "issues": "https://github.com/instamojo/instamojo-magento-2/issues",
+        "docs": "https://docs.instamojo.com/v1.1/page/instamojo-integeration-for-magento-2",
+        "email": "support@instamojo.com"
+    }
+}

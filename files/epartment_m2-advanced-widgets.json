@@ -1,0 +1,23 @@
+{
+    "name": "epartment/m2-advanced-widgets",
+    "description": "Magento 2 Widget module supporting all UI Components",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Epartment Ecommerce",
+            "email": "support@epartment.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Epartment\\Widgets\\": ""
+        }
+    }
+}

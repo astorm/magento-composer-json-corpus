@@ -1,0 +1,16 @@
+{
+  "name": "shero/base",
+  "description": "Shero Base Magento 2 Module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Shero\\Base\\": ""
+    }
+  },
+  "minimum-stability": "stable"
+}

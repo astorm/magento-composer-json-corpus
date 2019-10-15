@@ -1,0 +1,26 @@
+{
+  "name": "espertomagento/magento2-province-italiane",
+  "description": "Modulo per l'installazione delle province italiane in Magento2",
+  "authors": [
+    {
+      "name": "Daniele Crupi",
+      "email": "danycrup@gmail.com",
+      "homepage": "https://www.espertomagent.it"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "magento/module-directory": "100.0.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "EspertoMagento\\ProvinceItaliane\\": ""
+    }
+  }
+}

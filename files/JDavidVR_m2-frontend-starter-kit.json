@@ -1,0 +1,28 @@
+{
+    "name": "jdavidvr/m2-frontend-starter-kit",
+    "description": "Frontend Starter Kit this bundles Boostrap Grid and Font Awesome",
+    "authors": [
+        {
+            "name": "David Velasquez",
+            "email": "jdavidvr@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/framework": "*"
+    },
+    "minimum-stability": "dev",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JDavidVR\\FrontendStarterKit\\": ""
+        }
+    },
+    "version": "0.0.1"
+}

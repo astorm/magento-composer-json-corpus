@@ -1,0 +1,55 @@
+{
+    "name": "blackbird/module-orange-sms-notification",
+    "description": "Orange Sms connector to the Sms Notification module adapters.",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2",
+        "orange",
+        "sms",
+        "notification"
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-config": "*",
+        "blackbird/module-sms-notification": ">=0.6.0",
+        "blackbird/module-orange-sms": "*",
+        "blackbird/library-phone-number": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://github.com/blackbird-agency/magento-2-orange-sms-notification",
+    "authors": [
+        {
+            "name": "Thomas Klein",
+            "email": "thomas@bird.eu",
+            "homepage": "https://www.linkedin.com/in/thomas-klein/",
+            "role": "lead"
+        },
+        {
+            "name": "Blackbird Team",
+            "email": "hello@bird.eu",
+            "homepage": "https://black.bird.eu/",
+            "role": "contributor"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/blackbird-agency/magento-2-orange-sms-notification",
+        "issues": "https://github.com/blackbird-agency/magento-2-orange-sms-notification/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Blackbird\\OrangeSmsNotification\\": ""
+        }
+    }
+}

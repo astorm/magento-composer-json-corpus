@@ -1,0 +1,20 @@
+{
+    "name": "ecomteck/module-custom-attribute-management",
+    "description": "A Magento 2 module is extended of magento 2 attributes management to manage custom attributes on backend",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ecomteck\\CustomAttributeManagement\\": ""
+        }
+    }
+}

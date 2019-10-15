@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/google"
+	,"version": "1.0.5"
+	,"description": "Google APIs."
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/google"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.4.19"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Google\\": ""}}
+}

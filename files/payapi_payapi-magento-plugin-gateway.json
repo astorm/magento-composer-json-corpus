@@ -1,0 +1,29 @@
+{
+    "name": "payapi/magento-plugin-gateway",
+    "description": "Integrating the PayApi Gateway for Magento 2.1",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "license": ["OSL-3.0"],
+    "require": {
+        "php": ">=5.5.0",
+        "firebase/php-jwt": "^4.0",
+        "payapi/payapi-sdk-php": "^2.0" 
+        },
+    "authors": [{
+        "name": "Francisco Nieto Zamora",
+        "email": "contact@payapi.io",
+        "homepage": "https://payapi.io/",
+        "role": "Developer"
+    }, {
+        "name": "Matti Vilola",
+        "email": "contact@payapi.io",
+        "homepage": "https://payapi.io/",
+        "role": "Business"
+    }],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Payapi\\CheckoutPayment\\": ""
+        }
+    }
+}

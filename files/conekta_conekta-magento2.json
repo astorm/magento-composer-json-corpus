@@ -1,0 +1,37 @@
+{
+    "name": "conekta/conekta_payments",
+    "description": "Conekta rules!",
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "minimum-stability": "stable",
+    "require": {
+        "conekta/conekta-php": "*"
+    },
+    "authors": [
+        {
+            "name": "Conekta",
+            "homepage": "http://conekta.com/",
+            "email": "soporte@conekta.com"
+        },
+        {
+            "name": "Eduardo Enriquez",
+            "homepage": "http://conekta.com",
+            "email": "eenriquez@conekta.com"
+        },
+        {
+            "name": "Jorge Martinez",
+            "homepage": "http://conekta.com",
+            "email": "jorge@conekta.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Conekta\\Payments\\": ""
+        }
+    }
+}

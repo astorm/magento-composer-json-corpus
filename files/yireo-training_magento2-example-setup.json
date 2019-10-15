@@ -1,0 +1,30 @@
+{
+    "name": "yireo-training/magento2-example-setup",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": "OSL-3.0",
+    "description": "Example Magento 2 module to show the workings of setup procedures",
+    "keywords":[ "composer-installer", "magento"],
+    "authors": [
+        {
+            "name": "Jisse Reitsma",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "^100.1|^101.0|^102.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"*",
+        "composer/composer":"*@dev"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yireo\\ExampleSetupRecurring\\": ""
+        }
+    }
+}

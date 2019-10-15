@@ -1,0 +1,23 @@
+{
+  "name": "orangemantra/helloworld",
+  "description": "orangemantra helloworld",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|>=7.0.31|~7.1.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Orangemantra/Helloworld"
+      ]
+    ]
+  }
+}

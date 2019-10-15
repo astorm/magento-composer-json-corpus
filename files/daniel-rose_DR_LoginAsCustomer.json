@@ -1,0 +1,39 @@
+{
+  "name": "dr/loginascustomer",
+  "description": "Allows admin users to login as a specified customer.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    }
+  ],
+  "keywords": [
+    "Magento 2",
+    "Login as customer"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/module-customer": "~100.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.3",
+    "phpmd/phpmd": "~2.2",
+    "sebastian/phpcpd": "~2.0",
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DR\\LoginAsCustomer\\": ""
+    }
+  }
+}

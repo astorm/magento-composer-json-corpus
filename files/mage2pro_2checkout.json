@@ -1,0 +1,31 @@
+{
+	"name": "mage2pro/2checkout"
+	,"version": "1.6.3"
+	,"description": "2Checkout integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/2checkout"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.11.6", "2checkout/2checkout-php": "*"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TwoCheckout\\": ""}}
+	,"keywords": [
+		"2Checkout"
+		,"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+	]
+}

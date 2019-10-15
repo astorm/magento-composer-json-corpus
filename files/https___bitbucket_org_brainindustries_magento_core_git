@@ -1,0 +1,21 @@
+{
+    "name": "shirtplatform/core",
+    "description": "A Magento 2 module that instantiates ShirtPlatform connection",
+    "type": "magento2-module",    
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0|>=7.1.0",
+        "magento/framework": "~100.0|~101.0",
+        "brainindustries/swatches": "*",
+        "shirtplatform/webservices": "*"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Shirtplatform\\Core\\": ""
+        }
+    }
+}

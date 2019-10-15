@@ -1,0 +1,16 @@
+{
+    "name": "wearejh/m2-core-bug-pagecache-version",
+    "description": "JH M2 Core Bug Fix - PageCache Version class does not set cookie when it does not exist",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jh\\CoreBugPageCacheVersion\\": ""
+        }
+    }
+}

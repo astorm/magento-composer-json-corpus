@@ -1,0 +1,18 @@
+{
+  "name": "creativestyle/magesuite-session-lifetime",
+  "description": "Regenerates session while going through pages (Default Magento 2.1 functionality is after customer session lifetime is setup and never changed again.)",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageSuite\\SessionLifetime\\": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "raccoontech/module-utility",
+    "description": "Utility for daily maintenance",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "crossgate9@gmail.com",
+            "name": "Allen Koo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Raccoon\\Utility\\": ""
+        }
+    }
+}

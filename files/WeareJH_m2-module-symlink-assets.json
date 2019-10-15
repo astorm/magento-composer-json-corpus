@@ -1,0 +1,20 @@
+{
+    "name": "wearejh/m2-module-symlink-assets",
+    "description": "Force asset symlink for static content deploys",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Michael Woodward",
+            "email": "mikeymike.mw@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jh\\SymlinkAssetDeploys\\": ""
+        }
+    }
+}

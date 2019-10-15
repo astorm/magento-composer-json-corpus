@@ -1,0 +1,28 @@
+{
+  "name": "tdk/cms-migration",
+  "description": "Migrate CMS blocks, pages through CSV files",
+  "type": "magento2-module",
+  "require": {
+    "league/csv": "^9.1",
+    "tdk/core": "*"
+  },
+  "authors": [
+    {
+      "name": "Nguyen Dinh Minh",
+      "email": "minhrau92@gmail.com"
+    }
+  ],
+  "version": "2.3",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "TDK\\CmsMigration\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}

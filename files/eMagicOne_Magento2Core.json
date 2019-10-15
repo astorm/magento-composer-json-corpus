@@ -1,0 +1,23 @@
+{
+  "name": "emagicone/module-core",
+  "description": "Emagicone Core for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.2",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Emagicone",
+      "email": "support@emagicone.com",
+      "homepage": "https://emagicone.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Emagicone\\Core\\": ""
+    }
+  }
+}

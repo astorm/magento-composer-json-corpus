@@ -1,0 +1,31 @@
+{
+    "name": "expert/module-fbshare-discount",
+    "description": "N/A",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~5.6.0",
+        "magento/module-sales": "101.0.*"
+    },
+    "suggest": {
+        "magento/module-webapi": "100.2.*"
+    },
+    "authors": [
+        {
+            "name": "Sarbjeet Singh",
+            "email": "rajalwaysfirst@gmail.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "0.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Expert\\FbShare\\": ""
+        }
+    }
+}

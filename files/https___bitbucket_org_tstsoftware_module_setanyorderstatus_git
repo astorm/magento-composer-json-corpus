@@ -1,0 +1,17 @@
+{
+    "name": "tst/setanyorderstatus",
+    "description": "Allows you to set any order status via backend to an order without generating e.g. an invoice",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Tst/SetAnyOrderStatus"
+            ]
+        ]
+    }
+}

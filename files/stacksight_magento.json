@@ -1,0 +1,38 @@
+{
+  "name": "stacksight/magento",
+  "description": "Stacksigh - Operational Insights for opensource applications",
+  "type":"magento2-module",
+  "keywords": ["stacksight"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lior Kesos",
+      "email": "lior@linovate.net",
+      "homepage": "http://stacksight.io",
+      "role": "Chief hand waver"
+    },
+    {
+      "name": "Igor Kozlovsky",
+      "email": "igor@linovate.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.7",
+    "magento/framework": "100.0.*",
+    "stacksight/stacksight-php-sdk": "~0.3"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~2.7",
+    "symfony/debug": "~2.7"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.01-dev"
+    }
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-0": { "Linnovate\\Stacksight": "" }
+  }
+}

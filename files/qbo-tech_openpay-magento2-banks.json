@@ -1,0 +1,31 @@
+{
+    "name": "qbo-tech/openpay-banks",
+    "description": "Openpay integration for Magento 2 (Bank transfer)",
+    "type": "magento2-module",
+    "version": "1.2.3",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "require": {
+        "openpay/sdk": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Openpay\\Banks\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Openpay",
+            "homepage": "http://www.openpay.mx/docs/libraries.html",
+            "email": "soporte@openpay.mx"
+        },
+        {
+            "name": "Federico Balderas",
+            "homepage": "http://foograde.com",
+            "email": "federico.balderas@foograde.com"
+        }
+    ]
+}

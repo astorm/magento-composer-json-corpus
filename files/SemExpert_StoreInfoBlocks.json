@@ -1,0 +1,20 @@
+{
+  "name": "semexpert/module-store-info-blocks",
+  "description": "Enables developers to include Magento blocks in their themes that have access to Store Configuration like address, phone number, etc.",
+  "require": {
+    "php": "~7.0.0|~7.1.0",
+    "magento/module-store": "100.2.*|101.*.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SemExpert\\StoreInfoBlocks\\": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "praxigento/mobi_mod_warehouse",
+  "description": "MOBI: Praxigento_Warehouse module.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/praxigento/mobi_mod_warehouse",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\Warehouse\\": ""
+    }
+  },
+  "require": {
+    "praxigento/mobi_mod_core": "dev-master"
+  }
+}

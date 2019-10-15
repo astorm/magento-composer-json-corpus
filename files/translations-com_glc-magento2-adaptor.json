@@ -1,0 +1,39 @@
+{
+    "name": "transperfect/module-globallink",
+    "type": "magento2-module",
+    "description": "TransPerfect GlobalLink",
+    "homepage": "http://www.translations.com/products/globallink-magento-adaptor",
+    "authors": [
+        {
+            "name": "TransPerfect",
+            "homepage": "http://www.transperfect.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/translations-com/globallink-connect-api-php"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.1.0",
+        "magento/framework": "~100.1.3",
+        "magento/module-store": "~100.1.3",
+        "magento/marketplace-eqp": "^1.0"
+    },
+    "require": {
+        "translations-com/globallink-connect-api-php": "4.18.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TransPerfect\\GlobalLink\\": ""
+        }
+    }
+}

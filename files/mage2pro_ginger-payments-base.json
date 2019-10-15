@@ -1,0 +1,40 @@
+{
+	"name": "mage2pro/ginger-payments-base"
+	,"version": "1.2.3"
+	,"description": "The common implementation part of my «Kassa Compleet» and «Ginger Payments» payment extensions for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"guzzlehttp/guzzle": ">=3.1.0", "mage2pro/core": ">=2.12.6"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\GingerPaymentsBase\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Bancontact"
+		,"Bank card"
+		,"Belgium"
+		,"Credit card"
+		,"eCommerce"
+		,"Germany"
+		,"Ginger Payments"
+		,"iDEAL"
+		,"ING Bank"
+		,"Kassa Compleet"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Netherlands"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment gateway"
+		,"Payment integration"		
+		,"Refund"
+		,"SOFORT"
+	]
+}

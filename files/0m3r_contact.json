@@ -1,0 +1,16 @@
+{
+    "name": "omer/contact",
+    "description": "Magento 2 module improve contact us module",
+    "require": {
+        "magento/module-contact": ">=100.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Omer\\Contact\\": ""
+        }
+    }
+}

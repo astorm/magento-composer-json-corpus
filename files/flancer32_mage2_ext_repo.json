@@ -1,0 +1,24 @@
+{
+  "name": "flancer32/mage2_ext_repo",
+  "description": "Basic access to data repository.",
+  "type": "magento2-module",
+  "homepage": "https://github.com/flancer32/mage2_ext_repo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "flancer32/php_data_object": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Flancer32\\Lib\\Repo\\": ""
+    }
+  }
+}

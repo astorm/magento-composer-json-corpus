@@ -1,0 +1,21 @@
+{
+  "name": "rtech/attachments",
+  "description": "Product Attachments",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin Hunter",
+      "email": "hello@romatech.co.uk"
+    }
+  ],
+  "require": {
+    "rtech/neo": "^1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "RTech\\Attachments\\": ""
+    }
+  }
+}

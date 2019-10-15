@@ -1,0 +1,22 @@
+{
+  "name": "vihadigitalcom/facebook-pixel",
+  "description": "Adds Facebook Pixel with Dynamic Ads code on appropriate pages. Passes W3C validation. Easy to install and use.",
+  "type": "magento2-module",
+  "minimum-stability": "dev",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+  "version": "2.1.3",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5|~7.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vihadigitalcom\\FacebookPixel\\": ""
+    }
+  }
+}

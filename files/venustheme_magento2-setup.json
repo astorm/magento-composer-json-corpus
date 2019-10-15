@@ -1,0 +1,31 @@
+{
+  "name": "venustheme/magento2-setup",
+  "description": "Module magento 2 setup to use export/import magento 2 extension sample data",
+  "require": {
+    "venustheme/module-all": "1.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+  ],
+  "keywords": [
+    "venustheme",
+    "venustheme setup",
+    "magento 2 module setup"
+  ],
+  "authors": [
+    {
+        "name": "Venustheme",
+        "email": "venustheme@gmail.com",
+        "role": "Magento 2 Ves Setup"
+    }
+  ],
+  "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+          "Ves\\Setup\\": ""
+      }
+  }
+}

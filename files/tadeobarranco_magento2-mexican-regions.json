@@ -1,0 +1,28 @@
+{
+	"name": "barranco/magento2-mexicanregions",
+	"description": "Mexican Regions for Magento 2",
+	"require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0",
+		"magento/module-directory": "100.*"
+	},
+	"type": "magento2-module",
+	"version": "1.0.0",
+	"license": [
+		"MIT"
+	],
+	"authors": [
+		{
+			"name": "Tadeo Barranco",
+			"email": "tbarrancoa@gmail.com",
+			"homepage": "http://www.tadeobarranco.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"Barranco\\MexicanRegions\\": ""
+		}
+	}
+}

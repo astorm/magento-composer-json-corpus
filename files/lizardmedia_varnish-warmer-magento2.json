@@ -1,0 +1,28 @@
+{
+    "name": "lizardmedia/module-varnish-warmer",
+    "description": "Varnish Cache Warmer Magento2 module by Lizard Media",
+    "require": {
+        "php": ">=7.1.0",
+        "react/http-client": "^0.5.9",
+        "magento/framework": ">=102.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "license": [
+        "MIT"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LizardMedia\\VarnishWarmer\\": ""
+        }
+    }
+}

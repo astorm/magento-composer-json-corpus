@@ -1,0 +1,22 @@
+{
+  "name": "studioemma/magento2-module-optimus",
+  "description": "Optimus module with enhancements to blank Magento theme",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0|>=7.0.0",
+    "magento/framework": ">=100.0.0",
+    "magento/module-catalog": ">=100.0.0",
+    "magento/module-cms": ">=100.0.0"
+  },
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "StudioEmma\\Optimus\\": ""
+      }
+  }
+}

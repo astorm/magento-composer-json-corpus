@@ -1,0 +1,30 @@
+{
+  "name": "msp/devtools",
+  "description": "",
+  "require": {
+    "php": "^7.0|^7.1",
+    "msp/common": "*",
+
+    "magento/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Riccardo Tempesta",
+      "email": "riccardo.tempesta@magespecialist.it"
+    },
+    {
+      "name": "Lorenzo Stramaccia",
+      "email": "lorenzo.stramaccia@magespecialist.it"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MSP\\DevTools\\": ""
+    }
+  }
+}

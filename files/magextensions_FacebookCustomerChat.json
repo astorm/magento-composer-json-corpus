@@ -1,0 +1,17 @@
+{
+  "name": "magextensionsio/facebookcustomerchat",
+  "description": "Facebook Customer Chat Plugin for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "require": {
+    "magento/framework": "^100.1.0|^101.0.0"
+  },
+  "minimum-stability":"dev",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magextensionsio\\FacebookCustomerChat\\": ""
+    }
+  }
+}

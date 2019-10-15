@@ -1,0 +1,16 @@
+{
+    "name": "igorludgero/colorstatus",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "description": "With this extension you can configure a background color for each order status in Magento 2, and when you access the sales order grid the background of each order will be filled by the configured background color.",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Igorludgero\\Colorstatus\\": ""
+        }
+    }
+}

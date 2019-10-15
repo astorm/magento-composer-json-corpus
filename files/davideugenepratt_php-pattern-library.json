@@ -1,0 +1,17 @@
+{
+  "name": "davideugenepratt/php-pattern-library",
+  "description": "An integration of pattern-lab pattern library and a magento 2 theme.",
+  "version" : "v0.1.0",
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DavidEugenePratt\\PhpPatternLibrary\\": ""
+    }
+  }
+}

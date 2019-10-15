@@ -1,0 +1,26 @@
+{
+  "name": "ip2location/magento2-ip2location-countrystateblocker",
+  "description": "Block visitors by country or state.",
+  "keywords": ["magento2", "ip2location", "redirector", "blocker"],
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license":["MIT"],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "IP2Location/CountryStateBlocker"
+      ]
+    ]
+  },
+  "authors": [
+    {
+      "name": "IP2Location",
+      "homepage": "http://www.ip2location.com/"
+    }
+  ]
+}

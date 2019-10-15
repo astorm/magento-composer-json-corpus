@@ -1,0 +1,25 @@
+{
+    "name": "phucct/magento2-order-api",
+    "description": "Event call API when order successfully",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+    },
+    "type": "magento2-module",
+    "license": [
+    ],
+    "authors": [
+        {
+            "name": "Phuc Chu Tien",
+            "email": "phucct0811@gmail.com"
+        }
+    ],
+    "version" : "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Phucct\\OrderApi\\": ""
+        }
+    }
+}

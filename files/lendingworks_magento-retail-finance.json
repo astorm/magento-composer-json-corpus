@@ -1,0 +1,20 @@
+{
+  "name": "lendingworks/magento2-retailfinance",
+  "description": "Lending Works Retail Finance integration for Magento 2",
+  "type": "magento2-module",
+  "version": "1.2.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "magento/framework": "^100|^101|^102|^103",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "LendingWorks\\RetailFinance\\": ""
+    }
+  }
+}

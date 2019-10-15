@@ -1,0 +1,32 @@
+{
+  "name": "tig/postcode-magento2-checkout-support",
+  "description": "TIG Magento 2 Postcode extension checkout support",
+  "require": {
+    "tig/postcode-magento2": "~1.2.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "CC-BY-NC-ND-3.0",
+  "authors": [
+    {
+      "name": "TIG",
+      "email": "servicedesk@tig.nl",
+      "homepage": "http://tig.nl"
+    }
+  ],
+  "support": {
+    "email": "servicedesk@tig.nl",
+    "issues": "http://servicedesk.tig.nl/hc/nl/requests/new"
+  },
+  "homepage": "http://www.postcodeservice.nl",
+  "minimum-stability": "stable",
+
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TIG\\PostcodeCheckoutSupport\\": ""
+    }
+  }
+}

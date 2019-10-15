@@ -1,0 +1,27 @@
+{
+    "name":"saaspass/module",
+    "type":"magento2-module",
+	"version": "1.0.0",
+    "license":"OSL-3.0",
+    "homepage": "https://saaspass.com",
+    "description": "Module that makes it possible to login to Magento with SAASPASS credentials",
+    "autoload":{
+        "files":[
+            "registration.php"
+        ],
+      "psr-4": {
+        "Saaspass\\Login\\": ""
+      }
+    },
+    "authors": [
+        {
+            "name": "SAASPASS"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+      },
+    "scripts": {
+        "pre-package-uninstall": "Saaspass\\Login\\Setup\\Uninstall::uninstall"
+    }
+}

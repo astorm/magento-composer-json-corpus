@@ -1,0 +1,21 @@
+{
+    "name": "arcmedia/mage2-search-and-operator",
+    "description": "A config extension, that makes magento2 searches use AND instead of OR Operators",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "David Lee, Arcmedia AG",
+            "email": "david.lee@arcmedia.ch"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Arcmedia\\SearchResult\\": ""
+        }
+    }
+}

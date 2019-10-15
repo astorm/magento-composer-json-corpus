@@ -1,0 +1,21 @@
+{
+  "name": "shockwavedesign/magento2-module-mail-storeage-dropbox",
+  "description": "Extend shockwave mail by usage of dropbox storage",
+  "require": {
+    "shockwavemk/magento2-module-mail": "dev-master",
+    "dropbox/dropbox-sdk": "1.1.*"
+  },
+  "type": "magento2-module",
+  "license": [
+      "UNLICENSED",
+      "Copyright 2016 Shockwave-Design - J. & M. Kramer, all rights reserved."
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+        "Shockwavedesign\\Mail\\Dropbox\\": ""
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"name": "mage2pro/ipay88"
+	,"version": "1.6.4"
+	,"description": "iPay88 integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/ipay88"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.4.1"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\IPay88\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"China"
+		,"Credit card"
+		,"eCommerce"
+		,"Indonesia"
+		,"iPay88"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Malaysia"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Philippines"
+		,"Singapore"
+		,"Thailand"
+
+		,"AffinOnline"
+		,"Alliance Online"
+		,"AmOnline"
+		,"Bank Islam"
+		,"Bank Muamalat"
+		,"Bank Rakyat Internet Banking"
+		,"Celcom AirCash"
+		,"CIMB Click"
+		,"Hong Leong Online"
+		,"Maybank2U"
+		,"OCBC"
+		,"PayPal MYR"
+		,"RHB Online"
+		,"Standard Chartered Bank"
+		,"UOB"
+		,"Web Cash"
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sci5/magento-site-searchapp",
+  "description": "The SiteSearchApp extension for Magento 2 App by SCI",
+  "authors": [
+    {
+      "name": "SCI Global Services Inc",
+      "email": "development@sci5.com"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SCI\\SearchApp\\": ""
+    }
+  }
+}

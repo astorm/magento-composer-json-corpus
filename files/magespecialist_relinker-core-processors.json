@@ -1,0 +1,25 @@
+{
+    "name": "msp/module-relinker-core-processors",
+    "description": "MSP Relinker core processors",
+    "require": {
+        "php": "^7.0|^7.1|^7.2",
+        "magento/magento2-base": "^2.1|^2.2|^2.3",
+        "msp/module-relinker": "^0.1"
+    },
+    "authors": [
+        {
+            "name": "Riccardo Tempesta",
+            "email": "riccardo.tempesta@magespecialist.it"
+        }
+    ],
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\ReLinkerCoreProcessors\\": ""
+        }
+    }
+}

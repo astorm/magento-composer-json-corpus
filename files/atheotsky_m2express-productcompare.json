@@ -1,0 +1,29 @@
+{
+    "name": "m2express/product-compare",
+    "description": "Magento2express product compare module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Magento2Express ",
+            "email": "sales@magento2express.com"
+        },
+        {
+            "name": "Thanh, Nguyen Duy",
+            "email": "thanh@magento2express.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M2express\\ProductCompare\\": ""
+        }
+    }
+}

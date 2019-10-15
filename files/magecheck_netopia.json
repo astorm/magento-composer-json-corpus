@@ -1,0 +1,23 @@
+{
+    "name": "magecheck/netopia",
+    "type": "magento2-module",
+    "description": "This extension sends out sms based on checkout steps",
+    "authors": [
+        {
+            "name": "Victor Chiriac",
+            "role": "Magento Certified Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "magento/framework": ">=2.0.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCheck\\Netopia\\": ""
+        }
+    }
+}

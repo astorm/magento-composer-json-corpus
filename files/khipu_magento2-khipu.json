@@ -1,0 +1,27 @@
+{
+    "name": "khipu/magento2-khipu",
+    "type": "magento2-module",
+    "description": "khipu integration for Magento 2",
+    "version": "2.2.0",
+    "homepage": "https://khipu.com",
+    "license": [
+      "OSL-3.0"
+    ],
+    "require": {
+       "khipu/khipu-api-client": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Khipu\\Payment\\": ""
+        }
+    },
+    "extra": {
+      "map": [
+        [
+          "*",
+          "Khipu/Payment"
+        ]
+      ]
+    }
+}

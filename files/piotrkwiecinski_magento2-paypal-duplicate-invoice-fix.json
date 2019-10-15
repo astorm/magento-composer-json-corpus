@@ -1,0 +1,29 @@
+{
+    "name": "piotrkwiecinski/magento2-paypal-duplicate-invoice-fix",
+    "description": "Backport of Magento-54412 Fix for Paypal duplicated invoice id",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Piotr Kwiecinski",
+            "email": "piokwiecinski@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/module-quote": "100.1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PiotrKwiecinski\\Quote\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}

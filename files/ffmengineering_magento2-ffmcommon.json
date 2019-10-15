@@ -1,0 +1,23 @@
+{
+  "name": "ffm/common",
+  "description": "Common utilities for Magento 2 projects",
+  "require": {
+    "magento/framework" : "101.0.*"
+  },
+  "authors": [
+    {
+      "name": "Nadia Sala",
+      "email": "n.sala@fitforme.nl"
+    }
+  ],
+  "type": "magento2-module",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Ffm\\Common\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

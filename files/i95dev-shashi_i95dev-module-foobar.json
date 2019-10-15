@@ -1,0 +1,13 @@
+{
+    "name": "i95dev/module-foobar",
+    "description": "Test module for Magento 2",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "I95Dev/FooBar"
+            ]
+        ]
+    }
+}

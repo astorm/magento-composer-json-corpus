@@ -1,0 +1,30 @@
+{
+    "name": "sequra/magento2-core",
+    "description": "Core module for SeQura Payment Methods",
+    "type": "magento2-module",
+    "keywords": [
+        "payment",
+        "sequra",
+        "pagos",
+        "magento2"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sequra Engineering",
+            "email": "dev@sequra.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sequra/php-client": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sequra\\Core\\": ""
+        }
+    }
+}

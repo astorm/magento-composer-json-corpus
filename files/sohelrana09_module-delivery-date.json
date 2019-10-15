@@ -1,0 +1,26 @@
+{
+    "name": "sr/module-delivery-date",
+    "description": "Order Delivery date extension will allow customer to choose preferable delivery date for order.",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/module-config": "101.1.*",
+        "magento/module-store": "101.0.*",
+        "magento/module-backend": "101.0.*",
+        "magento/module-checkout": "100.3.*",
+        "magento/module-sales": "102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SR\\DeliveryDate\\": ""
+        }
+    }
+}

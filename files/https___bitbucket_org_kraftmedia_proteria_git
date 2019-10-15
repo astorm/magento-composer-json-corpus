@@ -1,0 +1,20 @@
+{
+    "name": "kraftmedia/proteria",
+    "description": "Proteria Integration for Magento 2 (proteria.no)",
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.0.0",
+        "magento/framework": ">=100.0.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+          "Kraft\\Proteria\\": ""
+        }
+    }
+}

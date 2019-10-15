@@ -1,0 +1,17 @@
+{
+	"name": "thousandmonkeys/m2-productattributeautoblock-module",
+	"description": "A Magento 2 module add a static block to a product page (for instance an extra description) based on an attribute value. Multiple attributes with multiple values are supported.",
+	"type": "magento2-module",
+	"license": [
+	  "OSL-3.0",
+	  "AFL-3.0"
+	],
+	"require": {
+	},
+	"autoload": {
+	  "files": [ "registration.php" ],
+	  "psr-4": {
+		"ThousandMonkeys\\ProductAttributeAutoBlock\\": ""
+	  }
+	}
+  }

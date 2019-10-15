@@ -1,0 +1,18 @@
+{
+  "name": "shockwavedesign/magento2-module-translation",
+  "description": "Extend magento translation system",
+  "require": {
+  },
+  "type": "magento2-module",
+  "license": [
+      "UNLICENSED"
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+        "Shockwavedesign\\Translation\\": ""
+    }
+  }
+}

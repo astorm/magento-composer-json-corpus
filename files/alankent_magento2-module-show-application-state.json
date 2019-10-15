@@ -1,0 +1,24 @@
+{
+    "name": "alankent/module-show-application-state",
+    "description": "Example using 'areas' - displays application state including a list of loaded modules",
+    "require": {
+        "magento/framework": "0.1.*"
+    },
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "AlanKent/ShowApplicationState"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alan Kent",
+            "homepage": "http://alankent.wordpress.com/",
+            "role": "Developer"
+        }
+    ]
+}

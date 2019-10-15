@@ -1,0 +1,23 @@
+{
+    "name": "vitd/contentwidget",
+    "description": "Magento 2.x Widget to include File or Url as Content. Callable in XML or PAGE",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.0|~7",
+        "magento/magento-composer-installer": "*",
+        "neitanod/forceutf8": "*"
+    },
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "version": "1.5.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vitd\\ContentWidget\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vrolijkonline/core",
+  "description": "Vrolijk online core module for magento 2",
+  "keywords": ["vrolijkonline","vrolijk online","magento","magento 2"],
+  "homepage": "https://github.com/vrolijkonline/magento_core",
+  "type": "magento2-module",
+  "version": "0.1.1",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "authors": [
+    {
+      "name": "Martijn Cuijten",
+      "email": "support@vrolijkonline.nl",
+      "homepage": "https://www.vrolijkonline.nl"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vrolijkonline\\Core\\": ""
+    }
+  }
+}

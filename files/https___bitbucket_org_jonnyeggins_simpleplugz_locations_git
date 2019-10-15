@@ -1,0 +1,20 @@
+ {
+        "name": "simpleplugz/locations",
+        "description": "Store Finder for Magento 2",
+        "version": "1.0.7",
+        "type": "magento2-module",
+        "license": [
+            "AFL-3.0"
+        ],
+        "autoload": {
+            "psr-4": { "Simpleplugz\\Locations\\": "" },
+            "files": [ "registration.php" ]
+        },
+        "authors":[
+            {
+                "name":"Jonny Eggins",
+                "email":"mail@jonnyeggins.com",
+                "homepage":"http://simpleplugz.com"
+            }
+        ]
+    }

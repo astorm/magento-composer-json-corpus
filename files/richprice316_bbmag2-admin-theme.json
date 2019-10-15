@@ -1,0 +1,15 @@
+{
+    "name": "bigboppa/theme-adminhtml-backend",
+    "description": "BB Magento 2 Admin Panel",
+    "require": {
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bigboppa\\Backend\\": ""
+        }
+    }
+}

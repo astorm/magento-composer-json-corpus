@@ -1,0 +1,17 @@
+{
+    "name": "magekey/module-product-slider-widget",
+    "description": "Magento 2 Product Slider Widget",
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageKey\\ProductSliderWidget\\": ""
+        }
+    }
+}

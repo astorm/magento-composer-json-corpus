@@ -1,0 +1,37 @@
+{
+    "name": "solutionexcel/magento2-delete-order",
+    "description": "Magento 2 extension allow to admin user to delete test order.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+	"keywords": [
+        "magento 2",
+        "delete order"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/magento-composer-installer": "*"
+    },
+	"homepage": "https://www.solutionexcel.com/",
+    "support": {
+        "email": "info@solutionexcel.com",
+        "issues": "https://github.com/solutionexcel/magento2-delete-orders/issues"
+    },
+    "authors": [
+        {
+            "name": "Solution Excel",
+            "email": "info@solutionexcel.com",
+            "homepage": "https://www.solutionexcel.com/",
+            "role": "Owner"
+        }
+    ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Solutionexcel\\DeleteOrders\\": ""
+    }
+  }
+}

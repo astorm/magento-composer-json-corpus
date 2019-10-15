@@ -1,0 +1,46 @@
+{
+    "name": "smile/module-retailer-elasticsuite-search",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {"name": "Fanny DECLERCK", "email": "fadec@smile.fr"}
+    ],
+    "description": "Smile Elasticsuite - Retailer Search Module for Smile Elasticsuite.",
+    "homepage": "https://github.com/Smile-SA/magento2-module-retailer-elasticsuite-search",
+    "keywords": [
+        "magento",
+        "magento2",
+        "elasticsearch",
+        "seller",
+        "retailer",
+        "search",
+        "merchandising",
+        "core",
+        "setup"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-eav": "*",
+        "magento/magento-composer-installer": "*",
+        "smile/elasticsuite": "^2.6.0",
+        "smile/module-retailer": "*"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "^1.0.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\ElasticsuiteRetailer\\": ""
+        }
+    }
+}

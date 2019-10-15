@@ -1,0 +1,52 @@
+{
+  "name": "jcowie/generators",
+  "description": "Generate new classes for M2",
+  "license": "MIT",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/product-community-edition": "2.1.2",
+    "composer/composer": "~1.0",
+    "symfony/yaml": "2.*",
+    "symfony/filesystem": "~2"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^2.4.1",
+    "nagno/phpspec-bootstrap-magento2": "~1.0",
+    "phpunit/phpunit": "~3.7",
+    "bossa/phpspec2-expect": "*",
+    "behat/behat": "3.*",
+    "symfony/process" : "*",
+    "phpunit/phpunit": "~4.5"
+  },
+  "repositories": [
+    {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/nagno/phpspec-bootstrap-magento2.git"
+    }
+  ],
+  "autoload": {
+    "files": [ "src/GeneratorsModule/registration.php" ],
+    "psr-4": {
+      "Jcowie\\GeneratorsModule\\": "src/GeneratorsModule/",
+      "Jcowie\\Generators\\": "src/Generators/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jcowie\\GeneratorsModule\\": "src/GeneratorsModule/",
+      "Jcowie\\Generators\\": "src/Generators/",
+      "Magento\\" : "vendor/magento/magento2ce/app/code/",
+      "Magento\\Framework\\": "vendor/magento/magento2ce/lib/internal/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
+}

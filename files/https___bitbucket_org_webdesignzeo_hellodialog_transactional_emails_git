@@ -1,0 +1,28 @@
+{
+    "name": "hellodialog/module-transactional-emails",
+    "description": "Hellodialog transactional emails extension",
+    "license": "proprietary",
+	"type": "magento2-module",
+	"version": "1.1.0",
+	"authors": [
+        {
+            "email": "gydo@zeo.nl",
+            "name": "Gydo Broos"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	    "hellodialog/module-base": "1.0.0"
+    },
+    "suggest" : {
+        "hellodialog/module-abandoned-cart": "1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hellodialog\\TransactionalEmails\\": ""
+        }
+    }
+}

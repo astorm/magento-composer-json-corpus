@@ -1,0 +1,16 @@
+{
+	"name": "mage2pro/fast-unlink-categories-from-products"
+	,"version": "1.0.0"
+	,"description": "This module for Magento 2 makes unlinking categories from products 1000 times faster"
+	,"type": "magento2-module"
+	,"homepage": "https://github.com/mage2pro/fast-unlink-categories-from-products"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Unlink\\": ""}}
+	,"keywords": ["Magento 2"]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "magecom/module-brand",
+    "description": "Magecom Brand module",
+    "type": "magento2-module",
+    "version" : "v2.7",
+    "license": "MIT",
+    "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magecom\\Brand\\": ""
+                }
+            }
+}

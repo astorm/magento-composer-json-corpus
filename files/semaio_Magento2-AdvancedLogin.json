@@ -1,0 +1,26 @@
+{
+  "name": "semaio/magento2-advancedlogin",
+  "description": "Allows customers to login via a customer attribute instead of an email.",
+  "require": {
+    "magento/framework": "^100.0|^101.0",
+    "magento/module-store": "^100.0|^101.0",
+    "magento/module-customer": "^100.0|^101.0"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Rouven Alexander Rieker",
+      "email": "therouv@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Semaio\\AdvancedLogin\\": ""
+    }
+  }
+}
+

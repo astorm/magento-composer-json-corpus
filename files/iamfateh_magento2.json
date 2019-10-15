@@ -1,0 +1,10 @@
+{
+    "name": "iamfateh/magento2",
+    "description": "shipway magento 2 module",
+    "type": "magento2-module",
+    "require": {
+        "iamfateh/magento2": "dev-master"
+    },
+    "license": "OSL-3.0",
+    "minimum-stability": "dev"
+}

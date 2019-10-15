@@ -1,0 +1,25 @@
+{
+    "name": "faonni/module-contact-map",
+    "description": "Extension will assist in adding company or store coordinates with maps directly to the contact us page.",
+    "type": "magento2-module",
+	"version": "2.0.4",
+    "authors": [{
+        "name" : "Karliuka Vitalii",
+        "email": "karliuka.vitalii@gmail.com"
+    }],	
+	"license": [
+		"OSL-3.0"
+	],
+	"require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+		"magento/module-contact": "100.0.*|100.1.*|100.2.*"
+	},
+	"autoload": {
+		"files": [ 
+			"registration.php" 
+		],
+		"psr-4": {
+			"Faonni\\ContactMap\\": ""
+		}
+	}
+}

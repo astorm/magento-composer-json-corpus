@@ -1,0 +1,24 @@
+{
+    "name": "space48/magento2-fat-flag-data",
+    "description": "Modify flag table to accommodate big config snapshot",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "dank00",
+            "email": "dan.kenny@space48.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/registration.php"],
+        "psr-4": {"Space48\\FatFlagData\\": "src"}
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "require": {
+        "magento/framework": "^101.0"
+    }
+}

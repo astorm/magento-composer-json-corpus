@@ -1,0 +1,20 @@
+{
+  "name": "bunting/core-m2-headless",
+  "description": "Bunting Core provides libraries necessary for the suite of Bunting tools to function",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "type": "magento2-module",
+  "version": "1.2.2",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bunting\\Core\\": ""
+    }
+  }
+}

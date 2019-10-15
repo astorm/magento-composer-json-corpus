@@ -1,0 +1,37 @@
+{
+  "name": "ipgpay/ipgpay-magento2-payment-module",
+  "description": "IPGPAY payment gateway implementation for Magento2",
+  "type": "magento2-module",
+  "version": "1.1.2",
+  "keywords": [
+    "ipgpay",
+    "magento2",
+    "payment",
+    "gateway"
+  ],
+  "homepage": "https://www.ipgpay.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "IPGPAY Support",
+      "email": "help@ipggroup.com",
+      "role": "support"
+    }
+  ],
+  "require": {
+    "psr/log": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.0"
+  },
+  "autoload": {
+    "classmap": [ "" ],
+    "files": [ "registration.php" ],
+    "psr-4": { "IPGPAY\\IPGPAYMagento2\\": "" }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  }
+}

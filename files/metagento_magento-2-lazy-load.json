@@ -1,0 +1,39 @@
+{
+    "name": "metagento/lazy-load-magento2",
+    "description":"This Magento 2 extension improve the load speed of your website by loading images with Lazy Load",
+    "keywords": [
+        "magento lazy load",
+        "magento lazy load product",
+        "magento lazy load extension",
+        "magento lazy loading",
+        "magento optimization",
+        "magento 2 lazy load",
+        "magento 2 lazy load images",
+        "magento 2 free extension"
+    ],
+    "require": {
+        "metagento/core-m2" : "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "homepage": "https://www.metagento.com/",
+    "authors": [
+        {
+            "name": "Metagento",
+            "email": "support@metagento.com",
+            "homepage": "https://www.metagento.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Metagento\\LazyLoad\\": ""
+        }
+    }
+}

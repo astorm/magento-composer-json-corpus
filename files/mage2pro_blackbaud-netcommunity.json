@@ -1,0 +1,27 @@
+{
+	"name": "mage2pro/blackbaud-netcommunity"
+	,"version": "1.0.10"
+	,"description": "Blackbaud NetCommunity integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/blackbaud-netcommunity"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=2.12.21"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\BlackbaudNetCommunity\\": ""}}
+	,"keywords": [
+		"Authentication"
+		,"Blackbaud"
+		,"Blackbaud NetCommunity"
+		,"eCommerce"
+		,"Fundraising"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Single sign-on"
+	]
+}

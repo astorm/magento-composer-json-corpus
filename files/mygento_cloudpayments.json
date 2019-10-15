@@ -1,0 +1,42 @@
+{
+  "name": "mygento/module-cloudpayments",
+  "type": "magento2-module",
+  "version": "2.2.1",
+  "license": "proprietary",
+  "homepage": "https://www.mygento.ru/modules/cloudpayments.html",
+  "description": "Модуль интеграции с платежным сервисом Cloudpayments",
+  "keywords": [
+    "magento",
+    "payment"
+  ],
+  "authors": [
+    {
+      "name": "Mygento",
+      "email": "connect@mygento.net",
+      "homepage": "https://www.mygento.ru/"
+    }
+  ],
+  "require": {
+    "mygento/payment": "2.2.*"
+  },
+  "require-dev": {
+    "mygento/coding-standard": "2.*",
+    "jakub-onderka/php-parallel-lint": "^0.9.2",
+    "jakub-onderka/php-console-highlighter": "^0.3.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mygento\\Cloudpayments\\": ""
+    }
+  },
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}

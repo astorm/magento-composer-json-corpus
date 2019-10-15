@@ -1,0 +1,24 @@
+{
+    "name": "mappconnect/magento2-module",
+    "description": "Mapp Connect integration for Magento 2",
+    "require": {
+        "php": "~7.1.3||~7.2.0|~7.0",
+        "firebase/php-jwt": "^5.0",
+        "mappconnect/client": "dev-master"
+    },
+    "suggest": {
+      "magento/module-webapi": "102.1"
+    },
+    "type": "magento2-module",
+    "version": "0.1.6",
+    "license": [ "MIT" ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "files": [
+         "registration.php"
+       ],
+        "psr-4": {
+            "Mapp\\Connect\\": [ "" ]
+        }
+    }
+}

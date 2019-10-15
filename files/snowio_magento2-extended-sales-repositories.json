@@ -1,0 +1,23 @@
+{
+    "name": "snowio/magento2-extended-sales-repositories",
+    "license": "MIT",
+    "description": "Magento 2 module that exposes additional payment attributes as AdditionalInformationFields in ExtendedAttributes",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Alexander Wanyoike",
+            "email": "amw@amp.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "magento/module-sales": "^100.1.2|^101.0.2|^102.0.1",
+        "magento/framework": "^100.1.2|^101.0.2|^102.0.1"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "SnowIO\\ExtendedSalesRepositories\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "web200/magento-mod-web200_fix-symlink",
+  "description": "Fix symlink error with magento 2.2.3",
+  "type": "magento2-module",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Web200\\FixSymlink\\": ""
+    }
+  }
+}

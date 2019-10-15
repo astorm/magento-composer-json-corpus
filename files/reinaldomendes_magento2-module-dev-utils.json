@@ -1,0 +1,24 @@
+{
+    "name": "reinaldomendes/magento2-module-dev-utils",
+    "description": "Tools for speedup magento2 development.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reinaldo Mendes",
+            "email": "reinaldorock@yahoo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "2.1.7",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ReinaldoMendes\\DevUtils\\": ""
+        },
+        "exclude-from-classmap" : ["/Tests/"]
+    }
+}

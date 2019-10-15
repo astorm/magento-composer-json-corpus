@@ -1,0 +1,39 @@
+{
+    "name": "encomage/module-owlcarousel",
+    "description": "Encomage OwlCarousel module",
+    "authors": [
+        {
+            "name": "Encomage",
+            "email": "hello@encomage.com",
+            "homepage": "https://www.encomage.com",
+            "role": "Technical Support"
+        }
+    ],
+    "keywords": [
+        "magento 2",
+        "OwlCarousel",
+        "module"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Encomage\\OwlCarousel\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Encomage/OwlCarousel"
+            ]
+        ]
+    }
+}

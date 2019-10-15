@@ -1,0 +1,19 @@
+{
+    "name": "ebizmarts/magento2-magemonkey",
+    "autoload": {
+        "psr-4": {"Ebizmarts\\MageMonkey\\":""},
+        "files": ["registration.php"]
+    },
+    "description": "Connect Mailchimp with Magento",
+    "type": "magento2-module",
+    "version": "3.0.9",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "support": {
+        "email": "info@ebizmarts.com",
+        "wiki": "http://wiki.ebizmarts.com",
+        "forum": "http://ebizmarts.com/forums/view/1"
+    }
+}

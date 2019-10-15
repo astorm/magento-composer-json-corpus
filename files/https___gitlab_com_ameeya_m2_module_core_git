@@ -1,0 +1,21 @@
+{
+    "name": "ameeya/m2-module-core",
+    "description": "Ameeya Core for all our Magento 2 modules",
+    "require": {
+    },
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Ameeya",
+            "email": "dev@ameeya.com",
+            "homepage": "http://www.ameeya.com",
+            "role": "Leader"
+        }
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Ameeya\\Core\\": ""
+        }
+    }
+}

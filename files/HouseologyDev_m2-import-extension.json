@@ -1,0 +1,19 @@
+{
+  "name": "b2bapp/import-handler",
+  "description": "Import Handler module for Magento 2",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "B2bapp\\ImportHandler\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

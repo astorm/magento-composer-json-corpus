@@ -1,0 +1,32 @@
+{
+  "name": "mazeapi/vat-pricing",
+  "description": "Magento 2 Vat Pricing for Business & Private Customer",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mazeapi",
+      "email": "info@mazeapi.com",
+      "homepage": "http://mazeapi.com",
+      "role": "Technical Support"
+    }
+  ],
+  "keywords": [
+    "magento 2",
+    "magento 2 vat price",
+    "magento 2 moms",
+    "magento moms",
+    "mazeapi",
+    "Tvinga inloggning",
+    "Företagskund",
+    "privat kund"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mazeapi\\VatPrice\\": ""
+    }
+  }
+}

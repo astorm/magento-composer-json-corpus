@@ -1,0 +1,38 @@
+{
+  "name": "magepayment/stripe",
+  "description": "MagePayment Stripe Payment Gateway",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+    "stripe/stripe-php": "^5.7"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Purvi Rawal",
+      "email": "purvirawal.work@gmail.com",
+      "homepage": "http://www.presntr.com/ajantastore/",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+        {
+          "type": "vcs", 
+          "url": "https://bitbucket.org/purvirawal/magepaymentstripe.git"
+
+      }
+      
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagePayment\\Stripe\\": ""
+    }
+  }
+}

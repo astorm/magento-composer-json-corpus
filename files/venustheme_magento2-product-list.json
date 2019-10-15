@@ -1,0 +1,34 @@
+{
+    "name": "venustheme/magento2-product-list",
+    "description": "Venustheme Magento 2 Product List supports you to create a wanted list of products based on attribute, types, conditions of items.",
+    "require": {
+        "venustheme/magento2-all": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": [
+        "landofcoder",
+        "landofcoder product list",
+        "product list magento 2",
+        "magento 2 product list",
+        "product list magento 2",
+        "product list for magento 2"
+      ],
+      "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+      ],
+      "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Ves Product List"
+        }
+    ],
+      "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Ves\\Productlist\\": ""
+        }
+      }
+}

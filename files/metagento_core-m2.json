@@ -1,0 +1,23 @@
+{
+  "name": "metagento/core-m2",
+  "description": "Metagento Core module for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Metagento",
+      "email": "support@metagento.com.com",
+      "homepage": "https://www.metagento.com",
+      "role": "Magento Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Metagento\\Core\\": ""
+    }
+  }
+}

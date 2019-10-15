@@ -1,0 +1,39 @@
+{
+    "name": "aplazame/magento2",
+    "description": "Aplazame Magento 2 module",
+    "type": "magento2-module",
+    "keywords": [
+        "aplazame",
+        "api",
+        "rest",
+        "magento",
+        "ecommerce",
+        "payment",
+        "checkout",
+        "credit",
+        "aplazar",
+        "financiar",
+        "financiera",
+        "financiación",
+        "pago aplazado",
+        "método de pago"
+    ],
+    "homepage": "https://aplazame.com/",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">5.5",
+        "ext-json": "*",
+        "aplazame/aplazame-api-sdk": "^0.2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Aplazame\\Payment\\": "src"
+        }
+    }
+}

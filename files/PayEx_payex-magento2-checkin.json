@@ -1,0 +1,33 @@
+{
+  "name": "payex/magento2-checkin",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "description": "PayEx Checkin module for Magento 2",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sammy Nordström",
+      "email": "sammy.nordstrom@visma.com"
+    }
+  ],
+  "keywords": ["magento", "payment", "payex"],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "payex/magento2-client": "^1.0"
+  },
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "autoload": {
+    "files" : [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PayEx\\Checkin\\": ""
+    }
+  }
+}

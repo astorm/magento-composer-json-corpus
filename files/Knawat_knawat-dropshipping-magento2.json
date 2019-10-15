@@ -1,0 +1,22 @@
+{
+    "name": "knawat/module-dropshipping",
+    "description": "Knawat Magento DropShipping is used to Add,Manage products to your Magento store easily from knawat.com for selling",
+    "type": "magento2-module",
+    "version": "1.0.6",
+    "license": "OSL-3.0",
+    "keywords": [
+        "API",
+        "Knawat",
+        "Dropshipping"
+    ],
+    "require": {
+        "php": "7.0.0|7.0.1|7.0.2|7.0.3|7.0.4|~7.0.6|~7.1|~7.2",
+        "knawat/knawat-php-sdk" : "1.*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Knawat\\Dropshipping\\": ""
+        }
+    }
+}

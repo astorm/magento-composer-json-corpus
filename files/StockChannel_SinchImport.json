@@ -1,0 +1,54 @@
+{
+  "name": "stockinthechannel/import",
+  "description": "Stockinthechannel Import",
+  "type": "magento2-module",
+  "version": "2.5.2",
+  "require": {
+    "php": "~5.5.0|~5.6.0|>=7.0.0",
+    "magento/framework": ">=101.0.0",
+    "magento/module-store": ">=100.2.2",
+    "magento/module-indexer": ">=100.2.0",
+    "magento/module-catalog": ">=102.0.0",
+    "magento/module-eav": ">=100.0.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-ftp": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.6",
+    "phpmd/phpmd": "^2.6",
+    "sebastian/phpcpd": "^4.0"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Tigren Team",
+      "email": "info@tigren.com",
+      "homepage": "http://www.tigren.com/",
+      "role": "Developer"
+    },
+    {
+      "name": "Nick Anstee",
+      "email": "nick.anstee@stockinthechannel.com",
+      "homepage": "https://stockinthechannel.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SITC\\Sinchimport\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}

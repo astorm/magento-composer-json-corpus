@@ -1,0 +1,24 @@
+{
+  "name": "divante/magento2-vsbridge-indexer-msi",
+  "description": "Extension for magento2-vsbridge-indexer. Support for MSI",
+  "type": "magento2-module",
+  "authors": [{
+    "name": "Agata",
+    "email": "afirlejczyk@divante.pl"
+  }],
+  "require": {
+    "php": ">=7.0.2",
+    "divante/magento2-vsbridge-indexer": "*",
+    "magento/module-inventory-catalog": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Divante\\VsbridgeIndexerMsi\\": "/src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

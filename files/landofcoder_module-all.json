@@ -1,0 +1,30 @@
+{
+    "name": "landofcoder/module-all",
+    "description": "Lof All Extension - config enable/disable common js, css files which were used on all venus extensions. For example: bootstrap, owlcarousel, colorbox, fancybox",
+    "keywords": [
+        "landofcoder",
+        "landofcoder all",
+        "landofcoder core extension"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Lof All Extension"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\All\\": ""
+        }
+    }
+}

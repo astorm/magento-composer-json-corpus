@@ -1,0 +1,35 @@
+{
+	"name": "mage2pro/tbc-bank"
+	,"version": "1.4.4"
+	,"description": "TBC Bank (Georgia) integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/tbc-bank"
+	,"license": "proprietary"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=4.9.2"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\TBCBank\\": ""}}
+	,"keywords": [
+		"API"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"		
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Georgia"
+		,"TBC Bank"
+		,"модуль"
+		,"модуль для Magento 2"
+		,"модуль оплаты"
+		,"платёжный модуль"
+	]
+}

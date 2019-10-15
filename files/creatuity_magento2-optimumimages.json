@@ -1,0 +1,25 @@
+{
+    "name": "creatuity/magento2-optimumimages",
+    "description": "Optimum Image Converter for Magento 2",
+    "authors": [
+        {
+            "name": "Creatuity Corp",
+            "homepage": "http://www.creatuity.com/"
+        },
+        {
+            "name": "Wesley Guthrie",
+            "email": "wguthrie@creatuity.com"
+        }
+    ],
+    "require": {},
+    "type": "magento2-module",
+    "version": "0.2.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Creatuity\\OptimumImages\\": ""
+        }
+    }
+}

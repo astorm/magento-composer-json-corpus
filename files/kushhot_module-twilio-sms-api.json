@@ -1,0 +1,28 @@
+{
+    "name": "kushhot/module-twilio-sms-api",
+    "description": "for sending sms on various case of magento 2 store",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0",
+        "magento/product-community-edition": "2.3.1",
+        "twilio/sdk": "*"
+
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "authors": [
+        {
+            "name": "Kushagra Daharwal",
+            "homepage": "http://daharwal.wordpress.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+    "files": [
+      "registration.php"
+    ], "psr-4": {
+      "Smj\\TwilioSms\\": ""
+    }
+   }
+}

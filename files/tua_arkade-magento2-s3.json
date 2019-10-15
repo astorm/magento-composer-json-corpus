@@ -1,0 +1,34 @@
+{
+  "name": "tua/arkade-magento2-s3",
+  "description": "Use Amazon S3 as the file storage backend for your store.",
+  "type": "magento2-module",
+  "version": "11.0.2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thai Phan",
+      "email": "thai@arkade.com.au"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Arkade\\S3\\": ""
+    }
+  },
+  "keywords": [
+        "magento",
+        "magento2",
+        "magento 2",
+        "plugin",
+        "module",
+        "s3",
+        "cdn",
+        "aws"
+    ],
+  "require": {
+    "aws/aws-sdk-php": "3.x"
+  }
+}

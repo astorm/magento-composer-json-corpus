@@ -1,0 +1,20 @@
+{
+  "name": "hybrid-saas/config-tools",
+  "description": "Configuration tools for the Magento 2 and Hybrid SaaS synchronization",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": [
+    "ISC"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "HybridSaaS\\ConfigTools\\": ""
+    }
+  }
+}

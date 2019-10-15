@@ -1,0 +1,16 @@
+{
+    "name": "addshoppers/magento2-connector",
+    "description": "AddShoppers - Magento 2 Module Connector",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Addshoppers\\Connector\\": ""
+        }
+    }
+}

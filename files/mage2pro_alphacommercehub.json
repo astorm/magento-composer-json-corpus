@@ -1,0 +1,48 @@
+{
+	"name": "mage2pro/alphacommercehub"
+	,"version": "1.0.8"
+	,"description": "AlphaCommerceHub integration with Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/alphacommercehub"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk",
+		"email": "admin@mage2.pro",
+		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+		"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=3.9.18"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AlphaCommerceHub\\": ""}}
+	,"keywords": [
+		"3D Secure"
+		,"API"
+		,"Australia"
+		,"Bank card"
+		,"Credit card"
+		,"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"Magento extension"
+		,"Payment"
+		,"Payment authorization"
+		,"Payment integration"
+		,"Payment gateway"
+		,"Refund"
+		,"AlphaCommerceHub"
+
+		,"ACH"
+		,"Alipay"
+		,"Direct Debit"
+		,"Direkt-Überweisung"
+		,"eCheck"
+		,"eNets"
+		,"Inicis"
+		,"iDEAL"
+		,"Inpay"
+		,"POLi Payments"
+		,"PayPal"
+		,"SOFORT"
+		,"Skrill"
+		,"SafetyPay"
+	]
+}

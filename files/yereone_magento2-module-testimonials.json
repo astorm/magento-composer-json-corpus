@@ -1,0 +1,29 @@
+{
+    "name" : "yereone/module-testimonials",
+    "description" : "Magento 2 Testimonials",
+    "require" : {
+        "yereone/module-core" : "*"
+    },
+    "type" : "magento2-module",
+    "version" : "1.0.0",
+    "license" : "OSL-3.0",
+    "keywords" : [
+        "magento 2",
+        "yereone",
+        "testimonials"
+    ],
+    "authors" : [{
+            "name" : "Yereone",
+            "email" : "info@yereone.com",
+            "homepage" : "https://www.yereone.com/"
+        }
+    ],
+    "autoload" : {
+        "files" : [
+            "registration.php"
+        ],
+        "psr-4" : {
+            "Yereone\\Testimonials\\" : ""
+        }
+    }
+}

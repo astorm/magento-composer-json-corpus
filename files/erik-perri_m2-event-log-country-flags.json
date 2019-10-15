@@ -1,0 +1,22 @@
+{
+  "name": "erik-perri/m2-event-log-country-flags",
+  "description": "Magento 2 Event Log extension to add country flags to the log.",
+  "license": "MIT",
+  "require": {
+    "php": "~7.0.13|~7.1.0",
+    "ext-curl": "*",
+    "ext-zlib": "*",
+    "erik-perri/m2-event-log": "dev-master",
+    "components/flag-icon-css": "^3.3",
+    "geoip2/geoip2": "^2.9"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ryvon\\EventLogCountryFlags\\": ""
+    }
+  }
+}

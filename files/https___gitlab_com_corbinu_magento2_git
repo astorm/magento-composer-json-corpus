@@ -1,0 +1,33 @@
+{
+    "name": "inxpressapps/magento2",
+    "description": "InXpress shipping rate provider for Magento 2",
+    "keywords": ["module", "magento2", "inxpress"],
+    "homepage": "https://www.inxpressapps.com/",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [{
+        "email": "developers@inxpress.com",
+        "name": "InXpress"
+    }],
+    "scripts": {
+        "test": "phpcs etc Model registration.php",
+        "fix": "phpcbf etc Model registration.php"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0.13"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "phpcompatibility/php-compatibility": "*",
+        "magento-ecg/coding-standard": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "InXpress\\InXpressRating\\": ""
+        }
+    }
+}

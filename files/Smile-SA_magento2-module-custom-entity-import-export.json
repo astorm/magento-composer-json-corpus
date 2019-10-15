@@ -1,0 +1,33 @@
+{
+  "name": "smile/module-custom-entity-import-export",
+  "type": "magento2-module",
+  "description": "Smile - Import Custom Entity Module",
+  "keywords": ["magento2", "custom", "entity", "import"],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "smile/module-custom-entity": "dev-master"
+  },
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Pierre Met",
+      "email": "pimet@smile.fr"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Smile\\CustomEntityImportExport\\" : ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

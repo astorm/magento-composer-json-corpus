@@ -1,0 +1,22 @@
+{
+    "name": "m21/module-storelocalefolderforchildtheme",
+    "description": "Adding locale folder when using child theme",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "bok@21w.pl",
+            "name": "21w.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M21\\StoreLocaleFolderForChildTheme\\": ""
+        }
+    }
+}

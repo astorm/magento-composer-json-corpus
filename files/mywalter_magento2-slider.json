@@ -1,0 +1,28 @@
+{
+  "name": "walter/module-slider",
+  "description": "magento2 slider module",
+  "keywords": ["magento2","slider"],
+  "version": "1.0.0",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "mywalter1985@gmail.com",
+      "name": "walter",
+      "homepage": "http://www.copyf.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Walter\\Slider\\": ""
+    }
+  }
+}

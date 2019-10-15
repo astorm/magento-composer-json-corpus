@@ -1,0 +1,21 @@
+{
+    "name": "m21/gmcproducttype",
+    "description": "M21 GmcProductType",
+    "require": {
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "M21/GmcProductType"
+            ]
+        ]
+    }
+}

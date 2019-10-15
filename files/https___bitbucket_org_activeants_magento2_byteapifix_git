@@ -1,0 +1,30 @@
+{
+    "name": "activeants/magento2-byteapifix",
+    "description": "Module to fix the missing Authorization header under PHP in CGI mode.",
+    "keywords": ["Magento2","Byte","PHPCGI","CGI","ActiveAnts"],
+    "homepage": "https://www.activeants.nl",
+    "authors": [
+        {
+            "name": "Active Ants B.V.",
+            "email": "automatisering@activeants.nl",
+            "homepage": "https://www.activeants.nl"
+        }
+    ],
+    "require": {
+        "php": ">5.5.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ActiveAnts\\ByteApiFix\\": ""
+        }
+    }
+}

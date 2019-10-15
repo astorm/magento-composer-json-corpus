@@ -1,0 +1,31 @@
+{
+  "name": "yireo/magento2-devhacks",
+  "version": "0.1.0",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "homepage": "https://github.com/yireo/Yireo_DevHacks",
+  "description": "Some hacks to make M2 development easier",
+  "keywords": [
+    "composer-installer",
+    "magento"
+  ],
+  "authors": [
+    {
+      "name": "Jisse Reitsma (Yireo)",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "magento/framework": "^100.0|^101.0|^102.0",
+    "php": ">=7.0.0|<7.3",
+    "ext-pcre": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yireo\\DevHacks\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

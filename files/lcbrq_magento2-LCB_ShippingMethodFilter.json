@@ -1,0 +1,26 @@
+{
+    "name": "lcbrq/magento2-shippingmethodfilter",
+    "description": "Filter shipping methods by customer groups",
+    "require": {
+        "php": ">=5.5.0",
+        "magento/framework": ">=100.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Silpion Tomasz Gregorczyk",
+            "email": "tom@lcbrq.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "LCB\\ShippingMethodFilter\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "softwaretarget/task",
+  "description": "Magento 2 recruitment task",
+  "license": "MIT",
+
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SoftwareTarget\\Task\\": ""
+    }
+  },
+  "version": "1.0.0",
+  "type": "magento2-module"
+}

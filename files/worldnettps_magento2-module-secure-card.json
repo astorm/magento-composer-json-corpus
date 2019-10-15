@@ -1,0 +1,23 @@
+{
+    "name": "worldnettps/module-secure-card",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "WorldNetTPS",
+            "email": "support@worldnettps.com",
+            "homepage": "https://worldnettps.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WorldnetTPS\\SecureCard\\": ""
+        }
+    }
+}

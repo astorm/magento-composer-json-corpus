@@ -1,0 +1,37 @@
+{
+    "name": "smile/module-elasticsuite-custom-entity",
+    "type": "magento2-module",
+    "description": "Smile ElasticSuite - Custom Entity Module",
+    "keywords": ["magento2", "elasticsuite"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "smile/module-scoped-eav": "dev-master",
+        "smile/elasticsuite" : "^2.3.4"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "^1.0.5"
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Aurélien FOUCRET",
+            "email": "aurelien.foucret@smile.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smile\\ElasticsuiteCustomEntity\\" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

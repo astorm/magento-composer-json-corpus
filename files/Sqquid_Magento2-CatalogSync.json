@@ -1,0 +1,30 @@
+{
+    "name": "sqquid/module-sync",
+    "description": "Enables full catalog sync between Sqquid and Magento2",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.*|100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.2.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sqquid\\Sync\\": ""
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "bin/magento module:enable Sqquid_Sync",
+            "bin/magento setup:upgrade",
+            "bin/magento cache:clear"
+        ]
+    }
+}
+

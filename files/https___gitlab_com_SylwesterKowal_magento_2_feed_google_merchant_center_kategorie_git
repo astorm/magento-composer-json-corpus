@@ -1,0 +1,21 @@
+{
+    "name": "m21/kategoriagmc",
+    "description": "M21 KategoriaGMC",
+    "require": {
+      "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.74.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "M21/KategoriaGMC"
+            ]
+        ]
+    }
+}

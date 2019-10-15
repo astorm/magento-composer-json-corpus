@@ -1,0 +1,36 @@
+{
+  "name": "linusshops/module-kickbox",
+  "license": "MIT",
+  "description":"",
+    "keywords": [
+        "magento 2",
+        "magento2",
+        "kickbox",
+        "kickbox.io"
+    ],
+    "require": {
+        "kickbox/kickbox": "2.1.0"
+    },
+    "type": "magento2-module",
+    "authors": [
+      {
+        "name": "Sam Schmidt",
+        "email": "samuel@dersam.net",
+        "homepage": "http://dersam.net",
+        "role": "Senior Web Developer"
+      },
+      {
+        "name": "Linus Shops Inc",
+        "email": "corporate@linusshops.com",
+        "homepage": "http://www.linusshops.com"
+      }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LinusShops\\Kickbox\\": ""
+        }
+    }
+}

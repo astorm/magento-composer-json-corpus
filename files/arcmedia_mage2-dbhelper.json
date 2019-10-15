@@ -1,0 +1,21 @@
+{
+    "name": "arcmedia/mage2-dbhelper",
+    "description": "Methods to get Data from the Magento DB faster",
+    "type": "magento2-module",
+    "version": "0.1.9",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "David Lee, Arcmedia AG",
+            "email": "david.lee@arcmedia.ch"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Arcmedia\\DbHelper\\": ""
+        }
+    }
+}

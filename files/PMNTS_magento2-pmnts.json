@@ -1,0 +1,19 @@
+{
+    "description": "PMNTS Payment Gateway integration for Magento 2",
+    "license": [
+        "OSL-3.0"
+    ],
+    "name": "pmnts/magento2-pmnts",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "dev-master",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PMNTS\\Gateway\\": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "qualwebs/glossary",
+    "description": "Magento glossary 1.0",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+    {
+      "name": "Qualwebs",
+      "email": "engage@qualwebs.com",
+      "homepage": "https://www.qualwebs.com"
+    }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Qualwebs\\Glossary\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/qualwebs/Glossary"
+        }
+    ]
+}

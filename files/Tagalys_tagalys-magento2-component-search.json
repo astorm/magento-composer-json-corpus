@@ -1,0 +1,34 @@
+{
+  "name": "tagalys/tagalys-magento2-component-search",
+  "description": "Integrates Tagalys Search API",
+  "type": "magento2-module",
+  "version": "1.6.6",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/Tagalys/tagalys-magento2-component-search"
+      }
+  ],
+  "require": {
+    "tagalys/tagalys-magento2-component-sync": "1.6.5",
+    "tagalys/tagalys-magento2-component-analytics": "1.6.6"
+  },
+  "authors": [
+    {
+      "name": "Palaniappan Chellappan",
+      "email": "pc@tagalys.com",
+      "homepage": "https://www.tagalys.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Tagalys\\Search\\": ""
+    }
+  }
+}

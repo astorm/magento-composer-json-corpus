@@ -1,0 +1,24 @@
+{
+    "name": "dreipunktnull/magento2-module-shariff",
+    "description": "Magento 2 Integration for Heise Shariff",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cedric Ziel",
+            "email": "ziel@dreipunktnull.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "^100.0.0|^101.0.0",
+        "heise/shariff": "^7.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dreipunktnull\\Shariff\\": ""
+        }
+    }
+}

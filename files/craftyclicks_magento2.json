@@ -1,0 +1,28 @@
+{
+    "name": "craftyclicks/module-clicktoaddress",
+    "description": "Adds Global Address Auto-Complete to Magento 2.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0"
+    },
+    "type": "magento2-module",
+    "version": "1.1.8",
+    "authors": [
+        {
+            "name": "Gabor Peter Suranyi",
+            "homepage": "https://craftyclicks.co.uk/",
+            "role": "Developer"
+        },
+        {
+            "name": "Paul Maxwell",
+            "homepage": "https://craftyclicks.co.uk/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Craftyclicks\\Clicktoaddress\\": ""
+        }
+    },
+    "license": "MIT"
+}

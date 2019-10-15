@@ -1,0 +1,22 @@
+{
+    "name": "vihadigitalcom/googleanalyticsplus",
+    "description": "Additional functionality for the default Magento Google Analytics",
+    "minimum-stability": "dev",
+    "require": {  
+		"magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "3.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+				 ],
+        "psr-4": {
+            "Vihadigitalcom\\GoogleAnalyticsPlus\\": ""
+        }
+    }
+}

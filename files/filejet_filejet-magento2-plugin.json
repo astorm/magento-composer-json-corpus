@@ -1,0 +1,19 @@
+{
+    "name": "filejet/filejet-magento2-plugin",
+    "description": "FileJet integration for Magento2",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "php": "^5.6",
+        "filejet/filejet-external-php": "^1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Filejet\\FilejetMagento2Plugin\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}

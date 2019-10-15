@@ -1,0 +1,24 @@
+{
+    "name": "magenuts/avatar",
+    "description": "Add avatar into customer profile",
+    "license": [
+        "OSL-3.0"
+    ],
+    "magenuts/core-module": "*",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Magenuts Team",
+            "email": "support@magenuts.com",
+            "homepage": "http://github.com/magenuts/",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Magenuts\\Avatar\\": ""
+        }
+    }
+}

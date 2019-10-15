@@ -1,0 +1,20 @@
+{
+    "name": "mwltr/magento2-module-backend-widget-applicationmode",
+    "description": "Adds the Application Mode to the Admin Backend",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+
+    "require": {
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mwltr\\BackendWidgetApplicationMode\\": ""
+        }
+    }
+}

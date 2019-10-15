@@ -1,0 +1,24 @@
+{
+    "name": "creativestyle/magesuite-page-cache-warmer-crawl-worker",
+    "description": "Abstract Base Crawler for Page Cache Warmer",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "~6.3",
+        "doctrine/dbal": "~2.8",
+        "psr/log": "~1.0",
+        "symfony/stopwatch": "~3.0 | ~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.2",
+        "symfony/process": "^4.1",
+        "creativestyle/app-http-server-mock": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MageSuite\\PageCacheWarmerCrawlWorker\\": "src/",
+            "MageSuite\\PageCacheWarmerCrawlWorker\\Tests\\": "tests/"
+        }
+    }
+}

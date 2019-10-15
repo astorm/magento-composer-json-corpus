@@ -1,0 +1,30 @@
+{
+  "name": "alaa/magento2-store-config",
+  "description": "Magento 2 Store Configuration Setup",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["Magento 2", "Magento 2 Store", "Magento 2 Store Configuration"],
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.1.3||~7.2.0",
+    "magento/framework": "101.0.*||102.0.*",
+    "magento/module-config": "101.0.*||~101.1.0",
+    "magento/module-store": "100.2.*||101.0.*",
+    "symfony/console": "~2.3||~4.1.0",
+    "zendframework/zend-code": "~3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alaa\\StoreConfig\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

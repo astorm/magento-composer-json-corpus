@@ -1,0 +1,20 @@
+{
+    "name": "faonni/module-order-delete",
+    "description": "Delete Orders Extension allow easily deleting orders from your store with just clicks.",
+    "type": "magento2-module",
+	"version": "2.0.2",
+	"license": [
+		"OSL-3.0"
+	],
+	"require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+	},
+	"autoload": {
+		"files": [ 
+			"registration.php" 
+		],
+		"psr-4": {
+			"Faonni\\OrderDelete\\": ""
+		}
+	}
+}

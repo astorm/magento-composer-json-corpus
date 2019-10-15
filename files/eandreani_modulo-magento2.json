@@ -1,0 +1,20 @@
+{
+  "name": "ids/andreani",
+  "description": "Módulo de envíos Andreani para Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.18",
+  "require": {
+    "spipu/html2pdf": "^5.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-0": {
+      "Andreani": "src"
+    },
+    "psr-4": {
+      "Ids\\Andreani\\": ""
+    }
+  }
+}

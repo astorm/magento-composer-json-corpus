@@ -1,0 +1,24 @@
+{
+    "name": "jsutariya/launcher",
+    "description": "Magento 2 Navigation launcher module.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "jsutariya@gmail.com",
+            "name": "Jaimin Sutariya"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "jsutariya/general": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JS\\Launcher\\": ""
+        }
+    }
+}

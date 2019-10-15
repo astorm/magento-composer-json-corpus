@@ -1,0 +1,33 @@
+{
+  "name": "swarming/magento2-kount",
+  "description": "Magento 2 Kount integration",
+  "keywords": ["magento2", "kount"],
+  "version": "4.2.1",
+  "type": "magento2-module",
+  "license": ["proprietary"],
+  "authors": [
+    {
+      "name": "Swarming Technology",
+      "homepage": "https://swarmingtech.com"
+    }
+  ],
+  "require": {
+    "magento/module-backend": "^100.0.0|^101.0.0",
+    "magento/module-customer": "^100.0.0|^101.0.0|^102.0.0",
+    "magento/module-sales": "^100.0.0|^101.0.0|^102.0.0",
+    "magento/module-checkout": "^100.0.0",
+    "magento/module-payment": "^100.0.0",
+    "magento/module-paypal": "^100.0.0",
+    "magento/module-config": "^100.0.0|^101.0.0",
+    "magento/module-store": "^100.0.0|^101.0.0",
+    "magento/module-directory": "^100.0.0",
+    "magento/framework": "^102.0.0",
+    "kount/kount-ris-php-sdk": "^7.0.0"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Swarming\\Kount\\": ""
+    }
+  }
+}

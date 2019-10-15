@@ -1,0 +1,18 @@
+{
+  "name": "creativestyle/magesuite-page-cache-warmer",
+  "description": "Page Cache Warmer",
+  "type": "magento2-module",
+  "require": {
+    "php": ">=7.1",
+    "magento/framework": "^101.0.0|^102.0.0",
+    "creativestyle/magesuite-page-cache-warmer-crawler": "~1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageSuite\\PageCacheWarmer\\": ""
+    }
+  }
+}

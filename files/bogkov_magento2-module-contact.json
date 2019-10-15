@@ -1,0 +1,28 @@
+{
+    "name": "bogkov/magento2-module-contact",
+    "description": "Extended functional for default Magento 2 Contact module",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "magento/module-contact": "100.0.*|100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.3.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Bogdan Koval",
+            "email": "scorpioninua@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bogkov\\Contact\\": ""
+        }
+    }
+}

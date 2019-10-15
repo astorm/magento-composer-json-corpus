@@ -1,0 +1,20 @@
+{
+  "name": "edrone/magento2module",
+  "description": "Edrone_Magento2module",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0|7.*|~5.5.9.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Edrone\\Magento2module\\": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ryker/module-brenhouse-settings",
+  "description": "The Brenhouse Responsive Theme is a theme designed for Magento 2, 2.1 commerce platform",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ryker\\Brenhouse\\": ""
+    }
+  }
+}

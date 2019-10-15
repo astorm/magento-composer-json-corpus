@@ -1,0 +1,20 @@
+{
+    "name": "mageguide/mgbase",
+    "description": "Base for All MageGuide Extensions",
+    "require": {
+        "magento/framework": "100.*|101.*",
+        "magento/module-admin-notification": "100.*|101.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MageGuide\\Mgbase\\": ""
+        }
+    }
+}

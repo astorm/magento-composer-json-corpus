@@ -1,0 +1,21 @@
+{
+  "name": "monsieurbiz/m2-filter-optimization",
+  "homepage": "https://github.com/monsieurbiz/m2-filter-optimization",
+  "description": "Plugin to optimize filters on category page.",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": "100.0.*|100.1.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mbiz\\FilterOptimization\\": ""
+    }
+  }
+}

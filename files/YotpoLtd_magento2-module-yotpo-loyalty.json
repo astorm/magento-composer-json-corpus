@@ -1,0 +1,27 @@
+{
+    "name": "yotpo/magento2-module-yotpo-loyalty",
+    "description": "Magento 2 module for integration with Yotpo",
+    "type": "magento2-module",
+    "version": "1.1.5",
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/YotpoLtd/magento2-module-yotpo-loyalty"
+    }],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": ">=5.6",
+        "magento/framework": ">=100.1.0"
+    },
+    "autoload": {
+        "files": [
+            "cli_commands.php",
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yotpo\\Loyalty\\": ""
+        }
+    }
+}

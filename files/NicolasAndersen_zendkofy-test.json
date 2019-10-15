@@ -1,0 +1,32 @@
+{
+  "name": "zendkofy/magento2-zendkofy-test",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Nicolas Andersen",
+      "email": "zendkofy@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Zendkofy\\Test\\": ""
+    }
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Zendkofy/Test"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "forgeonline/mongoose",
+    "description": "Forge online action module for Mongoose",
+    "require": {
+        "php": "~5.6.0|7.0.2|~7.0.6",
+		"forgeonline/action": "0.0.5"
+    },
+    "type": "magento2-module",
+    "version": "0.0.5",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Forgeonline\\Mongoose\\": ""
+        }
+    }
+}

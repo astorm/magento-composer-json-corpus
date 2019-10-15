@@ -1,0 +1,35 @@
+{
+  "name": "ravi/magestore-student",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "author": [
+    {
+      "name": "Ravi",
+      "email": "ravi@simicart.com",
+      "homepage": ""
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magestore\\Student\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/RaviNguyen/Magestore-Student-TrainM2"
+    }
+  ]
+
+}

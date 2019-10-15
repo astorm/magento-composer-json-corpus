@@ -1,0 +1,20 @@
+{
+    "name"       : "altheatech/magento2-talkable",
+    "description": "Talkable extension for Magento 2",
+    "type"       : "magento2-module",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Chin Tiong",
+            "email": "alvin@althea.kr"
+        }
+    ],
+    "autoload"   : {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AltheaTech\\Talkable\\": ""
+        }
+    }
+}

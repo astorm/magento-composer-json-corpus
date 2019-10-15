@@ -1,0 +1,34 @@
+{
+  "name": "etws/reviewnotify",
+  "description": "ETWS Review Notify for Magento 2",
+  "keywords": [
+    "magento2",
+    "review notification"
+  ],
+  "version": "1.0.1",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "ET Web Solutions",
+      "email": "support@etwebsolutions.com",
+      "homepage": "http://www.etwebsolutions.com/"
+    }
+  ],
+  "support": {
+    "email": "support@etwebsolutions.com",
+    "issues": "https://bitbucket.org/etws/m2_etws_reviewnotify/issues",
+    "source": "https://bitbucket.org/etws/m2_etws_reviewnotify/src"
+  },
+  "require": {
+    "magento/framework": "100.*.*",
+    "etws/base": "0.1.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ETWS\\ReviewNotify\\": ""
+    }
+  }
+}

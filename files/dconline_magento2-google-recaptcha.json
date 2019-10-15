@@ -1,0 +1,20 @@
+{
+    "name": "dconline/magento2-google-recaptcha",
+    "description": "N/A",
+    "require": {
+        "php": "^7.0|^7.1",
+        "magento/magento-composer-installer": "*",
+        "google/recaptcha": "~1.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dc\\GoogleReCaptcha\\": ""
+        }
+    }
+}

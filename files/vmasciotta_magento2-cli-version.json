@@ -1,0 +1,27 @@
+{
+  "name": "vmasciotta/magento2-cli-version",
+  "description": "This module prints out the current Magento 2 installed version by CLI",
+  "authors": [
+    {
+      "name": "Valerio Masciotta",
+      "email": "sviluppo@valeriomasciotta.it",
+      "homepage": "http://www.valeriomasciotta.it"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "100.*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vmasciotta\\MageVersion\\": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "sequra/magento2-campaign",
+    "description": "SeQura Campaign Payment Method",
+    "type": "magento2-module",   
+    "keywords": [
+        "payment",
+        "sequra",
+        "pagos",
+        "magento2"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SeQura Engineering",
+            "email": "dev@sequra.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sequra/magento2-core": "~2.3.1.3 || <=2.3.2.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sequra\\Campaign\\": ""
+        }
+    }
+}

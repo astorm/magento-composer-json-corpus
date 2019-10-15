@@ -1,0 +1,23 @@
+{
+	"name": "mage2pro/ach"
+	,"version": "1.0.2"
+	,"description": "An ACH payment module for Magento 2"
+	,"type": "magento2-module"
+	,"homepage": "https://mage2.pro/c/extensions/ach"
+	,"license": "MIT"
+	,"authors": [{
+		"name": "Dmitry Fedyuk"
+		,"email": "admin@mage2.pro"
+		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		,"role": "Developer"
+	}]
+	,"require": {"mage2pro/core": ">=5.3.4"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\ACH\\": ""}}
+	,"keywords": [
+		"eCommerce"
+		,"Magento"
+		,"Magento 2"
+		,"ACH"
+		,"Payment"
+	]
+}

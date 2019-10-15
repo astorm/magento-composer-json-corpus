@@ -1,0 +1,18 @@
+{
+    "name": "emico/m2-attributelanding-tweakwise",
+    "description": "Provides compatibility between Attribute landing module and Tweakwise module.",
+    "require": {
+        "php": "^7.0",
+        "emico/tweakwise": "^2.0",
+        "emico/m2-attributelanding": "^1.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Emico\\AttributeLandingTweakwise\\": "src"
+        }
+    }
+}

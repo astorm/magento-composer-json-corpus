@@ -1,0 +1,16 @@
+{
+    "name": "stripeofficial/module-sepa",
+    "description": "Stripe SEPA payment gateway integration",
+    "type": "magento2-module",
+    "version": "1.0.5",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Stripeofficial\\SEPA\\": ""
+        }
+    }
+}
